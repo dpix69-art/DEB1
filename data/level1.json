@@ -3,23 +3,19 @@
     "id": "warten-auf",
     "expression": "warten auf",
     "case": "Akk",
-    "articles": {
-      "m": "den Mann",
-      "f": "die Frau",
-      "n": "das Auto"
-    },
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
     "translation": "ждать кого-то/чего-то",
     "examples": {
       "present": [
-        { "de": "Ich warte auf den Zug.", "ru": "Я жду поезд." },
-        { "de": "Sie wartet auf die E-Mail vom Chef.", "ru": "Она ждёт письмо от начальника." }
+        { "de": "Ich warte auf den Zug.", "ru": "Я жду поезда." },
+        { "de": "Sie wartet auf die E-Mail vom Chef.", "ru": "Она ждёт письма от начальника." }
       ],
       "past": [
         { "de": "Ich habe eine Stunde auf den Techniker gewartet.", "ru": "Я час ждал техника." },
-        { "de": "Er hat am Flughafen auf sein Gepäck gewartet.", "ru": "Он ждал свой багаж в аэропорту." }
+        { "de": "Er hat am Flughafen auf sein Gepäck gewartet.", "ru": "Он ждал своего багажа в аэропорту." }
       ],
       "future": [
-        { "de": "Wir werden morgen auf die Ergebnisse warten.", "ru": "Мы завтра будем ждать результаты." },
+        { "de": "Wir werden morgen auf die Ergebnisse warten.", "ru": "Мы завтра будем ждать результатов." },
         { "de": "Er wird noch auf die Antwort warten.", "ru": "Он ещё будет ждать ответа." }
       ]
     },
@@ -37,11 +33,7 @@
         "task": "Прочитай текст и ответь на вопросы.",
         "text": "Anna hat am Montag auf den Zug gewartet. Der Zug hatte zwanzig Minuten Verspätung. Deshalb kam sie zu spät ins Büro.",
         "questions": [
-          {
-            "q": "Warum kam Anna zu spät ins Büro?",
-            "options": ["Weil der Zug verspätet war.", "Weil sie krank war."],
-            "solution": "Weil der Zug verspätet war."
-          }
+          { "q": "Warum kam Anna zu spät ins Büro?", "options": ["Weil der Zug verspätet war.", "Weil sie krank war."], "solution": "Weil der Zug verspätet war." }
         ]
       },
       {
@@ -68,11 +60,7 @@
     "id": "denken-an",
     "expression": "denken an",
     "case": "Akk",
-    "articles": {
-      "m": "den Mann",
-      "f": "die Frau",
-      "n": "das Auto"
-    },
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
     "translation": "думать о ком-то/чём-то",
     "examples": {
       "present": [
@@ -85,7 +73,7 @@
       ],
       "future": [
         { "de": "Ich werde morgen an das Projekt denken.", "ru": "Я завтра буду думать о проекте." },
-        { "de": "Sie wird an den Geburtstag ihres Bruders denken.", "ru": "Она вспомнит о дне рождения брата." }
+        { "de": "Sie wird an den Geburtstag ihres Bruders denken.", "ru": "Она будет помнить о дне рождения брата." }
       ]
     },
     "exercises": [
@@ -102,11 +90,7 @@
         "task": "Прочитай текст и ответь на вопрос.",
         "text": "Maria arbeitet viel und denkt trotzdem an ihre Gesundheit: Sie macht Pausen und trinkt genug Wasser.",
         "questions": [
-          {
-            "q": "Woran denkt Maria?",
-            "options": ["An ihre Gesundheit.", "An den Urlaub."],
-            "solution": "An ihre Gesundheit."
-          }
+          { "q": "Woran denkt Maria?", "options": ["An ihre Gesundheit.", "An den Urlaub."], "solution": "An ihre Gesundheit." }
         ]
       },
       {
@@ -133,11 +117,7 @@
     "id": "sich-erinnern-an",
     "expression": "sich erinnern an",
     "case": "Akk",
-    "articles": {
-      "m": "den Mann",
-      "f": "die Frau",
-      "n": "das Auto"
-    },
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
     "translation": "вспоминать о ком-то/чём-то",
     "examples": {
       "present": [
@@ -159,7 +139,7 @@
         "task": "Поставь слова в правильном порядке.",
         "content": [
           { "words": ["Ich", "an das Passwort", "mich", "habe", "erinnert"], "solution": "Ich habe mich an das Passwort erinnert." },
-          { "words": ["Wirst", "du", "dich", "morgen", "an die Liste", "erinnern", "?"], "solution": "Wirst du dich morgen an die Liste erinnern?" }
+          { "words": ["Wirst", "du", "dich", "morgen", "ан die Liste", "erinnern", "?"], "solution": "Wirst du dich morgen an die Liste erinnern?" }
         ]
       },
       {
@@ -167,11 +147,7 @@
         "task": "Прочитай текст и ответь на вопрос.",
         "text": "Gestern habe ich mich endlich an den Namen des Arztes erinnert. Danach konnte ich die Praxis anrufen.",
         "questions": [
-          {
-            "q": "Woran hast du dich erinnert?",
-            "options": ["An den Namen des Arztes.", "An die Telefonnummer der Schule."],
-            "solution": "An den Namen des Arztes."
-          }
+          { "q": "Woran hast du dich erinnert?", "options": ["An den Namen des Arztes.", "An die Telefonnummer der Schule."], "solution": "An den Namen des Arztes." }
         ]
       },
       {
@@ -198,11 +174,7 @@
     "id": "sich-interessieren-fuer",
     "expression": "sich interessieren für",
     "case": "Akk",
-    "articles": {
-      "m": "den Mann",
-      "f": "die Frau",
-      "n": "das Auto"
-    },
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
     "translation": "интересоваться чем-то",
     "examples": {
       "present": [
@@ -232,11 +204,7 @@
         "task": "Прочитай текст и ответь на вопрос.",
         "text": "Sven interessiert sich für Nachhaltigkeit und liest oft Artikel über Recycling.",
         "questions": [
-          {
-            "q": "Wofür interessiert sich Sven?",
-            "options": ["Für Nachhaltigkeit.", "Für Fußball."],
-            "solution": "Für Nachhaltigkeit."
-          }
+          { "q": "Wofür interessiert sich Sven?", "options": ["Für Nachhaltigkeit.", "Für Fußball."], "solution": "Für Nachhaltigkeit." }
         ]
       },
       {
@@ -266,16 +234,12 @@
     "id": "bitten-um",
     "expression": "bitten um",
     "case": "Akk",
-    "articles": {
-      "m": "den Mann",
-      "f": "die Frau",
-      "n": "das Auto"
-    },
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
     "translation": "просить о чём-то",
     "examples": {
       "present": [
         { "de": "Ich bitte dich um Hilfe.", "ru": "Я прошу тебя о помощи." },
-        { "de": "Er bittet die Kollegin um einen Rat.", "ru": "Он просит коллегу о совете." }
+        { "de": "Er bittet die Kollegin um einen Rat.", "ru": "Он просит у коллеги совета." }
       ],
       "past": [
         { "de": "Ich habe den Lehrer um eine Erklärung gebeten.", "ru": "Я попросил учителя об объяснении." },
@@ -300,20 +264,17 @@
         "task": "Прочитай текст и ответь на вопрос.",
         "text": "Jonas hat die Nachbarin um Ruhe gebeten, weil das Baby schläft.",
         "questions": [
-          {
-            "q": "Worum hat Jonas gebeten?",
-            "options": ["Um Ruhe.", "Um Musik."],
-            "solution": "Um Ruhe."
-          }
+          { "q": "Worum hat Jonas gebeten?", "options": ["Um Ruhe.", "Um Musik."], "solution": "Um Ruhe." }
         ]
       },
       {
         "type": "gap",
         "task": "Заполни пропуски.",
-        "text": "Frau Klein ___ (1) den Techniker ___ (2) eine schnelle Reparatur ___.",
+        "text": "Frau Klein ___ (1) den Techniker ___ (2) eine schnelle Reparatur ___ (3).",
         "gaps": [
           { "id": 1, "options": ["hat", "wird"], "solution": "hat" },
-          { "id": 2, "options": ["um", "für"], "solution": "um" }
+          { "id": 2, "options": ["um", "für"], "solution": "um" },
+          { "id": 3, "options": ["gebeten", "gefragt"], "solution": "gebeten" }
         ]
       },
       {
