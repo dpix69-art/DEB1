@@ -4,7 +4,7 @@
     "expression": "sich freuen auf",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "радоваться (в предвкушении) чему-то в будущем",
+    "translation": "радоваться предстоящему",
     "examples": {
       "present": [
         { "de": "Ich freue mich auf das Wochenende.", "ru": "Я с нетерпением жду выходных." },
@@ -62,7 +62,7 @@
     "expression": "sich kümmern um",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "заботиться о ком-то/чём-то; заниматься чем-то",
+    "translation": "заботиться/заниматься чем-либо",
     "examples": {
       "present": [
         { "de": "Ich kümmere mich um den Termin.", "ru": "Я займусь встречей." },
@@ -120,7 +120,7 @@
     "expression": "sich vorbereiten auf",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "готовиться к чему-то",
+    "translation": "готовиться к чему-либо",
     "examples": {
       "present": [
         { "de": "Ich bereite mich auf die Prüfung vor.", "ru": "Я готовлюсь к экзамену." },
@@ -178,7 +178,7 @@
     "expression": "sich verlassen auf",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "полагаться на кого-то/что-то",
+    "translation": "полагаться на кого-либо/что-либо",
     "examples": {
       "present": [
         { "de": "Ich verlasse mich auf meine Freunde.", "ru": "Я полагаюсь на своих друзей." },
@@ -227,8 +227,8 @@
       }
     ],
     "vocab": [
-      { "de": "die Angabe", "ru": "сведение, данные" },
-      { "de": "sich (auf jdn/etw.) verlassen", "ru": "полагаться на (кого-л./что-л.)" }
+      { "de": "die Angabe", "ru": "данные, сведения" },
+      { "de": "sich (auf jdn/etw.) verlassen", "ru": "полагаться на (кого-либо/что-либо)" }
     ]
   },
   {
@@ -236,7 +236,7 @@
     "expression": "sich gewöhnen an",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "привыкать к кому-то/чему-то",
+    "translation": "привыкать к кому-либо/чему-либо",
     "examples": {
       "present": [
         { "de": "Ich gewöhne mich an die neue Stadt.", "ru": "Я привыкаю к новому городу." },
@@ -286,7 +286,7 @@
     ],
     "vocab": [
       { "de": "die Routine", "ru": "рутина, распорядок" },
-      { "de": "an (das) = ans (Akk.)", "ru": "сокращение предлога и артикля (an+das)" }
+      { "de": "ans (Akk.) = an+das", "ru": "сокращение предлога и артикля (an+das → ans)" }
     ]
   }
 ]

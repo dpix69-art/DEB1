@@ -7,16 +7,16 @@
     "translation": "подавать заявление на что-то (должность, стипендию и т.п.)",
     "examples": {
       "present": [
-        { "de": "Ich bewerbe mich um die Stelle als Designer.", "ru": "Я подаюсь на вакансию дизайнера." },
-        { "de": "Sie bewirbt sich um ein Stipendium.", "ru": "Она подаётся на стипендию." }
+        { "de": "Ich bewerbe mich um die Stelle als Designer.", "ru": "Я подаю заявление на вакансию дизайнера." },
+        { "de": "Sie bewirbt sich um ein Stipendium.", "ru": "Она подаёт заявление на стипендию." }
       ],
       "past": [
-        { "de": "Er hat sich um den Job beworben.", "ru": "Он подался на работу." },
-        { "de": "Wir haben uns um das Praktikum beworben.", "ru": "Мы подались на практику." }
+        { "de": "Er hat sich um den Job beworben.", "ru": "Он подал заявление на работу." },
+        { "de": "Wir haben uns um das Praktikum beworben.", "ru": "Мы подали заявление на практику." }
       ],
       "future": [
-        { "de": "Ich werde mich um die Stelle im März bewerben.", "ru": "Я подамся на вакансию в марте." },
-        { "de": "Sie wird sich um eine Förderung bewerben.", "ru": "Она подастся на финансирование." }
+        { "de": "Ich werde mich um die Stelle im März bewerben.", "ru": "Я подам заявление на вакансию в марте." },
+        { "de": "Sie wird sich um eine Förderung bewerben.", "ru": "Она подаст заявление на финансирование." }
       ]
     },
     "exercises": [
@@ -25,7 +25,7 @@
         "task": "Собери предложение.",
         "content": [
           { "words": ["Er", "hat", "sich", "um die Stelle", "beworben", "."], "solution": "Er hat sich um die Stelle beworben." },
-          { "words": ["Ich", "mich", "um ein Stipendium", "bewerbe", "."], "solution": "Ich bewerbe mich um ein Stipendium." }
+          { "words": ["Ich", "bewerbe", "mich", "um ein Stipendium", "."], "solution": "Ich bewerbe mich um ein Stipendium." }
         ]
       },
       {
@@ -38,11 +38,11 @@
       },
       {
         "type": "gap",
-        "task": "Заполни пропуски.",
-        "text": "Tom ___ (1) ___ (2) den Job als Techniker ___.",
+        "task": "Заполни пропуск.",
+        "text": "Tom ___ (1) sich um den Job als Techniker ___ (2).",
         "gaps": [
           { "id": 1, "options": ["hat", "ist"], "solution": "hat" },
-          { "id": 2, "options": ["sich um", "sich auf"], "solution": "sich um" }
+          { "id": 2, "options": ["beworben", "gegangen"], "solution": "beworben" }
         ]
       },
       {
@@ -53,8 +53,8 @@
       }
     ],
     "vocab": [
-      { "de": "die Bewerbung", "ru": "заявка, отклик" },
-      { "de": "sich bewerben bei + Dat", "ru": "подаваться в (компанию) — см. Dativ" }
+      { "de": "die Bewerbung", "ru": "заявление, отклик" },
+      { "de": "sich bewerben bei + Dat", "ru": "подавать заявление в (компанию), указывать адресата" }
     ]
   },
   {
