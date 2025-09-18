@@ -126,7 +126,7 @@ export function Order({ exercise }: OrderProps) {
         <div key={idx} className="p-4 border border-gray-200 rounded-lg space-y-4">
           {/* пул доступных слов */}
           <div>
-            <div className="text-sm mb-2" style={{ color: '#111' }}>
+            <div className="font-medium" style={{ color: '#111' }}>
               Tap words to build a sentence
             </div>
             <div className="flex flex-wrap gap-2">
