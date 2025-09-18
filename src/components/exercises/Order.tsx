@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Exercise } from '../../types';
 import { ResultBadge } from '../ResultBadge';
-import { compareExact } from '../../lib/compare';
 
 type ExOrderItem = { words: string[]; solution: string };
 interface OrderProps {
@@ -15,6 +14,22 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+// Нормализация для order: схлопываем пробелы, режем крайние,
+// убираем ЗАКЛЮЧИТЕЛЬНУЮ пунктуацию (. ! ? …) и сравниваем без учета регистра
+function normalizeOrderSentence(s: string): string {
+  const collapsed = s
+    .normalize('NFC')            // на всякий случай для умляутов/составных символов
+    .replace(/\u00A0/g, ' ')     // NBSP -> обычный пробел
+    .replace(/\s+/g, ' ')        // схлопываем множественные пробелы
+    .trim();
+
+  // уберём только завершающую пунктуацию (не всю внутри строки)
+  const withoutEndPunct = collapsed.replace(/[.!?…]+$/u, '').trim();
+
+  // сравнение делаем без учета регистра
+  return withoutEndPunct.toLowerCase();
 }
 
 export function Order({ exercise }: OrderProps) {
@@ -34,11 +49,11 @@ export function Order({ exercise }: OrderProps) {
   const [isCorrect, setIsCorrect] = useState<boolean[]>(items.map(() => false));
 
   const handleChoose = (idx: number, word: string) => {
-    if (checked[idx]) return; // нельзя менять после проверки (как в Gap)
+    if (checked[idx]) return; // нельзя менять после проверки — как в Gap
     setAvailable(prev => {
       const copy = prev.map(a => a.slice());
       const pos = copy[idx].indexOf(word);
-      if (pos >= 0) copy[idx].splice(pos, 1);
+      if (pos >= 0) copy[idx].splice(pos, 1); // снимаем только одно вхождение
       return copy;
     });
     setSelected(prev => {
@@ -87,9 +102,10 @@ export function Order({ exercise }: OrderProps) {
   };
 
   const handleCheck = (idx: number) => {
-    const userSentence = selected[idx].join(' ').trim().replace(/\s+/g, ' ');
-    const solution = items[idx].solution.trim().replace(/\s+/g, ' ');
-    const ok = compareExact(userSentence, solution);
+    const userSentence = normalizeOrderSentence(selected[idx].join(' '));
+    const solution = normalizeOrderSentence(items[idx].solution);
+    const ok = userSentence === solution;
+
     setIsCorrect(prev => {
       const copy = prev.slice();
       copy[idx] = ok;
@@ -174,7 +190,7 @@ export function Order({ exercise }: OrderProps) {
             </button>
           </div>
 
-          {/* итог как в Gap — через ResultBadge */}
+          {/* итог — через ResultBadge (как в Gap) */}
           {checked[idx] && (
             <ResultBadge
               isCorrect={isCorrect[idx]}
