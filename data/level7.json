@@ -1,0 +1,299 @@
+[
+  {
+    "id": "teilnehmen-an",
+    "expression": "teilnehmen an",
+    "case": "Dat",
+    "articles": { "m": "am Kurs (an dem Kurs)", "f": "an der Sitzung", "n": "am Projekt (an dem Projekt)", "pl": "an den Workshops" },
+    "translation": "участвовать в чём-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich nehme am Kurs teil.", "ru": "Я участвую в курсе." },
+        { "de": "Sie nimmt an der Besprechung teil.", "ru": "Она участвует в собрании." }
+      ],
+      "past": [
+        { "de": "Wir haben an dem Wettbewerb teilgenommen.", "ru": "Мы участвовали в конкурсе." },
+        { "de": "Er hat am Training teilgenommen.", "ru": "Он участвовал в тренировке." }
+      ],
+      "future": [
+        { "de": "Ich werde nächste Woche an der Prüfung teilnehmen.", "ru": "Я буду участвовать на следующей неделе в экзамене." },
+        { "de": "Sie wird am Workshop teilnehmen.", "ru": "Она примет участие в воркшопе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение (учти an+dem = am).",
+        "content": [
+          { "words": ["Ich", "am Kurs", "teil", "nehme"], "solution": "Ich nehme am Kurs teil." },
+          { "words": ["Wir", "an der Konferenz", "teilgenommen", "haben"], "solution": "Wir haben an der Konferenz teilgenommen." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Am Freitag nehmen viele Teilnehmende an der Online-Sitzung teil. Das Thema ist Prüfungsvorbereitung.",
+        "questions": [
+          { "q": "Woran nehmen viele am Freitag teil?", "options": ["An der Online-Sitzung.", "An einer Party."], "solution": "An der Online-Sitzung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь нужную форму.",
+        "text": "Nimmst du heute ___ (1) Infoabend ___ (2) ?",
+        "gaps": [
+          { "id": 1, "options": ["am", "an dem", "im"], "solution": "am" },
+          { "id": 2, "options": ["teil", "teilst"], "solution": "teil" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Задай вопрос с woran.",
+        "sentence": "Sie nimmt an der Prüfung teil.",
+        "solution": "Woran nimmt sie teil?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Sitzung / die Besprechung", "ru": "заседание / обсуждение" },
+      { "de": "teilnehmen an + Dat (am = an+dem)", "ru": "участвовать в" }
+    ]
+  },
+  {
+    "id": "arbeiten-an-bei-mit",
+    "expression": "arbeiten an / bei / mit",
+    "case": "Dat",
+    "articles": {
+      "an": "an dem/der (am/am Projekt, an der Lösung)",
+      "bei": "bei der Firma / bei Bosch",
+      "mit": "mit dem Team / mit der Kollegin"
+    },
+    "translation": "работать над чем-то / работать в (у кого-то) / работать с кем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich arbeite an der Lösung.", "ru": "Я работаю над решением." },
+        { "de": "Sie arbeitet bei einer IT-Firma.", "ru": "Она работает в одной IT-фирме." },
+        { "de": "Wir arbeiten mit dem Team aus Berlin.", "ru": "Мы работаем с командой из Берлина." }
+      ],
+      "past": [
+        { "de": "Er hat lange an dem Projekt gearbeitet.", "ru": "Он долго работал над проектом." },
+        { "de": "Ich habe bei einer NGO gearbeitet.", "ru": "Я работал в одной НКО." }
+      ],
+      "future": [
+        { "de": "Sie wird weiter an der App arbeiten.", "ru": "Она будет дальше работать над приложением." },
+        { "de": "Wir werden mit externen Partnern arbeiten.", "ru": "Мы будем работать с внешними партнёрами." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "contrast",
+        "task": "Выбери правильную предлоговую конструкцию (an/bei/mit).",
+        "content": [
+          { "text": "Er arbeitet ___ der Lösung.", "options": ["an", "bei", "mit"], "solution": "an" },
+          { "text": "Sie arbeitet ___ Siemens.", "options": ["an", "bei", "mit"], "solution": "bei" },
+          { "text": "Wir arbeiten ___ dem neuen Team.", "options": ["an", "bei", "mit"], "solution": "mit" }
+        ]
+      },
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Ich", "arbeite", "an der Präsentation"], "solution": "Ich arbeite an der Präsentation." },
+          { "words": ["Sie", "hat", "bei der Agentur", "gearbeitet"], "solution": "Sie hat bei der Agentur gearbeitet." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее (am/bei/mit).",
+        "text": "Tom arbeitet ___ (1) Konzept und Jana arbeitet ___ (2) einer Bank.",
+        "gaps": [
+          { "id": 1, "options": ["am", "im", "beim"], "solution": "am" },
+          { "id": 2, "options": ["bei", "an", "mit"], "solution": "bei" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с woran.",
+        "sentence": "Ihr arbeitet an dem Prototyp.",
+        "solution": "Woran arbeitet ihr?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Lösung / das Konzept", "ru": "решение / концепция" },
+      { "de": "am = an + dem", "ru": "сокращение предлога и артикля" }
+    ]
+  },
+  {
+    "id": "beginnen-anfangen-mit",
+    "expression": "beginnen/anfangen mit",
+    "case": "Dat",
+    "articles": { "m": "mit dem Kurs", "f": "mit der Aufgabe", "n": "mit dem Projekt", "pl": "mit den Übungen" },
+    "translation": "начинать с чего-то; приступать к чему-то",
+    "examples": {
+      "present": [
+        { "de": "Ich beginne mit der Aufgabe.", "ru": "Я начинаю с задания." },
+        { "de": "Er fängt mit dem Deutschkurs an.", "ru": "Он начинает немецкий курс." }
+      ],
+      "past": [
+        { "de": "Wir haben mit dem Meeting begonnen.", "ru": "Мы начали собрание." },
+        { "de": "Sie hat mit den Übungen angefangen.", "ru": "Она начала упражнения." }
+      ],
+      "future": [
+        { "de": "Ich werde morgen mit dem Bericht anfangen.", "ru": "Я начну завтра отчёт." },
+        { "de": "Sie wird mit der Präsentation beginnen.", "ru": "Она начнёт презентацию." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение (обрати внимание: anfangen — отделяемый).",
+        "content": [
+          { "words": ["Ich", "fange", "mit dem Projekt", "an"], "solution": "Ich fange mit dem Projekt an." },
+          { "words": ["Wir", "haben", "mit dem Meeting", "begonnen"], "solution": "Wir haben mit dem Meeting begonnen." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и выбери ответ.",
+        "text": "Bevor die Vorlesung startet, fängt die Dozentin mit einer kurzen Wiederholung an.",
+        "questions": [
+          { "q": "Womit fängt die Dozentin an?", "options": ["Mit einer kurzen Wiederholung.", "Mit einer Pause."], "solution": "Mit einer kurzen Wiederholung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь правильную форму.",
+        "text": "Wann ___ (1) ihr ___ (2) dem Training ___ (3) ?",
+        "gaps": [
+          { "id": 1, "options": ["fangt", "fangt"], "solution": "fangt" },
+          { "id": 2, "options": ["mit", "an"], "solution": "mit" },
+          { "id": 3, "options": ["an", "mit"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Задай вопрос с womit.",
+        "sentence": "Er beginnt mit der Präsentation.",
+        "solution": "Womit beginnt er?"
+      }
+    ],
+    "vocab": [
+      { "de": "anfangen (trennbar)", "ru": "начинать (отделяемая приставка)" },
+      { "de": "die Wiederholung", "ru": "повторение" }
+    ]
+  },
+  {
+    "id": "sich-beschaeftigen-mit",
+    "expression": "sich beschäftigen mit",
+    "case": "Dat",
+    "articles": { "m": "mit dem Thema", "f": "mit der Frage", "n": "mit dem Problem", "pl": "mit den Daten" },
+    "translation": "заниматься чем-то; быть занятым чем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich beschäftige mich mit dem Thema Migration.", "ru": "Я занимаюсь темой миграции." },
+        { "de": "Sie beschäftigt sich mit den Zahlen.", "ru": "Она занимается цифрами." }
+      ],
+      "past": [
+        { "de": "Wir haben uns lange mit der Analyse beschäftigt.", "ru": "Мы долго занимались анализом." },
+        { "de": "Er hat sich mit der Reparatur beschäftigt.", "ru": "Он занимался ремонтом." }
+      ],
+      "future": [
+        { "de": "Ich werde mich morgen mit der Bewerbung beschäftigen.", "ru": "Я займусь завтра заявкой." },
+        { "de": "Sie wird sich mit den Ergebnissen beschäftigen.", "ru": "Она займётся результатами." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Ich", "beschäftige", "mich", "mit den Daten"], "solution": "Ich beschäftige mich mit den Daten." },
+          { "words": ["Wir", "haben", "uns", "mit der Analyse", "beschäftigt"], "solution": "Wir haben uns mit der Analyse beschäftigt." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Heute beschäftigt sich das Team mit Kundenfeedback. Morgen folgt die Auswertung.",
+        "questions": [
+          { "q": "Womit beschäftigt sich das Team heute?", "options": ["Mit Kundenfeedback.", "Mit Urlaub."], "solution": "Mit Kundenfeedback." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь нужную форму.",
+        "text": "Er ___ (1) ___ (2) der Reparatur ___.",
+        "gaps": [
+          { "id": 1, "options": ["beschäftigt", "beschäftigte"], "solution": "beschäftigt" },
+          { "id": 2, "options": ["sich mit", "sich an"], "solution": "sich mit" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с womit.",
+        "sentence": "Lisa beschäftigt sich mit der Frage.",
+        "solution": "Womit beschäftigt sich Lisa?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Auswertung", "ru": "анализ, обработка результатов" },
+      { "de": "sich mit etw. beschäftigen", "ru": "заниматься чем-либо" }
+    ]
+  },
+  {
+    "id": "sich-treffen-mit",
+    "expression": "sich treffen mit",
+    "case": "Dat",
+    "articles": { "m": "mit dem Kollegen", "f": "mit der Freundin", "n": "—", "pl": "mit den Nachbarn" },
+    "translation": "встречаться с кем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich treffe mich mit dem Kollegen.", "ru": "Я встречаюсь с коллегой." },
+        { "de": "Sie trifft sich mit der Freundin im Café.", "ru": "Она встречается с подругой в кафе." }
+      ],
+      "past": [
+        { "de": "Wir haben uns mit den Nachbarn getroffen.", "ru": "Мы встретились с соседями." },
+        { "de": "Er hat sich mit dem Chef getroffen.", "ru": "Он встречался с начальником." }
+      ],
+      "future": [
+        { "de": "Ich werde mich morgen mit dem Kunden treffen.", "ru": "Я встречусь завтра с клиентом." },
+        { "de": "Sie wird sich am Abend mit ihrer Schwester treffen.", "ru": "Она встретится вечером со своей сестрой." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Ich", "treffe", "mich", "mit dem Kollegen"], "solution": "Ich treffe mich mit dem Kollegen." },
+          { "words": ["Wir", "haben", "uns", "mit den Nachbarn", "getroffen"], "solution": "Wir haben uns mit den Nachbarn getroffen." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и выбери ответ.",
+        "text": "Am Samstag trifft sich Jana mit ihrer Schwester im Park. Danach gehen sie ins Kino.",
+        "questions": [
+          { "q": "Mit wem trifft sich Jana?", "options": ["Mit ihrer Schwester.", "Mit dem Lehrer."], "solution": "Mit ihrer Schwester." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Поставь правильную форму (mit + Dat).",
+        "text": "Trefft ihr euch heute ___ (1) dem Team ___ (2) ?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "bei"], "solution": "mit" },
+          { "id": 2, "options": ["?", "."], "solution": "?" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Задай вопрос с mit wem?",
+        "sentence": "Er trifft sich mit dem Chef.",
+        "solution": "Mit wem trifft er sich?"
+      }
+    ],
+    "vocab": [
+      { "de": "sich treffen (mit + Dat.)", "ru": "встречаться (с кем-то)" },
+      { "de": "der Kunde / die Kundin", "ru": "клиент / клиентка" }
+    ]
+  }
+]
