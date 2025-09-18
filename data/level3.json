@@ -1,0 +1,292 @@
+[
+  {
+    "id": "sich-freuen-auf",
+    "expression": "sich freuen auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться (в предвкушении) чему-то в будущем",
+    "examples": {
+      "present": [
+        { "de": "Ich freue mich auf das Wochenende.", "ru": "Я с нетерпением жду выходных." },
+        { "de": "Sie freut sich auf den Urlaub.", "ru": "Она ждёт отпуск с радостью." }
+      ],
+      "past": [
+        { "de": "Wir haben uns auf die Party gefreut.", "ru": "Мы радовались предстоящей вечеринке." },
+        { "de": "Er hat sich lange auf das Konzert gefreut.", "ru": "Он долго ждал концерт." }
+      ],
+      "future": [
+        { "de": "Ich werde mich auf den Besuch freuen.", "ru": "Я буду рад предстоящему визиту." },
+        { "de": "Sie wird sich auf das neue Projekt freuen.", "ru": "Она будет радоваться новому проекту." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери фразу.",
+        "content": [
+          { "words": ["Ich", "mich", "auf das Wochenende", "freue", "."], "solution": "Ich freue mich auf das Wochenende." },
+          { "words": ["Wir", "haben", "uns", "auf die Reise", "gefreut", "."], "solution": "Wir haben uns auf die Reise gefreut." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Nina hat die Tickets bekommen. Seit gestern freut sie sich auf das Konzert.",
+        "questions": [
+          { "q": "Worauf freut sich Nina?", "options": ["Auf das Konzert.", "Auf die Prüfung."], "solution": "Auf das Konzert." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Kinder ___ (1) ___ (2) die Sommerferien ___.",
+        "gaps": [
+          { "id": 1, "options": ["freuen", "ärgern"], "solution": "freuen" },
+          { "id": 2, "options": ["sich auf", "sich über"], "solution": "sich auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Задай вопрос с worauf.",
+        "sentence": "Ihr freut euch auf die Ergebnisse.",
+        "solution": "Worauf freut ihr euch?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Besuch", "ru": "визит" },
+      { "de": "sich auf etwas freuen", "ru": "радоваться предстоящему" }
+    ]
+  },
+  {
+    "id": "sich-kuemmern-um",
+    "expression": "sich kümmern um",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "заботиться о ком-то/чём-то; заниматься чем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich kümmere mich um den Termin.", "ru": "Я займусь встречей." },
+        { "de": "Sie kümmert sich um die Kinder.", "ru": "Она заботится о детях." }
+      ],
+      "past": [
+        { "de": "Er hat sich um die Reparatur gekümmert.", "ru": "Он занялся ремонтом." },
+        { "de": "Wir haben uns um die Anmeldung gekümmert.", "ru": "Мы оформили регистрацию." }
+      ],
+      "future": [
+        { "de": "Ich werde mich um die Unterlagen kümmern.", "ru": "Я позабочусь о документах." },
+        { "de": "Sie wird sich um den Transport kümmern.", "ru": "Она займётся транспортом." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Расставь слова.",
+        "content": [
+          { "words": ["Ich", "mich", "um den Termin", "kümmere", "."], "solution": "Ich kümmere mich um den Termin." },
+          { "words": ["Er", "hat", "sich", "um die Anmeldung", "gekümmert", "."], "solution": "Er hat sich um die Anmeldung gekümmert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери правильный ответ.",
+        "text": "Tom ist heute im Büro und kümmert sich um die Rechnungen.",
+        "questions": [
+          { "q": "Worum kümmert sich Tom?", "options": ["Um die Rechnungen.", "Um das Wetter."], "solution": "Um die Rechnungen." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Kannst du dich ___ (1) die Gäste ___ (2) ?",
+        "gaps": [
+          { "id": 1, "options": ["um", "für"], "solution": "um" },
+          { "id": 2, "options": ["kümmern", "vorbereiten"], "solution": "kümmern" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Задай вопрос с worum.",
+        "sentence": "Lisa kümmert sich um die Kinder.",
+        "solution": "Worum kümmert sich Lisa?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Anmeldung", "ru": "регистрация, запись" },
+      { "de": "sich um etwas kümmern", "ru": "заниматься чем-либо" }
+    ]
+  },
+  {
+    "id": "sich-vorbereiten-auf",
+    "expression": "sich vorbereiten auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "готовиться к чему-то",
+    "examples": {
+      "present": [
+        { "de": "Ich bereite mich auf die Prüfung vor.", "ru": "Я готовлюсь к экзамену." },
+        { "de": "Sie bereitet sich auf das Gespräch vor.", "ru": "Она готовится к беседе." }
+      ],
+      "past": [
+        { "de": "Wir haben uns gut auf den Test vorbereitet.", "ru": "Мы хорошо подготовились к тесту." },
+        { "de": "Er hat sich intensiv auf das Vorstellungsgespräch vorbereitet.", "ru": "Он интенсивно готовился к собеседованию." }
+      ],
+      "future": [
+        { "de": "Ich werde mich auf den Umzug vorbereiten.", "ru": "Я буду готовиться к переезду." },
+        { "de": "Sie wird sich auf die Präsentation vorbereiten.", "ru": "Она будет готовиться к презентации." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение (обрати внимание на отделяемый глагол).",
+        "content": [
+          { "words": ["Ich", "mich", "auf die Prüfung", "vor", "bereite", "."], "solution": "Ich bereite mich auf die Prüfung vor." },
+          { "words": ["Er", "hat", "sich", "auf das Gespräch", "vorbereitet", "."], "solution": "Er hat sich auf das Gespräch vorbereitet." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Bevor Jana die Präsentation hält, bereitet sie sich abends darauf vor.",
+        "questions": [
+          { "q": "Worauf bereitet sich Jana vor?", "options": ["Auf die Präsentation.", "Auf den Urlaub."], "solution": "Auf die Präsentation." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Выбери правильный вариант.",
+        "text": "Wir ___ (1) ___ (2) den Test ___.",
+        "gaps": [
+          { "id": 1, "options": ["bereiten", "verlassen"], "solution": "bereiten" },
+          { "id": 2, "options": ["uns auf", "uns an"], "solution": "uns auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с worauf/da-.",
+        "sentence": "Tom bereitet sich auf das Interview vor.",
+        "solution": "Worauf bereitet sich Tom vor?"
+      }
+    ],
+    "vocab": [
+      { "de": "das Vorstellungsgespräch", "ru": "собеседование" },
+      { "de": "sich auf etwas vorbereiten", "ru": "готовиться к чему-либо" }
+    ]
+  },
+  {
+    "id": "sich-verlassen-auf",
+    "expression": "sich verlassen auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "полагаться на кого-то/что-то",
+    "examples": {
+      "present": [
+        { "de": "Ich verlasse mich auf meine Freunde.", "ru": "Я полагаюсь на своих друзей." },
+        { "de": "Sie verlässt sich auf die Erfahrung des Teams.", "ru": "Она полагается на опыт команды." }
+      ],
+      "past": [
+        { "de": "Wir haben uns auf die Angaben verlassen.", "ru": "Мы полагались на предоставленные данные." },
+        { "de": "Er hat sich auf sein Gefühl verlassen.", "ru": "Он полагался на своё чувство." }
+      ],
+      "future": [
+        { "de": "Ich werde mich auf dich verlassen.", "ru": "Я буду полагаться на тебя." },
+        { "de": "Sie wird sich auf das Navi verlassen.", "ru": "Она будет полагаться на навигатор." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери фразу.",
+        "content": [
+          { "words": ["Ich", "mich", "auf dich", "verlasse", "."], "solution": "Ich verlasse mich auf dich." },
+          { "words": ["Wir", "haben", "uns", "auf die Angaben", "verlassen", "."], "solution": "Wir haben uns auf die Angaben verlassen." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Das Team verließ sich auf den Plan, obwohl wenig Zeit blieb.",
+        "questions": [
+          { "q": "Worauf verließ sich das Team?", "options": ["Auf den Plan.", "Auf das Glück."], "solution": "Auf den Plan." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Kann ich mich ___ (1) dich ___ (2) ? — Ja, sicher.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "an"], "solution": "auf" },
+          { "id": 2, "options": ["verlassen", "vorbereiten"], "solution": "verlassen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worauf.",
+        "sentence": "Er verlässt sich auf seine Erfahrung.",
+        "solution": "Worauf verlässt er sich?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Angabe", "ru": "сведение, данные" },
+      { "de": "sich (auf jdn/etw.) verlassen", "ru": "полагаться на (кого-л./что-л.)" }
+    ]
+  },
+  {
+    "id": "sich-gewoehnen-an",
+    "expression": "sich gewöhnen an",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "привыкать к кому-то/чему-то",
+    "examples": {
+      "present": [
+        { "de": "Ich gewöhne mich an die neue Stadt.", "ru": "Я привыкаю к новому городу." },
+        { "de": "Sie gewöhnt sich an den Arbeitsrhythmus.", "ru": "Она привыкает к рабочему ритму." }
+      ],
+      "past": [
+        { "de": "Wir haben uns an das Klima gewöhnt.", "ru": "Мы привыкли к климату." },
+        { "de": "Er hat sich schnell an die Regeln gewöhnt.", "ru": "Он быстро привык к правилам." }
+      ],
+      "future": [
+        { "de": "Ich werde mich an die Routine gewöhnen.", "ru": "Я привыкну к рутине." },
+        { "de": "Sie wird sich an das Tempo gewöhnen.", "ru": "Она привыкнет к темпу." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Ich", "mich", "an die neue Stadt", "gewöhne", "."], "solution": "Ich gewöhne mich an die neue Stadt." },
+          { "words": ["Er", "hat", "sich", "an das Klima", "gewöhnt", "."], "solution": "Er hat sich an das Klima gewöhnt." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери верный ответ.",
+        "text": "Am Anfang war es schwer, aber mit der Zeit gewöhnten sie sich an das kalte Wetter.",
+        "questions": [
+          { "q": "Woran gewöhnten sie sich?", "options": ["An das kalte Wetter.", "An die heißen Sommer."], "solution": "An das kalte Wetter." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Braucht man lange, um sich ___ (1) neue Regeln ___ (2) ?",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf"], "solution": "an" },
+          { "id": 2, "options": ["zu gewöhnen", "zu verlassen"], "solution": "zu gewöhnen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с woran.",
+        "sentence": "Du gewöhnst dich an den Arbeitsrhythmus.",
+        "solution": "Woran gewöhnst du dich?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Routine", "ru": "рутина, распорядок" },
+      { "de": "an (das) = ans (Akk.)", "ru": "сокращение предлога и артикля (an+das)" }
+    ]
+  }
+]
