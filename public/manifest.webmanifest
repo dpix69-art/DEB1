@@ -1,0 +1,23 @@
+{
+  "name": "B1 Trainer",
+  "short_name": "B1",
+  "description": "German B1 Exam Preparation App",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

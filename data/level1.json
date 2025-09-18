@@ -1,0 +1,82 @@
+[
+  {
+    "id": "warten-auf",
+    "expression": "warten auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "ждать кого-то/чего-то",
+    "examples": {
+      "present": [ { "de": "Ich warte auf den Zug.", "ru": "Я жду поезд." } ],
+      "past":    [ { "de": "Ich habe auf den Termin gewartet.", "ru": "Я ждал встречу." } ],
+      "future":  [ { "de": "Ich werde auf die Antwort warten.", "ru": "Я буду ждать ответ." } ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Arrange the words to build a correct sentence.",
+        "content": [
+          { "words": ["Marco", "hat", "gestern", "auf den Arzt", "gewartet"], "solution": "Marco hat gestern auf den Arzt gewartet." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Read and answer.",
+        "text": "Anna hat am Montag auf den Zug gewartet. Der Zug hatte dreißig Minuten Verspätung.",
+        "questions": [
+          { "q": "Warum kam Anna zu spät?", "options": ["Wegen der Verspätung.", "Weil sie verschlafen hat."], "solution": "Wegen der Verspätung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Choose the correct option.",
+        "text": "Tom ___ (1) gestern eine Stunde auf den Techniker ___.",
+        "gaps": [
+          { "id": 1, "options": ["hat ... gewartet", "nahm ... teil"], "solution": "hat ... gewartet" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Rephrase with worauf/da-.",
+        "sentence": "Lana hat vorgestern auf den Zug gewartet.",
+        "solution": "Worauf hat Lana vorgestern gewartet?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Zug", "ru": "поезд" },
+      { "de": "das Ergebnis", "ru": "результат" }
+    ]
+  },
+  {
+    "id": "denken-an",
+    "expression": "denken an",
+    "case": "Akk",
+    "articles": { "m": "den Freund", "f": "die Mutter", "n": "das Geschenk" },
+    "translation": "думать о ком-то/чём-то",
+    "examples": {
+      "present": [ { "de": "Ich denke an dich.", "ru": "Я думаю о тебе." } ],
+      "past": [ { "de": "Sie hat an ihre Kindheit gedacht.", "ru": "Она думала о своём детстве." } ],
+      "future": [ { "de": "Wir werden an die Lösung denken.", "ru": "Мы будем думать о решении." } ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Arrange the words to build a correct sentence.",
+        "content": [
+          { "words": ["Ich", "denke", "oft", "an", "meine Familie"], "solution": "Ich denke oft an meine Familie." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Fill in the gaps.",
+        "text": "Maria ___ (1) immer an ihre Großmutter, wenn sie Kuchen backt.",
+        "gaps": [
+          { "id": 1, "options": ["denkt", "wartet", "teilnimmt"], "solution": "denkt" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Familie", "ru": "семья" },
+      { "de": "die Großmutter", "ru": "бабушка" }
+    ]
+  }
+]
