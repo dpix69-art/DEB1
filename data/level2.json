@@ -105,7 +105,7 @@
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worüber.",
+        "task": "Спроси c worüber.",
         "sentence": "Sie ärgert sich über den Kommentar.",
         "solution": "Worüber ärgert sie sich?"
       }
@@ -179,18 +179,18 @@
     "expression": "sich informieren über",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "узнавать, получать информацию о чем-то",
+    "translation": "узнавать о чём-то; получать информацию о чём-то",
     "examples": {
       "present": [
-        { "de": "Ich informiere mich über die Prüfung.", "ru": "Я узнаю информацию об экзамене." },
+        { "de": "Ich informiere mich über die Prüfung.", "ru": "Я узнаю об экзамене." },
         { "de": "Sie informiert sich über die Öffnungszeiten.", "ru": "Она узнаёт о часах работы." }
       ],
       "past": [
-        { "de": "Wir haben uns über die Wohnung informiert.", "ru": "Мы выяснили информацию о квартире." },
+        { "de": "Wir haben uns über die Wohnung informiert.", "ru": "Мы узнали о квартире." },
         { "de": "Er hat sich über das Angebot informiert.", "ru": "Он узнал об этом предложении." }
       ],
       "future": [
-        { "de": "Ich werde mich über den Vertrag informieren.", "ru": "Я узнаю информацию о договоре." },
+        { "de": "Ich werde mich über den Vertrag informieren.", "ru": "Я узнаю о договоре." },
         { "de": "Sie wird sich über die Kosten informieren.", "ru": "Она узнает о расходах." }
       ]
     },
@@ -237,18 +237,19 @@
     "expression": "schreiben über",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "писать о чем-то",
+    "translation": "писать о чём-то",
     "examples": {
       "present": [
-        { "de": "Ich schreibe über das Thema Nachhaltigkeit.", "ru": "Я пишу на тему устойчивого развития." },
-        { "de": "Er schreibt über seine Reise.", "ru": "Он пишет о своём путешествии." }
+        { "de": "Ich schreibe über das Thema Nachhaltigkeit.", "ru": "Я пишу об устойчивом развитии." },
+        { "de": "Er schreibt über seine Reise.", "ru": "Он пишет о своём путешествии." },
+        { "de": "Sie schreibt über den Künstler.", "ru": "Она пишет о художнике." }
       ],
       "past": [
         { "de": "Wir haben über das Projekt geschrieben.", "ru": "Мы писали о проекте." },
         { "de": "Sie hat gestern über die Ausstellung geschrieben.", "ru": "Она вчера писала о выставке." }
       ],
       "future": [
-        { "de": "Ich werde morgen über die Ergebnisse schreiben.", "ru": "Я буду писать завтра о результатах." },
+        { "de": "Ich werde morgen über die Ergebnisse schreiben.", "ru": "Завтра я буду писать о результатах." },
         { "de": "Sie wird über das Konzert schreiben.", "ru": "Она будет писать о концерте." }
       ]
     },
@@ -275,7 +276,8 @@
         "text": "Bitte ___ (1) du mir später ___ (2) den Termin ___.",
         "gaps": [
           { "id": 1, "options": ["schreibst", "lachst"], "solution": "schreibst" },
-          { "id": 2, "options": ["über", "an"], "solution": "über" }
+          { "id": 2, "options": ["über", "an"], "solution": "über" },
+          { "id": 3, "options": [".", "?"], "solution": "." }
         ]
       },
       {
