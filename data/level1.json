@@ -3,32 +3,50 @@
     "id": "warten-auf",
     "expression": "warten auf",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": {
+      "m": "den Mann",
+      "f": "die Frau",
+      "n": "das Auto"
+    },
     "translation": "ждать кого-то/чего-то",
     "examples": {
-      "present": [ { "de": "Ich warte auf den Zug.", "ru": "Я жду поезд." } ],
-      "past":    [ { "de": "Ich habe auf den Termin gewartet.", "ru": "Я ждал встречу." } ],
-      "future":  [ { "de": "Ich werde auf die Antwort warten.", "ru": "Я буду ждать ответ." } ]
+      "present": [
+        { "de": "Ich warte auf den Zug.", "ru": "Я жду поезд." },
+        { "de": "Sie wartet auf die E-Mail vom Chef.", "ru": "Она ждёт письмо от начальника." }
+      ],
+      "past": [
+        { "de": "Ich habe eine Stunde auf den Techniker gewartet.", "ru": "Я час ждал техника." },
+        { "de": "Er hat am Flughafen auf sein Gepäck gewartet.", "ru": "Он ждал свой багаж в аэропорту." }
+      ],
+      "future": [
+        { "de": "Wir werden morgen auf die Ergebnisse warten.", "ru": "Мы завтра будем ждать результаты." },
+        { "de": "Er wird noch auf die Antwort warten.", "ru": "Он ещё будет ждать ответа." }
+      ]
     },
     "exercises": [
       {
         "type": "order",
-        "task": "Arrange the words to build a correct sentence.",
+        "task": "Поставь слова в правильном порядке.",
         "content": [
-          { "words": ["Marco", "hat", "gestern", "auf den Arzt", "gewartet"], "solution": "Marco hat gestern auf den Arzt gewartet." }
+          { "words": ["Marco", "hat", "gestern", "auf den Arzt", "gewartet"], "solution": "Marco hat gestern auf den Arzt gewartet." },
+          { "words": ["Nina", "wird", "morgen", "auf die Antwort", "warten"], "solution": "Nina wird morgen auf die Antwort warten." }
         ]
       },
       {
         "type": "reading",
-        "task": "Read and answer.",
-        "text": "Anna hat am Montag auf den Zug gewartet. Der Zug hatte dreißig Minuten Verspätung.",
+        "task": "Прочитай текст и ответь на вопросы.",
+        "text": "Anna hat am Montag auf den Zug gewartet. Der Zug hatte zwanzig Minuten Verspätung. Deshalb kam sie zu spät ins Büro.",
         "questions": [
-          { "q": "Warum kam Anna zu spät?", "options": ["Wegen der Verspätung.", "Weil sie verschlafen hat."], "solution": "Wegen der Verspätung." }
+          {
+            "q": "Warum kam Anna zu spät ins Büro?",
+            "options": ["Weil der Zug verspätet war.", "Weil sie krank war."],
+            "solution": "Weil der Zug verspätet war."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Choose the correct option.",
+        "task": "Заполни пропуск.",
         "text": "Tom ___ (1) gestern eine Stunde auf den Techniker ___.",
         "gaps": [
           { "id": 1, "options": ["hat ... gewartet", "nahm ... teil"], "solution": "hat ... gewartet" }
@@ -36,47 +54,278 @@
       },
       {
         "type": "da_wo",
-        "task": "Rephrase with worauf/da-.",
+        "task": "Переформулируй с worauf/da-",
         "sentence": "Lana hat vorgestern auf den Zug gewartet.",
         "solution": "Worauf hat Lana vorgestern gewartet?"
       }
     ],
     "vocab": [
-      { "de": "der Zug", "ru": "поезд" },
-      { "de": "das Ergebnis", "ru": "результат" }
+      { "de": "die Verspätung", "ru": "опоздание" },
+      { "de": "das Ergebnis (Akk: das Ergebnis, Dat: dem Ergebnis)", "ru": "результат" }
     ]
   },
   {
     "id": "denken-an",
     "expression": "denken an",
     "case": "Akk",
-    "articles": { "m": "den Freund", "f": "die Mutter", "n": "das Geschenk" },
+    "articles": {
+      "m": "den Mann",
+      "f": "die Frau",
+      "n": "das Auto"
+    },
     "translation": "думать о ком-то/чём-то",
     "examples": {
-      "present": [ { "de": "Ich denke an dich.", "ru": "Я думаю о тебе." } ],
-      "past": [ { "de": "Sie hat an ihre Kindheit gedacht.", "ru": "Она думала о своём детстве." } ],
-      "future": [ { "de": "Wir werden an die Lösung denken.", "ru": "Мы будем думать о решении." } ]
+      "present": [
+        { "de": "Ich denke oft an meine Familie.", "ru": "Я часто думаю о своей семье." },
+        { "de": "Sie denkt an den Termin um 15 Uhr.", "ru": "Она думает о встрече в 15 часов." }
+      ],
+      "past": [
+        { "de": "Ich habe gestern an deine Idee gedacht.", "ru": "Я вчера думал о твоей идее." },
+        { "de": "Er hat an seine Prüfungen gedacht.", "ru": "Он думал о своих экзаменах." }
+      ],
+      "future": [
+        { "de": "Ich werde morgen an das Projekt denken.", "ru": "Я завтра буду думать о проекте." },
+        { "de": "Sie wird an den Geburtstag ihres Bruders denken.", "ru": "Она вспомнит о дне рождения брата." }
+      ]
     },
     "exercises": [
       {
         "type": "order",
-        "task": "Arrange the words to build a correct sentence.",
+        "task": "Поставь слова в правильном порядке.",
         "content": [
-          { "words": ["Ich", "denke", "oft", "an", "meine Familie"], "solution": "Ich denke oft an meine Familie." }
+          { "words": ["An", "den Urlaub", "denkst", "du", "oft", "?"], "solution": "Denkst du oft an den Urlaub?" },
+          { "words": ["Er", "hat", "an die Rechnung", "nicht", "gedacht"], "solution": "Er hat nicht an die Rechnung gedacht." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Maria arbeitet viel und denkt trotzdem an ihre Gesundheit: Sie macht Pausen und trinkt genug Wasser.",
+        "questions": [
+          {
+            "q": "Woran denkt Maria?",
+            "options": ["An ihre Gesundheit.", "An den Urlaub."],
+            "solution": "An ihre Gesundheit."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Fill in the gaps.",
-        "text": "Maria ___ (1) immer an ihre Großmutter, wenn sie Kuchen backt.",
+        "task": "Заполни пропуск.",
+        "text": "Ich ___ (1) heute den ganzen Tag ___ das Meeting ___.",
         "gaps": [
-          { "id": 1, "options": ["denkt", "wartet", "teilnimmt"], "solution": "denkt" }
+          { "id": 1, "options": ["habe ... an ... gedacht", "habe ... für ... gesorgt"], "solution": "habe ... an ... gedacht" }
         ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с woran/da-",
+        "sentence": "Paul denkt an den Termin.",
+        "solution": "Woran denkt Paul?"
       }
     ],
     "vocab": [
-      { "de": "die Familie", "ru": "семья" },
-      { "de": "die Großmutter", "ru": "бабушка" }
+      { "de": "die Rechnung", "ru": "счёт" },
+      { "de": "der Termin (Akk: den Termin, Dat: dem Termin)", "ru": "встреча, приём" }
+    ]
+  },
+  {
+    "id": "sich-erinnern-an",
+    "expression": "sich erinnern an",
+    "case": "Akk",
+    "articles": {
+      "m": "den Mann",
+      "f": "die Frau",
+      "n": "das Auto"
+    },
+    "translation": "вспоминать о ком-то/чём-то",
+    "examples": {
+      "present": [
+        { "de": "Ich erinnere mich an deinen Namen.", "ru": "Я помню твоё имя." },
+        { "de": "Sie erinnert sich an die Kindheit.", "ru": "Она вспоминает детство." }
+      ],
+      "past": [
+        { "de": "Ich habe mich an das Passwort erinnert.", "ru": "Я вспомнил пароль." },
+        { "de": "Er hat sich plötzlich an den Ort erinnert.", "ru": "Он внезапно вспомнил это место." }
+      ],
+      "future": [
+        { "de": "Ich werde mich an den Termin erinnern.", "ru": "Я вспомню о встрече." },
+        { "de": "Sie wird sich bestimmt an die Aufgabe erinnern.", "ru": "Она обязательно вспомнит о задании." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Поставь слова в правильном порядке.",
+        "content": [
+          { "words": ["Ich", "an das Passwort", "mich", "habe", "erinnert"], "solution": "Ich habe mich an das Passwort erinnert." },
+          { "words": ["Wirst", "du", "dich", "morgen", "an die Liste", "erinnern", "?"], "solution": "Wirst du dich morgen an die Liste erinnern?" }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Gestern habe ich mich endlich an den Namen des Arztes erinnert. Danach konnte ich die Praxis anrufen.",
+        "questions": [
+          {
+            "q": "Woran hast du dich erinnert?",
+            "options": ["An den Namen des Arztes.", "An die Telefonnummer der Schule."],
+            "solution": "An den Namen des Arztes."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Заполни пропуск.",
+        "text": "Er ___ (1) sich plötzlich ___ den Code ___.",
+        "gaps": [
+          { "id": 1, "options": ["hat ... an ... erinnert", "hat ... nach ... gefragt"], "solution": "hat ... an ... erinnert" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с woran/da-",
+        "sentence": "Lisa hat sich an die Aufgabe erinnert.",
+        "solution": "Woran hat sich Lisa erinnert?"
+      }
+    ],
+    "vocab": [
+      { "de": "plötzlich", "ru": "внезапно" },
+      { "de": "die Aufgabe", "ru": "задание" }
+    ]
+  },
+  {
+    "id": "sich-interessieren-fuer",
+    "expression": "sich interessieren für",
+    "case": "Akk",
+    "articles": {
+      "m": "den Mann",
+      "f": "die Frau",
+      "n": "das Auto"
+    },
+    "translation": "интересоваться чем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich interessiere mich für moderne Kunst.", "ru": "Я интересуюсь современным искусством." },
+        { "de": "Sie interessiert sich für Politik.", "ru": "Она интересуется политикой." }
+      ],
+      "past": [
+        { "de": "Ich habe mich lange für Fotografie interessiert.", "ru": "Я долго интересовался фотографией." },
+        { "de": "Er hat sich schon als Kind für Computer interessiert.", "ru": "Он интересовался компьютерами ещё в детстве." }
+      ],
+      "future": [
+        { "de": "Ich werde mich nächstes Jahr für Deutschkurse interessieren.", "ru": "Я буду интересоваться курсами немецкого в следующем году." },
+        { "de": "Sie wird sich mehr für Nachhaltigkeit interessieren.", "ru": "Она будет больше интересоваться устойчивым развитием." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Поставь слова в правильном порядке.",
+        "content": [
+          { "words": ["Ich", "mich", "für moderne Kunst", "interessiere", "."], "solution": "Ich interessiere mich für moderne Kunst." },
+          { "words": ["Er", "hat", "sich", "für Fotografie", "lange", "interessiert", "."], "solution": "Er hat sich lange für Fotografie interessiert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Sven interessiert sich für Nachhaltigkeit und liest oft Artikel über Recycling.",
+        "questions": [
+          {
+            "q": "Wofür interessiert sich Sven?",
+            "options": ["Für Nachhaltigkeit.", "Für Fußball."],
+            "solution": "Für Nachhaltigkeit."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Заполни пропуск.",
+        "text": "Wofür ___ (1) du dich? – Ich ___ (2) mich ___ Fotografie ___.",
+        "gaps": [
+          { "id": 1, "options": ["interessierst", "denkst"], "solution": "interessierst" },
+          { "id": 2, "options": ["interessiere", "erinnere"], "solution": "interessiere" },
+          { "id": 3, "options": ["für ...", "an ..."], "solution": "für ..." },
+          { "id": 4, "options": [".", "?"], "solution": "." }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wofür/da-",
+        "sentence": "Laura interessiert sich für Malerei.",
+        "solution": "Wofür interessiert sich Laura?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Nachhaltigkeit", "ru": "устойчивое развитие" },
+      { "de": "das Recycling", "ru": "переработка" }
+    ]
+  },
+  {
+    "id": "bitten-um",
+    "expression": "bitten um",
+    "case": "Akk",
+    "articles": {
+      "m": "den Mann",
+      "f": "die Frau",
+      "n": "das Auto"
+    },
+    "translation": "просить о чём-то",
+    "examples": {
+      "present": [
+        { "de": "Ich bitte dich um Hilfe.", "ru": "Я прошу тебя о помощи." },
+        { "de": "Er bittet die Kollegin um einen Rat.", "ru": "Он просит коллегу о совете." }
+      ],
+      "past": [
+        { "de": "Ich habe den Lehrer um eine Erklärung gebeten.", "ru": "Я попросил учителя об объяснении." },
+        { "de": "Sie hat den Chef um mehr Zeit gebeten.", "ru": "Она попросила начальника больше времени." }
+      ],
+      "future": [
+        { "de": "Ich werde dich später um einen Gefallen bitten.", "ru": "Я попрошу тебя позже об одолжении." },
+        { "de": "Er wird die Nachbarin um Ruhe bitten.", "ru": "Он попросит соседку о тишине." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Поставь слова в правильном порядке.",
+        "content": [
+          { "words": ["Ich", "um Hilfe", "bitte", "dich", "."], "solution": "Ich bitte dich um Hilfe." },
+          { "words": ["Sie", "hat", "den Chef", "um mehr Zeit", "gebeten", "."], "solution": "Sie hat den Chef um mehr Zeit gebeten." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Jonas hat die Nachbarin um Ruhe gebeten, weil das Baby schläft.",
+        "questions": [
+          {
+            "q": "Worum hat Jonas gebeten?",
+            "options": ["Um Ruhe.", "Um Musik."],
+            "solution": "Um Ruhe."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Заполни пропуски.",
+        "text": "Frau Klein ___ (1) den Techniker ___ (2) eine schnelle Reparatur ___.",
+        "gaps": [
+          { "id": 1, "options": ["hat", "wird"], "solution": "hat" },
+          { "id": 2, "options": ["um", "für"], "solution": "um" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с worum/da-",
+        "sentence": "Er hat die Lehrerin um eine Erklärung gebeten.",
+        "solution": "Worum hat er die Lehrerin gebeten?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Gefallen", "ru": "одолжение" },
+      { "de": "um Ruhe bitten", "ru": "просить о тишине" }
     ]
   }
 ]
