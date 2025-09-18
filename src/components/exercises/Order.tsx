@@ -14,7 +14,6 @@ type Props = {
 type Result = 'correct' | 'incorrect' | null;
 
 function shuffle<T>(arr: T[]): T[] {
-  // Fisher–Yates; работает на копии
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -24,15 +23,13 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 function normalize(s: string): string {
-  return s
-    .trim()
-    .replace(/\s+/g, ' '); // схлопываем пробелы
+  return s.trim().replace(/\s+/g, ' ');
 }
 
-export default function Order({ exercise }: Props) {
+export function Order({ exercise }: Props) {
   const items = exercise.content;
 
-  // Инициализируем состояние для каждого пункта отдельно
+  // Инициализируем пул слов для каждого задания в случайном порядке
   const initialPools = useMemo(
     () => items.map(({ words }) => shuffle(words)),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -44,7 +41,6 @@ export default function Order({ exercise }: Props) {
   const [result, setResult] = useState<Result[]>(items.map(() => null));
 
   const handleChoose = (idx: number, word: string) => {
-    // перемещаем слово из available[idx] в конец selected[idx]
     setAvailable(prev => {
       const copy = prev.map(a => a.slice());
       copy[idx] = copy[idx].filter(w => w !== word);
@@ -52,18 +48,17 @@ export default function Order({ exercise }: Props) {
     });
     setSelected(prev => {
       const copy = prev.map(a => a.slice());
-      copy[idx].push(word);
+      copy[idx].push(word); // порядок по кликам пользователя
       return copy;
     });
     setResult(prev => {
       const copy = prev.slice();
-      copy[idx] = null; // сбрасываем результат при изменении
+      copy[idx] = null;
       return copy;
     });
   };
 
   const handleUnchoose = (idx: number, word: string) => {
-    // вернуть слово из selected[idx] в available[idx] (в конец пула)
     setSelected(prev => {
       const copy = prev.map(a => a.slice());
       const pos = copy[idx].indexOf(word);
@@ -90,7 +85,6 @@ export default function Order({ exercise }: Props) {
     });
     setAvailable(prev => {
       const copy = prev.map(a => a.slice());
-      // перетасуем заново, чтобы не подсказывать порядок
       copy[idx] = shuffle(items[idx].words);
       return copy;
     });
@@ -116,12 +110,11 @@ export default function Order({ exercise }: Props) {
       <h3 className="text-base font-medium text-[var(--ink)] mb-2">{exercise.task}</h3>
 
       {items.map((it, idx) => {
-        const userSentence = selected[idx].join(' ');
         const status = result[idx];
 
         return (
           <div key={idx} className="mb-6 rounded-2xl border border-black/5 p-4 bg-[var(--paper)] shadow-sm">
-            {/* Пул доступных слов */}
+            {/* Доступные слова */}
             <div className="mb-3">
               <div className="text-sm text-[var(--muted)] mb-1">Tap words to build a sentence</div>
               <div className="flex flex-wrap gap-2">
@@ -141,7 +134,7 @@ export default function Order({ exercise }: Props) {
               </div>
             </div>
 
-            {/* Собранное пользователем предложение */}
+            {/* Собранное предложение */}
             <div className="mb-3">
               <div className="text-sm text-[var(--muted)] mb-1">Your sentence (tap a word to remove)</div>
               <div className="flex flex-wrap gap-2 min-h-[2.25rem]">
@@ -163,7 +156,7 @@ export default function Order({ exercise }: Props) {
               </div>
             </div>
 
-            {/* Кнопки действий */}
+            {/* Действия */}
             <div className="flex items-center gap-3">
               <button
                 type="button"
@@ -192,7 +185,6 @@ export default function Order({ exercise }: Props) {
               )}
             </div>
 
-            {/* Показ правильного ответа после проверки */}
             {status === 'incorrect' && (
               <div className="mt-2 text-sm">
                 <span className="text-[var(--muted)] mr-2">Correct answer:</span>
@@ -205,3 +197,6 @@ export default function Order({ exercise }: Props) {
     </section>
   );
 }
+
+// по желанию: оставить и default, чтобы работали оба варианта импорта
+export default Order;
