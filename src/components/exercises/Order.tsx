@@ -127,7 +127,7 @@ export function Order({ exercise }: OrderProps) {
           {/* пул доступных слов */}
           <div>
             <div className="font-medium" style={{ color: '#111' }}>
-              Собери предложение.
+              {/* Собери предложение. */}
             </div>
             <div className="flex flex-wrap gap-2">
               {available[idx].map((w, i) => (
@@ -150,7 +150,7 @@ export function Order({ exercise }: OrderProps) {
           {/* собранное пользователем предложение (как input-area) */}
           <div>
             <div className="text-sm mb-2" style={{ color: '#111' }}>
-              Your sentence (tap a word to remove)
+              Нажми на слово чтобы убрать.
             </div>
             <div className="min-h-[44px] w-full rounded border border-gray-300 bg-white px-3 py-2 flex flex-wrap items-center gap-2">
               {selected[idx].length === 0 ? (
