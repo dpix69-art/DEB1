@@ -29,7 +29,7 @@ function normalize(s: string): string {
 export function Order({ exercise }: Props) {
   const items = exercise.content;
 
-  // Инициализируем пул слов для каждого задания в случайном порядке
+  // фиксируем случайный порядок слов для каждого задания на время жизни компонента
   const initialPools = useMemo(
     () => items.map(({ words }) => shuffle(words)),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -43,12 +43,14 @@ export function Order({ exercise }: Props) {
   const handleChoose = (idx: number, word: string) => {
     setAvailable(prev => {
       const copy = prev.map(a => a.slice());
-      copy[idx] = copy[idx].filter(w => w !== word);
+      // снимаем только первое вхождение (если слова повторяются)
+      const pos = copy[idx].indexOf(word);
+      if (pos >= 0) copy[idx].splice(pos, 1);
       return copy;
     });
     setSelected(prev => {
       const copy = prev.map(a => a.slice());
-      copy[idx].push(word); // порядок по кликам пользователя
+      copy[idx].push(word); // важное: кладем в порядке кликов пользователя
       return copy;
     });
     setResult(prev => {
@@ -85,7 +87,7 @@ export function Order({ exercise }: Props) {
     });
     setAvailable(prev => {
       const copy = prev.map(a => a.slice());
-      copy[idx] = shuffle(items[idx].words);
+      copy[idx] = shuffle(items[idx].words); // пересобираем пул случайно
       return copy;
     });
     setResult(prev => {
@@ -107,15 +109,18 @@ export function Order({ exercise }: Props) {
 
   return (
     <section className="mt-6">
-      <h3 className="text-base font-medium text-[var(--ink)] mb-2">{exercise.task}</h3>
+      <h3 className="text-base font-medium text-[var(--ink)] mb-3">{exercise.task}</h3>
 
       {items.map((it, idx) => {
         const status = result[idx];
 
         return (
-          <div key={idx} className="mb-6 rounded-2xl border border-black/5 p-4 bg-[var(--paper)] shadow-sm">
-            {/* Доступные слова */}
-            <div className="mb-3">
+          <div
+            key={idx}
+            className="mb-6 rounded-2xl border border-black/10 p-4 bg-[var(--paper)]"
+          >
+            {/* Пул доступных слов */}
+            <div className="mb-4">
               <div className="text-sm text-[var(--muted)] mb-1">Tap words to build a sentence</div>
               <div className="flex flex-wrap gap-2">
                 {available[idx].map((w, i) => (
@@ -123,7 +128,7 @@ export function Order({ exercise }: Props) {
                     key={`${w}-${i}`}
                     type="button"
                     onClick={() => handleChoose(idx, w)}
-                    className="px-3 py-2 rounded-full border border-black/10 text-sm hover:bg-black/5 active:scale-[0.98] transition"
+                    className="px-3 py-2 rounded-full border border-black/10 text-sm hover:bg-black/5 transition"
                   >
                     {w}
                   </button>
@@ -134,10 +139,10 @@ export function Order({ exercise }: Props) {
               </div>
             </div>
 
-            {/* Собранное предложение */}
-            <div className="mb-3">
+            {/* «Поле ввода»: собранное пользователем предложение (выглядит как input-area) */}
+            <div className="mb-4">
               <div className="text-sm text-[var(--muted)] mb-1">Your sentence (tap a word to remove)</div>
-              <div className="flex flex-wrap gap-2 min-h-[2.25rem]">
+              <div className="min-h-[44px] w-full rounded-xl border border-black/10 bg-white px-3 py-2 flex flex-wrap items-center gap-2">
                 {selected[idx].length === 0 ? (
                   <span className="text-sm text-[var(--muted)]">—</span>
                 ) : (
@@ -146,7 +151,7 @@ export function Order({ exercise }: Props) {
                       key={`sel-${w}-${i}`}
                       type="button"
                       onClick={() => handleUnchoose(idx, w)}
-                      className="px-3 py-2 rounded-full border border-black/10 text-sm bg-black/5 hover:bg-black/10 active:scale-[0.98] transition"
+                      className="px-3 py-1.5 rounded-full border border-black/10 text-sm bg-black/5 hover:bg-black/10 transition"
                       title="Remove word"
                     >
                       {w}
@@ -156,37 +161,37 @@ export function Order({ exercise }: Props) {
               </div>
             </div>
 
-            {/* Действия */}
-            <div className="flex items-center gap-3">
+            {/* Кнопки действий (слева), статус и правильный ответ — под ними, тоже слева */}
+            <div className="flex items-center gap-3 mb-2">
               <button
                 type="button"
                 onClick={() => handleCheck(idx)}
-                className="px-4 py-2 rounded-xl border border-black/10 text-sm font-medium hover:bg-black/5 active:scale-[0.98] transition"
+                className="px-4 py-2 rounded-xl border border-black/10 text-sm font-medium hover:bg-black/5 transition"
               >
                 Check
               </button>
               <button
                 type="button"
                 onClick={() => handleReset(idx)}
-                className="px-4 py-2 rounded-xl border border-black/10 text-sm hover:bg-black/5 active:scale-[0.98] transition"
+                className="px-4 py-2 rounded-xl border border-black/10 text-sm hover:bg-black/5 transition"
                 title="Reset this item"
               >
                 Reset
               </button>
-              {status && (
-                <span
-                  aria-live="polite"
-                  className={`ml-auto text-sm font-medium ${
-                    status === 'correct' ? 'text-[var(--good)]' : 'text-[var(--bad)]'
-                  }`}
-                >
-                  {status === 'correct' ? 'Correct' : 'Incorrect'}
-                </span>
-              )}
             </div>
 
+            {/* Результат слева, без вытеснения вправо */}
+            {status && (
+              <div aria-live="polite" className="text-sm font-medium mt-1">
+                <span className={status === 'correct' ? 'text-[var(--good)]' : 'text-[var(--bad)]'}>
+                  {status === 'correct' ? 'Correct' : 'Incorrect'}
+                </span>
+              </div>
+            )}
+
+            {/* Показ правильного ответа при ошибке — тоже слева */}
             {status === 'incorrect' && (
-              <div className="mt-2 text-sm">
+              <div className="mt-1 text-sm">
                 <span className="text-[var(--muted)] mr-2">Correct answer:</span>
                 <span className="font-medium">{it.solution}</span>
               </div>
@@ -198,5 +203,5 @@ export function Order({ exercise }: Props) {
   );
 }
 
-// по желанию: оставить и default, чтобы работали оба варианта импорта
+// Оставляю и именованный, и default-экспорт — совместимо с любым импортом
 export default Order;
