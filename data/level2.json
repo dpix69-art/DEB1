@@ -1,0 +1,293 @@
+[
+  {
+    "id": "sich-freuen-ueber",
+    "expression": "sich freuen über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться чему-то (уже произошедшему/имеющемуся)",
+    "examples": {
+      "present": [
+        { "de": "Ich freue mich über das Geschenk.", "ru": "Я радуюсь подарку." },
+        { "de": "Sie freut sich über die guten Nachrichten.", "ru": "Она радуется хорошим новостям." }
+      ],
+      "past": [
+        { "de": "Wir haben uns über den Besuch gefreut.", "ru": "Мы обрадовались визиту." },
+        { "de": "Er hat sich sehr über die E-Mail gefreut.", "ru": "Он очень обрадовался письму." }
+      ],
+      "future": [
+        { "de": "Ihr werdet euch über das Ergebnis freuen.", "ru": "Вы будете рады результату." },
+        { "de": "Sie wird sich über die Einladung freuen.", "ru": "Она обрадуется приглашению." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Поставь слова в правильном порядке.",
+        "content": [
+          { "words": ["Ich", "mich", "über das Geschenk", "freue", "."], "solution": "Ich freue mich über das Geschenk." },
+          { "words": ["Wir", "haben", "uns", "über den Besuch", "gefreut", "."], "solution": "Wir haben uns über den Besuch gefreut." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и выбери ответ.",
+        "text": "Anna bekam heute die Zusage für den Kurs. Den ganzen Tag freut sie sich darüber.",
+        "questions": [
+          { "q": "Worüber freut sich Anna?", "options": ["Über die Zusage.", "Über den Absagebrief."], "solution": "Über die Zusage." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Заполни пропуски.",
+        "text": "Ich ___ (1) ___ (2) die positiven Nachrichten ___.",
+        "gaps": [
+          { "id": 1, "options": ["freue", "ärgere"], "solution": "freue" },
+          { "id": 2, "options": ["mich über", "mich auf"], "solution": "mich über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй вопрос с worüber.",
+        "sentence": "Du freust dich über die Ergebnisse.",
+        "solution": "Worüber freust du dich?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Zusage", "ru": "согласие, подтверждение" },
+      { "de": "die Einladung", "ru": "приглашение" }
+    ]
+  },
+  {
+    "id": "sich-aergern-ueber",
+    "expression": "sich ärgern über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "злиться, сердиться из-за чего-то/на что-то",
+    "examples": {
+      "present": [
+        { "de": "Ich ärgere mich über den Lärm.", "ru": "Я злюсь из-за шума." },
+        { "de": "Er ärgert sich über die falsche Rechnung.", "ru": "Он злится из-за неправильного счёта." }
+      ],
+      "past": [
+        { "de": "Wir haben uns über die Verspätung geärgert.", "ru": "Мы злились из-за опоздания." },
+        { "de": "Sie hat sich über den Kommentar geärgert.", "ru": "Она рассердилась из-за комментария." }
+      ],
+      "future": [
+        { "de": "Ihr werdet euch nicht mehr über Kleinigkeiten ärgern.", "ru": "Вы больше не будете злиться из-за мелочей." },
+        { "de": "Er wird sich über die langen Wartezeiten ärgern.", "ru": "Он будет злиться из-за долгого ожидания." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Ich", "mich", "über den Lärm", "ärgere", "nicht", "mehr"], "solution": "Ich ärgere mich nicht mehr über den Lärm." },
+          { "words": ["Sie", "hat", "sich", "über die Verspätung", "geärgert"], "solution": "Sie hat sich über die Verspätung geärgert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Ответь на вопрос.",
+        "text": "Tom bekam eine falsche Rechnung und musste lange telefonieren. Das ärgerte ihn sehr.",
+        "questions": [
+          { "q": "Worüber hat Tom sich geärgert?", "options": ["Über die falsche Rechnung.", "Über einen Bonus."], "solution": "Über die falsche Rechnung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Выбери правильный вариант.",
+        "text": "Er ___ (1) ___ (2) die laute Musik.",
+        "gaps": [
+          { "id": 1, "options": ["ärgert", "freut"], "solution": "ärgert" },
+          { "id": 2, "options": ["sich über", "sich auf"], "solution": "sich über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Sie ärgert sich über den Kommentar.",
+        "solution": "Worüber ärgert sie sich?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Kleinigkeit", "ru": "мелочь" },
+      { "de": "die Wartezeit", "ru": "время ожидания" }
+    ]
+  },
+  {
+    "id": "lachen-ueber",
+    "expression": "lachen über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "смеяться над чем-то/кем-то",
+    "examples": {
+      "present": [
+        { "de": "Wir lachen über den Witz.", "ru": "Мы смеёмся над шуткой." },
+        { "de": "Sie lacht nicht über andere Leute.", "ru": "Она не смеётся над другими людьми." }
+      ],
+      "past": [
+        { "de": "Alle haben über die Situation gelacht.", "ru": "Все смеялись над ситуацией." },
+        { "de": "Ich habe über meinen Fehler gelacht.", "ru": "Я посмеялся над своей ошибкой." }
+      ],
+      "future": [
+        { "de": "Ihr werdet später darüber lachen.", "ru": "Вы позже посмеётесь над этим." },
+        { "de": "Er wird nicht über dich lachen.", "ru": "Он не будет смеяться над тобой." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Wir", "lachen", "über den Witz", "alle"], "solution": "Wir lachen alle über den Witz." },
+          { "words": ["Ich", "habe", "über meinen Fehler", "gelacht"], "solution": "Ich habe über meinen Fehler gelacht." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери правильный ответ.",
+        "text": "Das Team machte einen Witz in der Pause. Alle lachten darüber und die Stimmung wurde besser.",
+        "questions": [
+          { "q": "Worüber lachte das Team?", "options": ["Über einen Witz.", "Über den Chef."], "solution": "Über einen Witz." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Lach ___ (1) mich, bitte! — Ich lache ___ (2) dich, ich lache ___ (3) die Situation.",
+        "gaps": [
+          { "id": 1, "options": ["nicht über", "nicht von"], "solution": "nicht über" },
+          { "id": 2, "options": ["nicht über", "nicht an"], "solution": "nicht über" },
+          { "id": 3, "options": ["über", "an"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Ihr lacht über den Film.",
+        "solution": "Worüber lacht ihr?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Witz", "ru": "шутка" },
+      { "de": "die Stimmung", "ru": "настроение" }
+    ]
+  },
+  {
+    "id": "sich-informieren-ueber",
+    "expression": "sich informieren über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "узнавать, получать информацию о чем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich informiere mich über die Prüfung.", "ru": "Я узнаю информацию об экзамене." },
+        { "de": "Sie informiert sich über die Öffnungszeiten.", "ru": "Она узнаёт о часах работы." }
+      ],
+      "past": [
+        { "de": "Wir haben uns über die Wohnung informiert.", "ru": "Мы выяснили информацию о квартире." },
+        { "de": "Er hat sich über das Angebot informiert.", "ru": "Он узнал об этом предложении." }
+      ],
+      "future": [
+        { "de": "Ich werde mich über den Vertrag informieren.", "ru": "Я узнаю информацию о договоре." },
+        { "de": "Sie wird sich über die Kosten informieren.", "ru": "Она узнает о расходах." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери фразу.",
+        "content": [
+          { "words": ["Ich", "mich", "über die Prüfung", "informiere", "."], "solution": "Ich informiere mich über die Prüfung." },
+          { "words": ["Er", "hat", "sich", "über das Angebot", "informiert", "."], "solution": "Er hat sich über das Angebot informiert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Bevor Lea den Vertrag unterschreibt, informiert sie sich über die Bedingungen online.",
+        "questions": [
+          { "q": "Worüber informiert sich Lea?", "options": ["Über die Bedingungen.", "Über das Wetter."], "solution": "Über die Bedingungen." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Выбери верный вариант.",
+        "text": "Wir ___ (1) ___ (2) die Öffnungszeiten.",
+        "gaps": [
+          { "id": 1, "options": ["informieren", "ärgern"], "solution": "informieren" },
+          { "id": 2, "options": ["uns über", "uns an"], "solution": "uns über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Tom informiert sich über den Vertrag.",
+        "solution": "Worüber informiert sich Tom?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Bedingungen (Pl.)", "ru": "условия" },
+      { "de": "die Kosten (Pl.)", "ru": "расходы, стоимость" }
+    ]
+  },
+  {
+    "id": "schreiben-ueber",
+    "expression": "schreiben über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "писать о чем-то",
+    "examples": {
+      "present": [
+        { "de": "Ich schreibe über das Thema Nachhaltigkeit.", "ru": "Я пишу на тему устойчивого развития." },
+        { "de": "Er schreibt über seine Reise.", "ru": "Он пишет о своём путешествии." }
+      ],
+      "past": [
+        { "de": "Wir haben über das Projekt geschrieben.", "ru": "Мы писали о проекте." },
+        { "de": "Sie hat gestern über die Ausstellung geschrieben.", "ru": "Она вчера писала о выставке." }
+      ],
+      "future": [
+        { "de": "Ich werde morgen über die Ergebnisse schreiben.", "ru": "Я буду писать завтра о результатах." },
+        { "de": "Sie wird über das Konzert schreiben.", "ru": "Она будет писать о концерте." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Ich", "über die Ergebnisse", "morgen", "schreiben", "werde"], "solution": "Ich werde morgen über die Ergebnisse schreiben." },
+          { "words": ["Er", "hat", "über das Projekt", "geschrieben"], "solution": "Er hat über das Projekt geschrieben." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери верный ответ.",
+        "text": "Die Journalistin schreibt heute über den neuen Stadtpark. Der Artikel erscheint morgen.",
+        "questions": [
+          { "q": "Worüber schreibt die Journalistin?", "options": ["Über den neuen Stadtpark.", "Über das Wetter."], "solution": "Über den neuen Stadtpark." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Bitte ___ (1) du mir später ___ (2) den Termin ___.",
+        "gaps": [
+          { "id": 1, "options": ["schreibst", "lachst"], "solution": "schreibst" },
+          { "id": 2, "options": ["über", "an"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Ihr schreibt über die Ausstellung.",
+        "solution": "Worüber schreibt ihr?"
+      }
+    ],
+    "vocab": [
+      { "de": "erscheinen", "ru": "выходить (о публикации)" },
+      { "de": "der Artikel", "ru": "статья" }
+    ]
+  }
+]
