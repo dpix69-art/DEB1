@@ -15,7 +15,7 @@
         { "de": "Er hat am Training teilgenommen.", "ru": "Он участвовал в тренировке." }
       ],
       "future": [
-        { "de": "Ich werde nächste Woche an der Prüfung teilnehmen.", "ru": "Я буду участвовать на следующей неделе в экзамене." },
+        { "de": "Ich werde nächste Woche an der Prüfung teilnehmen.", "ru": "Я буду участвовать в экзамене на следующей неделе." },
         { "de": "Sie wird am Workshop teilnehmen.", "ru": "Она примет участие в воркшопе." }
       ]
     },
@@ -25,7 +25,7 @@
         "task": "Собери предложение (учти an+dem = am).",
         "content": [
           { "words": ["Ich", "am Kurs", "teil", "nehme"], "solution": "Ich nehme am Kurs teil." },
-          { "words": ["Wir", "an der Konferenz", "teilgenommen", "haben"], "solution": "Wir haben an der Konferenz teilgenommen." }
+          { "words": ["Wir", "haben", "an der Konferenz", "teilgenommen"], "solution": "Wir haben an der Konferenz teilgenommen." }
         ]
       },
       {
@@ -62,7 +62,7 @@
     "expression": "arbeiten an / bei / mit",
     "case": "Dat",
     "articles": {
-      "an": "an dem/der (am/am Projekt, an der Lösung)",
+      "an": "an dem/der (am Projekt, an der Lösung)",
       "bei": "bei der Firma / bei Bosch",
       "mit": "mit dem Team / mit der Kollegin"
     },
@@ -84,12 +84,13 @@
     },
     "exercises": [
       {
-        "type": "contrast",
+        "type": "gap",
         "task": "Выбери правильную предлоговую конструкцию (an/bei/mit).",
-        "content": [
-          { "text": "Er arbeitet ___ der Lösung.", "options": ["an", "bei", "mit"], "solution": "an" },
-          { "text": "Sie arbeitet ___ Siemens.", "options": ["an", "bei", "mit"], "solution": "bei" },
-          { "text": "Wir arbeiten ___ dem neuen Team.", "options": ["an", "bei", "mit"], "solution": "mit" }
+        "text": "Er arbeitet ___ (1) der Lösung. Sie arbeitet ___ (2) Siemens. Wir arbeiten ___ (3) dem neuen Team.",
+        "gaps": [
+          { "id": 1, "options": ["an", "bei", "mit"], "solution": "an" },
+          { "id": 2, "options": ["an", "bei", "mit"], "solution": "bei" },
+          { "id": 3, "options": ["an", "bei", "mit"], "solution": "mit" }
         ]
       },
       {
@@ -137,7 +138,7 @@
         { "de": "Sie hat mit den Übungen angefangen.", "ru": "Она начала упражнения." }
       ],
       "future": [
-        { "de": "Ich werde morgen mit dem Bericht anfangen.", "ru": "Я начну завтра отчёт." },
+        { "de": "Ich werde morgen mit dem Bericht anfangen.", "ru": "Я завтра начну отчёт." },
         { "de": "Sie wird mit der Präsentation beginnen.", "ru": "Она начнёт презентацию." }
       ]
     },
@@ -163,7 +164,7 @@
         "task": "Вставь правильную форму.",
         "text": "Wann ___ (1) ihr ___ (2) dem Training ___ (3) ?",
         "gaps": [
-          { "id": 1, "options": ["fangt", "fangt"], "solution": "fangt" },
+          { "id": 1, "options": ["fangt", "fängt"], "solution": "fangt" },
           { "id": 2, "options": ["mit", "an"], "solution": "mit" },
           { "id": 3, "options": ["an", "mit"], "solution": "an" }
         ]
@@ -196,7 +197,7 @@
         { "de": "Er hat sich mit der Reparatur beschäftigt.", "ru": "Он занимался ремонтом." }
       ],
       "future": [
-        { "de": "Ich werde mich morgen mit der Bewerbung beschäftigen.", "ru": "Я займусь завтра заявкой." },
+        { "de": "Ich werde mich morgen mit der Bewerbung beschäftigen.", "ru": "Я завтра займусь заявкой." },
         { "de": "Sie wird sich mit den Ergebnissen beschäftigen.", "ru": "Она займётся результатами." }
       ]
     },
@@ -220,7 +221,7 @@
       {
         "type": "gap",
         "task": "Вставь нужную форму.",
-        "text": "Er ___ (1) ___ (2) der Reparatur ___.",
+        "text": "Er ___ (1) ___ (2) der Reparatur.",
         "gaps": [
           { "id": 1, "options": ["beschäftigt", "beschäftigte"], "solution": "beschäftigt" },
           { "id": 2, "options": ["sich mit", "sich an"], "solution": "sich mit" }
@@ -254,7 +255,7 @@
         { "de": "Er hat sich mit dem Chef getroffen.", "ru": "Он встречался с начальником." }
       ],
       "future": [
-        { "de": "Ich werde mich morgen mit dem Kunden treffen.", "ru": "Я встречусь завтра с клиентом." },
+        { "de": "Ich werde mich morgen mit dem Kunden treffen.", "ru": "Я завтра встречусь с клиентом." },
         { "de": "Sie wird sich am Abend mit ihrer Schwester treffen.", "ru": "Она встретится вечером со своей сестрой." }
       ]
     },
@@ -278,15 +279,14 @@
       {
         "type": "gap",
         "task": "Поставь правильную форму (mit + Dat).",
-        "text": "Trefft ihr euch heute ___ (1) dem Team ___ (2) ?",
+        "text": "Trefft ihr euch heute ___ (1) dem Team?",
         "gaps": [
-          { "id": 1, "options": ["mit", "bei"], "solution": "mit" },
-          { "id": 2, "options": ["?", "."], "solution": "?" }
+          { "id": 1, "options": ["mit", "bei"], "solution": "mit" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Задай вопрос с mit wem?",
+        "task": "Задай вопрос: mit wem?",
         "sentence": "Er trifft sich mit dem Chef.",
         "solution": "Mit wem trifft er sich?"
       }
