@@ -1,0 +1,288 @@
+[
+  {
+    "id": "kaempfen-fuer",
+    "expression": "kämpfen für",
+    "case": "Akk",
+    "articles": { "m": "den Plan", "f": "die Gerechtigkeit", "n": "das Ziel" },
+    "translation": "бороться за что-либо",
+    "examples": {
+      "present": [
+        { "de": "Wir kämpfen für die Gerechtigkeit.", "ru": "Мы боремся за справедливость." },
+        { "de": "Das Team kämpft für das gemeinsame Ziel.", "ru": "Команда борется за общую цель." }
+      ],
+      "past": [
+        { "de": "Sie haben jahrelang für bessere Bedingungen gekämpft.", "ru": "Они годами боролись за лучшие условия." },
+        { "de": "Er hat für den Plan gekämpft, bis er angenommen wurde.", "ru": "Он боролся за план, пока его не приняли." }
+      ],
+      "future": [
+        { "de": "Ich werde weiter für meine Rechte kämpfen.", "ru": "Я буду и дальше бороться за свои права." },
+        { "de": "Wir werden für das Projekt kämpfen.", "ru": "Мы будем бороться за проект." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Wir", "kämpfen", "für bessere Bedingungen"], "solution": "Wir kämpfen für bessere Bedingungen." },
+          { "words": ["Er", "hat", "für das Ziel", "gekämpft"], "solution": "Er hat für das Ziel gekämpft." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Die Mitarbeitenden kämpften lange für transparente Löhne. Am Ende gab es neue Regeln.",
+        "questions": [
+          { "q": "Wofür kämpften die Mitarbeitenden?", "options": ["Für transparente Löhne.", "Für längere Pausen."], "solution": "Für transparente Löhne." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее (für/gegen).",
+        "text": "Wir kämpfen ___ (1) faire Verträge.",
+        "gaps": [
+          { "id": 1, "options": ["für", "gegen"], "solution": "für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с wofür.",
+        "sentence": "Sie kämpfen für die Gerechtigkeit.",
+        "solution": "Wofür kämpfen sie?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Bedingungen (Pl.)", "ru": "условия" },
+      { "de": "gerecht / die Gerechtigkeit", "ru": "справедливый / справедливость" }
+    ]
+  },
+  {
+    "id": "kaempfen-gegen",
+    "expression": "kämpfen gegen",
+    "case": "Akk",
+    "articles": { "m": "den Betrug", "f": "die Ungleichheit", "n": "das Problem" },
+    "translation": "бороться против чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Wir kämpfen gegen den Betrug.", "ru": "Мы боремся против мошенничества." },
+        { "de": "Die Organisation kämpft gegen die Ungleichheit.", "ru": "Организация борется против неравенства." }
+      ],
+      "past": [
+        { "de": "Viele Menschen haben gegen das Problem gekämpft.", "ru": "Многие боролись против этой проблемы." },
+        { "de": "Er hat jahrelang gegen Korruption gekämpft.", "ru": "Он годами боролся с коррупцией." }
+      ],
+      "future": [
+        { "de": "Ich werde weiter gegen Fake-News kämpfen.", "ru": "Я продолжу бороться с фейковыми новостями." },
+        { "de": "Sie werden gegen die Verschwendung kämpfen.", "ru": "Они будут бороться с расточительством." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Wir", "kämpfen", "gegen die Ungleichheit"], "solution": "Wir kämpfen gegen die Ungleichheit." },
+          { "words": ["Er", "hat", "gegen das Problem", "gekämpft"], "solution": "Er hat gegen das Problem gekämpft." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери ответ.",
+        "text": "Die Stadt kämpft gegen illegale Müllentsorgung und informiert die Bürgerinnen und Bürger.",
+        "questions": [
+          { "q": "Wogegen kämpft die Stadt?", "options": ["Gegen illegale Müllentsorgung.", "Gegen Regenwetter."], "solution": "Gegen illegale Müllentsorgung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Выбери правильный вариант.",
+        "text": "Wir kämpfen ___ (1) Diskriminierung.",
+        "gaps": [
+          { "id": 1, "options": ["gegen", "für"], "solution": "gegen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с wogegen.",
+        "sentence": "Sie kämpfen gegen den Betrug.",
+        "solution": "Wogegen kämpfen sie?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Verschwendung", "ru": "расточительство" },
+      { "de": "die Diskriminierung", "ru": "дискриминация" }
+    ]
+  },
+  {
+    "id": "protestieren-gegen",
+    "expression": "protestieren gegen",
+    "case": "Akk",
+    "articles": { "m": "den Plan", "f": "die Regel", "n": "das Gesetz" },
+    "translation": "протестовать против чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Viele Menschen protestieren gegen das Gesetz.", "ru": "Многие протестуют против закона." },
+        { "de": "Die Studierenden protestieren gegen die neuen Regeln.", "ru": "Студенты протестуют против новых правил." }
+      ],
+      "past": [
+        { "de": "Wir haben gestern gegen den Plan protestiert.", "ru": "Мы вчера протестовали против плана." },
+        { "de": "Er hat mehrfach gegen die Entscheidung protestiert.", "ru": "Он неоднократно протестовал против решения." }
+      ],
+      "future": [
+        { "de": "Ich werde nicht gegen alles protestieren.", "ru": "Я не буду протестовать против всего." },
+        { "de": "Sie werden nächste Woche gegen die Erhöhung protestieren.", "ru": "Они будут протестовать против повышения на следующей неделе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Viele", "protestieren", "gegen die Entscheidung"], "solution": "Viele protestieren gegen die Entscheidung." },
+          { "words": ["Wir", "haben", "gegen den Plan", "protestiert"], "solution": "Wir haben gegen den Plan protestiert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "An der Uni protestierten die Studierenden gegen die Kürzungen. Die Leitung versprach Gespräche.",
+        "questions": [
+          { "q": "Wogegen protestierten die Studierenden?", "options": ["Gegen die Kürzungen.", "Gegen die Ferien."], "solution": "Gegen die Kürzungen." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Подставь правильный предлог.",
+        "text": "Die Anwohner protestieren ___ (1) den Bau der Straße.",
+        "gaps": [
+          { "id": 1, "options": ["gegen", "für"], "solution": "gegen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с wogegen.",
+        "sentence": "Sie protestieren gegen das Gesetz.",
+        "solution": "Wogegen protestieren sie?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Erhöhung", "ru": "повышение (цены, платы и т. п.)" },
+      { "de": "kürzen / die Kürzung", "ru": "сокращать / сокращение" }
+    ]
+  },
+  {
+    "id": "berichten-ueber",
+    "expression": "berichten über",
+    "case": "Akk",
+    "articles": { "m": "den Vorfall", "f": "die Ausstellung", "n": "das Ereignis" },
+    "translation": "сообщать, делать репортаж о чём-то",
+    "examples": {
+      "present": [
+        { "de": "Die Medien berichten über das Ereignis.", "ru": "СМИ сообщают о событии." },
+        { "de": "Er berichtet über die Ausstellung im Museum.", "ru": "Он делает репортаж о выставке в музее." }
+      ],
+      "past": [
+        { "de": "Gestern wurde ausführlich über den Vorfall berichtet.", "ru": "Вчера подробно сообщалось о происшествии." },
+        { "de": "Sie hat über das Konzert berichtet.", "ru": "Она сообщила о концерте." }
+      ],
+      "future": [
+        { "de": "Ich werde morgen über die Ergebnisse berichten.", "ru": "Я завтра сообщу о результатах." },
+        { "de": "Der Sender wird live über das Festival berichten.", "ru": "Канал будет сообщать о фестивале в прямом эфире." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Die Medien", "berichten", "über das Ereignis"], "solution": "Die Medien berichten über das Ereignis." },
+          { "words": ["Er", "hat", "über die Ausstellung", "berichtet"], "solution": "Er hat über die Ausstellung berichtet." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и выбери ответ.",
+        "text": "Mehrere Zeitungen berichten heute über den Unfall auf der Autobahn.",
+        "questions": [
+          { "q": "Worüber berichten die Zeitungen?", "options": ["Über den Unfall.", "Über das Wetter."], "solution": "Über den Unfall." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Kannst du kurz ___ (1) die Ergebnisse ___ (2) ?",
+        "gaps": [
+          { "id": 1, "options": ["über", "von"], "solution": "über" },
+          { "id": 2, "options": ["berichten", "antworten"], "solution": "berichten" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Der Reporter berichtet über das Festival.",
+        "solution": "Worüber berichtet der Reporter?"
+      }
+    ],
+    "vocab": [
+      { "de": "berichten (über + Akk)", "ru": "сообщать, делать репортаж" },
+      { "de": "ausführlich", "ru": "подробно" }
+    ]
+  },
+  {
+    "id": "teilen-in",
+    "expression": "teilen in",
+    "case": "Akk",
+    "articles": { "m": "den Bereich", "f": "die Gruppe", "n": "das Kapitel" },
+    "translation": "делить/разделять на что-либо",
+    "examples": {
+      "present": [
+        { "de": "Wir teilen die Klasse in drei Gruppen.", "ru": "Мы делим класс на три группы." },
+        { "de": "Das Buch ist in fünf Kapitel geteilt.", "ru": "Книга разделена на пять глав." }
+      ],
+      "past": [
+        { "de": "Der Kurs wurde in zwei Teile geteilt.", "ru": "Курс был разделён на две части." },
+        { "de": "Sie haben das Projekt in Bereiche geteilt.", "ru": "Они разделили проект на области." }
+      ],
+      "future": [
+        { "de": "Ich werde den Text in Abschnitte teilen.", "ru": "Я разделю текст на разделы." },
+        { "de": "Wir werden die Aufgaben in kleine Schritte teilen.", "ru": "Мы разделим задания на маленькие шаги." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Wir", "teilen", "den Kurs", "in zwei Teile"], "solution": "Wir teilen den Kurs in zwei Teile." },
+          { "words": ["Das Projekt", "wurde", "in Bereiche", "geteilt"], "solution": "Das Projekt wurde in Bereiche geteilt." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери верный ответ.",
+        "text": "Für die Präsentation teilten sie das Thema in drei Kapitel und arbeiteten parallel.",
+        "questions": [
+          { "q": "Worin teilten sie das Thema?", "options": ["In drei Kapitel.", "In eine E-Mail."], "solution": "In drei Kapitel." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь предлог.",
+        "text": "Bitte teilt die Gruppe ___ (1) zwei Teams.",
+        "gaps": [
+          { "id": 1, "options": ["in", "auf"], "solution": "in" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси: на что разделили?",
+        "sentence": "Wir haben den Text in Abschnitte geteilt.",
+        "solution": "Worin habt ihr den Text geteilt?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Abschnitt", "ru": "раздел, абзац" },
+      { "de": "teilen / geteilt (Partizip II)", "ru": "делить / разделённый" }
+    ]
+  }
+]

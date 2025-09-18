@@ -1,0 +1,293 @@
+[
+  {
+    "id": "sich-bewerben-um",
+    "expression": "sich bewerben um",
+    "case": "Akk",
+    "articles": { "m": "den Job", "f": "die Stelle", "n": "das Praktikum" },
+    "translation": "подавать заявление на что-то (должность, стипендию и т.п.)",
+    "examples": {
+      "present": [
+        { "de": "Ich bewerbe mich um die Stelle als Designer.", "ru": "Я подаюсь на вакансию дизайнера." },
+        { "de": "Sie bewirbt sich um ein Stipendium.", "ru": "Она подаётся на стипендию." }
+      ],
+      "past": [
+        { "de": "Er hat sich um den Job beworben.", "ru": "Он подался на работу." },
+        { "de": "Wir haben uns um das Praktikum beworben.", "ru": "Мы подались на практику." }
+      ],
+      "future": [
+        { "de": "Ich werde mich um die Stelle im März bewerben.", "ru": "Я подамся на вакансию в марте." },
+        { "de": "Sie wird sich um eine Förderung bewerben.", "ru": "Она подастся на финансирование." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Er", "hat", "sich", "um die Stelle", "beworben", "."], "solution": "Er hat sich um die Stelle beworben." },
+          { "words": ["Ich", "mich", "um ein Stipendium", "bewerbe", "."], "solution": "Ich bewerbe mich um ein Stipendium." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Lena schreibt ein Motivationsschreiben und bewirbt sich um die Stelle als Projektmanagerin.",
+        "questions": [
+          { "q": "Worum bewirbt sich Lena?", "options": ["Um die Stelle als Projektmanagerin.", "Um einen Sprachkurs."], "solution": "Um die Stelle als Projektmanagerin." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Заполни пропуски.",
+        "text": "Tom ___ (1) ___ (2) den Job als Techniker ___.",
+        "gaps": [
+          { "id": 1, "options": ["hat", "ist"], "solution": "hat" },
+          { "id": 2, "options": ["sich um", "sich auf"], "solution": "sich um" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worum.",
+        "sentence": "Sie bewirbt sich um die Stelle.",
+        "solution": "Worum bewirbt sie sich?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Bewerbung", "ru": "заявка, отклик" },
+      { "de": "sich bewerben bei + Dat", "ru": "подаваться в (компанию) — см. Dativ" }
+    ]
+  },
+  {
+    "id": "sprechen-reden-diskutieren-ueber",
+    "expression": "sprechen/reden/diskutieren über",
+    "case": "Akk",
+    "articles": { "m": "den Plan", "f": "die Idee", "n": "das Thema" },
+    "translation": "говорить / беседовать / обсуждать что-либо",
+    "examples": {
+      "present": [
+        { "de": "Wir sprechen über den Plan.", "ru": "Мы говорим о плане." },
+        { "de": "Sie diskutieren über das Thema Nachhaltigkeit.", "ru": "Они обсуждают тему устойчивого развития." }
+      ],
+      "past": [
+        { "de": "Ich habe mit Anna über die Idee geredet.", "ru": "Я поговорил с Анной об идее." },
+        { "de": "Wir haben lange über das Problem diskutiert.", "ru": "Мы долго обсуждали проблему." }
+      ],
+      "future": [
+        { "de": "Morgen werde ich über die Ergebnisse sprechen.", "ru": "Завтра я расскажу о результатах." },
+        { "de": "Sie wird mit dem Team über den Zeitplan reden.", "ru": "Она поговорит с командой о графике." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Wir", "über den Plan", "sprechen", "heute"], "solution": "Wir sprechen heute über den Plan." },
+          { "words": ["Sie", "hat", "über das Problem", "lange", "diskutiert"], "solution": "Sie hat lange über das Problem diskutiert." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери верный ответ.",
+        "text": "Im Meeting reden alle über die neuen Aufgaben. Am Ende entscheidet die Chefin.",
+        "questions": [
+          { "q": "Worüber reden alle?", "options": ["Über die neuen Aufgaben.", "Über das Wochenende."], "solution": "Über die neuen Aufgaben." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Worüber ___ (1) ihr? — Wir ___ (2) ___ die Ergebnisse ___.",
+        "gaps": [
+          { "id": 1, "options": ["sprecht", "seid"], "solution": "sprecht" },
+          { "id": 2, "options": ["reden", "gehen"], "solution": "reden" },
+          { "id": 3, "options": ["über", "an"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worüber.",
+        "sentence": "Sie diskutieren über das Thema.",
+        "solution": "Worüber diskutieren sie?"
+      }
+    ],
+    "vocab": [
+      { "de": "das Meeting", "ru": "встреча, совещание" },
+      { "de": "der Zeitplan", "ru": "график" }
+    ]
+  },
+  {
+    "id": "antworten-auf",
+    "expression": "antworten auf",
+    "case": "Akk",
+    "articles": { "m": "den Brief", "f": "die E-Mail", "n": "das Formular" },
+    "translation": "отвечать на что-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich antworte auf die E-Mail.", "ru": "Я отвечаю на письмо." },
+        { "de": "Sie antwortet schnell auf Fragen.", "ru": "Она быстро отвечает на вопросы." }
+      ],
+      "past": [
+        { "de": "Er hat auf den Brief geantwortet.", "ru": "Он ответил на письмо." },
+        { "de": "Wir haben sofort auf die Anfrage geantwortet.", "ru": "Мы сразу ответили на запрос." }
+      ],
+      "future": [
+        { "de": "Ich werde morgen auf die Nachricht antworten.", "ru": "Я отвечу на сообщение завтра." },
+        { "de": "Sie wird auf die Beschwerde antworten.", "ru": "Она ответит на жалобу." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери предложение.",
+        "content": [
+          { "words": ["Ich", "auf die E-Mail", "antworte", "gleich"], "solution": "Ich antworte gleich auf die E-Mail." },
+          { "words": ["Er", "hat", "auf den Brief", "geantwortet"], "solution": "Er hat auf den Brief geantwortet." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Der Kundenservice antwortet heute auf alle offenen Fragen.",
+        "questions": [
+          { "q": "Worauf antwortet der Kundenservice?", "options": ["Auf alle offenen Fragen.", "Auf Einladungen."], "solution": "Auf alle offenen Fragen." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Выбери правильный вариант.",
+        "text": "Bitte ___ (1) du schnell ___ (2) die Nachricht ___.",
+        "gaps": [
+          { "id": 1, "options": ["antwortest", "redest"], "solution": "antwortest" },
+          { "id": 2, "options": ["auf", "über"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worauf.",
+        "sentence": "Ihr antwortet auf die Anfrage.",
+        "solution": "Worauf antwortet ihr?"
+      }
+    ],
+    "vocab": [
+      { "de": "die Anfrage", "ru": "запрос" },
+      { "de": "der Kundenservice", "ru": "служба поддержки" }
+    ]
+  },
+  {
+    "id": "reagieren-auf",
+    "expression": "reagieren auf",
+    "case": "Akk",
+    "articles": { "m": "den Vorschlag", "f": "die Kritik", "n": "das Signal" },
+    "translation": "реагировать на что-либо",
+    "examples": {
+      "present": [
+        { "de": "Das Team reagiert auf die Kritik konstruktiv.", "ru": "Команда конструктивно реагирует на критику." },
+        { "de": "Er reagiert schnell auf Signale.", "ru": "Он быстро реагирует на сигналы." }
+      ],
+      "past": [
+        { "de": "Wir haben positiv auf den Vorschlag reagiert.", "ru": "Мы положительно отреагировали на предложение." },
+        { "de": "Sie hat sofort auf die Nachricht reagiert.", "ru": "Она сразу отреагировала на сообщение." }
+      ],
+      "future": [
+        { "de": "Ich werde ruhig auf die Situation reagieren.", "ru": "Я спокойно отреагирую на ситуацию." },
+        { "de": "Sie wird professionell auf Feedback reagieren.", "ru": "Она профессионально отреагирует на обратную связь." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Переставь слова.",
+        "content": [
+          { "words": ["Wir", "haben", "auf den Vorschlag", "positiv", "reagiert"], "solution": "Wir haben positiv auf den Vorschlag reagiert." },
+          { "words": ["Er", "reagiert", "auf die Kritik", "ruhig"], "solution": "Er reagiert ruhig auf die Kritik." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Выбери ответ.",
+        "text": "Nach dem Meeting reagierte die Leitung schnell auf das Feedback und passte den Plan an.",
+        "questions": [
+          { "q": "Worauf reagierte die Leitung?", "options": ["Auf das Feedback.", "Auf das Wetter."], "solution": "Auf das Feedback." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Wie ___ (1) du ___ (2) die Änderung?",
+        "gaps": [
+          { "id": 1, "options": ["reagierst", "antwortest"], "solution": "reagierst" },
+          { "id": 2, "options": ["auf", "über"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worauf.",
+        "sentence": "Das Team reagiert auf das Signal.",
+        "solution": "Worauf reagiert das Team?"
+      }
+    ],
+    "vocab": [
+      { "de": "das Feedback", "ru": "обратная связь" },
+      { "de": "anpassen", "ru": "корректировать, подстраивать" }
+    ]
+  },
+  {
+    "id": "achten-auf",
+    "expression": "achten auf",
+    "case": "Akk",
+    "articles": { "m": "den Verkehr", "f": "die Qualität", "n": "das Detail" },
+    "translation": "обращать внимание на что-либо; следить за чем-либо",
+    "examples": {
+      "present": [
+        { "de": "Bitte achte auf die Qualität.", "ru": "Пожалуйста, обращай внимание на качество." },
+        { "de": "Er achtet im Straßenverkehr auf die Regeln.", "ru": "Он следит за правилами в дорожном движении." }
+      ],
+      "past": [
+        { "de": "Ich habe immer auf Details geachtet.", "ru": "Я всегда обращал внимание на детали." },
+        { "de": "Sie hat auf die Sicherheit geachtet.", "ru": "Она следила за безопасностью." }
+      ],
+      "future": [
+        { "de": "Wir werden mehr auf die Kosten achten.", "ru": "Мы будем больше обращать внимание на расходы." },
+        { "de": "Er wird auf seine Gesundheit achten.", "ru": "Он будет следить за своим здоровьем." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "order",
+        "task": "Собери фразу.",
+        "content": [
+          { "words": ["Bitte", "achte", "auf die Qualität", "."], "solution": "Bitte achte auf die Qualität." },
+          { "words": ["Wir", "werden", "auf die Kosten", "achten"], "solution": "Wir werden auf die Kosten achten." }
+        ]
+      },
+      {
+        "type": "reading",
+        "task": "Прочитай и ответь.",
+        "text": "Im Labor achten die Mitarbeitenden streng auf Sicherheit und Ordnung.",
+        "questions": [
+          { "q": "Worauf achten die Mitarbeitenden?", "options": ["Auf Sicherheit und Ordnung.", "Auf die Musik."], "solution": "Auf Sicherheit und Ordnung." }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее.",
+        "text": "Achten Sie bitte ___ (1) die Hinweise ___ (2) der Verpackung.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "an"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "von"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Спроси с worauf.",
+        "sentence": "Er achtet auf den Verkehr.",
+        "solution": "Worauf achtet er?"
+      }
+    ],
+    "vocab": [
+      { "de": "der Verkehr", "ru": "движение (уличное), транспорт" },
+      { "de": "die Hinweise", "ru": "указания, инструкции" }
+    ]
+  }
+]
