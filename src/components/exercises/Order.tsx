@@ -127,7 +127,7 @@ export function Order({ exercise }: OrderProps) {
           {/* пул доступных слов */}
           <div>
             <div className="font-medium" style={{ color: '#111' }}>
-              Tap words to build a sentence
+              Собери предложение.
             </div>
             <div className="flex flex-wrap gap-2">
               {available[idx].map((w, i) => (
