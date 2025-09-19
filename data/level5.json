@@ -1,293 +1,145 @@
 [
   {
-    "id": "sorgen-fuer",
-    "expression": "sorgen für",
+    "id": "warten-auf",
+    "expression": "warten auf",
     "case": "Akk",
-    "articles": { "m": "den Platz", "f": "die Unterkunft", "n": "das Essen" },
-    "translation": "обеспечивать чем-то; заботиться (в смысле организовать, обеспечить)",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "ждать кого-то/чего-то",
     "examples": {
       "present": [
-        { "de": "Die Organisation sorgt für Unterkunft.", "ru": "Организация обеспечивает жильём." },
-        { "de": "Eltern sorgen für ihre Kinder.", "ru": "Родители обеспечивают своих детей." }
+        { "de": "Ich warte auf die Rückmeldung.", "ru": "Я жду обратной связи." },
+        { "de": "Sie wartet auf das Gespräch am Freitag.", "ru": "Она ждёт беседы в пятницу." }
       ],
       "past": [
-        { "de": "Die Stadt hat für ausreichend Wasser gesorgt.", "ru": "Город обеспечил достаточным количеством воды." },
-        { "de": "Wir haben für Getränke gesorgt.", "ru": "Мы позаботились о напитках." }
+        { "de": "Wir haben lange auf die Einladung gewartet.", "ru": "Мы долго ждали приглашения." },
+        { "de": "Er hat am (an+dem) Bahnhof auf den Techniker gewartet.", "ru": "Он ждал техника на вокзале." }
       ],
       "future": [
-        { "de": "Ich werde für eine gute Vorbereitung sorgen.", "ru": "Я обеспечу хорошую подготовку." },
-        { "de": "Sie wird für Ruhe im Haus sorgen.", "ru": "Она позаботится о тишине в доме." }
+        { "de": "Sie wird morgen auf die Ergebnisse warten.", "ru": "Завтра она будет ждать результатов." },
+        { "de": "Ich werde noch auf eine E-Mail warten.", "ru": "Я ещё буду ждать письма." }
       ]
     },
     "exercises": [
       {
         "type": "order",
-        "task": "Собери предложение.",
+        "task": "Поставь слова в правильном порядке.",
         "content": [
-          { "words": ["Die Stadt", "hat", "für ausreichend Wasser", "gesorgt"], "solution": "Die Stadt hat für ausreichend Wasser gesorgt." },
-          { "words": ["Wir", "werden", "für die Technik", "sorgen"], "solution": "Wir werden für die Technik sorgen." }
+          {
+            "words": ["Daria", "hat", "auf die Einladung", "geduldig", "gewartet"],
+            "solution": "Daria hat geduldig auf die Einladung gewartet."
+          },
+          {
+            "words": ["Am (an+dem) Freitag", "warten", "wir", "auf das Gespräch"],
+            "solution": "Am (an+dem) Freitag warten wir auf das Gespräch."
+          }
         ]
       },
       {
         "type": "reading",
-        "task": "Прочитай и выбери ответ.",
-        "text": "Beim Fest sorgen die Freiwilligen für Sicherheit und Getränke.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Online-Bewerbung hat Daria drei Wochen auf eine Rückmeldung gewartet. Jeden Morgen hat sie zuerst ihr E-Mail-Postfach geöffnet, aber es gab keine neue Nachricht. Am dritten Montag hat sie in der Verwaltung angerufen. Man hat ihr erklärt, dass die zuständige Person krank gewesen ist und viele E-Mails noch unbeantwortet waren. Am Donnerstag gegen 14:15 Uhr hat Daria endlich eine Einladung zum Gespräch bekommen. In der E-Mail stand, dass das Gespräch am (an+dem) Freitag Nachmittag stattfindet und dass sie bitte alle Unterlagen mitbringen soll.",
         "questions": [
-          { "q": "Wofür sorgen die Freiwilligen?", "options": ["Für Sicherheit und Getränke.", "Für den Verkehr."], "solution": "Für Sicherheit und Getränke." }
+          {
+            "q": "Warum hat die Rückmeldung so lange gedauert?",
+            "options": ["Weil die zuständige Person krank gewesen ist.", "Weil Daria die falsche E-Mail-Adresse benutzt hat."],
+            "solution": "Weil die zuständige Person krank gewesen ist."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери правильную конструкцию (für/um).",
-        "text": "Die Firma ___ (1) ___ (2) neue Laptops für das Team ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ich warte ___ (1) eine E-Mail, und mein Kollege wartet ___ (2) den Anruf der Verwaltung.",
         "gaps": [
-          { "id": 1, "options": ["sorgt", "sorgt sich"], "solution": "sorgt" },
-          { "id": 2, "options": ["für", "um"], "solution": "für" }
+          { "id": 1, "options": ["auf", "an", "über"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "für", "mit"], "solution": "auf" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с wofür.",
-        "sentence": "Die Organisation sorgt für Unterkunft.",
-        "solution": "Wofür sorgt die Organisation?"
+        "task": "Переформулируй с worauf/wo-.",
+        "sentence": "Daria hat auf die Rückmeldung gewartet.",
+        "solution": "Worauf hat Daria gewartet?"
       }
     ],
     "vocab": [
-      { "de": "ausreichend", "ru": "достаточный" },
-      { "de": "für vs. um", "ru": "sorgen für = обеспечить чем-то; sich sorgen um = волноваться за" }
+      { "de": "die Rückmeldung", "ru": "обратная связь, ответ" },
+      { "de": "die Einladung", "ru": "приглашение" },
+      { "de": "das Gespräch", "ru": "разговор, собеседование" },
+      { "de": "die Verwaltung", "ru": "администрация, канцелярия" },
+      { "de": "zuständig", "ru": "ответственный (за что-то)" },
+      { "de": "geduldig", "ru": "терпеливый" }
     ]
   },
   {
-    "id": "sich-sorgen-um",
-    "expression": "sich sorgen um",
+    "id": "sich-freuen-auf",
+    "expression": "sich freuen auf",
     "case": "Akk",
-    "articles": { "m": "den Sohn", "f": "die Prüfung", "n": "das Ergebnis" },
-    "translation": "беспокоиться, волноваться за кого-то/о чём-то",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться в предвкушении (чего-то будущего)",
     "examples": {
       "present": [
-        { "de": "Ich sorge mich um dich.", "ru": "Я волнуюсь за тебя." },
-        { "de": "Sie sorgt sich um die Prüfung.", "ru": "Она переживает из-за экзамена." }
+        { "de": "Ich freue mich auf das Wochenende.", "ru": "Я с радостью жду выходных." },
+        { "de": "Wir freuen uns auf die Einladung zum Gespräch.", "ru": "Мы с радостью ждём приглашения на беседу." }
       ],
       "past": [
-        { "de": "Wir haben uns um den Patienten gesorgt.", "ru": "Мы беспокоились о пациенте." },
-        { "de": "Er hat sich um das Ergebnis gesorgt.", "ru": "Он переживал о результате." }
+        { "de": "Er hat sich auf den Besuch seiner Eltern gefreut.", "ru": "Он радовался предстоящему визиту родителей." },
+        { "de": "Sie hat sich auf das Gespräch am (an+dem) Nachmittag gefreut.", "ru": "Она радовалась беседе днём." }
       ],
       "future": [
-        { "de": "Ich werde mich nicht mehr um Kleinigkeiten sorgen.", "ru": "Я больше не буду переживать из-за мелочей." },
-        { "de": "Sie wird sich um ihren Bruder sorgen.", "ru": "Она будет волноваться за своего брата." }
+        { "de": "Wir werden uns auf die Reise freuen.", "ru": "Мы будем радоваться предстоящей поездке." },
+        { "de": "Sie wird sich auf das Ergebnis freuen.", "ru": "Она обрадуется предстоящему результату." }
       ]
     },
     "exercises": [
       {
         "type": "order",
-        "task": "Расставь слова по порядку.",
+        "task": "Поставь слова в правильном порядке.",
         "content": [
-          { "words": ["Ich", "mich", "um dich", "sorge", "nicht"], "solution": "Ich sorge mich nicht um dich." },
-          { "words": ["Wir", "haben", "uns", "um den Patienten", "gesorgt"], "solution": "Wir haben uns um den Patienten gesorgt." }
+          {
+            "words": ["Jakub", "hat", "sich", "auf den Theaterabend", "besonders", "gefreut"],
+            "solution": "Jakub hat sich besonders auf den Theaterabend gefreut."
+          },
+          {
+            "words": ["Wir", "freuen", "uns", "auf das Wochenende", "schon", "lange"],
+            "solution": "Wir freuen uns schon lange auf das Wochenende."
+          }
         ]
       },
       {
         "type": "reading",
-        "task": "Выбери верный ответ.",
-        "text": "Tom meldet sich nicht. Seine Mutter sorgt sich um ihn.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach einem anstrengenden Semester hat Jakub seine Auszeit geplant: drei Tage Wandern, ein Museumsbesuch und ein Theaterabend. Er hat gesagt, dass das Wetter für ihn nicht entscheidend ist. Wichtiger war, Abstand vom Bildschirm zu gewinnen. Schon vor der Reise hat er gemerkt, dass seine Stimmung besser geworden ist, wenn er nur an den Plan gedacht hat. Am letzten Tag hat er sich mit Freunden verabredet und sich besonders auf das Gespräch gefreut.",
         "questions": [
-          { "q": "Worum sorgt sich die Mutter?", "options": ["Um Tom.", "Um das Wetter."], "solution": "Um Tom." }
+          {
+            "q": "Was war für Jakub am wichtigsten?",
+            "options": ["Abstand vom Bildschirm.", "Perfektes Wetter."],
+            "solution": "Abstand vom Bildschirm."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери правильную конструкцию (für/um).",
-        "text": "Ich ___ (1) mich ___ (2) die Prüfung ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ich freue mich ___ (1) die Einladung und bereite mich ___ (2) das Gespräch vor.",
         "gaps": [
-          { "id": 1, "options": ["sorge", "sorge"], "solution": "sorge" },
-          { "id": 2, "options": ["um", "für"], "solution": "um" }
+          { "id": 1, "options": ["auf", "über", "an"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "für", "mit"], "solution": "auf" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worum.",
-        "sentence": "Sie sorgt sich um das Ergebnis.",
-        "solution": "Worum sorgt sie sich?"
+        "task": "Переформулируй с worauf/wo-.",
+        "sentence": "Er freut sich auf das Wochenende.",
+        "solution": "Worauf freut er sich?"
       }
     ],
     "vocab": [
-      { "de": "die Kleinigkeit", "ru": "мелочь" },
-      { "de": "sich sorgen um", "ru": "переживать за, волноваться о" }
-    ]
-  },
-  {
-    "id": "verzichten-auf",
-    "expression": "verzichten auf",
-    "case": "Akk",
-    "articles": { "m": "den Zucker", "f": "die Plastiktüte", "n": "das Auto" },
-    "translation": "отказываться от чего-то",
-    "examples": {
-      "present": [
-        { "de": "Ich verzichte auf Zucker.", "ru": "Я отказываюсь от сахара." },
-        { "de": "Sie verzichtet auf das Auto.", "ru": "Она отказывается от машины." }
-      ],
-      "past": [
-        { "de": "Wir haben auf Plastik verzichtet.", "ru": "Мы отказались от пластика." },
-        { "de": "Er hat auf die Reise verzichtet.", "ru": "Он отказался от поездки." }
-      ],
-      "future": [
-        { "de": "Ich werde auf Süßigkeiten verzichten.", "ru": "Я откажусь от сладостей." },
-        { "de": "Sie wird auf Einwegbecher verzichten.", "ru": "Она откажется от одноразовых стаканчиков." }
-      ]
-    },
-    "exercises": [
-      {
-        "type": "order",
-        "task": "Собери фразу.",
-        "content": [
-          { "words": ["Ich", "auf Zucker", "verzichte", "."], "solution": "Ich verzichte auf Zucker." },
-          { "words": ["Wir", "haben", "auf Plastik", "verzichtet"], "solution": "Wir haben auf Plastik verzichtet." }
-        ]
-      },
-      {
-        "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Aus gesundheitlichen Gründen verzichtete Paul ein Jahr lang auf Alkohol.",
-        "questions": [
-          { "q": "Worauf verzichtete Paul?", "options": ["Auf Alkohol.", "Auf Wasser."], "solution": "Auf Alkohol." }
-        ]
-      },
-      {
-        "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Viele Menschen ___ (1) ___ (2) Fleisch.",
-        "gaps": [
-          { "id": 1, "options": ["verzichten", "sorgen"], "solution": "verzichten" },
-          { "id": 2, "options": ["auf", "für"], "solution": "auf" }
-        ]
-      },
-      {
-        "type": "da_wo",
-        "task": "Спроси с worauf.",
-        "sentence": "Sie verzichtet auf das Auto.",
-        "solution": "Worauf verzichtet sie?"
-      }
-    ],
-    "vocab": [
-      { "de": "aus gesundheitlichen Gründen", "ru": "по медицинским/здоровьесберегающим причинам" },
-      { "de": "der Einwegbecher", "ru": "одноразовый стаканчик" }
-    ]
-  },
-  {
-    "id": "aufpassen-auf",
-    "expression": "aufpassen auf",
-    "case": "Akk",
-    "articles": { "m": "den Verkehr", "f": "die Kinder", "n": "das Gepäck" },
-    "translation": "присматривать за кем-то/чем-то; быть внимательным к",
-    "examples": {
-      "present": [
-        { "de": "Ich passe auf die Kinder auf.", "ru": "Я присматриваю за детьми." },
-        { "de": "Bitte pass auf den Verkehr auf.", "ru": "Пожалуйста, будь внимателен на дороге." }
-      ],
-      "past": [
-        { "de": "Er hat auf das Gepäck aufgepasst.", "ru": "Он присмотрел за багажом." },
-        { "de": "Wir haben im Labor auf die Sicherheit aufgepasst.", "ru": "Мы следили за безопасностью в лаборатории." }
-      ],
-      "future": [
-        { "de": "Wirst du auf meine Tasche aufpassen?", "ru": "Присмотришь за моей сумкой?" },
-        { "de": "Sie wird auf jedes Detail aufpassen.", "ru": "Она будет внимательно следить за каждой деталью." }
-      ]
-    },
-    "exercises": [
-      {
-        "type": "order",
-        "task": "Обрати внимание: отделяемый глагол.",
-        "content": [
-          { "words": ["Ich", "passe", "auf die Kinder", "auf"], "solution": "Ich passe auf die Kinder auf." },
-          { "words": ["Er", "hat", "auf das Gepäck", "aufgepasst"], "solution": "Er hat auf das Gepäck aufgepasst." }
-        ]
-      },
-      {
-        "type": "reading",
-        "task": "Выбери ответ.",
-        "text": "Während der Pause passte Lara auf die Taschen ihrer Freunde auf.",
-        "questions": [
-          { "q": "Worauf passte Lara auf?", "options": ["Auf die Taschen.", "Auf die E-Mails."], "solution": "Auf die Taschen." }
-        ]
-      },
-      {
-        "type": "gap",
-        "task": "Выбери правильную форму.",
-        "text": "Bitte ___ (1) du heute ___ (2) die Regeln ___.",
-        "gaps": [
-          { "id": 1, "options": ["passt", "pass"], "solution": "pass" },
-          { "id": 2, "options": ["auf", "an"], "solution": "auf" }
-        ]
-      },
-      {
-        "type": "da_wo",
-        "task": "Спроси с worauf (или «auf wen?» для людей).",
-        "sentence": "Er passt auf den Verkehr auf.",
-        "solution": "Worauf passt er auf?"
-      }
-    ],
-    "vocab": [
-      { "de": "aufpassen (trennbar)", "ru": "отделяемый глагол «auf…passen»" },
-      { "de": "die Sicherheit", "ru": "безопасность" }
-    ]
-  },
-  {
-    "id": "uebersetzen-in-aus",
-    "expression": "übersetzen in + Akk / aus + Dat",
-    "case": "Akk / Dat",
-    "articles": { "m": "den Text", "f": "die E-Mail", "n": "das Buch" },
-    "translation": "переводить на (в) / с (какого-либо языка)",
-    "examples": {
-      "present": [
-        { "de": "Er übersetzt den Text ins Deutsche.", "ru": "Он переводит текст на немецкий." },
-        { "de": "Sie übersetzt aus dem Englischen.", "ru": "Она переводит с английского." }
-      ],
-      "past": [
-        { "de": "Wir haben die Anleitung ins Russische übersetzt.", "ru": "Мы перевели инструкцию на русский." },
-        { "de": "Die Autorin hat Kapitel aus dem Französischen übersetzt.", "ru": "Автор перевела главы с французского." }
-      ],
-      "future": [
-        { "de": "Ich werde den Vertrag ins Deutsche übersetzen.", "ru": "Я переведу договор на немецкий." },
-        { "de": "Sie wird aus dem Italienischen übersetzen.", "ru": "Она будет переводить с итальянского." }
-      ]
-    },
-    "exercises": [
-      {
-        "type": "order",
-        "task": "Собери фразу (обрати внимание: in+das=ins, aus+dem).",
-        "content": [
-          { "words": ["Er", "übersetzt", "den Text", "ins Deutsche"], "solution": "Er übersetzt den Text ins Deutsche." },
-          { "words": ["Sie", "übersetzt", "aus dem Englischen"], "solution": "Sie übersetzt aus dem Englischen." }
-        ]
-      },
-      {
-        "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Die Dolmetscherin arbeitet heute mit zwei Sprachen: Sie übersetzt aus dem Spanischen ins Deutsche.",
-        "questions": [
-          { "q": "Wohin übersetzt sie den Text?", "options": ["Ins Deutsche.", "Ins Französische."], "solution": "Ins Deutsche." }
-        ]
-      },
-      {
-        "type": "gap",
-        "task": "Выбери правильный вариант (in/aus).",
-        "text": "Bitte ___ (1) den Vertrag ___ (2) Deutsche und die E-Mail ___ (3) dem Englischen.",
-        "gaps": [
-          { "id": 1, "options": ["übersetzen Sie", "informieren Sie"], "solution": "übersetzen Sie" },
-          { "id": 2, "options": ["ins", "im"], "solution": "ins" },
-          { "id": 3, "options": ["aus", "von"], "solution": "aus" }
-        ]
-      },
-      {
-        "type": "da_wo",
-        "task": "Спроси: в какой язык / с какого языка?",
-        "sentence": "Er übersetzt den Text ins Deutsche und aus dem Englischen.",
-        "solution": "In welche Sprache und aus welcher Sprache übersetzt er den Text?"
-      }
-    ],
-    "vocab": [
-      { "de": "ins = in + das (Akk.)", "ru": "сокращение предлога и артикля" },
-      { "de": "aus dem Englischen (Dat.)", "ru": "устойчивое: «из английского» в дативе" }
+      { "de": "die Auszeit", "ru": "перерыв, тайм-аут" },
+      { "de": "der Theaterabend", "ru": "театральный вечер" },
+      { "de": "der Museumsbesuch", "ru": "посещение музея" },
+      { "de": "die Stimmung", "ru": "настроение" },
+      { "de": "Abstand gewinnen", "ru": "дистанцироваться, отвлечься" }
     ]
   }
 ]
