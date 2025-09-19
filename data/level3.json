@@ -1,292 +1,317 @@
 [
   {
-    "id": "sich-freuen-auf",
-    "expression": "sich freuen auf",
+    "id": "bitten-um",
+    "expression": "bitten um",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "радоваться предстоящему",
+    "translation": "просить о",
     "examples": {
       "present": [
-        { "de": "Ich freue mich auf das Wochenende.", "ru": "Я с нетерпением жду выходных." },
-        { "de": "Sie freut sich auf den Urlaub.", "ru": "Она ждёт отпуск с радостью." }
+        { "de": "Ich bitte um die Rückmeldung.", "ru": "Я прошу обратную связь." },
+        { "de": "Wir bitten um den Termin.", "ru": "Мы просим назначить встречу." }
       ],
       "past": [
-        { "de": "Wir haben uns auf die Party gefreut.", "ru": "Мы радовались предстоящей вечеринке." },
-        { "de": "Er hat sich lange auf das Konzert gefreut.", "ru": "Он долго ждал концерт." }
+        { "de": "Er hat um die Einladung gebeten.", "ru": "Он попросил приглашение." },
+        { "de": "Sie hat um das Gespräch gebeten.", "ru": "Она попросила разговор." }
       ],
       "future": [
-        { "de": "Ich werde mich auf den Besuch freuen.", "ru": "Я буду рад предстоящему визиту." },
-        { "de": "Sie wird sich auf das neue Projekt freuen.", "ru": "Она будет радоваться новому проекту." }
+        { "de": "Ich werde um das Ergebnis bitten.", "ru": "Я попрошу результат." },
+        { "de": "Sie werden um den Erfolg nicht bitten müssen.", "ru": "Им не придётся просить об успехе." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери фразу.",
-        "content": [
-          { "words": ["Ich", "mich", "auf das Wochenende", "freue", "."], "solution": "Ich freue mich auf das Wochenende." },
-          { "words": ["Wir", "haben", "uns", "auf die Reise", "gefreut", "."], "solution": "Wir haben uns auf die Reise gefreut." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Nina hat die Tickets bekommen. Seit gestern freut sie sich auf das Konzert.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Projektleitung hat die Studierenden per E-Mail um Geduld gebeten. Man hat erklärt, dass die Prüfung verspätet startet. Am (an+dem) Nachmittag hat die Verwaltung um Verständnis gebeten und hat einen neuen Termin vorgeschlagen.",
         "questions": [
-          { "q": "Worauf freut sich Nina?", "options": ["Auf das Konzert.", "Auf die Prüfung."], "solution": "Auf das Konzert." }
+          {
+            "q": "О чём попросила администрация днём?",
+            "options": [
+              "Um Verständnis.",
+              "Um Urlaub.",
+              "Um ein Auto."
+            ],
+            "solution": "Um Verständnis."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Kinder ___ (1) ___ (2) die Sommerferien ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Könnten Sie mich ___ (1) etwas Zeit ___ (2)?",
         "gaps": [
-          { "id": 1, "options": ["freuen", "ärgern"], "solution": "freuen" },
-          { "id": 2, "options": ["sich auf", "sich über"], "solution": "sich auf" }
+          { "id": 1, "options": ["um", "auf", "an"], "solution": "um" },
+          { "id": 2, "options": ["bitten", "warten", "kümmern"], "solution": "bitten" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Задай вопрос с worauf.",
-        "sentence": "Ihr freut euch auf die Ergebnisse.",
-        "solution": "Worauf freut ihr euch?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bittest um die Rückmeldung.", "solution": "Worum bittest du?" },
+          { "sentence": "Er bittet um den Termin.", "solution": "Worum bittet er?" },
+          { "sentence": "Wir bitten um die Einladung.", "solution": "Worum bitten wir?" },
+          { "sentence": "Sie bittet um das Gespräch.", "solution": "Worum bittet sie?" },
+          { "sentence": "Ihr bittet um das Ergebnis.", "solution": "Worum bittet ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "der Besuch", "ru": "визит" },
-      { "de": "sich auf etwas freuen", "ru": "радоваться предстоящему" }
+      { "de": "um Verständnis bitten", "ru": "просить понимания" },
+      { "de": "vorschlagen", "ru": "предлагать" }
     ]
   },
   {
-    "id": "sich-kuemmern-um",
-    "expression": "sich kümmern um",
+    "id": "protestieren-gegen",
+    "expression": "protestieren gegen",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "заботиться/заниматься чем-либо",
+    "translation": "протестовать против",
     "examples": {
       "present": [
-        { "de": "Ich kümmere mich um den Termin.", "ru": "Я займусь встречей." },
-        { "de": "Sie kümmert sich um die Kinder.", "ru": "Она заботится о детях." }
+        { "de": "Die Studierenden protestieren gegen die Gebühr.", "ru": "Студенты протестуют против взноса." },
+        { "de": "Wir protestieren gegen die Regel.", "ru": "Мы протестуем против правила." }
       ],
       "past": [
-        { "de": "Er hat sich um die Reparatur gekümmert.", "ru": "Он занялся ремонтом." },
-        { "de": "Wir haben uns um die Anmeldung gekümmert.", "ru": "Мы оформили регистрацию." }
+        { "de": "Viele haben gegen die Kürzung protestiert.", "ru": "Многие протестовали против сокращения." },
+        { "de": "Die Gruppe hat gegen den Termin protestiert.", "ru": "Группа протестовала против даты встречи." }
       ],
       "future": [
-        { "de": "Ich werde mich um die Unterlagen kümmern.", "ru": "Я позабочусь о документах." },
-        { "de": "Sie wird sich um den Transport kümmern.", "ru": "Она займётся транспортом." }
+        { "de": "Man wird gegen das Ergebnis protestieren.", "ru": "Будут протестовать против результата." },
+        { "de": "Sie werden gegen die Entscheidung protestieren.", "ru": "Они будут протестовать против решения." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Расставь слова.",
-        "content": [
-          { "words": ["Ich", "mich", "um den Termin", "kümmere", "."], "solution": "Ich kümmere mich um den Termin." },
-          { "words": ["Er", "hat", "sich", "um die Anmeldung", "gekümmert", "."], "solution": "Er hat sich um die Anmeldung gekümmert." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери правильный ответ.",
-        "text": "Tom ist heute im Büro und kümmert sich um die Rechnungen.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Bekanntgabe hat die Gruppe gegen die neuen Gebühren protestiert. Viele Studierende haben Plakate gemacht und haben am (an+dem) Abend eine E-Mail an die Verwaltung geschrieben. Später hat die Leitung Gespräche angeboten.",
         "questions": [
-          { "q": "Worum kümmert sich Tom?", "options": ["Um die Rechnungen.", "Um das Wetter."], "solution": "Um die Rechnungen." }
+          {
+            "q": "Против чего протестовала группа?",
+            "options": [
+              "Gegen die neuen Gebühren.",
+              "Gegen den Hausmeister.",
+              "Gegen die Kantine."
+            ],
+            "solution": "Gegen die neuen Gebühren."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Kannst du dich ___ (1) die Gäste ___ (2) ?",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Mitarbeitenden protestieren ___ (1) die Kürzung, und die Studierenden protestieren ___ (2) die Regel.",
         "gaps": [
-          { "id": 1, "options": ["um", "für"], "solution": "um" },
-          { "id": 2, "options": ["kümmern", "vorbereiten"], "solution": "kümmern" }
+          { "id": 1, "options": ["gegen", "für", "um"], "solution": "gegen" },
+          { "id": 2, "options": ["gegen", "auf", "an"], "solution": "gegen" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Задай вопрос с worum.",
-        "sentence": "Lisa kümmert sich um die Kinder.",
-        "solution": "Worum kümmert sich Lisa?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Gruppe protestiert gegen die Entscheidung.", "solution": "Wogegen protestiert die Gruppe?" },
+          { "sentence": "Sie protestieren gegen die Regel.", "solution": "Wogegen protestieren sie?" },
+          { "sentence": "Wir protestieren gegen die Gebühr.", "solution": "Wogegen protestieren wir?" },
+          { "sentence": "Er protestiert gegen den Termin.", "solution": "Wogegen protestiert er?" },
+          { "sentence": "Ihr protestiert gegen das Ergebnis.", "solution": "Wogegen protestiert ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Anmeldung", "ru": "регистрация, запись" },
-      { "de": "sich um etwas kümmern", "ru": "заниматься чем-либо" }
+      { "de": "die Gebühr", "ru": "плата, взнос" },
+      { "de": "die Kürzung", "ru": "сокращение" }
     ]
   },
   {
-    "id": "sich-vorbereiten-auf",
-    "expression": "sich vorbereiten auf",
+    "id": "kaempfen-fuer",
+    "expression": "kämpfen für",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "готовиться к чему-либо",
+    "translation": "бороться за",
     "examples": {
       "present": [
-        { "de": "Ich bereite mich auf die Prüfung vor.", "ru": "Я готовлюсь к экзамену." },
-        { "de": "Sie bereitet sich auf das Gespräch vor.", "ru": "Она готовится к беседе." }
+        { "de": "Wir kämpfen für bessere Bedingungen.", "ru": "Мы боремся за лучшие условия." },
+        { "de": "Sie kämpft für den Erfolg des Projekts.", "ru": "Она борется за успех проекта." }
       ],
       "past": [
-        { "de": "Wir haben uns gut auf den Test vorbereitet.", "ru": "Мы хорошо подготовились к тесту." },
-        { "de": "Er hat sich intensiv auf das Vorstellungsgespräch vorbereitet.", "ru": "Он интенсивно готовился к собеседованию." }
+        { "de": "Die Gruppe hat für die Rechte gekämpft.", "ru": "Группа боролась за права." },
+        { "de": "Er hat für die Einladung aller gekämpft.", "ru": "Он добивался приглашения всех." }
       ],
       "future": [
-        { "de": "Ich werde mich auf den Umzug vorbereiten.", "ru": "Я буду готовиться к переезду." },
-        { "de": "Sie wird sich auf die Präsentation vorbereiten.", "ru": "Она будет готовиться к презентации." }
+        { "de": "Wir werden für das Ergebnis kämpfen.", "ru": "Мы будем бороться за результат." },
+        { "de": "Sie werden für den Termin kämpfen.", "ru": "Они будут добиваться назначения встречи." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение (обрати внимание на отделяемый глагол).",
-        "content": [
-          { "words": ["Ich", "mich", "auf die Prüfung", "vor", "bereite", "."], "solution": "Ich bereite mich auf die Prüfung vor." },
-          { "words": ["Er", "hat", "sich", "auf das Gespräch", "vorbereitet", "."], "solution": "Er hat sich auf das Gespräch vorbereitet." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Bevor Jana die Präsentation hält, bereitet sie sich abends darauf vor.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Initiative hat für transparente Prüfungen gekämpft. Viele Lehrkräfte haben zugestimmt und haben am (an+dem) Ende des Semesters neue Regeln eingeführt. Später hat die Verwaltung die Ergebnisse veröffentlicht.",
         "questions": [
-          { "q": "Worauf bereitet sich Jana vor?", "options": ["Auf die Präsentation.", "Auf den Urlaub."], "solution": "Auf die Präsentation." }
+          {
+            "q": "За что боролась инициатива?",
+            "options": [
+              "Für transparente Prüfungen.",
+              "Für längere Ferien.",
+              "Für neue Möbel."
+            ],
+            "solution": "Für transparente Prüfungen."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери правильный вариант.",
-        "text": "Wir ___ (1) ___ (2) den Test ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir kämpfen ___ (1) die Gleichbehandlung, und das Team kämpft ___ (2) den Erfolg des Projekts.",
         "gaps": [
-          { "id": 1, "options": ["bereiten", "verlassen"], "solution": "bereiten" },
-          { "id": 2, "options": ["uns auf", "uns an"], "solution": "uns auf" }
+          { "id": 1, "options": ["für", "gegen", "um"], "solution": "für" },
+          { "id": 2, "options": ["für", "an", "auf"], "solution": "für" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Переформулируй с worauf/da-.",
-        "sentence": "Tom bereitet sich auf das Interview vor.",
-        "solution": "Worauf bereitet sich Tom vor?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr kämpft für die Rechte.", "solution": "Wofür kämpft ihr?" },
+          { "sentence": "Er kämpft für den Erfolg.", "solution": "Wofür kämpft er?" },
+          { "sentence": "Wir kämpfen für bessere Bedingungen.", "solution": "Wofür kämpfen wir?" },
+          { "sentence": "Sie kämpft für das Ergebnis.", "solution": "Wofür kämpft sie?" },
+          { "sentence": "Die Gruppe kämpft für den Termin.", "solution": "Wofür kämpft die Gruppe?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "das Vorstellungsgespräch", "ru": "собеседование" },
-      { "de": "sich auf etwas vorbereiten", "ru": "готовиться к чему-либо" }
+      { "de": "die Bedingungen", "ru": "условия" },
+      { "de": "die Gleichbehandlung", "ru": "равное обращение" }
     ]
   },
   {
-    "id": "sich-verlassen-auf",
-    "expression": "sich verlassen auf",
+    "id": "sorgen-fuer",
+    "expression": "sorgen für",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "полагаться на кого-либо/что-либо",
+    "translation": "заботиться о, обеспечивать",
     "examples": {
       "present": [
-        { "de": "Ich verlasse mich auf meine Freunde.", "ru": "Я полагаюсь на своих друзей." },
-        { "de": "Sie verlässt sich auf die Erfahrung des Teams.", "ru": "Она полагается на опыт команды." }
+        { "de": "Die Verwaltung sorgt für klare Informationen.", "ru": "Администрация обеспечивает понятную информацию." },
+        { "de": "Ich sorge für den Termin.", "ru": "Я позабочусь о встрече." }
       ],
       "past": [
-        { "de": "Wir haben uns auf die Angaben verlassen.", "ru": "Мы полагались на предоставленные данные." },
-        { "de": "Er hat sich auf sein Gefühl verlassen.", "ru": "Он полагался на своё чувство." }
+        { "de": "Sie hat für die Einladung gesorgt.", "ru": "Она позаботилась о приглашении." },
+        { "de": "Er hat für das Gespräch gesorgt.", "ru": "Он обеспечил проведение разговора." }
       ],
       "future": [
-        { "de": "Ich werde mich auf dich verlassen.", "ru": "Я буду полагаться на тебя." },
-        { "de": "Sie wird sich auf das Navi verlassen.", "ru": "Она будет полагаться на навигатор." }
+        { "de": "Ich werde für das Ergebnis sorgen.", "ru": "Я позабочусь о результате." },
+        { "de": "Sie werden für den Erfolg sorgen.", "ru": "Они обеспечат успех." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери фразу.",
-        "content": [
-          { "words": ["Ich", "mich", "auf dich", "verlasse", "."], "solution": "Ich verlasse mich auf dich." },
-          { "words": ["Wir", "haben", "uns", "auf die Angaben", "verlassen", "."], "solution": "Wir haben uns auf die Angaben verlassen." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Das Team verließ sich auf den Plan, obwohl wenig Zeit blieb.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor dem Termin hat die Assistentin für die Technik gesorgt. Sie hat die Geräte getestet und hat am (an+dem) Morgen die Zugangsdaten verschickt. Danach hat sie für die Einladung der Gäste gesorgt.",
         "questions": [
-          { "q": "Worauf verließ sich das Team?", "options": ["Auf den Plan.", "Auf das Glück."], "solution": "Auf den Plan." }
+          {
+            "q": "За что отвечала ассистентка до встречи?",
+            "options": [
+              "Für die Technik.",
+              "Für das Catering.",
+              "Für die Möbel."
+            ],
+            "solution": "Für die Technik."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Kann ich mich ___ (1) dich ___ (2) ? — Ja, sicher.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Kannst du bitte ___ (1) klare Hinweise ___ (2)?",
         "gaps": [
-          { "id": 1, "options": ["auf", "an"], "solution": "auf" },
-          { "id": 2, "options": ["verlassen", "vorbereiten"], "solution": "verlassen" }
+          { "id": 1, "options": ["für", "gegen", "um"], "solution": "für" },
+          { "id": 2, "options": ["sorgen", "warten", "denken"], "solution": "sorgen" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worauf.",
-        "sentence": "Er verlässt sich auf seine Erfahrung.",
-        "solution": "Worauf verlässt er sich?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Verwaltung sorgt für die Informationen.", "solution": "Wofür sorgt die Verwaltung?" },
+          { "sentence": "Er sorgt für den Termin.", "solution": "Wofür sorgt er?" },
+          { "sentence": "Wir sorgen für die Einladung.", "solution": "Wofür sorgen wir?" },
+          { "sentence": "Sie sorgt für das Gespräch.", "solution": "Wofür sorgt sie?" },
+          { "sentence": "Ihr sorgt für das Ergebnis.", "solution": "Wofür sorgt ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Angabe", "ru": "данные, сведения" },
-      { "de": "sich (auf jdn/etw.) verlassen", "ru": "полагаться на (кого-либо/что-либо)" }
+      { "de": "die Zugangsdaten", "ru": "данные для доступа" },
+      { "de": "der Hinweis", "ru": "указание, примечание" }
     ]
   },
   {
-    "id": "sich-gewoehnen-an",
-    "expression": "sich gewöhnen an",
+    "id": "sich-sorgen-um",
+    "expression": "sich sorgen um",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "привыкать к кому-либо/чему-либо",
+    "translation": "беспокоиться о",
     "examples": {
       "present": [
-        { "de": "Ich gewöhne mich an die neue Stadt.", "ru": "Я привыкаю к новому городу." },
-        { "de": "Sie gewöhnt sich an den Arbeitsrhythmus.", "ru": "Она привыкает к рабочему ритму." }
+        { "de": "Ich sorge mich um das Ergebnis.", "ru": "Я беспокоюсь о результате." },
+        { "de": "Sie sorgt sich um den Termin.", "ru": "Она переживает о встрече." }
       ],
       "past": [
-        { "de": "Wir haben uns an das Klima gewöhnt.", "ru": "Мы привыкли к климату." },
-        { "de": "Er hat sich schnell an die Regeln gewöhnt.", "ru": "Он быстро привык к правилам." }
+        { "de": "Er hat sich um die Prüfung gesorgt.", "ru": "Он переживал из-за экзамена." },
+        { "de": "Wir haben uns um die Einladung gesorgt.", "ru": "Мы беспокоились о приглашении." }
       ],
       "future": [
-        { "de": "Ich werde mich an die Routine gewöhnen.", "ru": "Я привыкну к рутине." },
-        { "de": "Sie wird sich an das Tempo gewöhnen.", "ru": "Она привыкнет к темпу." }
+        { "de": "Ich werde mich nicht um den Erfolg sorgen.", "ru": "Я не буду переживать об успехе." },
+        { "de": "Sie werden sich um das Gespräch sorgen.", "ru": "Они будут переживать о разговоре." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение.",
-        "content": [
-          { "words": ["Ich", "mich", "an die neue Stadt", "gewöhne", "."], "solution": "Ich gewöhne mich an die neue Stadt." },
-          { "words": ["Er", "hat", "sich", "an das Klima", "gewöhnt", "."], "solution": "Er hat sich an das Klima gewöhnt." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери верный ответ.",
-        "text": "Am Anfang war es schwer, aber mit der Zeit gewöhnten sie sich an das kalte Wetter.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Prüfung hat Nina sich sehr um das Ergebnis gesorgt. Ihre Freunde haben ihr gesagt, dass alles gut läuft. Am (an+dem) Abend hat sie sich beruhigt, weil sie eine positive Rückmeldung bekommen hat.",
         "questions": [
-          { "q": "Woran gewöhnten sie sich?", "options": ["An das kalte Wetter.", "An die heißen Sommer."], "solution": "An das kalte Wetter." }
+          {
+            "q": "Почему Нина успокоилась вечером?",
+            "options": [
+              "Sie hat eine positive Rückmeldung bekommen.",
+              "Sie hat ein Auto gekauft.",
+              "Sie hat Urlaub genommen."
+            ],
+            "solution": "Sie hat eine positive Rückmeldung bekommen."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Braucht man lange, um sich ___ (1) neue Regeln ___ (2) ?",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Mach dir keine Sorgen ___ (1) die Prüfung. Ich sorge mich nicht ___ (2) den Termin.",
         "gaps": [
-          { "id": 1, "options": ["an", "auf"], "solution": "an" },
-          { "id": 2, "options": ["zu gewöhnen", "zu verlassen"], "solution": "zu gewöhnen" }
+          { "id": 1, "options": ["um", "für", "gegen"], "solution": "um" },
+          { "id": 2, "options": ["um", "an", "auf"], "solution": "um" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с woran.",
-        "sentence": "Du gewöhnst dich an den Arbeitsrhythmus.",
-        "solution": "Woran gewöhnst du dich?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du sorgst dich um das Ergebnis.", "solution": "Worum sorgst du dich?" },
+          { "sentence": "Er sorgt sich um den Termin.", "solution": "Worum sorgt er sich?" },
+          { "sentence": "Wir sorgen uns um die Prüfung.", "solution": "Worum sorgen wir uns?" },
+          { "sentence": "Sie sorgt sich um die Einladung.", "solution": "Worum sorgt sie sich?" },
+          { "sentence": "Ihr sorgt euch um das Gespräch.", "solution": "Worum sorgt ihr euch?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Routine", "ru": "рутина, распорядок" },
-      { "de": "ans (Akk.) = an+das", "ru": "сокращение предлога и артикля (an+das → ans)" }
+      { "de": "sich beruhigen", "ru": "успокоиться" },
+      { "de": "die Sorge", "ru": "беспокойство" }
     ]
   }
 ]

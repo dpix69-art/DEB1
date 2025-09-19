@@ -1,288 +1,317 @@
 [
   {
-    "id": "kaempfen-fuer",
-    "expression": "kämpfen für",
-    "case": "Akk",
-    "articles": { "m": "den Plan", "f": "die Gerechtigkeit", "n": "das Ziel" },
-    "translation": "бороться за что-либо",
+    "id": "teilnehmen-an",
+    "expression": "teilnehmen an",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "участвовать в",
     "examples": {
       "present": [
-        { "de": "Wir kämpfen für die Gerechtigkeit.", "ru": "Мы боремся за справедливость." },
-        { "de": "Das Team kämpft für das gemeinsame Ziel.", "ru": "Команда борется за общую цель." }
+        { "de": "Ich nehme an dem Gespräch teil.", "ru": "Я участвую в разговоре." },
+        { "de": "Sie nimmt an der Prüfung teil.", "ru": "Она участвует в экзамене." }
       ],
       "past": [
-        { "de": "Sie haben jahrelang für bessere Bedingungen gekämpft.", "ru": "Они годами боролись за лучшие условия." },
-        { "de": "Er hat für den Plan gekämpft, bis er angenommen wurde.", "ru": "Он боролся за план, пока его не приняли." }
+        { "de": "Wir haben an dem Termin teilgenommen.", "ru": "Мы участвовали во встрече." },
+        { "de": "Er hat an dem Projekt teilgenommen.", "ru": "Он участвовал в проекте." }
       ],
       "future": [
-        { "de": "Ich werde weiter für meine Rechte kämpfen.", "ru": "Я буду и дальше бороться за свои права." },
-        { "de": "Wir werden für das Projekt kämpfen.", "ru": "Мы будем бороться за проект." }
+        { "de": "Ich werde an der Besprechung teilnehmen.", "ru": "Я приму участие в совещании." },
+        { "de": "Sie werden an dem Workshop teilnehmen.", "ru": "Они примут участие в воркшопе." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение.",
-        "content": [
-          { "words": ["Wir", "kämpfen", "für bessere Bedingungen"], "solution": "Wir kämpfen für bessere Bedingungen." },
-          { "words": ["Er", "hat", "für das Ziel", "gekämpft"], "solution": "Er hat für das Ziel gekämpft." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Die Mitarbeitenden kämpften lange für transparente Löhne. Am Ende gab es neue Regeln.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Mitarbeitenden haben an der Schulung teilgenommen. Der Trainer hat Beispiele gezeigt und hat am (an+dem) Ende Fragen gesammelt. Danach haben alle an einer kurzen Umfrage teilgenommen.",
         "questions": [
-          { "q": "Wofür kämpften die Mitarbeitenden?", "options": ["Für transparente Löhne.", "Für längere Pausen."], "solution": "Für transparente Löhne." }
+          {
+            "q": "В чём сотрудники приняли участие после тренинга?",
+            "options": [
+              "An einer kurzen Umfrage.",
+              "An einem Konzert.",
+              "An einer Reise."
+            ],
+            "solution": "An einer kurzen Umfrage."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее (für/gegen).",
-        "text": "Wir kämpfen ___ (1) faire Verträge.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Nehmt ihr morgen ___ (1) dem Termin ___ (2)?",
         "gaps": [
-          { "id": 1, "options": ["für", "gegen"], "solution": "für" }
+          { "id": 1, "options": ["an", "mit", "bei"], "solution": "an" },
+          { "id": 2, "options": ["teil", "arbeitet", "reagiert"], "solution": "teil" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с wofür.",
-        "sentence": "Sie kämpfen für die Gerechtigkeit.",
-        "solution": "Wofür kämpfen sie?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du nimmst an der Prüfung teil.", "solution": "Woran nimmst du teil?" },
+          { "sentence": "Er nimmt an dem Gespräch teil.", "solution": "Woran nimmt er teil?" },
+          { "sentence": "Wir nehmen an dem Termin teil.", "solution": "Woran nehmen wir teil?" },
+          { "sentence": "Sie nimmt an dem Projekt teil.", "solution": "Woran nimmt sie teil?" },
+          { "sentence": "Ihr nehmt an der Sitzung teil.", "solution": "Woran nehmt ihr teil?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Bedingungen (Pl.)", "ru": "условия" },
-      { "de": "gerecht / die Gerechtigkeit", "ru": "справедливый / справедливость" }
+      { "de": "die Schulung", "ru": "обучение, тренинг" },
+      { "de": "die Umfrage", "ru": "опрос" }
     ]
   },
   {
-    "id": "kaempfen-gegen",
-    "expression": "kämpfen gegen",
-    "case": "Akk",
-    "articles": { "m": "den Betrug", "f": "die Ungleichheit", "n": "das Problem" },
-    "translation": "бороться против чего-либо",
+    "id": "abhaengen-von",
+    "expression": "abhängen von",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "зависеть от",
     "examples": {
       "present": [
-        { "de": "Wir kämpfen gegen den Betrug.", "ru": "Мы боремся против мошенничества." },
-        { "de": "Die Organisation kämpft gegen die Ungleichheit.", "ru": "Организация борется против неравенства." }
+        { "de": "Der Erfolg hängt von dem Ergebnis ab.", "ru": "Успех зависит от результата." },
+        { "de": "Es hängt von der Rückmeldung ab.", "ru": "Это зависит от обратной связи." }
       ],
       "past": [
-        { "de": "Viele Menschen haben gegen das Problem gekämpft.", "ru": "Многие боролись против этой проблемы." },
-        { "de": "Er hat jahrelang gegen Korruption gekämpft.", "ru": "Он годами боролся с коррупцией." }
+        { "de": "Es hat von dem Termin abgehangen.", "ru": "Это зависело от встречи." },
+        { "de": "Die Entscheidung hat von der Einladung abgehangen.", "ru": "Решение зависело от приглашения." }
       ],
       "future": [
-        { "de": "Ich werde weiter gegen Fake-News kämpfen.", "ru": "Я продолжу бороться с фейковыми новостями." },
-        { "de": "Sie werden gegen die Verschwendung kämpfen.", "ru": "Они будут бороться с расточительством." }
+        { "de": "Es wird von dem Gespräch abhängen.", "ru": "Это будет зависеть от разговора." },
+        { "de": "Der Plan wird von der Prüfung abhängen.", "ru": "План будет зависеть от экзамена." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Переставь слова.",
-        "content": [
-          { "words": ["Wir", "kämpfen", "gegen die Ungleichheit"], "solution": "Wir kämpfen gegen die Ungleichheit." },
-          { "words": ["Er", "hat", "gegen das Problem", "gekämpft"], "solution": "Er hat gegen das Problem gekämpft." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери ответ.",
-        "text": "Die Stadt kämpft gegen illegale Müllentsorgung und informiert die Bürgerinnen und Bürger.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Zusage hat von der Rückmeldung der Leitung abgehangen. Man hat am (an+dem) Dienstag alles geprüft und hat am (an+dem) Abend entschieden.",
         "questions": [
-          { "q": "Wogegen kämpft die Stadt?", "options": ["Gegen illegale Müllentsorgung.", "Gegen Regenwetter."], "solution": "Gegen illegale Müllentsorgung." }
+          {
+            "q": "От чего зависела положительная реакция?",
+            "options": [
+              "Von der Rückmeldung der Leitung.",
+              "Von dem Wetter.",
+              "Von dem Parkplatz."
+            ],
+            "solution": "Von der Rückmeldung der Leitung."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери правильный вариант.",
-        "text": "Wir kämpfen ___ (1) Diskriminierung.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Der Termin ___ (1) der Raumverfügbarkeit ___ (2).",
         "gaps": [
-          { "id": 1, "options": ["gegen", "für"], "solution": "gegen" }
+          { "id": 1, "options": ["hängt von", "arbeitet bei", "nimmt an"], "solution": "hängt von" },
+          { "id": 2, "options": ["ab", "mit", "zu"], "solution": "ab" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с wogegen.",
-        "sentence": "Sie kämpfen gegen den Betrug.",
-        "solution": "Wogegen kämpfen sie?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Erfolg hängt von der Einladung ab.", "solution": "Wovon hängt der Erfolg ab?" },
+          { "sentence": "Es hängt von dem Ergebnis ab.", "solution": "Wovon hängt es ab?" },
+          { "sentence": "Der Plan hängt von der Rückmeldung ab.", "solution": "Wovon hängt der Plan ab?" },
+          { "sentence": "Die Entscheidung hängt von dem Termin ab.", "solution": "Wovon hängt die Entscheidung ab?" },
+          { "sentence": "Unsere Teilnahme hängt von dem Gespräch ab.", "solution": "Wovon hängt unsere Teilnahme ab?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Verschwendung", "ru": "расточительство" },
-      { "de": "die Diskriminierung", "ru": "дискриминация" }
+      { "de": "die Verfügbarkeit", "ru": "доступность" },
+      { "de": "prüfen", "ru": "проверять" }
     ]
   },
   {
-    "id": "protestieren-gegen",
-    "expression": "protestieren gegen",
-    "case": "Akk",
-    "articles": { "m": "den Plan", "f": "die Regel", "n": "das Gesetz" },
-    "translation": "протестовать против чего-либо",
+    "id": "arbeiten-an",
+    "expression": "arbeiten an",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать над",
     "examples": {
       "present": [
-        { "de": "Viele Menschen protestieren gegen das Gesetz.", "ru": "Многие протестуют против закона." },
-        { "de": "Die Studierenden protestieren gegen die neuen Regeln.", "ru": "Студенты протестуют против новых правил." }
+        { "de": "Ich arbeite an dem Projekt.", "ru": "Я работаю над проектом." },
+        { "de": "Sie arbeitet an der Einladung.", "ru": "Она работает над приглашением." }
       ],
       "past": [
-        { "de": "Wir haben gestern gegen den Plan protestiert.", "ru": "Мы вчера протестовали против плана." },
-        { "de": "Er hat mehrfach gegen die Entscheidung protestiert.", "ru": "Он неоднократно протестовал против решения." }
+        { "de": "Wir haben an dem Ergebnis gearbeitet.", "ru": "Мы работали над результатом." },
+        { "de": "Er hat an der Präsentation gearbeitet.", "ru": "Он работал над презентацией." }
       ],
       "future": [
-        { "de": "Ich werde nicht gegen alles protestieren.", "ru": "Я не буду протестовать против всего." },
-        { "de": "Sie werden nächste Woche gegen die Erhöhung protestieren.", "ru": "Они будут протестовать против повышения на следующей неделе." }
+        { "de": "Ich werde an dem Gesprächsleitfaden arbeiten.", "ru": "Я буду работать над планом разговора." },
+        { "de": "Sie werden an der Prüfungsvorbereitung arbeiten.", "ru": "Они будут работать над подготовкой к экзамену." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение.",
-        "content": [
-          { "words": ["Viele", "protestieren", "gegen die Entscheidung"], "solution": "Viele protestieren gegen die Entscheidung." },
-          { "words": ["Wir", "haben", "gegen den Plan", "protestiert"], "solution": "Wir haben gegen den Plan protestiert." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "An der Uni protestierten die Studierenden gegen die Kürzungen. Die Leitung versprach Gespräche.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Das Team hat eine Woche an dem Bericht gearbeitet. Am (an+dem) Freitag hat die Leiterin die Rückmeldung gegeben und hat am (an+dem) Abend eine Einladung zum Gespräch geschickt.",
         "questions": [
-          { "q": "Wogegen protestierten die Studierenden?", "options": ["Gegen die Kürzungen.", "Gegen die Ferien."], "solution": "Gegen die Kürzungen." }
+          {
+            "q": "Над чем команда работала неделю?",
+            "options": [
+              "An dem Bericht.",
+              "An dem Parkplatz.",
+              "An der Kantine."
+            ],
+            "solution": "An dem Bericht."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Подставь правильный предлог.",
-        "text": "Die Anwohner protestieren ___ (1) den Bau der Straße.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir arbeiten ___ (1) dem Ergebnis und ___ (2) konzentriert.",
         "gaps": [
-          { "id": 1, "options": ["gegen", "für"], "solution": "gegen" }
+          { "id": 1, "options": ["an", "bei", "mit"], "solution": "an" },
+          { "id": 2, "options": ["arbeiten", "reagieren", "diskutieren"], "solution": "arbeiten" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с wogegen.",
-        "sentence": "Sie protestieren gegen das Gesetz.",
-        "solution": "Wogegen protestieren sie?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest an der Präsentation.", "solution": "Woran arbeitest du?" },
+          { "sentence": "Er arbeitet an dem Projekt.", "solution": "Woran arbeitet er?" },
+          { "sentence": "Wir arbeiten an dem Ergebnis.", "solution": "Woran arbeiten wir?" },
+          { "sentence": "Sie arbeitet an der Einladung.", "solution": "Woran arbeitet sie?" },
+          { "sentence": "Ihr arbeitet an dem Gesprächsleitfaden.", "solution": "Woran arbeitet ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Erhöhung", "ru": "повышение (цены, платы и т. п.)" },
-      { "de": "kürzen / die Kürzung", "ru": "сокращать / сокращение" }
+      { "de": "der Leitfaden", "ru": "руководство, гайд" },
+      { "de": "die Präsentation", "ru": "презентация" }
     ]
   },
   {
-    "id": "berichten-ueber",
-    "expression": "berichten über",
-    "case": "Akk",
-    "articles": { "m": "den Vorfall", "f": "die Ausstellung", "n": "das Ereignis" },
-    "translation": "сообщать, делать репортаж о чём-то",
+    "id": "arbeiten-bei",
+    "expression": "arbeiten bei",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать в (у работодателя/в организации)",
     "examples": {
       "present": [
-        { "de": "Die Medien berichten über das Ereignis.", "ru": "СМИ сообщают о событии." },
-        { "de": "Er berichtet über die Ausstellung im Museum.", "ru": "Он делает репортаж о выставке в музее." }
+        { "de": "Ich arbeite bei der Verwaltung.", "ru": "Я работаю в администрации." },
+        { "de": "Er arbeitet bei dem Unternehmen.", "ru": "Он работает в компании." }
       ],
       "past": [
-        { "de": "Gestern wurde ausführlich über den Vorfall berichtet.", "ru": "Вчера подробно сообщалось о происшествии." },
-        { "de": "Sie hat über das Konzert berichtet.", "ru": "Она сообщила о концерте." }
+        { "de": "Sie hat bei der Agentur gearbeitet.", "ru": "Она работала в агентстве." },
+        { "de": "Wir haben bei dem Partner gearbeitet.", "ru": "Мы работали у партнёра." }
       ],
       "future": [
-        { "de": "Ich werde morgen über die Ergebnisse berichten.", "ru": "Я завтра сообщу о результатах." },
-        { "de": "Der Sender wird live über das Festival berichten.", "ru": "Канал будет сообщать о фестивале в прямом эфире." }
+        { "de": "Ich werde bei der Universität arbeiten.", "ru": "Я буду работать в университете." },
+        { "de": "Sie werden bei dem Start-up arbeiten.", "ru": "Они будут работать в стартапе." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Переставь слова.",
-        "content": [
-          { "words": ["Die Medien", "berichten", "über das Ereignis"], "solution": "Die Medien berichten über das Ereignis." },
-          { "words": ["Er", "hat", "über die Ausstellung", "berichtet"], "solution": "Er hat über die Ausstellung berichtet." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и выбери ответ.",
-        "text": "Mehrere Zeitungen berichten heute über den Unfall auf der Autobahn.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Studium hat Jana bei der Stadtverwaltung gearbeitet. Sie hat Einladungen verschickt und hat am (an+dem) Morgen oft Sprechstunden gemacht.",
         "questions": [
-          { "q": "Worüber berichten die Zeitungen?", "options": ["Über den Unfall.", "Über das Wetter."], "solution": "Über den Unfall." }
+          {
+            "q": "Где работала Яна после учёбы?",
+            "options": [
+              "Bei der Stadtverwaltung.",
+              "Bei der Schule.",
+              "Bei der Bank."
+            ],
+            "solution": "Bei der Stadtverwaltung."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Kannst du kurz ___ (1) die Ergebnisse ___ (2) ?",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Arbeitest du ___ (1) der Firma Müller oder ___ (2) der Universität?",
         "gaps": [
-          { "id": 1, "options": ["über", "von"], "solution": "über" },
-          { "id": 2, "options": ["berichten", "antworten"], "solution": "berichten" }
+          { "id": 1, "options": ["bei", "mit", "an"], "solution": "bei" },
+          { "id": 2, "options": ["bei", "mit", "an"], "solution": "bei" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worüber.",
-        "sentence": "Der Reporter berichtet über das Festival.",
-        "solution": "Worüber berichtet der Reporter?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest bei der Verwaltung.", "solution": "Wobei arbeitest du?" },
+          { "sentence": "Er arbeitet bei dem Unternehmen.", "solution": "Wobei arbeitet er?" },
+          { "sentence": "Wir arbeiten bei der Agentur.", "solution": "Wobei arbeiten wir?" },
+          { "sentence": "Sie arbeitet bei der Universität.", "solution": "Wobei arbeitet sie?" },
+          { "sentence": "Ihr arbeitet bei dem Start-up.", "solution": "Wobei arbeitet ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "berichten (über + Akk)", "ru": "сообщать, делать репортаж" },
-      { "de": "ausführlich", "ru": "подробно" }
+      { "de": "die Sprechstunde", "ru": "приёмные часы" },
+      { "de": "die Stadtverwaltung", "ru": "городская администрация" }
     ]
   },
   {
-    "id": "teilen-in",
-    "expression": "teilen in",
-    "case": "Akk",
-    "articles": { "m": "den Bereich", "f": "die Gruppe", "n": "das Kapitel" },
-    "translation": "делить/разделять на что-либо",
+    "id": "arbeiten-mit",
+    "expression": "arbeiten mit",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать с (инструментом/человеком)",
     "examples": {
       "present": [
-        { "de": "Wir teilen die Klasse in drei Gruppen.", "ru": "Мы делим класс на три группы." },
-        { "de": "Das Buch ist in fünf Kapitel geteilt.", "ru": "Книга разделена на пять глав." }
+        { "de": "Ich arbeite mit dem Team.", "ru": "Я работаю с командой." },
+        { "de": "Sie arbeitet mit der Software.", "ru": "Она работает с программой." }
       ],
       "past": [
-        { "de": "Der Kurs wurde in zwei Teile geteilt.", "ru": "Курс был разделён на две части." },
-        { "de": "Sie haben das Projekt in Bereiche geteilt.", "ru": "Они разделили проект на области." }
+        { "de": "Wir haben mit dem Partner gearbeitet.", "ru": "Мы работали с партнёром." },
+        { "de": "Er hat mit der Tabelle gearbeitet.", "ru": "Он работал с таблицей." }
       ],
       "future": [
-        { "de": "Ich werde den Text in Abschnitte teilen.", "ru": "Я разделю текст на разделы." },
-        { "de": "Wir werden die Aufgaben in kleine Schritte teilen.", "ru": "Мы разделим задания на маленькие шаги." }
+        { "de": "Ich werde mit dem Ergebnis arbeiten.", "ru": "Я буду работать с результатом." },
+        { "de": "Sie werden mit den Einladungen arbeiten.", "ru": "Они будут работать с приглашениями." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение.",
-        "content": [
-          { "words": ["Wir", "teilen", "den Kurs", "in zwei Teile"], "solution": "Wir teilen den Kurs in zwei Teile." },
-          { "words": ["Das Projekt", "wurde", "in Bereiche", "geteilt"], "solution": "Das Projekt wurde in Bereiche geteilt." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери верный ответ.",
-        "text": "Für die Präsentation teilten sie das Thema in drei Kapitel und arbeiteten parallel.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für das Projekt hat das Team mit einer neuen Software gearbeitet. Die Kollegin hat eine Schulung gegeben und hat am (an+dem) Ende Beispiele geteilt.",
         "questions": [
-          { "q": "Worin teilten sie das Thema?", "options": ["In drei Kapitel.", "In eine E-Mail."], "solution": "In drei Kapitel." }
+          {
+            "q": "С чем команда работала в проекте?",
+            "options": [
+              "Mit einer neuen Software.",
+              "Mit neuen Möbeln.",
+              "Mit einem Auto."
+            ],
+            "solution": "Mit einer neuen Software."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь предлог.",
-        "text": "Bitte teilt die Gruppe ___ (1) zwei Teams.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Arbeitest du ___ (1) dem Team oder ___ (2) externen Partnern?",
         "gaps": [
-          { "id": 1, "options": ["in", "auf"], "solution": "in" }
+          { "id": 1, "options": ["mit", "bei", "an"], "solution": "mit" },
+          { "id": 2, "options": ["mit", "bei", "an"], "solution": "mit" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси: на что разделили?",
-        "sentence": "Wir haben den Text in Abschnitte geteilt.",
-        "solution": "Worin habt ihr den Text geteilt?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest mit dem Kollegen.", "solution": "Womit arbeitest du?" },
+          { "sentence": "Er arbeitet mit der Tabelle.", "solution": "Womit arbeitet er?" },
+          { "sentence": "Wir arbeiten mit dem Ergebnis.", "solution": "Womit arbeiten wir?" },
+          { "sentence": "Sie arbeitet mit der Software.", "solution": "Womit arbeitet sie?" },
+          { "sentence": "Ihr arbeitet mit den Einladungen.", "solution": "Womit arbeitet ihr?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "der Abschnitt", "ru": "раздел, абзац" },
-      { "de": "teilen / geteilt (Partizip II)", "ru": "делить / разделённый" }
+      { "de": "extern", "ru": "внешний" },
+      { "de": "teilen", "ru": "делиться, делить" }
     ]
   }
 ]

@@ -1,295 +1,317 @@
 [
   {
-    "id": "sich-freuen-ueber",
-    "expression": "sich freuen über",
+    "id": "sich-erinnern-an",
+    "expression": "sich erinnern an",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "радоваться чему-то (уже произошедшему/имеющемуся)",
+    "translation": "помнить, вспоминать о",
     "examples": {
       "present": [
-        { "de": "Ich freue mich über das Geschenk.", "ru": "Я радуюсь подарку." },
-        { "de": "Sie freut sich über die guten Nachrichten.", "ru": "Она радуется хорошим новостям." }
+        { "de": "Ich erinnere mich an die Einladung.", "ru": "Я помню о приглашении." },
+        { "de": "Er erinnert sich an den Termin.", "ru": "Он вспоминает о встрече." }
       ],
       "past": [
-        { "de": "Wir haben uns über den Besuch gefreut.", "ru": "Мы обрадовались визиту." },
-        { "de": "Er hat sich sehr über die E-Mail gefreut.", "ru": "Он очень обрадовался письму." }
+        { "de": "Wir haben uns an das Gespräch erinnert.", "ru": "Мы вспомнили о разговоре." },
+        { "de": "Sie hat sich an die Prüfung erinnert.", "ru": "Она вспомнила об экзамене." }
       ],
       "future": [
-        { "de": "Ihr werdet euch über das Ergebnis freuen.", "ru": "Вы будете рады результату." },
-        { "de": "Sie wird sich über die Einladung freuen.", "ru": "Она обрадуется приглашению." }
+        { "de": "Ich werde mich an das Ergebnis erinnern.", "ru": "Я буду помнить о результате." },
+        { "de": "Sie werden sich an den Erfolg erinnern.", "ru": "Они будут помнить об успехе." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Поставь слова в правильном порядке.",
-        "content": [
-          { "words": ["Ich", "mich", "über das Geschenk", "freue", "."], "solution": "Ich freue mich über das Geschenk." },
-          { "words": ["Wir", "haben", "uns", "über den Besuch", "gefreut", "."], "solution": "Wir haben uns über den Besuch gefreut." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и выбери ответ.",
-        "text": "Anna bekam heute die Zusage für den Kurs. Den ganzen Tag freut sie sich darüber.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor dem Bürotermin hat sich Mira plötzlich an die Unterlagen erinnert. Sie hat ihrem Kollegen geschrieben und hat gesagt, dass sie am (an+dem) Nachmittag vorbeikommt. Am Abend hat sie sich auch an die Einladung für das nächste Gespräch erinnert und hat sie verschickt.",
         "questions": [
-          { "q": "Worüber freut sich Anna?", "options": ["Über die Zusage.", "Über den Absagebrief."], "solution": "Über die Zusage." }
+          {
+            "q": "Что вспомнила Мира во второй половине дня?",
+            "options": [
+              "Sie hat sich an die Einladung erinnert.",
+              "Sie hat sich an den Urlaub erinnert.",
+              "Sie hat sich an die Reparatur erinnert."
+            ],
+            "solution": "Sie hat sich an die Einladung erinnert."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Заполни пропуски.",
-        "text": "Ich ___ (1) ___ (2) die positiven Nachrichten ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Er erinnert sich ___ (1) den Termin nicht, aber ich erinnere mich ___ (2) die Prüfung.",
         "gaps": [
-          { "id": 1, "options": ["freue", "ärgere"], "solution": "freue" },
-          { "id": 2, "options": ["mich über", "mich auf"], "solution": "mich über" }
+          { "id": 1, "options": ["an", "auf", "um"], "solution": "an" },
+          { "id": 2, "options": ["an", "für", "mit"], "solution": "an" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Переформулируй вопрос с worüber.",
-        "sentence": "Du freust dich über die Ergebnisse.",
-        "solution": "Worüber freust du dich?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du erinnerst dich an das Gespräch.", "solution": "Woran erinnerst du dich?" },
+          { "sentence": "Er erinnert sich an die Prüfung.", "solution": "Woran erinnert er sich?" },
+          { "sentence": "Wir erinnern uns an die Einladung.", "solution": "Woran erinnern wir uns?" },
+          { "sentence": "Sie erinnert sich an den Termin.", "solution": "Woran erinnert sie sich?" },
+          { "sentence": "Ihr erinnert euch an das Ergebnis.", "solution": "Woran erinnert ihr euch?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Zusage", "ru": "согласие, подтверждение" },
-      { "de": "die Einladung", "ru": "приглашение" }
+      { "de": "vorbeikommen", "ru": "зайти, заехать" },
+      { "de": "verschicken", "ru": "отправлять" }
     ]
   },
   {
-    "id": "sich-aergern-ueber",
-    "expression": "sich ärgern über",
+    "id": "sich-vorbereiten-auf",
+    "expression": "sich vorbereiten auf",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "злиться, сердиться из-за чего-то/на что-то",
+    "translation": "готовиться к",
     "examples": {
       "present": [
-        { "de": "Ich ärgere mich über den Lärm.", "ru": "Я злюсь из-за шума." },
-        { "de": "Er ärgert sich über die falsche Rechnung.", "ru": "Он злится из-за неправильного счёта." }
+        { "de": "Ich bereite mich auf die Prüfung vor.", "ru": "Я готовлюсь к экзамену." },
+        { "de": "Wir bereiten uns auf das Gespräch vor.", "ru": "Мы готовимся к разговору." }
       ],
       "past": [
-        { "de": "Wir haben uns über die Verspätung geärgert.", "ru": "Мы злились из-за опоздания." },
-        { "de": "Sie hat sich über den Kommentar geärgert.", "ru": "Она рассердилась из-за комментария." }
+        { "de": "Sie hat sich auf den Termin vorbereitet.", "ru": "Она подготовилась к встрече." },
+        { "de": "Er hat sich auf das Projekt vorbereitet.", "ru": "Он подготовился к проекту." }
       ],
       "future": [
-        { "de": "Ihr werdet euch nicht mehr über Kleinigkeiten ärgern.", "ru": "Вы больше не будете злиться из-за мелочей." },
-        { "de": "Er wird sich über die langen Wartezeiten ärgern.", "ru": "Он будет злиться из-за долгого ожидания." }
+        { "de": "Ich werde mich auf das Ergebnis vorbereiten.", "ru": "Я подготовлюсь к результату." },
+        { "de": "Sie werden sich auf den Erfolg vorbereiten.", "ru": "Они подготовятся к успеху." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Переставь слова.",
-        "content": [
-          { "words": ["Ich", "mich", "über den Lärm", "ärgere", "nicht", "mehr"], "solution": "Ich ärgere mich nicht mehr über den Lärm." },
-          { "words": ["Sie", "hat", "sich", "über die Verspätung", "geärgert"], "solution": "Sie hat sich über die Verspätung geärgert." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Ответь на вопрос.",
-        "text": "Tom bekam eine falsche Rechnung und musste lange telefonieren. Das ärgerte ihn sehr.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Klasse hat sich gut auf die Prüfung vorbereitet. Die Lehrerin hat Übungen erklärt und hat am (an+dem) Mittwoch einen Probetest gemacht. Am Abend hat sich auch Tim zu Hause vorbereitet und hat seine Notizen wiederholt.",
         "questions": [
-          { "q": "Worüber hat Tom sich geärgert?", "options": ["Über die falsche Rechnung.", "Über einen Bonus."], "solution": "Über die falsche Rechnung." }
+          {
+            "q": "Что сделала учительница для подготовки класса?",
+            "options": [
+              "Sie hat einen Probetest gemacht.",
+              "Sie hat einen Ausflug organisiert.",
+              "Sie hat das Projekt beendet."
+            ],
+            "solution": "Sie hat einen Probetest gemacht."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери правильный вариант.",
-        "text": "Er ___ (1) ___ (2) die laute Musik.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir bereiten uns ___ (1) das Gespräch vor, und sie bereitet sich ___ (2) die Einladung vor.",
         "gaps": [
-          { "id": 1, "options": ["ärgert", "freut"], "solution": "ärgert" },
-          { "id": 2, "options": ["sich über", "sich auf"], "solution": "sich über" }
+          { "id": 1, "options": ["auf", "an", "mit"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "über", "für"], "solution": "auf" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси c worüber.",
-        "sentence": "Sie ärgert sich über den Kommentar.",
-        "solution": "Worüber ärgert sie sich?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bereitest dich auf den Termin vor.", "solution": "Worauf bereitest du dich vor?" },
+          { "sentence": "Er bereitet sich auf die Prüfung vor.", "solution": "Worauf bereitet er sich vor?" },
+          { "sentence": "Wir bereiten uns auf das Projekt vor.", "solution": "Worauf bereiten wir uns vor?" },
+          { "sentence": "Sie bereitet sich auf das Gespräch vor.", "solution": "Worauf bereitet sie sich vor?" },
+          { "sentence": "Ihr bereitet euch auf die Rückmeldung vor.", "solution": "Worauf bereitet ihr euch vor?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Kleinigkeit", "ru": "мелочь" },
-      { "de": "die Wartezeit", "ru": "время ожидания" }
+      { "de": "der Probetest", "ru": "пробный тест" },
+      { "de": "wiederholen", "ru": "повторять" }
     ]
   },
   {
-    "id": "lachen-ueber",
-    "expression": "lachen über",
+    "id": "sich-verlassen-auf",
+    "expression": "sich verlassen auf",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "смеяться над чем-то/кем-то",
+    "translation": "полагаться на",
     "examples": {
       "present": [
-        { "de": "Wir lachen über den Witz.", "ru": "Мы смеёмся над шуткой." },
-        { "de": "Sie lacht nicht über andere Leute.", "ru": "Она не смеётся над другими людьми." }
+        { "de": "Ich verlasse mich auf den Kollegen.", "ru": "Я полагаюсь на коллегу." },
+        { "de": "Wir verlassen uns auf die Rückmeldung der Verwaltung.", "ru": "Мы полагаемся на ответ администрации." }
       ],
       "past": [
-        { "de": "Alle haben über die Situation gelacht.", "ru": "Все смеялись над ситуацией." },
-        { "de": "Ich habe über meinen Fehler gelacht.", "ru": "Я посмеялся над своей ошибкой." }
+        { "de": "Sie hat sich auf das Team verlassen.", "ru": "Она положилась на команду." },
+        { "de": "Er hat sich auf die Einladung verlassen.", "ru": "Он положился на приглашение." }
       ],
       "future": [
-        { "de": "Ihr werdet später darüber lachen.", "ru": "Вы позже посмеётесь над этим." },
-        { "de": "Er wird nicht über dich lachen.", "ru": "Он не будет смеяться над тобой." }
+        { "de": "Ich werde mich auf das Ergebnis verlassen.", "ru": "Я положусь на результат." },
+        { "de": "Sie werden sich auf den Termin verlassen.", "ru": "Они положатся на встречу." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери предложение.",
-        "content": [
-          { "words": ["Wir", "lachen", "über den Witz", "alle"], "solution": "Wir lachen alle über den Witz." },
-          { "words": ["Ich", "habe", "über meinen Fehler", "gelacht"], "solution": "Ich habe über meinen Fehler gelacht." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери правильный ответ.",
-        "text": "Das Team machte einen Witz in der Pause. Alle lachten darüber und die Stimmung wurde besser.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Bei der Organisation hat sich das Team auf Anna verlassen. Sie hat alle E-Mails geschrieben und hat am (an+dem) Dienstag die Einladung verschickt. Später hat sie gesagt, dass man sich auf klare Regeln verlassen kann.",
         "questions": [
-          { "q": "Worüber lachte das Team?", "options": ["Über einen Witz.", "Über den Chef."], "solution": "Über einen Witz." }
+          {
+            "q": "На кого опиралась команда при организации?",
+            "options": [
+              "Auf Anna.",
+              "Auf den Hausmeister.",
+              "Auf den Fahrer."
+            ],
+            "solution": "Auf Anna."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Lach ___ (1) mich, bitte! — Ich lache ___ (2) dich, ich lache ___ (3) die Situation.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Kann ich mich ___ (1) dich verlassen, oder soll ich mich ___ (2) das Team verlassen?",
         "gaps": [
-          { "id": 1, "options": ["nicht über", "nicht von"], "solution": "nicht über" },
-          { "id": 2, "options": ["nicht über", "nicht an"], "solution": "nicht über" },
-          { "id": 3, "options": ["über", "an"], "solution": "über" }
+          { "id": 1, "options": ["auf", "an", "mit"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "für", "über"], "solution": "auf" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worüber.",
-        "sentence": "Ihr lacht über den Film.",
-        "solution": "Worüber lacht ihr?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du verlässt dich auf die Rückmeldung.", "solution": "Worauf verlässt du dich?" },
+          { "sentence": "Er verlässt sich auf das Ergebnis.", "solution": "Worauf verlässt er sich?" },
+          { "sentence": "Wir verlassen uns auf den Termin.", "solution": "Worauf verlassen wir uns?" },
+          { "sentence": "Sie verlässt sich auf das Team.", "solution": "Worauf verlässt sie sich?" },
+          { "sentence": "Ihr verlasst euch auf die Einladung.", "solution": "Worauf verlasst ihr euch?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "der Witz", "ru": "шутка" },
-      { "de": "die Stimmung", "ru": "настроение" }
+      { "de": "klare Regeln", "ru": "чёткие правила" },
+      { "de": "sich verlassen", "ru": "полагаться" }
     ]
   },
   {
-    "id": "sich-informieren-ueber",
-    "expression": "sich informieren über",
+    "id": "sich-gewoehnen-an",
+    "expression": "sich gewöhnen an",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "узнавать о чём-то; получать информацию о чём-то",
+    "translation": "привыкать к",
     "examples": {
       "present": [
-        { "de": "Ich informiere mich über die Prüfung.", "ru": "Я узнаю об экзамене." },
-        { "de": "Sie informiert sich über die Öffnungszeiten.", "ru": "Она узнаёт о часах работы." }
+        { "de": "Ich gewöhne mich an den neuen Terminplan.", "ru": "Я привыкаю к новому расписанию встреч." },
+        { "de": "Sie gewöhnt sich an die Aufgaben.", "ru": "Она привыкает к заданиям." }
       ],
       "past": [
-        { "de": "Wir haben uns über die Wohnung informiert.", "ru": "Мы узнали о квартире." },
-        { "de": "Er hat sich über das Angebot informiert.", "ru": "Он узнал об этом предложении." }
+        { "de": "Er hat sich an das Projekt gewöhnt.", "ru": "Он привык к проекту." },
+        { "de": "Wir haben uns an die Prüfungssituation gewöhnt.", "ru": "Мы привыкли к ситуации экзамена." }
       ],
       "future": [
-        { "de": "Ich werde mich über den Vertrag informieren.", "ru": "Я узнаю о договоре." },
-        { "de": "Sie wird sich über die Kosten informieren.", "ru": "Она узнает о расходах." }
+        { "de": "Ich werde mich an das Ergebnis gewöhnen.", "ru": "Я привыкну к результату." },
+        { "de": "Sie werden sich an den Erfolg gewöhnen.", "ru": "Они привыкнут к успеху." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Собери фразу.",
-        "content": [
-          { "words": ["Ich", "mich", "über die Prüfung", "informiere", "."], "solution": "Ich informiere mich über die Prüfung." },
-          { "words": ["Er", "hat", "sich", "über das Angebot", "informiert", "."], "solution": "Er hat sich über das Angebot informiert." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Прочитай и ответь.",
-        "text": "Bevor Lea den Vertrag unterschreibt, informiert sie sich über die Bedingungen online.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im neuen Büro hat sich das Team schnell an die digitalen Termine gewöhnt. Die Kolleginnen haben erklärt, wie das System funktioniert, und alle haben am (an+dem) ersten Tag die Kalender synchronisiert. Später hat man sich auch an die wöchentlichen Gespräche gewöhnt.",
         "questions": [
-          { "q": "Worüber informiert sich Lea?", "options": ["Über die Bedingungen.", "Über das Wetter."], "solution": "Über die Bedingungen." }
+          {
+            "q": "К чему привыкла команда в новом офисе?",
+            "options": [
+              "An digitale Termine.",
+              "An längere Pausen.",
+              "An neue Möbel."
+            ],
+            "solution": "An digitale Termine."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Выбери верный вариант.",
-        "text": "Wir ___ (1) ___ (2) die Öffnungszeiten.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Es ist nicht leicht, sich ___ (1) die neue Regel zu gewöhnen, aber wir gewöhnen uns ___ (2) den Rhythmus.",
         "gaps": [
-          { "id": 1, "options": ["informieren", "ärgern"], "solution": "informieren" },
-          { "id": 2, "options": ["uns über", "uns an"], "solution": "uns über" }
+          { "id": 1, "options": ["an", "auf", "um"], "solution": "an" },
+          { "id": 2, "options": ["an", "mit", "für"], "solution": "an" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worüber.",
-        "sentence": "Tom informiert sich über den Vertrag.",
-        "solution": "Worüber informiert sich Tom?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du gewöhnst dich an die Prüfung.", "solution": "Woran gewöhnst du dich?" },
+          { "sentence": "Er gewöhnt sich an den Termin.", "solution": "Woran gewöhnt er sich?" },
+          { "sentence": "Wir gewöhnen uns an das Projekt.", "solution": "Woran gewöhnen wir uns?" },
+          { "sentence": "Sie gewöhnt sich an die Rückmeldung.", "solution": "Woran gewöhnt sie sich?" },
+          { "sentence": "Ihr gewöhnt euch an das Gespräch.", "solution": "Woran gewöhnt ihr euch?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "die Bedingungen (Pl.)", "ru": "условия" },
-      { "de": "die Kosten (Pl.)", "ru": "расходы, стоимость" }
+      { "de": "synchronisieren", "ru": "синхронизировать" },
+      { "de": "die Regel", "ru": "правило" }
     ]
   },
   {
-    "id": "schreiben-ueber",
-    "expression": "schreiben über",
+    "id": "sich-bewerben-um",
+    "expression": "sich bewerben um",
     "case": "Akk",
     "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
-    "translation": "писать о чём-то",
+    "translation": "подавать заявку на, претендовать на",
     "examples": {
       "present": [
-        { "de": "Ich schreibe über das Thema Nachhaltigkeit.", "ru": "Я пишу об устойчивом развитии." },
-        { "de": "Er schreibt über seine Reise.", "ru": "Он пишет о своём путешествии." },
-        { "de": "Sie schreibt über den Künstler.", "ru": "Она пишет о художнике." }
+        { "de": "Ich bewerbe mich um die Stelle.", "ru": "Я подаюсь на должность." },
+        { "de": "Er bewirbt sich um das Projektstipendium.", "ru": "Он подаётся на проектную стипендию." }
       ],
       "past": [
-        { "de": "Wir haben über das Projekt geschrieben.", "ru": "Мы писали о проекте." },
-        { "de": "Sie hat gestern über die Ausstellung geschrieben.", "ru": "Она вчера писала о выставке." }
+        { "de": "Sie hat sich um die Ausbildung beworben.", "ru": "Она подала заявку на обучение." },
+        { "de": "Wir haben uns um den Praktikumsplatz beworben.", "ru": "Мы подали заявку на место практики." }
       ],
       "future": [
-        { "de": "Ich werde morgen über die Ergebnisse schreiben.", "ru": "Завтра я буду писать о результатах." },
-        { "de": "Sie wird über das Konzert schreiben.", "ru": "Она будет писать о концерте." }
+        { "de": "Ich werde mich um die Promotion bewerben.", "ru": "Я подамся на аспирантуру." },
+        { "de": "Sie werden sich um das Stipendium bewerben.", "ru": "Они подадутся на стипендию." }
       ]
     },
     "exercises": [
       {
-        "type": "order",
-        "task": "Переставь слова.",
-        "content": [
-          { "words": ["Ich", "über die Ergebnisse", "morgen", "schreiben", "werde"], "solution": "Ich werde morgen über die Ergebnisse schreiben." },
-          { "words": ["Er", "hat", "über das Projekt", "geschrieben"], "solution": "Er hat über das Projekt geschrieben." }
-        ]
-      },
-      {
         "type": "reading",
-        "task": "Выбери верный ответ.",
-        "text": "Die Journalistin schreibt heute über den neuen Stadtpark. Der Artikel erscheint morgen.",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Kurs hat Alex sich um eine Stelle beworben. Er hat den Lebenslauf aktualisiert und hat am (an+dem) Sonntagabend die Bewerbung abgeschickt. Am (an+dem) Dienstag hat er eine Einladung zum Gespräch bekommen.",
         "questions": [
-          { "q": "Worüber schreibt die Journalistin?", "options": ["Über den neuen Stadtpark.", "Über das Wetter."], "solution": "Über den neuen Stadtpark." }
+          {
+            "q": "Когда Алекс отправил заявку?",
+            "options": [
+              "Am Sonntagabend.",
+              "Am Freitagmorgen.",
+              "Am Dienstagmittag."
+            ],
+            "solution": "Am Sonntagabend."
+          }
         ]
       },
       {
         "type": "gap",
-        "task": "Вставь подходящее.",
-        "text": "Bitte ___ (1) du mir später ___ (2) den Termin ___.",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Sie bewirbt sich ___ (1) die Stelle, und wir bewerben uns ___ (2) das Praktikum.",
         "gaps": [
-          { "id": 1, "options": ["schreibst", "lachst"], "solution": "schreibst" },
-          { "id": 2, "options": ["über", "an"], "solution": "über" },
-          { "id": 3, "options": [".", "?"], "solution": "." }
+          { "id": 1, "options": ["um", "auf", "an"], "solution": "um" },
+          { "id": 2, "options": ["um", "für", "mit"], "solution": "um" }
         ]
       },
       {
         "type": "da_wo",
-        "task": "Спроси с worüber.",
-        "sentence": "Ihr schreibt über die Ausstellung.",
-        "solution": "Worüber schreibt ihr?"
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bewirbst dich um die Stelle.", "solution": "Worum bewirbst du dich?" },
+          { "sentence": "Er bewirbt sich um das Stipendium.", "solution": "Worum bewirbt er sich?" },
+          { "sentence": "Wir bewerben uns um den Praktikumsplatz.", "solution": "Worum bewerben wir uns?" },
+          { "sentence": "Sie bewirbt sich um die Ausbildung.", "solution": "Worum bewirbt sie sich?" },
+          { "sentence": "Ihr bewerbt euch um das Projekt.", "solution": "Worum bewerbt ihr euch?" }
+        ]
       }
     ],
     "vocab": [
-      { "de": "erscheinen", "ru": "выходить (о публикации)" },
-      { "de": "der Artikel", "ru": "статья" }
+      { "de": "die Bewerbung", "ru": "заявка, резюме" },
+      { "de": "der Lebenslauf", "ru": "резюме (CV)" }
     ]
   }
 ]
