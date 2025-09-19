@@ -1,0 +1,318 @@
+// level4.json
+[
+  {
+    "id": "antworten-auf",
+    "expression": "antworten auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "отвечать на",
+    "examples": {
+      "present": [
+        { "de": "Ich antworte auf den Terminvorschlag.", "ru": "Я отвечаю на предложение по встрече." },
+        { "de": "Sie antwortet auf die Rückmeldung.", "ru": "Она отвечает на обратную связь." }
+      ],
+      "past": [
+        { "de": "Wir haben auf die Einladung geantwortet.", "ru": "Мы ответили на приглашение." },
+        { "de": "Er hat auf das Gespräch geantwortet.", "ru": "Он ответил на сообщение о разговоре." }
+      ],
+      "future": [
+        { "de": "Ich werde auf das Ergebnis antworten.", "ru": "Я отвечу на результат." },
+        { "de": "Sie werden auf den Termin antworten.", "ru": "Они ответят по встрече." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Bewerbung hat Eva eine E-Mail von der Verwaltung bekommen. Sie hat sofort auf die Einladung geantwortet und hat einen passenden Termin vorgeschlagen. Am (an+dem) nächsten Tag hat die Personalabteilung geantwortet, dass das Gespräch am (an+dem) Freitag stattfindet.",
+        "questions": [
+          {
+            "q": "Что сделала Ева после письма от администрации?",
+            "options": [
+              "Sie hat auf die Einladung geantwortet.",
+              "Sie hat eine Reise gebucht.",
+              "Sie hat den Computer repariert."
+            ],
+            "solution": "Sie hat auf die Einladung geantwortet."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Kannst du bitte heute ___ (1) die Rückmeldung ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "über"], "solution": "auf" },
+          { "id": 2, "options": ["antworten", "reagieren", "achten"], "solution": "antworten" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du antwortest auf die Einladung.", "solution": "Worauf antwortest du?" },
+          { "sentence": "Er antwortet auf den Termin.", "solution": "Worauf antwortet er?" },
+          { "sentence": "Wir antworten auf das Ergebnis.", "solution": "Worauf antworten wir?" },
+          { "sentence": "Sie antwortet auf die Rückmeldung.", "solution": "Worauf antwortet sie?" },
+          { "sentence": "Ihr antwortet auf das Gespräch.", "solution": "Worauf antwortet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "vorschlagen", "ru": "предлагать" },
+      { "de": "die Personalabteilung", "ru": "отдел кадров" }
+    ]
+  },
+  {
+    "id": "reagieren-auf",
+    "expression": "reagieren auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "реагировать на",
+    "examples": {
+      "present": [
+        { "de": "Die Leitung reagiert auf das Ergebnis.", "ru": "Руководство реагирует на результат." },
+        { "de": "Ich reagiere auf die Rückmeldung.", "ru": "Я реагирую на обратную связь." }
+      ],
+      "past": [
+        { "de": "Er hat schnell auf die Einladung reagiert.", "ru": "Он быстро отреагировал на приглашение." },
+        { "de": "Wir haben auf den Termin reagiert.", "ru": "Мы отреагировали на встречу." }
+      ],
+      "future": [
+        { "de": "Ich werde auf das Gespräch reagieren.", "ru": "Я отреагирую на разговор." },
+        { "de": "Sie werden auf den Erfolg reagieren.", "ru": "Они отреагируют на успех." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Projektgruppe hat die Ergebnisse am (an+dem) Montag bekommen. Die Leiterin hat sofort auf das Ergebnis reagiert und hat ein zusätzliches Gespräch organisiert. Am (an+dem) Abend haben alle per E-Mail reagiert und haben Fragen geschickt.",
+        "questions": [
+          {
+            "q": "Как отреагировала руководительница на результаты?",
+            "options": [
+              "Sie hat ein zusätzliches Gespräch organisiert.",
+              "Sie hat den Kurs abgesagt.",
+              "Sie hat die E-Mails ignoriert."
+            ],
+            "solution": "Sie hat ein zusätzliches Gespräch organisiert."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir sollten sachlich ___ (1) die Rückmeldung ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "mit"], "solution": "auf" },
+          { "id": 2, "options": ["reagieren", "antworten", "achten"], "solution": "reagieren" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du reagierst auf den Termin.", "solution": "Worauf reagierst du?" },
+          { "sentence": "Er reagiert auf die Einladung.", "solution": "Worauf reagiert er?" },
+          { "sentence": "Wir reagieren auf das Ergebnis.", "solution": "Worauf reagieren wir?" },
+          { "sentence": "Sie reagiert auf die Rückmeldung.", "solution": "Worauf reagiert sie?" },
+          { "sentence": "Ihr reagiert auf das Gespräch.", "solution": "Worauf reagiert ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "sachlich", "ru": "по делу, объективно" },
+      { "de": "organisieren", "ru": "организовывать" }
+    ]
+  },
+  {
+    "id": "achten-auf",
+    "expression": "achten auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "обращать внимание на, следить за",
+    "examples": {
+      "present": [
+        { "de": "Achte auf den Termin im Kalender.", "ru": "Обращай внимание на встречу в календаре." },
+        { "de": "Wir achten auf die Einladungskriterien.", "ru": "Мы следим за критериями приглашения." }
+      ],
+      "past": [
+        { "de": "Sie hat auf das Gespräch geachtet.", "ru": "Она следила за разговором." },
+        { "de": "Er hat auf die Rückmeldung geachtet.", "ru": "Он обратил внимание на обратную связь." }
+      ],
+      "future": [
+        { "de": "Ich werde auf das Ergebnis achten.", "ru": "Я обращу внимание на результат." },
+        { "de": "Sie werden auf den Erfolg achten.", "ru": "Они будут обращать внимание на успех." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Kurs hat der Dozent gesagt, dass alle auf klare Formulierungen achten sollen. Er hat Beispiele gezeigt und hat am (an+dem) Ende eine Übung gegeben. Später hat er auf häufige Fehler in den Einladungen hingewiesen.",
+        "questions": [
+          {
+            "q": "О чём попросил преподаватель во время курса?",
+            "options": [
+              "Auf klare Formulierungen zu achten.",
+              "Eine Reise zu buchen.",
+              "Laut Musik zu hören."
+            ],
+            "solution": "Auf klare Formulierungen zu achten."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Bitte achtet ___ (1) die Frist und ___ (2) die korrekte Anrede.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "über"], "solution": "auf" },
+          { "id": 2, "options": ["achtet", "reagiert", "antwortet"], "solution": "achtet" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du achtest auf den Termin.", "solution": "Worauf achtest du?" },
+          { "sentence": "Er achtet auf die Einladung.", "solution": "Worauf achtet er?" },
+          { "sentence": "Wir achten auf das Ergebnis.", "solution": "Worauf achten wir?" },
+          { "sentence": "Sie achtet auf die Rückmeldung.", "solution": "Worauf achtet sie?" },
+          { "sentence": "Ihr achtet auf das Gespräch.", "solution": "Worauf achtet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Frist", "ru": "срок" },
+      { "de": "die Anrede", "ru": "обращение (в письме)" }
+    ]
+  },
+  {
+    "id": "aufpassen-auf",
+    "expression": "aufpassen auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "присматривать за, быть внимательным к",
+    "examples": {
+      "present": [
+        { "de": "Ich passe auf den Terminplan auf.", "ru": "Я слежу за расписанием встреч." },
+        { "de": "Sie passt auf die neuen Regeln auf.", "ru": "Она внимательна к новым правилам." }
+      ],
+      "past": [
+        { "de": "Er hat auf das Gespräch aufgepasst.", "ru": "Он внимательно слушал разговор." },
+        { "de": "Wir haben auf die Hinweise aufgepasst.", "ru": "Мы внимательно следили за указаниями." }
+      ],
+      "future": [
+        { "de": "Ich werde auf die Einladung aufpassen.", "ru": "Я прослежу за приглашением." },
+        { "de": "Sie werden auf das Ergebnis aufpassen.", "ru": "Они будут внимательно относиться к результату." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Bei der Online-Konferenz hat Marco auf die Mikrofone aufgepasst und hat die Technik geprüft. Am (an+dem) Anfang hat er allen den Chat erklärt. Später hat er auf die Fragen im Gespräch aufgepasst und hat schnell reagiert.",
+        "questions": [
+          {
+            "q": "За чем следил Марко во время конференции?",
+            "options": [
+              "Auf die Mikrofone und die Technik.",
+              "Auf das Catering.",
+              "Auf den Parkplatz."
+            ],
+            "solution": "Auf die Mikrofone und die Technik."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Pass bitte ___ (1) die Einladung ___ (2), sie ist wichtig.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "über"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "an", "mit"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du passt auf den Termin auf.", "solution": "Worauf passt du auf?" },
+          { "sentence": "Er passt auf die Regeln auf.", "solution": "Worauf passt er auf?" },
+          { "sentence": "Wir passen auf das Gespräch auf.", "solution": "Worauf passen wir auf?" },
+          { "sentence": "Sie passt auf die Rückmeldung auf.", "solution": "Worauf passt sie auf?" },
+          { "sentence": "Ihr passt auf das Ergebnis auf.", "solution": "Worauf passt ihr auf?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Technik", "ru": "оборудование, техника" },
+      { "de": "prüfen", "ru": "проверять" }
+    ]
+  },
+  {
+    "id": "teilen-in",
+    "expression": "teilen in",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "делить на",
+    "examples": {
+      "present": [
+        { "de": "Wir teilen den Text in drei Teile.", "ru": "Мы делим текст на три части." },
+        { "de": "Die Verwaltung teilt die Gruppe in zwei Teams.", "ru": "Администрация делит группу на две команды." }
+      ],
+      "past": [
+        { "de": "Er hat das Projekt in Phasen geteilt.", "ru": "Он разделил проект на фазы." },
+        { "de": "Sie hat die Aufgaben in Kategorien geteilt.", "ru": "Она разделила задания на категории." }
+      ],
+      "future": [
+        { "de": "Ich werde die Einladung in Abschnitte teilen.", "ru": "Я разделю приглашение на разделы." },
+        { "de": "Sie werden das Ergebnis in Punkte teilen.", "ru": "Они разделят результат на пункты." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für die Prüfungsvorbereitung hat der Kursleiter die Materialien in Kapitel geteilt. Er hat die Aufgaben erklärt und hat am (an+dem) Ende eine Liste verschickt. Die Studierenden haben die Kapitel in der Gruppe besprochen.",
+        "questions": [
+          {
+            "q": "Во что преподаватель разделил материалы?",
+            "options": [
+              "In Kapitel.",
+              "In Termine.",
+              "In Möbel."
+            ],
+            "solution": "In Kapitel."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Teilt bitte den Bericht ___ (1) Abschnitte und ___ (2) klare Punkte.",
+        "gaps": [
+          { "id": 1, "options": ["in", "auf", "an"], "solution": "in" },
+          { "id": 2, "options": ["teilt", "antwortet", "reagiert"], "solution": "teilt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du teilst den Text in Teile.", "solution": "Worin teilst du den Text?" },
+          { "sentence": "Er teilt die Gruppe in Teams.", "solution": "Worin teilt er die Gruppe?" },
+          { "sentence": "Wir teilen die Ergebnisse in Punkte.", "solution": "Worin teilen wir die Ergebnisse?" },
+          { "sentence": "Sie teilt die Aufgaben in Kategorien.", "solution": "Worin teilt sie die Aufgaben?" },
+          { "sentence": "Ihr teilt das Gespräch in Abschnitte.", "solution": "Worin teilt ihr das Gespräch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "das Kapitel", "ru": "глава" },
+      { "de": "der Abschnitt", "ru": "раздел, абзац" }
+    ]
+  }
+]
