@@ -3,7 +3,7 @@
     "id": "warten-auf",
     "expression": "warten auf",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "auf den Gefallen", "f": "auf die Rückmeldung", "n": "das Auto" },
     "translation": "ждать кого-то/чего-то",
     "examples": {
       "present": [
@@ -141,5 +141,149 @@
       { "de": "die Stimmung", "ru": "настроение" },
       { "de": "Abstand gewinnen", "ru": "дистанцироваться, отвлечься" }
     ]
+  },
+  {
+    "id": "sich-freuen-ueber",
+    "expression": "sich freuen über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться тому, что уже есть/случилось",
+    "examples": {
+      "present": [
+        { "de": "Er freut sich über die Nachricht.", "ru": "Он рад новости." },
+        { "de": "Wir freuen uns über das Ergebnis.", "ru": "Мы рады результату." }
+      ],
+      "past": [
+        { "de": "Die IT hat sich über neue Lizenzen gefreut.", "ru": "IT-отдел обрадовался новым лицензиям." },
+        { "de": "Sie hat sich über die schnelle Rückmeldung gefreut.", "ru": "Она обрадовалась быстрому ответу." }
+      ],
+      "future": [
+        { "de": "Sie wird sich über den Erfolg freuen.", "ru": "Она обрадуется успеху." },
+        { "de": "Wir werden uns über die Einladung freuen.", "ru": "Мы обрадуемся приглашению." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Abteilung hat gestern zusätzliches Budget bekommen. Darüber haben sich viele gefreut, weil wichtige Anschaffungen lange verschoben worden sind. Die IT-Gruppe hat gesagt, dass sie endlich neue Lizenzen kaufen und veraltete Geräte ersetzen kann. Außerdem hat die Leitung betont, dass die Mittel sinnvoll und transparent verwendet werden sollen. Am (an+dem) Montag hat die Verwaltung eine E-Mail mit der Einladung zum Gespräch geschickt, um die nächsten Schritte zu klären.",
+        "questions": [
+          {
+            "q": "Worüber hat sich die IT-Gruppe besonders gefreut?",
+            "options": [
+              "Über neue Lizenzen und den Ersatz veralteter Geräte.",
+              "Über mehr Dienstreisen und eine neue Küche."
+            ],
+            "solution": "Über neue Lizenzen und den Ersatz veralteter Geräte."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir freuen uns ___ (1) die Nachricht und diskutieren ___ (2) das Ergebnis in der Runde.",
+        "gaps": [
+          { "id": 1, "options": ["über", "auf", "an"], "solution": "über" },
+          { "id": 2, "options": ["über", "mit", "nach"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Mitarbeitenden freuen sich über die Nachricht.", "solution": "Worüber freuen sich die Mitarbeitenden?" },
+          { "sentence": "Das Team diskutiert über das Ergebnis.", "solution": "Worüber diskutiert das Team?" },
+          { "sentence": "Die Leitung informiert über die Anschaffungen.", "solution": "Worüber informiert die Leitung?" },
+          { "sentence": "Alle freuen sich über den Erfolg des Projekts.", "solution": "Worüber freuen sich alle?" },
+          { "sentence": "Er freut sich über die Einladung am (an+dem) Dienstag.", "solution": "Worüber freut er sich?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "das Budget", "ru": "бюджет" },
+      { "de": "die Anschaffung", "ru": "закупка" },
+      { "de": "die Lizenz", "ru": "лицензия" },
+      { "de": "veraltet", "ru": "устаревший" },
+      { "de": "transparent", "ru": "прозрачный (перен.)" },
+      { "de": "die Einladung", "ru": "приглашение" },
+      { "de": "das Ergebnis", "ru": "результат" }
+    ],
+    "expression_examples": {
+      "m": "über den Erfolg",
+      "f": "über die Nachricht",
+      "n": "über das Ergebnis"
+    }
+  },
+  {
+    "id": "sich-kuemmern-um",
+    "expression": "sich kümmern um",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "заботиться о / заниматься чем-то",
+    "examples": {
+      "present": [
+        { "de": "Lea kümmert sich um die Unterlagen.", "ru": "Леа занимается документами." },
+        { "de": "Er kümmert sich um den Termin.", "ru": "Он занимается встречей." }
+      ],
+      "past": [
+        { "de": "Wir haben uns um das Problem in der Wohnung gekümmert.", "ru": "Мы занялись проблемой в квартире." },
+        { "de": "Jonas hat sich um den Internetanschluss gekümmert.", "ru": "Йонас позаботился о подключении интернета." }
+      ],
+      "future": [
+        { "de": "Sie werden sich um die Gäste kümmern.", "ru": "Они позаботятся о гостях." },
+        { "de": "Ich werde mich um die Anmeldung kümmern.", "ru": "Я займусь регистрацией." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Umzug haben Lea und Jonas viele Aufgaben verteilt. Jonas hat den Internetanschluss organisiert, während Lea die Anmeldung beim Einwohnermeldeamt übernommen hat. Am Wochenende haben sie die Nachbarn begrüßt und das Treppenhaus sauber gemacht. Danach hat Jonas gesagt, dass die Heizung Geräusche macht, und sie haben bei der Hausverwaltung angerufen. Man hat einen Termin am (an+dem) Dienstag vorgeschlagen; bis dahin hat Lea die Unterlagen sortiert.",
+        "questions": [
+          {
+            "q": "Worum geht es beim Termin mit der Hausverwaltung?",
+            "options": [
+              "Um das Problem mit der Heizung.",
+              "Um einen neuen Mietvertrag."
+            ],
+            "solution": "Um das Problem mit der Heizung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ich kümmere mich ___ (1) den Termin, und Lea kümmert sich ___ (2) die Unterlagen.",
+        "gaps": [
+          { "id": 1, "options": ["um", "für", "mit"], "solution": "um" },
+          { "id": 2, "options": ["um", "nach", "bei"], "solution": "um" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Lea kümmert sich um die Unterlagen.", "solution": "Worum kümmert sich Lea?" },
+          { "sentence": "Jonas kümmert sich um den Termin.", "solution": "Worum kümmert sich Jonas?" },
+          { "sentence": "Wir kümmern uns um die Gäste.", "solution": "Worum kümmern wir uns?" },
+          { "sentence": "Die Hausverwaltung informiert über die Heizung.", "solution": "Worüber informiert die Hausverwaltung?" },
+          { "sentence": "Sie kümmert sich um das Problem im Treppenhaus.", "solution": "Worum kümmert sie sich?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "das Einwohnermeldeamt", "ru": "ведомство по регистрации" },
+      { "de": "die Hausverwaltung", "ru": "домоуправление" },
+      { "de": "die Heizung", "ru": "отопление" },
+      { "de": "sich anmelden", "ru": "регистрироваться" },
+      { "de": "der Umzug", "ru": "переезд" },
+      { "de": "übernehmen", "ru": "брать на себя (задачу)" },
+      { "de": "das Treppenhaus", "ru": "лестничная клетка" }
+    ],
+    "expression_examples": {
+      "m": "um den Termin",
+      "f": "um die Unterlagen",
+      "n": "um das Problem"
+    }
   }
 ]
