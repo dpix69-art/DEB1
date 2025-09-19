@@ -1,0 +1,317 @@
+[
+  {
+    "id": "teilnehmen-an",
+    "expression": "teilnehmen an",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "участвовать в",
+    "examples": {
+      "present": [
+        { "de": "Ich nehme an dem Gespräch teil.", "ru": "Я участвую в разговоре." },
+        { "de": "Sie nimmt an der Prüfung teil.", "ru": "Она участвует в экзамене." }
+      ],
+      "past": [
+        { "de": "Wir haben an dem Termin teilgenommen.", "ru": "Мы участвовали во встрече." },
+        { "de": "Er hat an dem Projekt teilgenommen.", "ru": "Он участвовал в проекте." }
+      ],
+      "future": [
+        { "de": "Ich werde an der Besprechung teilnehmen.", "ru": "Я приму участие в совещании." },
+        { "de": "Sie werden an dem Workshop teilnehmen.", "ru": "Они примут участие в воркшопе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Mitarbeitenden haben an der Schulung teilgenommen. Der Trainer hat Beispiele gezeigt und hat am (an+dem) Ende Fragen gesammelt. Danach haben alle an einer kurzen Umfrage teilgenommen.",
+        "questions": [
+          {
+            "q": "В чём сотрудники приняли участие после тренинга?",
+            "options": [
+              "An einer kurzen Umfrage.",
+              "An einem Konzert.",
+              "An einer Reise."
+            ],
+            "solution": "An einer kurzen Umfrage."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Nehmt ihr morgen ___ (1) dem Termin ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["an", "mit", "bei"], "solution": "an" },
+          { "id": 2, "options": ["teil", "arbeitet", "reagiert"], "solution": "teil" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du nimmst an der Prüfung teil.", "solution": "Woran nimmst du teil?" },
+          { "sentence": "Er nimmt an dem Gespräch teil.", "solution": "Woran nimmt er teil?" },
+          { "sentence": "Wir nehmen an dem Termin teil.", "solution": "Woran nehmen wir teil?" },
+          { "sentence": "Sie nimmt an dem Projekt teil.", "solution": "Woran nimmt sie teil?" },
+          { "sentence": "Ihr nehmt an der Sitzung teil.", "solution": "Woran nehmt ihr teil?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Schulung", "ru": "обучение, тренинг" },
+      { "de": "die Umfrage", "ru": "опрос" }
+    ]
+  },
+  {
+    "id": "abhaengen-von",
+    "expression": "abhängen von",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "зависеть от",
+    "examples": {
+      "present": [
+        { "de": "Der Erfolg hängt von dem Ergebnis ab.", "ru": "Успех зависит от результата." },
+        { "de": "Es hängt von der Rückmeldung ab.", "ru": "Это зависит от обратной связи." }
+      ],
+      "past": [
+        { "de": "Es hat von dem Termin abgehangen.", "ru": "Это зависело от встречи." },
+        { "de": "Die Entscheidung hat von der Einladung abgehangen.", "ru": "Решение зависело от приглашения." }
+      ],
+      "future": [
+        { "de": "Es wird von dem Gespräch abhängen.", "ru": "Это будет зависеть от разговора." },
+        { "de": "Der Plan wird von der Prüfung abhängen.", "ru": "План будет зависеть от экзамена." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Zusage hat von der Rückmeldung der Leitung abgehangen. Man hat am (an+dem) Dienstag alles geprüft und hat am (an+dem) Abend entschieden.",
+        "questions": [
+          {
+            "q": "От чего зависела положительная реакция?",
+            "options": [
+              "Von der Rückmeldung der Leitung.",
+              "Von dem Wetter.",
+              "Von dem Parkplatz."
+            ],
+            "solution": "Von der Rückmeldung der Leitung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Der Termin ___ (1) der Raumverfügbarkeit ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["hängt von", "arbeitet bei", "nimmt an"], "solution": "hängt von" },
+          { "id": 2, "options": ["ab", "mit", "zu"], "solution": "ab" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Erfolg hängt von der Einladung ab.", "solution": "Wovon hängt der Erfolg ab?" },
+          { "sentence": "Es hängt von dem Ergebnis ab.", "solution": "Wovon hängt es ab?" },
+          { "sentence": "Der Plan hängt von der Rückmeldung ab.", "solution": "Wovon hängt der Plan ab?" },
+          { "sentence": "Die Entscheidung hängt von dem Termin ab.", "solution": "Wovon hängt die Entscheidung ab?" },
+          { "sentence": "Unsere Teilnahme hängt von dem Gespräch ab.", "solution": "Wovon hängt unsere Teilnahme ab?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Verfügbarkeit", "ru": "доступность" },
+      { "de": "prüfen", "ru": "проверять" }
+    ]
+  },
+  {
+    "id": "arbeiten-an",
+    "expression": "arbeiten an",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать над",
+    "examples": {
+      "present": [
+        { "de": "Ich arbeite an dem Projekt.", "ru": "Я работаю над проектом." },
+        { "de": "Sie arbeitet an der Einladung.", "ru": "Она работает над приглашением." }
+      ],
+      "past": [
+        { "de": "Wir haben an dem Ergebnis gearbeitet.", "ru": "Мы работали над результатом." },
+        { "de": "Er hat an der Präsentation gearbeitet.", "ru": "Он работал над презентацией." }
+      ],
+      "future": [
+        { "de": "Ich werde an dem Gesprächsleitfaden arbeiten.", "ru": "Я буду работать над планом разговора." },
+        { "de": "Sie werden an der Prüfungsvorbereitung arbeiten.", "ru": "Они будут работать над подготовкой к экзамену." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Das Team hat eine Woche an dem Bericht gearbeitet. Am (an+dem) Freitag hat die Leiterin die Rückmeldung gegeben und hat am (an+dem) Abend eine Einladung zum Gespräch geschickt.",
+        "questions": [
+          {
+            "q": "Над чем команда работала неделю?",
+            "options": [
+              "An dem Bericht.",
+              "An dem Parkplatz.",
+              "An der Kantine."
+            ],
+            "solution": "An dem Bericht."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir arbeiten ___ (1) dem Ergebnis und ___ (2) konzentriert.",
+        "gaps": [
+          { "id": 1, "options": ["an", "bei", "mit"], "solution": "an" },
+          { "id": 2, "options": ["arbeiten", "reagieren", "diskutieren"], "solution": "arbeiten" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest an der Präsentation.", "solution": "Woran arbeitest du?" },
+          { "sentence": "Er arbeitet an dem Projekt.", "solution": "Woran arbeitet er?" },
+          { "sentence": "Wir arbeiten an dem Ergebnis.", "solution": "Woran arbeiten wir?" },
+          { "sentence": "Sie arbeitet an der Einladung.", "solution": "Woran arbeitet sie?" },
+          { "sentence": "Ihr arbeitet an dem Gesprächsleitfaden.", "solution": "Woran arbeitet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "der Leitfaden", "ru": "руководство, гайд" },
+      { "de": "die Präsentation", "ru": "презентация" }
+    ]
+  },
+  {
+    "id": "arbeiten-bei",
+    "expression": "arbeiten bei",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать в (у работодателя/в организации)",
+    "examples": {
+      "present": [
+        { "de": "Ich arbeite bei der Verwaltung.", "ru": "Я работаю в администрации." },
+        { "de": "Er arbeitet bei dem Unternehmen.", "ru": "Он работает в компании." }
+      ],
+      "past": [
+        { "de": "Sie hat bei der Agentur gearbeitet.", "ru": "Она работала в агентстве." },
+        { "de": "Wir haben bei dem Partner gearbeitet.", "ru": "Мы работали у партнёра." }
+      ],
+      "future": [
+        { "de": "Ich werde bei der Universität arbeiten.", "ru": "Я буду работать в университете." },
+        { "de": "Sie werden bei dem Start-up arbeiten.", "ru": "Они будут работать в стартапе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Studium hat Jana bei der Stadtverwaltung gearbeitet. Sie hat Einladungen verschickt und hat am (an+dem) Morgen oft Sprechstunden gemacht.",
+        "questions": [
+          {
+            "q": "Где работала Яна после учёбы?",
+            "options": [
+              "Bei der Stadtverwaltung.",
+              "Bei der Schule.",
+              "Bei der Bank."
+            ],
+            "solution": "Bei der Stadtverwaltung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Arbeitest du ___ (1) der Firma Müller oder ___ (2) der Universität?",
+        "gaps": [
+          { "id": 1, "options": ["bei", "mit", "an"], "solution": "bei" },
+          { "id": 2, "options": ["bei", "mit", "an"], "solution": "bei" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest bei der Verwaltung.", "solution": "Wobei arbeitest du?" },
+          { "sentence": "Er arbeitet bei dem Unternehmen.", "solution": "Wobei arbeitet er?" },
+          { "sentence": "Wir arbeiten bei der Agentur.", "solution": "Wobei arbeiten wir?" },
+          { "sentence": "Sie arbeitet bei der Universität.", "solution": "Wobei arbeitet sie?" },
+          { "sentence": "Ihr arbeitet bei dem Start-up.", "solution": "Wobei arbeitet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Sprechstunde", "ru": "приёмные часы" },
+      { "de": "die Stadtverwaltung", "ru": "городская администрация" }
+    ]
+  },
+  {
+    "id": "arbeiten-mit",
+    "expression": "arbeiten mit",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "работать с (инструментом/человеком)",
+    "examples": {
+      "present": [
+        { "de": "Ich arbeite mit dem Team.", "ru": "Я работаю с командой." },
+        { "de": "Sie arbeitet mit der Software.", "ru": "Она работает с программой." }
+      ],
+      "past": [
+        { "de": "Wir haben mit dem Partner gearbeitet.", "ru": "Мы работали с партнёром." },
+        { "de": "Er hat mit der Tabelle gearbeitet.", "ru": "Он работал с таблицей." }
+      ],
+      "future": [
+        { "de": "Ich werde mit dem Ergebnis arbeiten.", "ru": "Я буду работать с результатом." },
+        { "de": "Sie werden mit den Einladungen arbeiten.", "ru": "Они будут работать с приглашениями." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für das Projekt hat das Team mit einer neuen Software gearbeitet. Die Kollegin hat eine Schulung gegeben und hat am (an+dem) Ende Beispiele geteilt.",
+        "questions": [
+          {
+            "q": "С чем команда работала в проекте?",
+            "options": [
+              "Mit einer neuen Software.",
+              "Mit neuen Möbeln.",
+              "Mit einem Auto."
+            ],
+            "solution": "Mit einer neuen Software."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Arbeitest du ___ (1) dem Team oder ___ (2) externen Partnern?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "bei", "an"], "solution": "mit" },
+          { "id": 2, "options": ["mit", "bei", "an"], "solution": "mit" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du arbeitest mit dem Kollegen.", "solution": "Womit arbeitest du?" },
+          { "sentence": "Er arbeitet mit der Tabelle.", "solution": "Womit arbeitet er?" },
+          { "sentence": "Wir arbeiten mit dem Ergebnis.", "solution": "Womit arbeiten wir?" },
+          { "sentence": "Sie arbeitet mit der Software.", "solution": "Womit arbeitet sie?" },
+          { "sentence": "Ihr arbeitet mit den Einladungen.", "solution": "Womit arbeitet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "extern", "ru": "внешний" },
+      { "de": "teilen", "ru": "делиться, делить" }
+    ]
+  }
+]
