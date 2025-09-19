@@ -1,0 +1,318 @@
+// level9.json (исправлены только articles → Dativ)
+[
+  {
+    "id": "sich-verabschieden-von",
+    "expression": "sich verabschieden von",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "прощаться с",
+    "examples": {
+      "present": [
+        { "de": "Ich verabschiede mich von dem Team.", "ru": "Я прощаюсь с командой." },
+        { "de": "Wir verabschieden uns von der Leiterin.", "ru": "Мы прощаемся с руководительницей." }
+      ],
+      "past": [
+        { "de": "Er hat sich von dem Projekt verabschiedet.", "ru": "Он попрощался с проектом." },
+        { "de": "Sie haben sich von der Prüferin verabschiedet.", "ru": "Они попрощались с экзаменатором." }
+      ],
+      "future": [
+        { "de": "Ich werde mich von dem Gespräch verabschieden.", "ru": "Я попрощаюсь после разговора." },
+        { "de": "Sie werden sich von den Gästen verabschieden.", "ru": "Они попрощаются с гостями." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Präsentation hat sich das Team von den Gästen verabschiedet. Man hat sich bedankt und hat am (an+dem) Ausgang die Einladungen für den nächsten Termin verteilt.",
+        "questions": [
+          {
+            "q": "С кем команда попрощалась после презентации?",
+            "options": [
+              "Mit den Gästen.",
+              "Mit dem Parkplatz.",
+              "Mit der Kantine."
+            ],
+            "solution": "Mit den Gästen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Verabschiedet euch bitte ___ (1) den Teilnehmenden und ___ (2) freundlich.",
+        "gaps": [
+          { "id": 1, "options": ["von", "vor", "mit"], "solution": "von" },
+          { "id": 2, "options": ["verabschiedet", "warnt", "fragt"], "solution": "verabschiedet" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ich verabschiede mich von dem Team.", "solution": "Wovon verabschiedest du dich?" },
+          { "sentence": "Er verabschiedet sich von der Leiterin.", "solution": "Wovon verabschiedet er sich?" },
+          { "sentence": "Wir verabschieden uns von den Gästen.", "solution": "Wovon verabschieden wir uns?" },
+          { "sentence": "Sie verabschiedet sich von dem Projekt.", "solution": "Wovon verabschiedet sie sich?" },
+          { "sentence": "Ihr verabschiedet euch von der Gruppe.", "solution": "Wovon verabschiedet ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "sich bedanken", "ru": "благодарить" },
+      { "de": "verteilen", "ru": "раздавать" }
+    ]
+  },
+  {
+    "id": "sich-erholen-von",
+    "expression": "sich erholen von",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "отдыхать от, восстанавливаться после",
+    "examples": {
+      "present": [
+        { "de": "Ich erhole mich von der Prüfung.", "ru": "Я отдыхаю после экзамена." },
+        { "de": "Sie erholt sich von dem Gespräch.", "ru": "Она восстанавливается после разговора." }
+      ],
+      "past": [
+        { "de": "Wir haben uns von dem Termin erholt.", "ru": "Мы отдохнули после встречи." },
+        { "de": "Er hat sich von der Arbeit erholt.", "ru": "Он восстановился после работы." }
+      ],
+      "future": [
+        { "de": "Ich werde mich von dem Projekt erholen.", "ru": "Я отдохну после проекта." },
+        { "de": "Sie werden sich von der Prüfung erholen.", "ru": "Они восстановятся после экзамена." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der intensiven Woche hat sich die Klasse von den Prüfungen erholt. Viele haben am (an+dem) Wochenende geschlafen und haben kurze Spaziergänge gemacht.",
+        "questions": [
+          {
+            "q": "От чего класс отдыхал?",
+            "options": [
+              "Von den Prüfungen.",
+              "Von der Musik.",
+              "Von den Möbeln."
+            ],
+            "solution": "Von den Prüfungen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Erholt euch ___ (1) der intensiven Phase und ___ (2) euch gut.",
+        "gaps": [
+          { "id": 1, "options": ["von", "vor", "mit"], "solution": "von" },
+          { "id": 2, "options": ["erholt", "warnt", "fragt"], "solution": "erholt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du erholst dich von der Prüfung.", "solution": "Wovon erholst du dich?" },
+          { "sentence": "Er erholt sich von dem Termin.", "solution": "Wovon erholt er sich?" },
+          { "sentence": "Wir erholen uns von dem Projekt.", "solution": "Wovon erholen wir uns?" },
+          { "sentence": "Sie erholt sich von dem Gespräch.", "solution": "Wovon erholt sie sich?" },
+          { "sentence": "Ihr erholt euch von der Arbeit.", "solution": "Wovon erholt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "intensiv", "ru": "интенсивный" },
+      { "de": "der Spaziergang", "ru": "прогулка" }
+    ]
+  },
+  {
+    "id": "traeumen-von",
+    "expression": "träumen von",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "мечтать о, видеть во сне",
+    "examples": {
+      "present": [
+        { "de": "Ich träume von dem Erfolg.", "ru": "Я мечтаю об успехе." },
+        { "de": "Sie träumt von der Einladung.", "ru": "Она мечтает о приглашении." }
+      ],
+      "past": [
+        { "de": "Wir haben von dem Gespräch geträumt.", "ru": "Нам снился разговор." },
+        { "de": "Er hat von der Prüfung geträumt.", "ru": "Ему снился экзамен." }
+      ],
+      "future": [
+        { "de": "Ich werde von dem Termin träumen.", "ru": "Мне будет сниться встреча." },
+        { "de": "Sie werden von dem Ergebnis träumen.", "ru": "Им будет сниться результат." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Erfolg hat das Team von einer gemeinsamen Reise geträumt. Man hat am (an+dem) Abend in der Küche darüber gesprochen und hat Ideen gesammelt.",
+        "questions": [
+          {
+            "q": "О чём мечтала команда после успеха?",
+            "options": [
+              "Von einer gemeinsamen Reise.",
+              "Von einem neuen Parkplatz.",
+              "Von der Kantine."
+            ],
+            "solution": "Von einer gemeinsamen Reise."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Träumst du ___ (1) dem Ergebnis или ___ (2) dem Termin?",
+        "gaps": [
+          { "id": 1, "options": ["von", "vor", "mit"], "solution": "von" },
+          { "id": 2, "options": ["von", "vor", "mit"], "solution": "von" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr träumt von dem Erfolg.", "solution": "Wovon träumt ihr?" },
+          { "sentence": "Er träumt von der Einladung.", "solution": "Wovon träumt er?" },
+          { "sentence": "Wir träumen von dem Gespräch.", "solution": "Wovon träumen wir?" },
+          { "sentence": "Sie träumt von dem Termin.", "solution": "Wovon träumt sie?" },
+          { "sentence": "Du träumst von dem Ergebnis.", "solution": "Wovon träumst du?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "gemeinsam", "ru": "совместный" },
+      { "de": "Ideen sammeln", "ru": "собирать идеи" }
+    ]
+  },
+  {
+    "id": "angst-haben-vor",
+    "expression": "Angst haben vor",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "бояться чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich habe Angst vor der Prüfung.", "ru": "Я боюсь экзамена." },
+        { "de": "Sie hat Angst vor dem Gespräch.", "ru": "Она боится разговора." }
+      ],
+      "past": [
+        { "de": "Wir haben Angst vor dem Termin gehabt.", "ru": "Мы боялись встречи." },
+        { "de": "Er hat Angst vor dem Ergebnis gehabt.", "ru": "Он боялся результата." }
+      ],
+      "future": [
+        { "de": "Ich werde keine Angst vor der Einladung haben.", "ru": "Я не буду бояться приглашения." },
+        { "de": "Sie werden keine Angst vor dem Workshop haben.", "ru": "Они не будут бояться воркшопа." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Prüfung hat Nina Angst vor den mündlichen Fragen gehabt. Ihre Freunde haben ihr geholfen und haben am (an+dem) Abend mit ihr geübt.",
+        "questions": [
+          {
+            "q": "Чего Нина боялась перед экзаменом?",
+            "options": [
+              "Vor den mündlichen Fragen.",
+              "Vor der Kantine.",
+              "Vor dem Parkplatz."
+            ],
+            "solution": "Vor den mündlichen Fragen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Hab keine Angst ___ (1) dem Gespräch и ___ (2) ruhig.",
+        "gaps": [
+          { "id": 1, "options": ["vor", "von", "mit"], "solution": "vor" },
+          { "id": 2, "options": ["bleib", "fragt", "warnt"], "solution": "bleib" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du hast Angst vor der Prüfung.", "solution": "Wovor hast du Angst?" },
+          { "sentence": "Er hat Angst vor dem Ergebnis.", "solution": "Wovor hat er Angst?" },
+          { "sentence": "Wir haben Angst vor dem Termin.", "solution": "Wovor haben wir Angst?" },
+          { "sentence": "Sie hat Angst vor dem Gespräch.", "solution": "Wovor hat sie Angst?" },
+          { "sentence": "Ihr habt Angst vor der Rückmeldung.", "solution": "Wovor habt ihr Angst?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "mündlich", "ru": "устный" },
+      { "de": "üben", "ru": "тренироваться, упражняться" }
+    ]
+  },
+  {
+    "id": "warnen-vor",
+    "expression": "warnen vor",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "предупреждать о, предостерегать от",
+    "examples": {
+      "present": [
+        { "de": "Ich warne vor dem Betrug.", "ru": "Я предупреждаю о мошенничестве." },
+        { "de": "Die Verwaltung warnt vor falschen E-Mails.", "ru": "Администрация предупреждает о фальшивых письмах." }
+      ],
+      "past": [
+        { "de": "Wir haben vor der Verspätung gewarnt.", "ru": "Мы предупредили о задержке." },
+        { "de": "Er hat vor dem Risiko gewarnt.", "ru": "Он предостерёг от риска." }
+      ],
+      "future": [
+        { "de": "Ich werde vor dem Terminwechsel warnen.", "ru": "Я предупрежу о переносе встречи." },
+        { "de": "Sie werden vor unsicheren Links warnen.", "ru": "Они будут предупреждать о небезопасных ссылках." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Verwaltung hat vor gefälschten Einladungen gewarnt. Man hat eine Liste mit Merkmalen geschickt und hat am (an+dem) Ende um Vorsicht gebeten.",
+        "questions": [
+          {
+            "q": "О чём администрация предупредила?",
+            "options": [
+              "Vor gefälschten Einladungen.",
+              "Vor der Kantine.",
+              "Vor dem Parkplatz."
+            ],
+            "solution": "Vor gefälschten Einladungen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Bitte warnt ___ (1) unsicheren Links и ___ (2) deutlich.",
+        "gaps": [
+          { "id": 1, "options": ["vor", "von", "mit"], "solution": "vor" },
+          { "id": 2, "options": ["warnt", "fragt", "träumt"], "solution": "warnt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Verwaltung warnt vor dem Risiko.", "solution": "Wovor warnt die Verwaltung?" },
+          { "sentence": "Er warnt vor der Verspätung.", "solution": "Wovor warnt er?" },
+          { "sentence": "Wir warnen vor den unsicheren Links.", "solution": "Wovor warnen wir?" },
+          { "sentence": "Sie warnt vor der Falschinformation.", "solution": "Wovor warnt sie?" },
+          { "sentence": "Ihr warnt vor der Betrugsmasche.", "solution": "Wovor warnt ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "gefälscht", "ru": "поддельный" },
+      { "de": "die Masche", "ru": "схема, уловка" }
+    ]
+  }
+]

@@ -1,0 +1,318 @@
+// level8.json
+[
+  {
+    "id": "gratulieren-zu",
+    "expression": "gratulieren zu",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "поздравлять с",
+    "examples": {
+      "present": [
+        { "de": "Wir gratulieren dir zu dem Erfolg.", "ru": "Мы поздравляем тебя с успехом." },
+        { "de": "Ich gratuliere ihr zu der Einladung als Sprecherin.", "ru": "Я поздравляю её с приглашением как спикера." }
+      ],
+      "past": [
+        { "de": "Sie haben ihm zu dem Ergebnis gratuliert.", "ru": "Они поздравили его с результатом." },
+        { "de": "Er hat der Kollegin zu der Prüfung gratuliert.", "ru": "Он поздравил коллегу с экзаменом." }
+      ],
+      "future": [
+        { "de": "Ich werde euch zu dem Termin gratulieren.", "ru": "Я поздравлю вас с назначением встречи." },
+        { "de": "Sie werden der Gruppe zu dem Projekt gratulieren.", "ru": "Они поздравят группу с проектом." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Veröffentlichung hat die Chefin der Klasse zu den sehr guten Ergebnissen gratuliert. Sie hat eine E-Mail geschrieben und hat am (an+dem) Nachmittag auch im Gespräch gratuliert.",
+        "questions": [
+          {
+            "q": "С чем руководительница поздравила класс?",
+            "options": [
+              "Zu den sehr guten Ergebnissen.",
+              "Zu dem Parkplatz.",
+              "Zu der Kantine."
+            ],
+            "solution": "Zu den sehr guten Ergebnissen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Gratuliert bitte der Kollegin ___ (1) der Einladung und ___ (2) freundlich.",
+        "gaps": [
+          { "id": 1, "options": ["zu", "mit", "von"], "solution": "zu" },
+          { "id": 2, "options": ["gratuliert", "fragt", "vergleicht"], "solution": "gratuliert" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Wir gratulieren dir zu dem Erfolg.", "solution": "Wozu gratulieren wir dir?" },
+          { "sentence": "Er gratuliert ihr zu der Prüfung.", "solution": "Wozu gratuliert er ihr?" },
+          { "sentence": "Ich gratuliere euch zu dem Termin.", "solution": "Wozu gratuliere ich euch?" },
+          { "sentence": "Sie gratulieren ihm zu dem Ergebnis.", "solution": "Wozu gratulieren sie ihm?" },
+          { "sentence": "Ihr gratuliert der Gruppe zu dem Projekt.", "solution": "Wozu gratuliert ihr der Gruppe?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "veröffentlichen", "ru": "публиковать" },
+      { "de": "sehr gut", "ru": "очень хорошо" }
+    ]
+  },
+  {
+    "id": "gehoeren-zu",
+    "expression": "gehören zu",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "относиться к, принадлежать к",
+    "examples": {
+      "present": [
+        { "de": "Die Einladung gehört zu den Unterlagen.", "ru": "Приглашение относится к документам." },
+        { "de": "Der Raum gehört zu dem Gebäude.", "ru": "Помещение относится к зданию." }
+      ],
+      "past": [
+        { "de": "Die Tabelle hat zu dem Bericht gehört.", "ru": "Таблица относилась к отчёту." },
+        { "de": "Das Protokoll hat zu der Sitzung gehört.", "ru": "Протокол относился к заседанию." }
+      ],
+      "future": [
+        { "de": "Die Regeln werden zu dem Kurs gehören.", "ru": "Правила будут относиться к курсу." },
+        { "de": "Der Termin wird zu der Planung gehören.", "ru": "Встреча будет относиться к планированию." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Anhang hat die Verwaltung Dokumente geschickt, die zu der Anmeldung gehören. Man hat erklärt, dass auch die Einladung zu den Unterlagen gehört und hat am (an+dem) nächsten Tag eine Erinnerung geschickt.",
+        "questions": [
+          {
+            "q": "К чему относится приглашение по словам администрации?",
+            "options": [
+              "Zu den Unterlagen.",
+              "Zu dem Parkplatz.",
+              "Zu der Cafeteria."
+            ],
+            "solution": "Zu den Unterlagen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Diese Regeln ___ (1) dem Kurs und die Tabelle ___ (2) dem Bericht.",
+        "gaps": [
+          { "id": 1, "options": ["gehören zu", "passen zu", "fragen nach"], "solution": "gehören zu" },
+          { "id": 2, "options": ["gehört zu", "passt zu", "fragt nach"], "solution": "gehört zu" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Einladung gehört zu den Unterlagen.", "solution": "Wozu gehört die Einladung?" },
+          { "sentence": "Der Termin gehört zu der Planung.", "solution": "Wozu gehört der Termin?" },
+          { "sentence": "Das Protokoll gehört zu der Sitzung.", "solution": "Wozu gehört das Protokoll?" },
+          { "sentence": "Die Tabelle gehört zu dem Bericht.", "solution": "Wozu gehört die Tabelle?" },
+          { "sentence": "Der Raum gehört zu dem Gebäude.", "solution": "Wozu gehört der Raum?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "der Anhang", "ru": "вложение" },
+      { "de": "die Anmeldung", "ru": "регистрация, заявление" }
+    ]
+  },
+  {
+    "id": "passen-zu",
+    "expression": "passen zu",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "подходить к, соответствовать",
+    "examples": {
+      "present": [
+        { "de": "Der Termin passt zu der Planung.", "ru": "Встреча подходит к плану." },
+        { "de": "Die Rückmeldung passt zu den Kriterien.", "ru": "Обратная связь соответствует критериям." }
+      ],
+      "past": [
+        { "de": "Das Ergebnis hat zu der Prognose gepasst.", "ru": "Результат соответствовал прогнозу." },
+        { "de": "Die Einladung hat zu dem Konzept gepasst.", "ru": "Приглашение соответствовало концепции." }
+      ],
+      "future": [
+        { "de": "Die Regel wird zu dem System passen.", "ru": "Правило будет подходить системе." },
+        { "de": "Der Raum wird zu den Anforderungen passen.", "ru": "Помещение будет соответствовать требованиям." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Projektleitung hat gesagt, dass der neue Termin gut zu der Planung passt. Man hat am (an+dem) Vormittag alle Kalender geprüft и hat am (an+dem) Nachmittag die Einladungen verschickt.",
+        "questions": [
+          {
+            "q": "К чему хорошо подходит новая дата?",
+            "options": [
+              "Zu der Planung.",
+              "Zu dem Parkplatz.",
+              "Zu der Kantine."
+            ],
+            "solution": "Zu der Planung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Passt dieser Vorschlag ___ (1) den Kriterien или ___ (2) wir ihn an?",
+        "gaps": [
+          { "id": 1, "options": ["zu", "mit", "von"], "solution": "zu" },
+          { "id": 2, "options": ["passen", "fragen", "gratulieren"], "solution": "passen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Termin passt zu der Planung.", "solution": "Wozu passt der Termin?" },
+          { "sentence": "Die Einladung passt zu dem Konzept.", "solution": "Wozu passt die Einladung?" },
+          { "sentence": "Das Ergebnis passt zu der Prognose.", "solution": "Wozu passt das Ergebnis?" },
+          { "sentence": "Die Regel passt zu dem System.", "solution": "Wozu passt die Regel?" },
+          { "sentence": "Der Raum passt zu den Anforderungen.", "solution": "Wozu passt der Raum?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Prognose", "ru": "прогноз" },
+      { "de": "anpassen", "ru": "адаптировать, подгонять" }
+    ]
+  },
+  {
+    "id": "fragen-nach",
+    "expression": "fragen nach",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "спрашивать о",
+    "examples": {
+      "present": [
+        { "de": "Ich frage nach dem Termin.", "ru": "Я спрашиваю о встрече." },
+        { "de": "Sie fragt nach der Einladung.", "ru": "Она спрашивает о приглашении." }
+      ],
+      "past": [
+        { "de": "Wir haben nach dem Ergebnis gefragt.", "ru": "Мы спросили о результате." },
+        { "de": "Er hat nach der Rückmeldung gefragt.", "ru": "Он спросил об обратной связи." }
+      ],
+      "future": [
+        { "de": "Ich werde nach dem Gespräch fragen.", "ru": "Я спрошу о разговоре." },
+        { "de": "Sie werden nach den Unterlagen fragen.", "ru": "Они спросят о документах." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Am (an+dem) Morgen hat Lara in der Verwaltung nach dem Raum gefragt. Danach hat sie nach der Uhrzeit gefragt und hat die Einladung bestätigt.",
+        "questions": [
+          {
+            "q": "О чём Лара спрашивала утром в администрации?",
+            "options": [
+              "Nach dem Raum.",
+              "Nach dem Parkplatz.",
+              "Nach dem Mittagessen."
+            ],
+            "solution": "Nach dem Raum."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Frag bitte ___ (1) der Uhrzeit и ___ (2) sachlich.",
+        "gaps": [
+          { "id": 1, "options": ["nach", "zu", "mit"], "solution": "nach" },
+          { "id": 2, "options": ["frag", "rede", "diskutier"], "solution": "frag" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du fragst nach dem Termin.", "solution": "Wonach fragst du?" },
+          { "sentence": "Er fragt nach der Einladung.", "solution": "Wonach fragt er?" },
+          { "sentence": "Wir fragen nach dem Ergebnis.", "solution": "Wonach fragen wir?" },
+          { "sentence": "Sie fragt nach dem Gespräch.", "solution": "Wonach fragt sie?" },
+          { "sentence": "Ihr fragt nach der Rückmeldung.", "solution": "Wonach fragt ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "bestätigen", "ru": "подтверждать" },
+      { "de": "die Uhrzeit", "ru": "время (часы-минуты)" }
+    ]
+  },
+  {
+    "id": "sich-erkundigen-nach",
+    "expression": "sich erkundigen nach",
+    "case": "Dat",
+    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "translation": "наводить справки о, узнавать о",
+    "examples": {
+      "present": [
+        { "de": "Ich erkundige mich nach dem Ergebnis.", "ru": "Я узнаю о результате." },
+        { "de": "Wir erkundigen uns nach der Prüfung.", "ru": "Мы узнаём об экзамене." }
+      ],
+      "past": [
+        { "de": "Er hat sich nach dem Termin erkundigt.", "ru": "Он навёл справки о встрече." },
+        { "de": "Sie hat sich nach der Einladung erkundigt.", "ru": "Она узнавала о приглашении." }
+      ],
+      "future": [
+        { "de": "Ich werde mich nach der Rückmeldung erkundigen.", "ru": "Я узнаю об обратной связи." },
+        { "de": "Sie werden sich nach dem Gespräch erkundigen.", "ru": "Они узнают о разговоре." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Anmeldung hat sich Paul nach den Fristen erkundigt. Er hat eine E-Mail geschrieben und hat am (an+dem) Nachmittag in der Verwaltung angerufen.",
+        "questions": [
+          {
+            "q": "О чём Пауль навёл справки перед регистрацией?",
+            "options": [
+              "Nach den Fristen.",
+              "Nach dem Parkplatz.",
+              "Nach der Kantine."
+            ],
+            "solution": "Nach den Fristen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Erkundigen Sie sich bitte ___ (1) den Terminen и ___ (2) schriftlich.",
+        "gaps": [
+          { "id": 1, "options": ["nach", "zu", "mit"], "solution": "nach" },
+          { "id": 2, "options": ["erkundigen", "fragen", "passen"], "solution": "erkundigen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ich erkundige mich nach dem Ergebnis.", "solution": "Wonach erkundigst du dich?" },
+          { "sentence": "Er erkundigt sich nach der Einladung.", "solution": "Wonach erkundigt er sich?" },
+          { "sentence": "Wir erkundigen uns nach dem Termin.", "solution": "Wonach erkundigen wir uns?" },
+          { "sentence": "Sie erkundigt sich nach der Prüfung.", "solution": "Wonach erkundigt sie sich?" },
+          { "sentence": "Ihr erkundigt euch nach der Rückmeldung.", "solution": "Wonach erkundigt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Frist", "ru": "срок" },
+      { "de": "schriftlich", "ru": "в письменной форме" }
+    ]
+  }
+]
