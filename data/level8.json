@@ -1,0 +1,317 @@
+[
+  {
+    "id": "warten-auf",
+    "expression": "warten auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "ждать чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich warte auf den Termin.", "ru": "Я жду встречи." },
+        { "de": "Wir warten auf die Rückmeldung.", "ru": "Мы ждём обратной связи." }
+      ],
+      "past": [
+        { "de": "Sie hat lange auf das Gespräch gewartet.", "ru": "Она долго ждала разговора." },
+        { "de": "Er hat auf den Erfolg gewartet.", "ru": "Он ждал успеха." }
+      ],
+      "future": [
+        { "de": "Ich werde auf die Einladung warten.", "ru": "Я буду ждать приглашения." },
+        { "de": "Sie werden auf das Ergebnis warten.", "ru": "Они будут ждать результата." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Vorstellungsgespräch hat Leon eine Woche auf eine Rückmeldung gewartet. Jeden Morgen hat er zuerst sein E-Mail-Postfach geöffnet, aber es war leer. Am (an+dem) Freitag hat er in der Personalabteilung angerufen. Man hat ihm erklärt, dass viele Bewerbungen eingegangen sind und dass die Auswahl noch läuft. Am (an+dem) Montag danach hat er endlich eine Einladung zum zweiten Gespräch bekommen.",
+        "questions": [
+          {
+            "q": "Почему Леону пришлось ждать так долго?",
+            "options": [
+              "Es gab sehr viele Bewerbungen.",
+              "Die E-Mail-Adresse war falsch.",
+              "Die Personalabteilung war geschlossen."
+            ],
+            "solution": "Es gab sehr viele Bewerbungen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Heute warten wir ___ (1) die Einladung, und morgen warten wir ___ (2) das Ergebnis.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "an", "mit"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "für", "um"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du wartest auf die Rückmeldung.", "solution": "Worauf wartest du?" },
+          { "sentence": "Sie warten auf den Termin.", "solution": "Worauf warten sie?" },
+          { "sentence": "Er wartet auf das Gespräch.", "solution": "Worauf wartet er?" },
+          { "sentence": "Ihr wartet auf die Einladung.", "solution": "Worauf wartet ihr?" },
+          { "sentence": "Man wartet auf den Erfolg.", "solution": "Worauf wartet man?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Rückmeldung", "ru": "обратная связь" },
+      { "de": "der Termin", "ru": "встреча, приём" }
+    ]
+  },
+  {
+    "id": "sich-freuen-auf",
+    "expression": "sich freuen auf",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться предстоящему",
+    "examples": {
+      "present": [
+        { "de": "Ich freue mich auf das Gespräch.", "ru": "Я радуюсь предстоящему разговору." },
+        { "de": "Wir freuen uns auf die Prüfung.", "ru": "Мы с радостью ждём экзамена." }
+      ],
+      "past": [
+        { "de": "Sie hat sich auf die Einladung gefreut.", "ru": "Она обрадовалась приглашению." },
+        { "de": "Er hat sich auf den Termin gefreut.", "ru": "Он радовался встрече." }
+      ],
+      "future": [
+        { "de": "Ich werde mich auf den Erfolg freuen.", "ru": "Я буду радоваться успеху." },
+        { "de": "Sie werden sich auf das Projekt freuen.", "ru": "Они будут радоваться проекту." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Zusage hat Jana sich sehr auf das neue Projekt gefreut. Am (an+dem) Montag hat sie ihre Unterlagen sortiert und hat mit dem Team telefoniert. Am Abend hat sie ihrer Freundin erzählt, dass sie am (an+dem) Freitagnachmittag die Einführung bekommen hat und dass alles gut organisiert war.",
+        "questions": [
+          {
+            "q": "Что именно обрадовало Янну?",
+            "options": [
+              "Sie hat eine Zusage für das Projekt bekommen.",
+              "Sie hat eine Prüfung bestanden.",
+              "Sie hat ein Auto gekauft."
+            ],
+            "solution": "Sie hat eine Zusage für das Projekt bekommen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Studierenden freuen sich ___ (1) die Einladung, und ich freue mich ___ (2) den Termin.",
+        "gaps": [
+          { "id": 1, "options": ["auf", "über", "an"], "solution": "auf" },
+          { "id": 2, "options": ["auf", "für", "mit"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du freust dich auf die Rückmeldung.", "solution": "Worauf freust du dich?" },
+          { "sentence": "Sie freut sich auf den Termin.", "solution": "Worauf freut sie sich?" },
+          { "sentence": "Wir freuen uns auf das Gespräch.", "solution": "Worauf freuen wir uns?" },
+          { "sentence": "Er freut sich auf die Prüfung.", "solution": "Worauf freut er sich?" },
+          { "sentence": "Ihr freut euch auf die Einladung.", "solution": "Worauf freut ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Zusage", "ru": "согласие, подтверждение" },
+      { "de": "die Einführung", "ru": "введение, инструктаж" }
+    ]
+  },
+  {
+    "id": "sich-freuen-ueber",
+    "expression": "sich freuen über",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "радоваться полученному/совершившемуся",
+    "examples": {
+      "present": [
+        { "de": "Ich freue mich über die Rückmeldung.", "ru": "Я радуюсь обратной связи." },
+        { "de": "Er freut sich über den Erfolg.", "ru": "Он радуется успеху." }
+      ],
+      "past": [
+        { "de": "Wir haben uns über die Einladung gefreut.", "ru": "Мы обрадовались приглашению." },
+        { "de": "Sie hat sich über das Ergebnis gefreut.", "ru": "Она порадовалась результату." }
+      ],
+      "future": [
+        { "de": "Ich werde mich über den Termin freuen.", "ru": "Я обрадуюсь встрече." },
+        { "de": "Sie werden sich über das Gespräch freuen.", "ru": "Они обрадуются разговору." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Verwaltung hat Paul am (an+dem) Mittwoch eine positive Rückmeldung geschickt. Paul hat sich sehr darüber gefreut und hat sofort seinen Kalender aktualisiert. Er hat auch seiner Chefin gesagt, dass er am (an+dem) Freitag früher gehen darf, weil er eine Einladung zum Gespräch bekommen hat.",
+        "questions": [
+          {
+            "q": "Почему Пауль обрадовался?",
+            "options": [
+              "Er hat eine positive Rückmeldung bekommen.",
+              "Er hat sein Auto repariert.",
+              "Er hat eine Prüfung bestanden."
+            ],
+            "solution": "Er hat eine positive Rückmeldung bekommen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Maria freut sich ___ (1) die Einladung, und ihr Chef freut sich ___ (2) den Erfolg des Projekts.",
+        "gaps": [
+          { "id": 1, "options": ["über", "auf", "mit"], "solution": "über" },
+          { "id": 2, "options": ["über", "an", "bei"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du freust dich über die Einladung.", "solution": "Worüber freust du dich?" },
+          { "sentence": "Er freut sich über den Erfolg.", "solution": "Worüber freut er sich?" },
+          { "sentence": "Wir freuen uns über das Ergebnis.", "solution": "Worüber freuen wir uns?" },
+          { "sentence": "Sie freut sich über die Rückmeldung.", "solution": "Worüber freut sie sich?" },
+          { "sentence": "Ihr freut euch über den Termin.", "solution": "Worüber freut ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Verwaltung", "ru": "администрация" },
+      { "de": "aktualisieren", "ru": "обновлять" }
+    ]
+  },
+  {
+    "id": "sich-kuemmern-um",
+    "expression": "sich kümmern um",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "заботиться о, заниматься чем-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich kümmere mich um den Termin.", "ru": "Я позабочусь о встрече." },
+        { "de": "Sie kümmert sich um die Einladung.", "ru": "Она занимается приглашением." }
+      ],
+      "past": [
+        { "de": "Er hat sich um das Gespräch gekümmert.", "ru": "Он позаботился о разговоре." },
+        { "de": "Wir haben sich um die Prüfung gekümmert.", "ru": "Мы занялись экзаменом." }
+      ],
+      "future": [
+        { "de": "Ich werde mich um das Ergebnis kümmern.", "ru": "Я займусь результатом." },
+        { "de": "Sie werden sich um den Erfolg kümmern.", "ru": "Они позаботятся об успехе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Büro hat Lara die Aufgabe bekommen, sich um die Anmeldung für die Prüfung zu kümmern. Sie hat alle Formulare gesammelt und hat der Kollegin gesagt, dass sie am (an+dem) Donnerstag alles abgibt. Am Abend hat sie noch die Zahlungsbestätigung geschickt.",
+        "questions": [
+          {
+            "q": "Что именно сделала Лара?",
+            "options": [
+              "Sie hat sich um die Anmeldung gekümmert.",
+              "Sie hat das Projekt beendet.",
+              "Sie hat einen Urlaub gebucht."
+            ],
+            "solution": "Sie hat sich um die Anmeldung gekümmert."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Kannst du dich heute ___ (1) die Rückmeldung ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["um", "auf", "über"], "solution": "um" },
+          { "id": 2, "options": ["kümmern", "freuen", "warten"], "solution": "kümmern" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du kümmerst dich um den Termin.", "solution": "Worum kümmerst du dich?" },
+          { "sentence": "Er kümmert sich um die Einladung.", "solution": "Worum kümmert er sich?" },
+          { "sentence": "Wir kümmern uns um das Projekt.", "solution": "Worum kümmern wir uns?" },
+          { "sentence": "Sie kümmert sich um die Prüfung.", "solution": "Worum kümmert sie sich?" },
+          { "sentence": "Ihr kümmert euch um das Gespräch.", "solution": "Worum kümmert ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Anmeldung", "ru": "регистрация, запись" },
+      { "de": "die Bestätigung", "ru": "подтверждение" }
+    ]
+  },
+  {
+    "id": "denken-an",
+    "expression": "denken an",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "думать о ком-либо/чём-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich denke an den Termin.", "ru": "Я думаю о встрече." },
+        { "de": "Sie denkt an die Prüfung.", "ru": "Она думает об экзамене." }
+      ],
+      "past": [
+        { "de": "Er hat an die Einladung gedacht.", "ru": "Он вспомнил о приглашении." },
+        { "de": "Wir haben an das Gespräch gedacht.", "ru": "Мы подумали о разговоре." }
+      ],
+      "future": [
+        { "de": "Ich werde an den Erfolg denken.", "ru": "Я буду думать об успехе." },
+        { "de": "Sie werden an das Ergebnis denken.", "ru": "Они будут думать о результате." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Sitzung hat Tom an alle Unterlagen gedacht. Er hat die Dokumente ausgedruckt und hat der Chefin am (an+dem) Morgen gesagt, dass alles bereit ist. Später hat er auch an die Einladung für das nächste Gespräch gedacht.",
+        "questions": [
+          {
+            "q": "О чём Том не забыл перед заседанием?",
+            "options": [
+              "Er hat an die Unterlagen gedacht.",
+              "Er hat an den Urlaub gedacht.",
+              "Er hat an das Auto gedacht."
+            ],
+            "solution": "Er hat an die Unterlagen gedacht."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Denkst du heute ___ (1) das Projekt? Ich denke schon ___ (2) den Termin.",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf", "um"], "solution": "an" },
+          { "id": 2, "options": ["an", "für", "mit"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du denkst an die Prüfung.", "solution": "Woran denkst du?" },
+          { "sentence": "Er denkt an das Gespräch.", "solution": "Woran denkt er?" },
+          { "sentence": "Wir denken an die Einladung.", "solution": "Woran denken wir?" },
+          { "sentence": "Sie denkt an den Termin.", "solution": "Woran denkt sie?" },
+          { "sentence": "Ihr denkt an den Erfolg.", "solution": "Woran denkt ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Unterlagen", "ru": "документы" },
+      { "de": "die Sitzung", "ru": "заседание" }
+    ]
+  }
+]
