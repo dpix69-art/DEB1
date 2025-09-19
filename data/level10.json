@@ -1,0 +1,317 @@
+[
+  {
+    "id": "bitten-um",
+    "expression": "bitten um",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "просить о",
+    "examples": {
+      "present": [
+        { "de": "Ich bitte um die Rückmeldung.", "ru": "Я прошу обратную связь." },
+        { "de": "Wir bitten um den Termin.", "ru": "Мы просим назначить встречу." }
+      ],
+      "past": [
+        { "de": "Er hat um die Einladung gebeten.", "ru": "Он попросил приглашение." },
+        { "de": "Sie hat um das Gespräch gebeten.", "ru": "Она попросила разговор." }
+      ],
+      "future": [
+        { "de": "Ich werde um das Ergebnis bitten.", "ru": "Я попрошу результат." },
+        { "de": "Sie werden um den Erfolg nicht bitten müssen.", "ru": "Им не придётся просить об успехе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Projektleitung hat die Studierenden per E-Mail um Geduld gebeten. Man hat erklärt, dass die Prüfung verspätet startet. Am (an+dem) Nachmittag hat die Verwaltung um Verständnis gebeten und hat einen neuen Termin vorgeschlagen.",
+        "questions": [
+          {
+            "q": "О чём попросила администрация днём?",
+            "options": [
+              "Um Verständnis.",
+              "Um Urlaub.",
+              "Um ein Auto."
+            ],
+            "solution": "Um Verständnis."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Könnten Sie mich ___ (1) etwas Zeit ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["um", "auf", "an"], "solution": "um" },
+          { "id": 2, "options": ["bitten", "warten", "kümmern"], "solution": "bitten" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bittest um die Rückmeldung.", "solution": "Worum bittest du?" },
+          { "sentence": "Er bittet um den Termin.", "solution": "Worum bittet er?" },
+          { "sentence": "Wir bitten um die Einladung.", "solution": "Worum bitten wir?" },
+          { "sentence": "Sie bittet um das Gespräch.", "solution": "Worum bittet sie?" },
+          { "sentence": "Ihr bittet um das Ergebnis.", "solution": "Worum bittet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "um Verständnis bitten", "ru": "просить понимания" },
+      { "de": "vorschlagen", "ru": "предлагать" }
+    ]
+  },
+  {
+    "id": "protestieren-gegen",
+    "expression": "protestieren gegen",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "протестовать против",
+    "examples": {
+      "present": [
+        { "de": "Die Studierenden protestieren gegen die Gebühr.", "ru": "Студенты протестуют против взноса." },
+        { "de": "Wir protestieren gegen die Regel.", "ru": "Мы протестуем против правила." }
+      ],
+      "past": [
+        { "de": "Viele haben gegen die Kürzung protestiert.", "ru": "Многие протестовали против сокращения." },
+        { "de": "Die Gruppe hat gegen den Termin protestiert.", "ru": "Группа протестовала против даты встречи." }
+      ],
+      "future": [
+        { "de": "Man wird gegen das Ergebnis protestieren.", "ru": "Будут протестовать против результата." },
+        { "de": "Sie werden gegen die Entscheidung protestieren.", "ru": "Они будут протестовать против решения." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Bekanntgabe hat die Gruppe gegen die neuen Gebühren protestiert. Viele Studierende haben Plakate gemacht und haben am (an+dem) Abend eine E-Mail an die Verwaltung geschrieben. Später hat die Leitung Gespräche angeboten.",
+        "questions": [
+          {
+            "q": "Против чего протестовала группа?",
+            "options": [
+              "Gegen die neuen Gebühren.",
+              "Gegen den Hausmeister.",
+              "Gegen die Kantine."
+            ],
+            "solution": "Gegen die neuen Gebühren."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Mitarbeitenden protestieren ___ (1) die Kürzung, und die Studierenden protestieren ___ (2) die Regel.",
+        "gaps": [
+          { "id": 1, "options": ["gegen", "für", "um"], "solution": "gegen" },
+          { "id": 2, "options": ["gegen", "auf", "an"], "solution": "gegen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Gruppe protestiert gegen die Entscheidung.", "solution": "Wogegen protestiert die Gruppe?" },
+          { "sentence": "Sie protestieren gegen die Regel.", "solution": "Wogegen protestieren sie?" },
+          { "sentence": "Wir protestieren gegen die Gebühr.", "solution": "Wogegen protestieren wir?" },
+          { "sentence": "Er protestiert gegen den Termin.", "solution": "Wogegen protestiert er?" },
+          { "sentence": "Ihr protestiert gegen das Ergebnis.", "solution": "Wogegen protestiert ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Gebühr", "ru": "плата, взнос" },
+      { "de": "die Kürzung", "ru": "сокращение" }
+    ]
+  },
+  {
+    "id": "kaempfen-fuer",
+    "expression": "kämpfen für",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "бороться за",
+    "examples": {
+      "present": [
+        { "de": "Wir kämpfen für bessere Bedingungen.", "ru": "Мы боремся за лучшие условия." },
+        { "de": "Sie kämpft für den Erfolg des Projekts.", "ru": "Она борется за успех проекта." }
+      ],
+      "past": [
+        { "de": "Die Gruppe hat für die Rechte gekämpft.", "ru": "Группа боролась за права." },
+        { "de": "Er hat für die Einladung aller gekämpft.", "ru": "Он добивался приглашения всех." }
+      ],
+      "future": [
+        { "de": "Wir werden für das Ergebnis kämpfen.", "ru": "Мы будем бороться за результат." },
+        { "de": "Sie werden für den Termin kämpfen.", "ru": "Они будут добиваться назначения встречи." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Initiative hat für transparente Prüfungen gekämpft. Viele Lehrkräfte haben zugestimmt und haben am (an+dem) Ende des Semesters neue Regeln eingeführt. Später hat die Verwaltung die Ergebnisse veröffentlicht.",
+        "questions": [
+          {
+            "q": "За что боролась инициатива?",
+            "options": [
+              "Für transparente Prüfungen.",
+              "Für längere Ferien.",
+              "Für neue Möbel."
+            ],
+            "solution": "Für transparente Prüfungen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir kämpfen ___ (1) die Gleichbehandlung, und das Team kämpft ___ (2) den Erfolg des Projekts.",
+        "gaps": [
+          { "id": 1, "options": ["für", "gegen", "um"], "solution": "für" },
+          { "id": 2, "options": ["für", "an", "auf"], "solution": "für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr kämpft für die Rechte.", "solution": "Wofür kämpft ihr?" },
+          { "sentence": "Er kämpft für den Erfolg.", "solution": "Wofür kämpft er?" },
+          { "sentence": "Wir kämpfen für bessere Bedingungen.", "solution": "Wofür kämpfen wir?" },
+          { "sentence": "Sie kämpft für das Ergebnis.", "solution": "Wofür kämpft sie?" },
+          { "sentence": "Die Gruppe kämpft für den Termin.", "solution": "Wofür kämpft die Gruppe?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Bedingungen", "ru": "условия" },
+      { "de": "die Gleichbehandlung", "ru": "равное обращение" }
+    ]
+  },
+  {
+    "id": "sorgen-fuer",
+    "expression": "sorgen für",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "заботиться о, обеспечивать",
+    "examples": {
+      "present": [
+        { "de": "Die Verwaltung sorgt für klare Informationen.", "ru": "Администрация обеспечивает понятную информацию." },
+        { "de": "Ich sorge für den Termin.", "ru": "Я позабочусь о встрече." }
+      ],
+      "past": [
+        { "de": "Sie hat für die Einladung gesorgt.", "ru": "Она позаботилась о приглашении." },
+        { "de": "Er hat für das Gespräch gesorgt.", "ru": "Он обеспечил проведение разговора." }
+      ],
+      "future": [
+        { "de": "Ich werde für das Ergebnis sorgen.", "ru": "Я позабочусь о результате." },
+        { "de": "Sie werden für den Erfolg sorgen.", "ru": "Они обеспечат успех." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor dem Termin hat die Assistentin für die Technik gesorgt. Sie hat die Geräte getestet und hat am (an+dem) Morgen die Zugangsdaten verschickt. Danach hat sie für die Einladung der Gäste gesorgt.",
+        "questions": [
+          {
+            "q": "За что отвечала ассистентка до встречи?",
+            "options": [
+              "Für die Technik.",
+              "Für das Catering.",
+              "Für die Möbel."
+            ],
+            "solution": "Für die Technik."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Kannst du bitte ___ (1) klare Hinweise ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["für", "gegen", "um"], "solution": "für" },
+          { "id": 2, "options": ["sorgen", "warten", "denken"], "solution": "sorgen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Verwaltung sorgt für die Informationen.", "solution": "Wofür sorgt die Verwaltung?" },
+          { "sentence": "Er sorgt für den Termin.", "solution": "Wofür sorgt er?" },
+          { "sentence": "Wir sorgen für die Einladung.", "solution": "Wofür sorgen wir?" },
+          { "sentence": "Sie sorgt für das Gespräch.", "solution": "Wofür sorgt sie?" },
+          { "sentence": "Ihr sorgt für das Ergebnis.", "solution": "Wofür sorgt ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Zugangsdaten", "ru": "данные для доступа" },
+      { "de": "der Hinweis", "ru": "указание, примечание" }
+    ]
+  },
+  {
+    "id": "sich-sorgen-um",
+    "expression": "sich sorgen um",
+    "case": "Akk",
+    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "translation": "беспокоиться о",
+    "examples": {
+      "present": [
+        { "de": "Ich sorge mich um das Ergebnis.", "ru": "Я беспокоюсь о результате." },
+        { "de": "Sie sorgt sich um den Termin.", "ru": "Она переживает о встрече." }
+      ],
+      "past": [
+        { "de": "Er hat sich um die Prüfung gesorgt.", "ru": "Он переживал из-за экзамена." },
+        { "de": "Wir haben uns um die Einladung gesorgt.", "ru": "Мы беспокоились о приглашении." }
+      ],
+      "future": [
+        { "de": "Ich werde mich nicht um den Erfolg sorgen.", "ru": "Я не буду переживать об успехе." },
+        { "de": "Sie werden sich um das Gespräch sorgen.", "ru": "Они будут переживать о разговоре." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Prüfung hat Nina sich sehr um das Ergebnis gesorgt. Ihre Freunde haben ihr gesagt, dass alles gut läuft. Am (an+dem) Abend hat sie sich beruhigt, weil sie eine positive Rückmeldung bekommen hat.",
+        "questions": [
+          {
+            "q": "Почему Нина успокоилась вечером?",
+            "options": [
+              "Sie hat eine positive Rückmeldung bekommen.",
+              "Sie hat ein Auto gekauft.",
+              "Sie hat Urlaub genommen."
+            ],
+            "solution": "Sie hat eine positive Rückmeldung bekommen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Mach dir keine Sorgen ___ (1) die Prüfung. Ich sorge mich nicht ___ (2) den Termin.",
+        "gaps": [
+          { "id": 1, "options": ["um", "für", "gegen"], "solution": "um" },
+          { "id": 2, "options": ["um", "an", "auf"], "solution": "um" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du sorgst dich um das Ergebnis.", "solution": "Worum sorgst du dich?" },
+          { "sentence": "Er sorgt sich um den Termin.", "solution": "Worum sorgt er sich?" },
+          { "sentence": "Wir sorgen uns um die Prüfung.", "solution": "Worum sorgen wir uns?" },
+          { "sentence": "Sie sorgt sich um die Einladung.", "solution": "Worum sorgt sie sich?" },
+          { "sentence": "Ihr sorgt euch um das Gespräch.", "solution": "Worum sorgt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "sich beruhigen", "ru": "успокоиться" },
+      { "de": "die Sorge", "ru": "беспокойство" }
+    ]
+  }
+]
