@@ -3,7 +3,7 @@
     "id": "sich-erinnern-an",
     "expression": "sich erinnern an",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Hund", "f": "die Katze", "n": "das Buch" },
     "translation": "помнить, вспоминать о",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "sich-vorbereiten-auf",
     "expression": "sich vorbereiten auf",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Lehrer", "f": "die Lehrerin", "n": "das Kind" },
     "translation": "готовиться к",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "sich-verlassen-auf",
     "expression": "sich verlassen auf",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Sohn", "f": "die Tochter", "n": "das Haus" },
     "translation": "полагаться на",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "sich-gewoehnen-an",
     "expression": "sich gewöhnen an",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Freund", "f": "die Freundin", "n": "das Zimmer" },
     "translation": "привыкать к",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "sich-bewerben-um",
     "expression": "sich bewerben um",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Nachbarn", "f": "die Nachbarin", "n": "das Fahrrad" },
     "translation": "подавать заявку на, претендовать на",
     "examples": {
       "present": [

@@ -3,7 +3,7 @@
     "id": "uebersetzen-in",
     "expression": "übersetzen in",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Jungen", "f": "die Mutter", "n": "das Spiel" },
     "translation": "переводить на (какой-либо язык/формат)",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "uebersetzen-aus",
     "expression": "übersetzen aus",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "den Polizisten", "f": "die Polizistin", "n": "das Problem" },
     "translation": "переводить с (какого-либо языка/источника)",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "sprechen-ueber",
     "expression": "sprechen über",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Teilnehmer", "f": "die Teilnehmerin", "n": "das Formular" },
     "translation": "говорить о (обсуждать)",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "reden-ueber",
     "expression": "reden über",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Besucher", "f": "die Besucherin", "n": "das Museum" },
     "translation": "разговаривать о",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "diskutieren-ueber",
     "expression": "diskutieren über",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Mitarbeiter", "f": "die Mitarbeiterin", "n": "das Projekt" },
     "translation": "дискутировать о",
     "examples": {
       "present": [

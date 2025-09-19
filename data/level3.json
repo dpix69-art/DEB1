@@ -3,7 +3,7 @@
     "id": "bitten-um",
     "expression": "bitten um",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Kollegen", "f": "die Kollegin", "n": "das Fenster" },
     "translation": "просить о",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "protestieren-gegen",
     "expression": "protestieren gegen",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Gast", "f": "die Besucherin", "n": "das Ticket" },
     "translation": "протестовать против",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "kaempfen-fuer",
     "expression": "kämpfen für",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Arzt", "f": "die Ärztin", "n": "das Medikament" },
     "translation": "бороться за",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "sorgen-fuer",
     "expression": "sorgen für",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Schüler", "f": "die Schülerin", "n": "das Heft" },
     "translation": "заботиться о, обеспечивать",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "sich-sorgen-um",
     "expression": "sich sorgen um",
     "case": "Akk",
-    "articles": { "m": "den Mann", "f": "die Frau", "n": "das Auto" },
+    "articles": { "m": "den Verkäufer", "f": "die Verkäuferin", "n": "das Produkt" },
     "translation": "беспокоиться о",
     "examples": {
       "present": [
