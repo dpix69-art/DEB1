@@ -8,7 +8,7 @@ import './index.css';
 import { Home } from './pages/Home';
 import { Level } from './pages/Level';
 import { Card } from './pages/Card';
-import { Dictionary } from './pages/Dictionary';
+import  Dictionary  from './pages/Dictionary';
 import { DictionaryCategory } from './pages/DictionaryCategory';
 import { DictionaryEntry } from './pages/DictionaryEntry';
 import { Emails } from './pages/Emails';
