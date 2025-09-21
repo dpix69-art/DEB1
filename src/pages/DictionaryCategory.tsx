@@ -1,57 +1,50 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { getDictionaryIndex } from '../lib/data';
 
-function belongsToBucket(item: any, bucket: string) {
-  if (!item) return false;
-  const pos = (item.pos ?? '').toUpperCase();
-  if (bucket === 'nouns') return pos === 'NOUN';
-  if (bucket === 'verbs') return pos === 'VERB';
-  if (bucket === 'adjectives') return pos === 'ADJ';
-  if (bucket === 'advs') return pos === 'ADV';
-  if (bucket === 'phrases') return pos === 'PHR';
-
-  // fallback — ничего
-  return false;
+function groupByBucket(items: any[]) {
+  const buckets: Record<string, number> = {};
+  for (const it of items) {
+    let bucket = 'other';
+    const pos = (it?.pos ?? '').toUpperCase();
+    if (pos === 'NOUN') bucket = 'nouns';
+    else if (pos === 'VERB') bucket = 'verbs';
+    else if (pos === 'ADJ') bucket = 'adjectives';
+    else if (pos === 'ADV') bucket = 'advs';
+    else if (pos === 'PHR') bucket = 'phrases';
+    buckets[bucket] = (buckets[bucket] ?? 0) + 1;
+  }
+  return buckets;
 }
 
-export default function DictionaryCategory() {
-  const { bucket } = useParams<{ bucket: string }>();
+type BucketMeta = { key: string; title: string; description: string; count: number };
+
+export default function Dictionary() {
   const all = getDictionaryIndex();
+  const grouped = groupByBucket(all);
 
-  const list = (all ?? []).filter(it => belongsToBucket(it, bucket ?? ''));
-
-  // Заголовок
-  const titleMap: Record<string, string> = {
-    nouns: 'Nouns',
-    verbs: 'Verbs',
-    adjectives: 'Adjectives',
-    advs: 'Adverbs',
-    phrases: 'Phrases',
-  };
-  const pageTitle = titleMap[bucket ?? ''] ?? 'Dictionary';
+  const bucketList: BucketMeta[] = [
+    { key: 'nouns',       title: 'Nouns',       description: 'Существительные',   count: grouped['nouns'] ?? 0 },
+    { key: 'verbs',       title: 'Verbs',       description: 'Глаголы',           count: grouped['verbs'] ?? 0 },
+    { key: 'adjectives',  title: 'Adjectives',  description: 'Прилагательные',    count: grouped['adjectives'] ?? 0 },
+    { key: 'advs',        title: 'Adverbs',     description: 'Наречия',           count: grouped['advs'] ?? 0 },
+    { key: 'phrases',     title: 'Phrases',     description: 'Фразы B1',          count: grouped['phrases'] ?? 0 },
+  ].filter(b => b.count > 0);
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <h1 className="text-2xl font-semibold mb-4">{pageTitle}</h1>
+    <div>
+      <h1>Dictionary</h1>
 
-      {list.length === 0 ? (
-        <div className="text-gray-500">В этой категории пока нет записей.</div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {list.map((e) => (
-            <Link
-              key={e.id}
-              to={`/dictionary/entry/${encodeURIComponent(e.id)}`}
-              className="block border rounded-lg p-4 hover:shadow-md transition"
-            >
-              <div className="text-lg font-medium">{e.headword}</div>
-              <div className="text-sm text-gray-500 mt-1">{e.preview}</div>
-              {/* Можно показать темы или POS */}
-              <div className="text-xs text-gray-400 mt-2 uppercase tracking-wide">{e.pos}</div>
-            </Link>
-          ))}
-        </div>
-      )}
+      <div>
+        {bucketList.map((b) => (
+          <Link key={b.key} to={`/dictionary/bucket/${b.key}`}>
+            <div>
+              <div>{b.title}</div>
+              <div>{b.description}</div>
+              <div>Всего: {b.count}</div>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }
