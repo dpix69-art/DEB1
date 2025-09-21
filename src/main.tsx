@@ -10,7 +10,7 @@ import './index.css';
 import { Home } from './pages/Home';
 import { Level } from './pages/Level';
 import { Card } from './pages/Card';
-import { Dictionary } from './pages/Dictionary';
+import Dictionary from './pages/Dictionary';
 import { Emails } from './pages/Emails';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
