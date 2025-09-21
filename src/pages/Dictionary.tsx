@@ -1,110 +1,208 @@
-import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
+import { ArrowLeft, Home, Search, X } from 'lucide-react';
 import { getDictionaryIndex } from '../lib/data';
 
-type BucketKey = 'nouns' | 'verbs' | 'adjectives' | 'advs' | 'phrases';
-
-const BUCKET_META: Record<BucketKey, { title: string; pos: string }> = {
-  nouns: { title: 'Nouns', pos: 'NOUN' },
-  verbs: { title: 'Verbs', pos: 'VERB' },
-  adjectives: { title: 'Adjectives', pos: 'ADJ' },
-  advs: { title: 'Adverbs', pos: 'ADV' },
-  phrases: { title: 'Phrases', pos: 'PHR' },
+type DictEntry = {
+  id: string;
+  headword: string;
+  pos: 'NOUN' | 'VERB' | 'ADJ' | 'ADV' | 'PHR' | string;
+  preview?: string | null;
+  translation_ru?: string | null;
+  register?: string | null;
+  topics?: string[];
 };
 
-export function Dictionary() {
-  const all = getDictionaryIndex() ?? [];
-  const [q, setQ] = useState('');
+const BUCKETS: Array<{ key: 'NOUN'|'VERB'|'ADJ'|'ADV'|'PHR'; label: string }> = [
+  { key: 'NOUN', label: 'Nouns' },
+  { key: 'VERB', label: 'Verbs' },
+  { key: 'ADJ',  label: 'Adjectives' },
+  { key: 'ADV',  label: 'Adverbs' },
+  { key: 'PHR',  label: 'Phrases' },
+];
 
-  // подсчёты по категориям
-  const counts = useMemo(() => {
-    const c: Record<BucketKey, number> = { nouns:0, verbs:0, adjectives:0, advs:0, phrases:0 };
-    for (const e of all) {
-      const p = String(e?.pos || '');
-      if (p === 'NOUN') c.nouns++;
-      else if (p === 'VERB') c.verbs++;
-      else if (p === 'ADJ') c.adjectives++;
-      else if (p === 'ADV') c.advs++;
-      else if (p === 'PHR') c.phrases++;
-    }
-    return c;
-  }, [all]);
+export default function Dictionary() {
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  // поиск по всем
-  const results = useMemo(() => {
-    const query = q.trim().toLowerCase();
-    if (!query) return [];
-    return all.filter((e: any) => {
-      const hay = [
-        e?.headword,
-        e?.preview,
-        e?.translation_ru,
-        e?.id
-      ].filter(Boolean).join(' ').toLowerCase();
-      return hay.includes(query);
-    });
-  }, [all, q]);
+  const all: DictEntry[] = Array.isArray(getDictionaryIndex()) ? (getDictionaryIndex() as DictEntry[]) : [];
+
+  // query params
+  const activePos = (searchParams.get('pos') || '').toUpperCase();
+  const q = (searchParams.get('q') || '').trim();
+
+  // counts per POS
+  const counts = BUCKETS.reduce<Record<string, number>>((acc, b) => {
+    acc[b.key] = all.filter(e => (e?.pos || '').toUpperCase() === b.key).length;
+    return acc;
+  }, {});
+
+  // filtering
+  const filtered = all.filter(e => {
+    const matchPos = activePos ? (e?.pos || '').toUpperCase() === activePos : true;
+    if (!matchPos) return false;
+    if (!q) return true;
+    const hay = `${e.headword ?? ''} ${e.preview ?? ''} ${e.translation_ru ?? ''}`.toLowerCase();
+    return hay.includes(q.toLowerCase());
+  });
+
+  const onSearchChange = (val: string) => {
+    const next = new URLSearchParams(searchParams);
+    if (val) next.set('q', val);
+    else next.delete('q');
+    setSearchParams(next, { replace: true });
+  };
+
+  const clearFilters = () => {
+    const next = new URLSearchParams(searchParams);
+    next.delete('pos');
+    next.delete('q');
+    setSearchParams(next, { replace: true });
+  };
+
+  const title = activePos
+    ? `Wörterbuch — ${BUCKETS.find(b => b.key === activePos)?.label ?? activePos}`
+    : 'Wörterbuch';
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-6">
-      <header className="mb-6">
-        <h1 className="text-2xl font-semibold mb-2">Dictionary</h1>
-        <p className="text-sm text-gray-600">
-          Категории слов и быстрый поиск по всему словарю.
-        </p>
-      </header>
-
-      {/* Поиск */}
-      <div className="mb-6">
-        <input
-          type="text"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder="Suche / Поиск…"
-          className="w-full border rounded-md px-3 py-2"
-        />
-      </div>
-
-      {/* Если есть запрос — показываем результаты */}
-      {q.trim() ? (
-        <div>
-          <div className="text-sm text-gray-600 mb-3">
-            Найдено: {results.length}
-          </div>
-          <ul className="space-y-2">
-            {results.map((e: any) => (
-              <li key={e.id} className="border rounded-md p-3 bg-white">
-                <Link to={`/dictionary/${encodeURIComponent(e.id)}`} className="block">
-                  <div className="flex items-baseline justify-between">
-                    <div className="font-medium">{e.headword}</div>
-                    <div className="text-xs text-gray-500">{e.pos}</div>
-                  </div>
-                  {e.preview && (
-                    <div className="text-sm text-gray-700">{e.preview}</div>
-                  )}
-                  {e.translation_ru && (
-                    <div className="text-sm text-gray-500">{e.translation_ru}</div>
-                  )}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        // иначе — сетка категорий как «карточки» (визуально ближе к Levels)
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {(Object.keys(BUCKET_META) as BucketKey[]).map((k) => (
-            <Link
-              key={k}
-              to={`/dictionary/category/${k}`}
-              className="block border rounded-lg p-4 bg-white hover:bg-gray-50"
-            >
-              <div className="text-lg font-medium mb-1">{BUCKET_META[k].title}</div>
-              <div className="text-sm text-gray-600">{counts[k]} entries</div>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-6">
+        {/* Header (как на Level) */}
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center space-x-4">
+            <Link to="/" className="p-2 hover:bg-gray-100 rounded">
+              <ArrowLeft size={24} style={{ color: '#111' }} />
             </Link>
-          ))}
+            <h1 className="text-2xl font-bold" style={{ color: '#111' }}>
+              {title}
+            </h1>
+          </div>
+          <Link to="/" className="p-2 hover:bg-gray-100 rounded">
+            <Home size={24} style={{ color: '#666' }} />
+          </Link>
         </div>
-      )}
+
+        <div className="max-w-4xl mx-auto">
+          {/* Поиск */}
+          <div className="mb-6">
+            <div className="relative">
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Search size={18} />
+              </div>
+              <input
+                value={q}
+                onChange={(e) => onSearchChange(e.target.value)}
+                type="text"
+                placeholder="Suchen… (z.B. Kopf, schreiben, allerdings)"
+                className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md bg-white focus:outline-none"
+              />
+              {q && (
+                <button
+                  onClick={() => onSearchChange('')}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center hover:opacity-80"
+                  aria-label="Clear"
+                >
+                  <X size={18} />
+                </button>
+              )}
+            </div>
+
+            {(activePos || q) && (
+              <div className="mt-3 flex items-center gap-3">
+                {activePos && (
+                  <span className="text-xs px-2 py-1 rounded border bg-white">
+                    POS: {BUCKETS.find(b => b.key === activePos)?.label ?? activePos}
+                  </span>
+                )}
+                {q && (
+                  <span className="text-xs px-2 py-1 rounded border bg-white">
+                    Suche: „{q}“
+                  </span>
+                )}
+                <button
+                  onClick={clearFilters}
+                  className="text-sm px-3 py-1 rounded border bg-white hover:bg-gray-50"
+                >
+                  Filter zurücksetzen
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Если нет активной категории и пустой поиск — показываем карточки категорий */}
+          {!activePos && !q && (
+            <div className="grid gap-4">
+              {BUCKETS.map(b => (
+                <button
+                  key={b.key}
+                  onClick={() => {
+                    const next = new URLSearchParams(searchParams);
+                    next.set('pos', b.key);
+                    setSearchParams(next, { replace: true });
+                  }}
+                  className="block text-left p-6 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h2 className="text-xl font-semibold" style={{ color: '#111' }}>
+                        {b.label}
+                      </h2>
+                      <p className="text-sm" style={{ color: '#666' }}>
+                        {counts[b.key] ?? 0} Einträge
+                      </p>
+                    </div>
+                    <div className="text-sm px-2 py-1 rounded border bg-white">
+                      POS: {b.key}
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+
+          {/* Иначе — список найденных слов */}
+          {(activePos || q) && (
+            <div className="grid gap-4">
+              {filtered.map(e => (
+                <Link
+                  key={e.id}
+                  to={`/dictionary/${e.id}`}
+                  className="block p-6 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow"
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex-1">
+                      <div className="flex items-center space-x-3 mb-2">
+                        <h2 className="text-xl font-semibold" style={{ color: '#111' }}>
+                          {e.headword}
+                        </h2>
+                        <span className="text-xs px-2 py-1 rounded border bg-white">
+                          {e.pos}{e.register ? ` · ${e.register}` : ''}
+                        </span>
+                      </div>
+                      {e.translation_ru && (
+                        <p style={{ color: '#666' }} className="text-sm">
+                          {e.translation_ru}
+                        </p>
+                      )}
+                      {!e.translation_ru && e.preview && (
+                        <p style={{ color: '#666' }} className="text-sm">
+                          {e.preview}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+
+              {filtered.length === 0 && (
+                <div className="p-6 bg-white rounded-lg border text-sm" style={{ color: '#666' }}>
+                  Ничего не найдено. Измените фильтры или запрос.
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
