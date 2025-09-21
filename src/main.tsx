@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import DictionaryEntry from './pages/DictionaryEntry';
+import DictionaryCategory from './pages/DictionaryCategory';
 
 
 
