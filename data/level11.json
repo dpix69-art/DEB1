@@ -1,0 +1,327 @@
+[
+  {
+    "id": "die-teilnahme-an",
+    "expression": "die Teilnahme an",
+    "case": "Dat",
+    "articles": { "m": "dem Workshop", "f": "der Besprechung", "n": "dem Seminar" },
+    "translation": "участие в",
+    "examples": {
+      "present": [
+        { "de": "Die Teilnahme an dem Seminar ist kostenlos.", "ru": "Участие в семинаре бесплатное." },
+        { "de": "Unsere Teilnahme an der Besprechung ist bestätigt.", "ru": "Наше участие в совещании подтверждено." }
+      ],
+      "past": [
+        { "de": "Die Teilnahme an dem Workshop ist bestätigt gewesen.", "ru": "Участие в воркшопе было подтверждено." },
+        { "de": "Ihre Teilnahme an der Prüfung ist angemeldet gewesen.", "ru": "Её участие в экзамене было зарегистрировано." }
+      ],
+      "future": [
+        { "de": "Die Teilnahme an dem Kurs wird verpflichtend sein.", "ru": "Участие в курсе будет обязательным." },
+        { "de": "Unsere Teilnahme an der Veranstaltung wird sicher sein.", "ru": "Наше участие в мероприятии будет точно." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für die Teilnahme an der Schulung hat die Verwaltung eine Liste erstellt. Man hat die Namen geprüft und hat am (an+dem) Morgen die Einladungen verschickt.",
+        "questions": [
+          {
+            "q": "Что сделала администрация для участия в обучении?",
+            "options": ["Eine Liste erstellt.", "Einen Parkplatz geöffnet.", "Ein Café reserviert."],
+            "solution": "Eine Liste erstellt."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) dem Seminar ist freiwillig.",
+        "gaps": [
+          { "id": 1, "options": ["Teilnahme", "Vorbereitung", "Entscheidung"], "solution": "Teilnahme" },
+          { "id": 2, "options": ["an", "für", "über"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Teilnahme an dem Workshop ist wichtig.", "solution": "Woran ist die Teilnahme wichtig?" },
+          { "sentence": "Unsere Teilnahme an der Besprechung ist bestätigt.", "solution": "Woran ist unsere Teilnahme bestätigt?" },
+          { "sentence": "Die Teilnahme an dem Seminar ist kostenlos.", "solution": "Woran ist die Teilnahme kostenlos?" },
+          { "sentence": "Seine Teilnahme an der Prüfung ist angemeldet.", "solution": "Woran ist seine Teilnahme angemeldet?" },
+          { "sentence": "Ihre Teilnahme an der Veranstaltung ist geplant.", "solution": "Woran ist ihre Teilnahme geplant?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "erstellen", "ru": "составлять, создавать" },
+      { "de": "prüfen", "ru": "проверять" },
+      { "de": "verschicken", "ru": "отправлять" },
+      { "de": "freiwillig", "ru": "добровольно" },
+      { "de": "verpflichtend", "ru": "обязательный" },
+      { "de": "bestätigen", "ru": "подтверждать" },
+      { "de": "die Veranstaltung", "ru": "мероприятие" },
+      { "de": "die Schulung", "ru": "обучение" }
+    ]
+  },
+  {
+    "id": "die-entscheidung-fuer",
+    "expression": "die Entscheidung für",
+    "case": "Akk",
+    "articles": { "m": "den Kurs", "f": "die Option", "n": "das Angebot" },
+    "translation": "решение в пользу",
+    "examples": {
+      "present": [
+        { "de": "Die Entscheidung für den Kurs ist gefallen.", "ru": "Принято решение в пользу курса." },
+        { "de": "Seine Entscheidung für die Option ist klar.", "ru": "Его выбор в пользу опции ясен." }
+      ],
+      "past": [
+        { "de": "Unsere Entscheidung für das Angebot ist bestätigt gewesen.", "ru": "Наше решение в пользу предложения было подтверждено." },
+        { "de": "Ihre Entscheidung für die Stelle ist kommuniziert gewesen.", "ru": "Её решение в пользу должности было сообщено." }
+      ],
+      "future": [
+        { "de": "Die Entscheidung für den Termin wird schnell sein.", "ru": "Решение по встрече будет быстрым." },
+        { "de": "Seine Entscheidung für das Projekt wird überzeugen.", "ru": "Его решение в пользу проекта убедит." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach mehreren Gesprächen hat die Leitung die Entscheidung für das günstigere Angebot getroffen. Man hat am (an+dem) Nachmittag informiert und hat die Verträge vorbereitet.",
+        "questions": [
+          {
+            "q": "Какое решение приняло руководство?",
+            "options": ["Für das günstigere Angebot.", "Für den Parkplatz.", "Für die längere Pause."],
+            "solution": "Für das günstigere Angebot."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) die Option A war einstimmig.",
+        "gaps": [
+          { "id": 1, "options": ["Entscheidung", "Teilnahme", "Vorbereitung"], "solution": "Entscheidung" },
+          { "id": 2, "options": ["für", "an", "mit"], "solution": "für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Entscheidung für den Kurs ist gefallen.", "solution": "Wofür ist die Entscheidung gefallen?" },
+          { "sentence": "Unsere Entscheidung für das Angebot ist bestätigt.", "solution": "Wofür ist unsere Entscheidung bestätigt?" },
+          { "sentence": "Ihre Entscheidung für die Stelle ist klar.", "solution": "Wofür ist ihre Entscheidung klar?" },
+          { "sentence": "Die Entscheidung für den Termin kommt morgen.", "solution": "Wofür kommt die Entscheidung morgen?" },
+          { "sentence": "Seine Entscheidung für das Projekt überzeugt.", "solution": "Wofür überzeugt seine Entscheidung?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "günstig", "ru": "выгодный" },
+      { "de": "vorbereiten", "ru": "подготавливать" },
+      { "de": "informieren", "ru": "информировать" },
+      { "de": "einstimmig", "ru": "единогласно" },
+      { "de": "überzeugen", "ru": "убеждать" },
+      { "de": "das Angebot", "ru": "предложение" },
+      { "de": "die Stelle", "ru": "должность" },
+      { "de": "der Vertrag", "ru": "договор" }
+    ]
+  },
+  {
+    "id": "das-interesse-an",
+    "expression": "das Interesse an",
+    "case": "Dat",
+    "articles": { "m": "dem Thema", "f": "der Statistik", "n": "dem Programm" },
+    "translation": "интерес к",
+    "examples": {
+      "present": [
+        { "de": "Das Interesse an dem Programm ist groß.", "ru": "Интерес к программе велик." },
+        { "de": "Ihr Interesse an der Statistik steigt.", "ru": "Её интерес к статистике растёт." }
+      ],
+      "past": [
+        { "de": "Unser Interesse an dem Thema ist hoch gewesen.", "ru": "Наш интерес к теме был высок." },
+        { "de": "Sein Interesse an der Schulung ist stark gewesen.", "ru": "Его интерес к обучению был высоким." }
+      ],
+      "future": [
+        { "de": "Das Interesse an dem Kurs wird wachsen.", "ru": "Интерес к курсу будет расти." },
+        { "de": "Ihr Interesse an den Ergebnissen wird bleiben.", "ru": "Её интерес к результатам сохранится." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Präsentation ist das Interesse an dem neuen Thema gestiegen. Viele haben Fragen gestellt und haben am (an+dem) Abend weitere Infos angefragt.",
+        "questions": [
+          {
+            "q": "К чему вырос интерес после презентации?",
+            "options": ["An dem neuen Thema.", "An dem Parkplatz.", "An der Kantine."],
+            "solution": "An dem neuen Thema."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Das ___ (1) ___ (2) der Schulung ist groß.",
+        "gaps": [
+          { "id": 1, "options": ["Interesse", "Einfluss", "Vorbereitung"], "solution": "Interesse" },
+          { "id": 2, "options": ["an", "für", "über"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Das Interesse an dem Programm ist groß.", "solution": "Woran ist das Interesse groß?" },
+          { "sentence": "Ihr Interesse an der Statistik steigt.", "solution": "Woran steigt ihr Interesse?" },
+          { "sentence": "Unser Interesse an dem Kurs bleibt.", "solution": "Woran bleibt unser Interesse?" },
+          { "sentence": "Sein Interesse an der Schulung ist stark.", "solution": "Woran ist sein Interesse stark?" },
+          { "sentence": "Das Interesse an den Ergebnissen sinkt nicht.", "solution": "Woran sinkt das Interesse nicht?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "steigen", "ru": "расти" },
+      { "de": "anfragen", "ru": "запрашивать" },
+      { "de": "die Präsentation", "ru": "презентация" },
+      { "de": "die Statistik", "ru": "статистика" },
+      { "de": "das Programm", "ru": "программа" },
+      { "de": "die Schulung", "ru": "обучение" },
+      { "de": "die Frage", "ru": "вопрос" },
+      { "de": "Informationen", "ru": "информация" }
+    ]
+  },
+  {
+    "id": "der-einfluss-auf",
+    "expression": "der Einfluss auf",
+    "case": "Akk",
+    "articles": { "m": "den Prozess", "f": "die Planung", "n": "das Ergebnis" },
+    "translation": "влияние на",
+    "examples": {
+      "present": [
+        { "de": "Der Einfluss auf die Planung ist deutlich.", "ru": "Влияние на планирование заметно." },
+        { "de": "Sein Einfluss auf das Ergebnis ist groß.", "ru": "Его влияние на результат велико." }
+      ],
+      "past": [
+        { "de": "Der Einfluss auf den Prozess ist spürbar gewesen.", "ru": "Влияние на процесс было ощутимым." },
+        { "de": "Ihr Einfluss auf die Entscheidung ist wichtig gewesen.", "ru": "Её влияние на решение было важным." }
+      ],
+      "future": [
+        { "de": "Der Einfluss auf den Termin wird geringer sein.", "ru": "Влияние на встречу будет меньше." },
+        { "de": "Unser Einfluss auf das Projekt wird reichen.", "ru": "Нашего влияния на проект будет достаточно." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die neuen Daten haben einen starken Einfluss auf die Planung gehabt. Das Team hat die Schritte angepasst und hat am (an+dem) Ende die Einladung geändert.",
+        "questions": [
+          {
+            "q": "На что повлияли новые данные?",
+            "options": ["Auf die Planung.", "Auf die Küche.", "Auf den Parkplatz."],
+            "solution": "Auf die Planung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Der ___ (1) ___ (2) das Ergebnis ist positiv.",
+        "gaps": [
+          { "id": 1, "options": ["Einfluss", "Interesse", "Teilnahme"], "solution": "Einfluss" },
+          { "id": 2, "options": ["auf", "für", "an"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Einfluss auf die Planung ist deutlich.", "solution": "Worauf ist der Einfluss deutlich?" },
+          { "sentence": "Sein Einfluss auf das Ergebnis ist groß.", "solution": "Worauf ist sein Einfluss groß?" },
+          { "sentence": "Unser Einfluss auf den Prozess bleibt.", "solution": "Worauf bleibt unser Einfluss?" },
+          { "sentence": "Ihr Einfluss auf die Entscheidung war wichtig.", "solution": "Worauf war ihr Einfluss wichtig?" },
+          { "sentence": "Der Einfluss auf den Termin sinkt.", "solution": "Worauf sinkt der Einfluss?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "anpassen", "ru": "корректировать" },
+      { "de": "ändern", "ru": "менять" },
+      { "de": "deutlich", "ru": "отчётливо" },
+      { "de": "spürbar", "ru": "ощутимый" },
+      { "de": "reichen", "ru": "хватать" },
+      { "de": "die Entscheidung", "ru": "решение" },
+      { "de": "die Planung", "ru": "планирование" },
+      { "de": "die Daten", "ru": "данные" }
+    ]
+  },
+  {
+    "id": "die-vorbereitung-auf",
+    "expression": "die Vorbereitung auf",
+    "case": "Akk",
+    "articles": { "m": "den Test", "f": "die Präsentation", "n": "das Gespräch" },
+    "translation": "подготовка к",
+    "examples": {
+      "present": [
+        { "de": "Die Vorbereitung auf den Test läuft.", "ru": "Подготовка к тесту идёт." },
+        { "de": "Unsere Vorbereitung auf die Präsentation ist fast fertig.", "ru": "Наша подготовка к презентации почти готова." }
+      ],
+      "past": [
+        { "de": "Die Vorbereitung auf das Gespräch ist gut gewesen.", "ru": "Подготовка к разговору была хорошей." },
+        { "de": "Ihre Vorbereitung auf die Prüfung ist intensiv gewesen.", "ru": "Её подготовка к экзамену была интенсивной." }
+      ],
+      "future": [
+        { "de": "Die Vorbereitung auf den Termin wird zwei Tage dauern.", "ru": "Подготовка к встрече займет два дня." },
+        { "de": "Unsere Vorbereitung auf das Projekt wird weitergehen.", "ru": "Наша подготовка к проекту продолжится." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für die Vorbereitung auf die Präsentation hat das Team Beispiele gesammelt. Man hat am (an+dem) Vormittag geübt und hat am (an+dem) Nachmittag die Folien überarbeitet.",
+        "questions": [
+          {
+            "q": "Что команда делала для подготовки к презентации утром?",
+            "options": ["Geübt.", "Gekocht.", "Gefeiert."],
+            "solution": "Geübt."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) den Test braucht Zeit.",
+        "gaps": [
+          { "id": 1, "options": ["Vorbereitung", "Entscheidung", "Teilnahme"], "solution": "Vorbereitung" },
+          { "id": 2, "options": ["auf", "für", "an"], "solution": "auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Vorbereitung auf den Test läuft.", "solution": "Worauf läuft die Vorbereitung?" },
+          { "sentence": "Unsere Vorbereitung auf die Präsentation ist fast fertig.", "solution": "Worauf ist unsere Vorbereitung fast fertig?" },
+          { "sentence": "Die Vorbereitung auf das Gespräch war gut.", "solution": "Worauf war die Vorbereitung gut?" },
+          { "sentence": "Ihre Vorbereitung auf die Prüfung war intensiv.", "solution": "Worauf war ihre Vorbereitung intensiv?" },
+          { "sentence": "Die Vorbereitung auf den Termin dauert.", "solution": "Worauf dauert die Vorbereitung?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "üben", "ru": "тренироваться" },
+      { "de": "überarbeiten", "ru": "дорабатывать" },
+      { "de": "die Folie", "ru": "слайд" },
+      { "de": "intensiv", "ru": "интенсивный" },
+      { "de": "dauern", "ru": "длиться" },
+      { "de": "sammeln", "ru": "собирать" },
+      { "de": "fast", "ru": "почти" },
+      { "de": "fertig", "ru": "готовый" }
+    ]
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": "interessiert-an",
+    "expression": "interessiert an",
+    "case": "Dat",
+    "articles": { "m": "dem Kollegen", "f": "der Ausstellung", "n": "dem Projekt" },
+    "translation": "заинтересован в",
+    "examples": {
+      "present": [
+        { "de": "Ich bin an dem Projekt interessiert.", "ru": "Я заинтересован в проекте." },
+        { "de": "Sie ist an der Ausstellung interessiert.", "ru": "Она заинтересована в выставке." }
+      ],
+      "past": [
+        { "de": "Wir sind an dem Ergebnis interessiert gewesen.", "ru": "Мы были заинтересованы в результате." },
+        { "de": "Er ist an der Rückmeldung interessiert gewesen.", "ru": "Он был заинтересован в обратной связи." }
+      ],
+      "future": [
+        { "de": "Ich werde an dem Gespräch interessiert sein.", "ru": "Я буду заинтересован в разговоре." },
+        { "de": "Sie werden an der Schulung interessiert sein.", "ru": "Они будут заинтересованы в обучении." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Einladung hat Lea gesagt, dass sie an dem neuen Kurs interessiert ist. Sie hat sich informiert, hat die Unterlagen gelesen und hat am (an+dem) Abend eine Frage an die Verwaltung geschickt.",
+        "questions": [
+          {
+            "q": "К чему Леа проявила интерес?",
+            "options": ["An dem neuen Kurs.", "An dem Parkplatz.", "An der Kantine."],
+            "solution": "An dem neuen Kurs."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Viele Teilnehmende sind ___ (1) der Prüfung sehr ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["an", "mit", "von"], "solution": "an" },
+          { "id": 2, "options": ["interessiert", "zufrieden", "verantwortlich"], "solution": "interessiert" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bist an dem Projekt interessiert.", "solution": "Woran bist du interessiert?" },
+          { "sentence": "Er ist an der Ausstellung interessiert.", "solution": "Woran ist er interessiert?" },
+          { "sentence": "Wir sind an dem Ergebnis interessiert.", "solution": "Woran sind wir interessiert?" },
+          { "sentence": "Sie ist an der Rückmeldung interessiert.", "solution": "Woran ist sie interessiert?" },
+          { "sentence": "Ihr seid an der Schulung interessiert.", "solution": "Woran seid ihr interessiert?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Unterlagen", "ru": "документы" },
+      { "de": "sich informieren", "ru": "узнавать информацию" },
+      { "de": "die Verwaltung", "ru": "администрация" },
+      { "de": "die Schulung", "ru": "обучение" },
+      { "de": "die Rückmeldung", "ru": "обратная связь" },
+      { "de": "die Einladung", "ru": "приглашение" },
+      { "de": "der Kurs", "ru": "курс" },
+      { "de": "das Ergebnis", "ru": "результат" }
+    ]
+  },
+  {
+    "id": "stolz-auf",
+    "expression": "stolz auf",
+    "case": "Akk",
+    "articles": { "m": "den Vertrag", "f": "die Prüfung", "n": "das Ergebnis" },
+    "translation": "гордый чем-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich bin stolz auf das Ergebnis.", "ru": "Я горжусь результатом." },
+        { "de": "Sie ist stolz auf die Prüfung.", "ru": "Она гордится экзаменом." }
+      ],
+      "past": [
+        { "de": "Wir sind auf den Vertrag stolz gewesen.", "ru": "Мы гордились договором." },
+        { "de": "Er ist auf die Einladung stolz gewesen.", "ru": "Он гордился приглашением." }
+      ],
+      "future": [
+        { "de": "Ich werde auf den Termin stolz sein.", "ru": "Я буду гордиться встречей." },
+        { "de": "Sie werden auf das Projekt stolz sein.", "ru": "Они будут гордиться проектом." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Gespräch hat die Leiterin gesagt, dass sie auf das Team stolz ist. Sie hat die Zusammenarbeit gelobt und hat am (an+dem) Ende allen für die Vorbereitung gedankt.",
+        "questions": [
+          {
+            "q": "Чем руководительница гордилась?",
+            "options": ["Auf das Team.", "Auf den Parkplatz.", "Auf die Kantine."],
+            "solution": "Auf das Team."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Klasse ist ___ (1) die Ergebnisse sehr ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "über"], "solution": "auf" },
+          { "id": 2, "options": ["stolz", "neugierig", "verantwortlich"], "solution": "stolz" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bist stolz auf das Ergebnis.", "solution": "Worauf bist du stolz?" },
+          { "sentence": "Er ist stolz auf die Prüfung.", "solution": "Worauf ist er stolz?" },
+          { "sentence": "Wir sind stolz auf den Vertrag.", "solution": "Worauf sind wir stolz?" },
+          { "sentence": "Sie ist stolz auf das Projekt.", "solution": "Worauf ist sie stolz?" },
+          { "sentence": "Ihr seid stolz auf die Einladung.", "solution": "Worauf seid ihr stolz?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "loben", "ru": "хвалить" },
+      { "de": "die Zusammenarbeit", "ru": "сотрудничество" },
+      { "de": "die Vorbereitung", "ru": "подготовка" },
+      { "de": "das Team", "ru": "команда" },
+      { "de": "der Vertrag", "ru": "договор" },
+      { "de": "der Termin", "ru": "встреча" },
+      { "de": "das Projekt", "ru": "проект" },
+      { "de": "danken", "ru": "благодарить" }
+    ]
+  },
+  {
+    "id": "neugierig-auf",
+    "expression": "neugierig auf",
+    "case": "Akk",
+    "articles": { "m": "den Bericht", "f": "die Rückmeldung", "n": "das Formular" },
+    "translation": "заинтригован, любопытный к",
+    "examples": {
+      "present": [
+        { "de": "Ich bin neugierig auf den Bericht.", "ru": "Мне любопытен отчёт." },
+        { "de": "Sie ist neugierig auf die Rückmeldung.", "ru": "Ей любопытна обратная связь." }
+      ],
+      "past": [
+        { "de": "Wir sind auf das Ergebnis neugierig gewesen.", "ru": "Нам было любопытно узнать результат." },
+        { "de": "Er ist auf die Einladung neugierig gewesen.", "ru": "Ему было любопытно приглашение." }
+      ],
+      "future": [
+        { "de": "Ich werde auf das Gespräch neugierig sein.", "ru": "Мне будет любопытен разговор." },
+        { "de": "Sie werden auf den Termin neugierig sein.", "ru": "Им будет любопытна встреча." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Veröffentlichung waren viele neugierig auf die Ergebnisse. Die Leitung hat die Zahlen erklärt und hat am (an+dem) Nachmittag ein kurzes Gespräch angeboten.",
+        "questions": [
+          {
+            "q": "На что многие были любопытны до публикации?",
+            "options": ["Auf die Ergebnisse.", "Auf den Parkplatz.", "Auf die Kantine."],
+            "solution": "Auf die Ergebnisse."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Studierenden sind ___ (1) die Einladung sehr ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["auf", "für", "mit"], "solution": "auf" },
+          { "id": 2, "options": ["neugierig", "zufrieden", "interessiert"], "solution": "neugierig" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bist neugierig auf das Ergebnis.", "solution": "Worauf bist du neugierig?" },
+          { "sentence": "Er ist neugierig auf den Bericht.", "solution": "Worauf ist er neugierig?" },
+          { "sentence": "Wir sind neugierig auf die Rückmeldung.", "solution": "Worauf sind wir neugierig?" },
+          { "sentence": "Sie ist neugierig auf die Einladung.", "solution": "Worauf ist sie neugierig?" },
+          { "sentence": "Ihr seid neugierig auf den Termin.", "solution": "Worauf seid ihr neugierig?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "veröffentlichen", "ru": "публиковать" },
+      { "de": "die Zahl", "ru": "число" },
+      { "de": "anbieten", "ru": "предлагать" },
+      { "de": "der Bericht", "ru": "отчёт" },
+      { "de": "die Einladung", "ru": "приглашение" },
+      { "de": "die Rückmeldung", "ru": "обратная связь" },
+      { "de": "das Ergebnis", "ru": "результат" },
+      { "de": "neugierig", "ru": "любопытный" }
+    ]
+  },
+  {
+    "id": "zufrieden-mit",
+    "expression": "zufrieden mit",
+    "case": "Dat",
+    "articles": { "m": "dem Trainer", "f": "der Lösung", "n": "dem Vertrag" },
+    "translation": "доволен чем-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich bin mit der Lösung zufrieden.", "ru": "Я доволен решением." },
+        { "de": "Wir sind mit dem Vertrag zufrieden.", "ru": "Мы довольны договором." }
+      ],
+      "past": [
+        { "de": "Er ist mit dem Termin zufrieden gewesen.", "ru": "Он был доволен встречей." },
+        { "de": "Sie ist mit der Rückmeldung zufrieden gewesen.", "ru": "Она была довольна обратной связью." }
+      ],
+      "future": [
+        { "de": "Ich werde mit dem Ergebnis zufrieden sein.", "ru": "Я буду доволен результатом." },
+        { "de": "Sie werden mit dem Gespräch zufrieden sein.", "ru": "Они будут довольны разговором." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Schulung war das Team mit der neuen Software zufrieden. Man hat Fragen gesammelt und hat am (an+dem) Ende eine kurze Rückmeldung geschrieben.",
+        "questions": [
+          {
+            "q": "Чем команда осталась довольна после обучения?",
+            "options": ["Mit der neuen Software.", "Mit der Kantine.", "Mit dem Parkplatz."],
+            "solution": "Mit der neuen Software."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Sind Sie ___ (1) dem Ergebnis wirklich ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "von", "zu"], "solution": "mit" },
+          { "id": 2, "options": ["zufrieden", "neugierig", "stolz"], "solution": "zufrieden" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bist mit dem Vertrag zufrieden.", "solution": "Womit bist du zufrieden?" },
+          { "sentence": "Er ist mit der Lösung zufrieden.", "solution": "Womit ist er zufrieden?" },
+          { "sentence": "Wir sind mit der Rückmeldung zufrieden.", "solution": "Womit sind wir zufrieden?" },
+          { "sentence": "Sie ist mit dem Gespräch zufrieden.", "solution": "Womit ist sie zufrieden?" },
+          { "sentence": "Ihr seid mit dem Trainer zufrieden.", "solution": "Womit seid ihr zufrieden?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Schulung", "ru": "обучение" },
+      { "de": "die Software", "ru": "программное обеспечение" },
+      { "de": "sammeln", "ru": "собирать" },
+      { "de": "schreiben", "ru": "писать" },
+      { "de": "die Lösung", "ru": "решение" },
+      { "de": "der Trainer", "ru": "тренер" },
+      { "de": "der Vertrag", "ru": "договор" },
+      { "de": "wirklich", "ru": "действительно" }
+    ]
+  },
+  {
+    "id": "verantwortlich-fuer",
+    "expression": "verantwortlich für",
+    "case": "Akk",
+    "articles": { "m": "den Bereich", "f": "die Anmeldung", "n": "das Budget" },
+    "translation": "ответственный за",
+    "examples": {
+      "present": [
+        { "de": "Ich bin für die Anmeldung verantwortlich.", "ru": "Я отвечаю за регистрацию." },
+        { "de": "Sie ist für das Budget verantwortlich.", "ru": "Она отвечает за бюджет." }
+      ],
+      "past": [
+        { "de": "Wir sind für den Bereich verantwortlich gewesen.", "ru": "Мы были ответственны за направление." },
+        { "de": "Er ist für die Einladung verantwortlich gewesen.", "ru": "Он был ответственен за приглашение." }
+      ],
+      "future": [
+        { "de": "Ich werde für den Termin verantwortlich sein.", "ru": "Я буду ответственен за встречу." },
+        { "de": "Sie werden für das Ergebnis verantwortlich sein.", "ru": "Они будут ответственны за результат." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Projekt hat Anna erklärt, dass sie für die Kommunikation verantwortlich ist. Sie hat die Einladungen verschickt und hat am (an+dem) Morgen die Rückmeldungen gesammelt.",
+        "questions": [
+          {
+            "q": "За что Анна отвечает в проекте?",
+            "options": ["Für die Kommunikation.", "Für den Parkplatz.", "Für die Kantine."],
+            "solution": "Für die Kommunikation."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wer ist ___ (1) das Budget ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["für", "mit", "auf"], "solution": "für" },
+          { "id": 2, "options": ["verantwortlich", "zufrieden", "neugierig"], "solution": "verantwortlich" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bist für die Anmeldung verantwortlich.", "solution": "Wofür bist du verantwortlich?" },
+          { "sentence": "Er ist für das Budget verantwortlich.", "solution": "Wofür ist er verantwortlich?" },
+          { "sentence": "Wir sind für den Bereich verantwortlich.", "solution": "Wofür sind wir verantwortlich?" },
+          { "sentence": "Sie ist für die Einladung verantwortlich.", "solution": "Wofür ist sie verantwortlich?" },
+          { "sentence": "Ihr seid für den Termin verantwortlich.", "solution": "Wofür seid ihr verantwortlich?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Kommunikation", "ru": "коммуникация" },
+      { "de": "verschicken", "ru": "отправлять" },
+      { "de": "sammeln", "ru": "собирать" },
+      { "de": "der Bereich", "ru": "направление, область" },
+      { "de": "die Anmeldung", "ru": "регистрация" },
+      { "de": "das Budget", "ru": "бюджет" },
+      { "de": "verantwortlich", "ru": "ответственный" },
+      { "de": "zuständig", "ru": "компетентный, ответственный" }
+    ]
+  }
+]

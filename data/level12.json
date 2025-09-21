@@ -1,0 +1,322 @@
+[
+  {
+    "id": "die-frage-nach",
+    "expression": "die Frage nach",
+    "case": "Dat",
+    "articles": { "m": "dem Termin", "f": "der Frist", "n": "dem Ergebnis" },
+    "translation": "вопрос о",
+    "examples": {
+      "present": [
+        { "de": "Die Frage nach dem Termin ist offen.", "ru": "Вопрос о встрече открыт." },
+        { "de": "Ihre Frage nach der Frist ist berechtigt.", "ru": "Её вопрос о сроке обоснован." }
+      ],
+      "past": [
+        { "de": "Die Frage nach dem Ergebnis ist gestellt worden.", "ru": "Вопрос о результате был задан." },
+        { "de": "Unsere Frage nach der Einladung ist beantwortet worden.", "ru": "Наш вопрос о приглашении был отвечен." }
+      ],
+      "future": [
+        { "de": "Die Frage nach den Unterlagen wird geklärt sein.", "ru": "Вопрос о документах будет прояснён." },
+        { "de": "Ihre Frage nach der Uhrzeit wird morgen beantwortet sein.", "ru": "Её вопрос о времени будет завтра с ответом." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Büro ist die Frage nach dem Raum mehrmals gekommen. Die Verwaltung hat die Kapazität geprüft und hat am (an+dem) Abend eine E-Mail mit Details geschickt.",
+        "questions": [
+          {
+            "q": "Какой вопрос часто приходил в офис?",
+            "options": ["Nach dem Raum.", "Nach dem Parkplatz.", "Nach dem Essen."],
+            "solution": "Nach dem Raum."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) der Uhrzeit bleibt offen.",
+        "gaps": [
+          { "id": 1, "options": ["Frage", "Erfahrung", "Folge"], "solution": "Frage" },
+          { "id": 2, "options": ["nach", "für", "auf"], "solution": "nach" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Frage nach dem Termin ist offen.", "solution": "Wonach ist die Frage offen?" },
+          { "sentence": "Ihre Frage nach der Frist ist berechtigt.", "solution": "Wonach ist ihre Frage berechtigt?" },
+          { "sentence": "Unsere Frage nach den Unterlagen bleibt.", "solution": "Wonach bleibt unsere Frage?" },
+          { "sentence": "Die Frage nach dem Ergebnis kommt oft.", "solution": "Wonach kommt die Frage oft?" },
+          { "sentence": "Die Frage nach der Einladung wurde gestellt.", "solution": "Wonach wurde die Frage gestellt?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "berechtigt", "ru": "обоснованный" },
+      { "de": "klären", "ru": "прояснять" },
+      { "de": "prüfen", "ru": "проверять" },
+      { "de": "die Kapazität", "ru": "вместимость" },
+      { "de": "mehrmals", "ru": "несколько раз" },
+      { "de": "beantworten", "ru": "отвечать" },
+      { "de": "offen", "ru": "открытый" }
+    ]
+  },
+  {
+    "id": "die-erfahrung-mit",
+    "expression": "die Erfahrung mit",
+    "case": "Dat",
+    "articles": { "m": "dem System", "f": "der Software", "n": "dem Verfahren" },
+    "translation": "опыт с",
+    "examples": {
+      "present": [
+        { "de": "Die Erfahrung mit der Software ist positiv.", "ru": "Опыт с программой положительный." },
+        { "de": "Unsere Erfahrung mit dem System hilft.", "ru": "Наш опыт с системой помогает." }
+      ],
+      "past": [
+        { "de": "Die Erfahrung mit dem Verfahren ist gut gewesen.", "ru": "Опыт с процедурой был хорошим." },
+        { "de": "Ihre Erfahrung mit dem Projekt ist groß gewesen.", "ru": "Её опыт с проектом был большим." }
+      ],
+      "future": [
+        { "de": "Die Erfahrung mit dem Kurs wird wachsen.", "ru": "Опыт с курсом будет расти." },
+        { "de": "Unsere Erfahrung mit der Methode wird nützlich sein.", "ru": "Наш опыт с методом будет полезным." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Kollegin hat ihre Erfahrung mit der neuen Software geteilt. Sie hat Beispiele gezeigt und hat am (an+dem) Ende Tipps geschickt.",
+        "questions": [
+          {
+            "q": "Чем коллега поделилась?",
+          "options": ["Mit ihrer Erfahrung mit der neuen Software.", "Mit dem Parkplatzplan.", "Mit einem Rezept."],
+          "solution": "Mit ihrer Erfahrung mit der neuen Software."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Unsere ___ (1) ___ (2) dem System ist hilfreich.",
+        "gaps": [
+          { "id": 1, "options": ["Erfahrung", "Frage", "Folge"], "solution": "Erfahrung" },
+          { "id": 2, "options": ["mit", "für", "auf"], "solution": "mit" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Erfahrung mit der Software ist positiv.", "solution": "Womit ist die Erfahrung positiv?" },
+          { "sentence": "Unsere Erfahrung mit dem System hilft.", "solution": "Womit hilft unsere Erfahrung?" },
+          { "sentence": "Ihre Erfahrung mit dem Projekt ist groß.", "solution": "Womit ist ihre Erfahrung groß?" },
+          { "sentence": "Die Erfahrung mit dem Verfahren war gut.", "solution": "Womit war die Erfahrung gut?" },
+          { "sentence": "Die Erfahrung mit der Methode wächst.", "solution": "Womit wächst die Erfahrung?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "teilen", "ru": "делиться" },
+      { "de": "zeigen", "ru": "показывать" },
+      { "de": "hilfreich", "ru": "полезный" },
+      { "de": "die Methode", "ru": "метод" },
+      { "de": "das Verfahren", "ru": "процедура" },
+      { "de": "nützlich", "ru": "полезный" },
+      { "de": "positiv", "ru": "положительный" }
+    ]
+  },
+  {
+    "id": "der-grund-fuer",
+    "expression": "der Grund für",
+    "case": "Akk",
+    "articles": { "m": "den Ausfall", "f": "die Verzögerung", "n": "das Problem" },
+    "translation": "причина чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Der Grund für die Verzögerung ist bekannt.", "ru": "Причина задержки известна." },
+        { "de": "Unser Grund für den Ausfall ist dokumentiert.", "ru": "Наша причина отмены задокументирована." }
+      ],
+      "past": [
+        { "de": "Der Grund für das Problem ist gefunden gewesen.", "ru": "Причина проблемы была найдена." },
+        { "de": "Ihr Grund für die Änderung ist akzeptiert gewesen.", "ru": "Их причина изменения была принята." }
+      ],
+      "future": [
+        { "de": "Der Grund für den Terminwechsel wird erklärt sein.", "ru": "Причина переноса встречи будет объяснена." },
+        { "de": "Unser Grund für die Entscheidung wird klar sein.", "ru": "Наша причина решения будет ясной." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Leitung hat den Grund für die Verzögerung genannt. Man hat die Technik geprüft und hat am (an+dem) Ende eine neue Zeit vorgeschlagen.",
+        "questions": [
+          {
+            "q": "Что руководство назвало в сообщении?",
+            "options": ["Den Grund für die Verzögerung.", "Den Plan für die Küche.", "Den Wunsch nach Urlaub."],
+            "solution": "Den Grund für die Verzögerung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Der ___ (1) ___ (2) den Ausfall wurde erklärt.",
+        "gaps": [
+          { "id": 1, "options": ["Grund", "Erfahrung", "Verständnis"], "solution": "Grund" },
+          { "id": 2, "options": ["für", "an", "mit"], "solution": "für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Grund für die Verzögerung ist bekannt.", "solution": "Wofür ist der Grund bekannt?" },
+          { "sentence": "Unser Grund für den Ausfall ist dokumentiert.", "solution": "Wofür ist unser Grund dokumentiert?" },
+          { "sentence": "Der Grund für das Problem wurde gefunden.", "solution": "Wofür wurde der Grund gefunden?" },
+          { "sentence": "Ihr Grund für die Änderung war akzeptiert.", "solution": "Wofür war ihr Grund akzeptiert?" },
+          { "sentence": "Der Grund für den Terminwechsel wird erklärt.", "solution": "Wofür wird der Grund erklärt?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "nennen", "ru": "назвать" },
+      { "de": "prüfen", "ru": "проверять" },
+      { "de": "vorschlagen", "ru": "предлагать" },
+      { "de": "akzeptieren", "ru": "принимать" },
+      { "de": "der Ausfall", "ru": "отмена, сбой" },
+      { "de": "die Verzögerung", "ru": "задержка" },
+      { "de": "der Wechsel", "ru": "смена" }
+    ]
+  },
+  {
+    "id": "die-folge-von",
+    "expression": "die Folge von",
+    "case": "Dat",
+    "articles": { "m": "dem Fehler", "f": "der Änderung", "n": "dem Unfall" },
+    "translation": "следствие чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Die Folge von dem Fehler ist deutlich.", "ru": "Последствие ошибки очевидно." },
+        { "de": "Die Folge von der Änderung ist mehr Arbeit.", "ru": "Следствием изменения стала большая работа." }
+      ],
+      "past": [
+        { "de": "Die Folge von dem Unfall ist verspätete Lieferung gewesen.", "ru": "Следствием происшествия была поздняя поставка." },
+        { "de": "Die Folge von der Störung ist bekannt gewesen.", "ru": "Последствие сбоя было известно." }
+      ],
+      "future": [
+        { "de": "Die Folge von dem Ausfall wird spürbar sein.", "ru": "Последствие отмены будет ощутимым." },
+        { "de": "Die Folge von der Entscheidung wird positiv sein.", "ru": "Последствие решения будет положительным." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Bericht hat die Leitung die Folgen von der Verzögerung erklärt. Man hat am (an+dem) Morgen Alternativen gesammelt und hat am (an+dem) Nachmittag den Plan angepasst.",
+        "questions": [
+          {
+            "q": "Что объяснило руководство после отчёта?",
+            "options": ["Die Folgen von der Verzögerung.", "Die Preise in der Kantine.", "Die Farbe der Stühle."],
+            "solution": "Die Folgen von der Verzögerung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) dem Fehler sind spürbar.",
+        "gaps": [
+          { "id": 1, "options": ["Folgen", "Fragen", "Gründe"], "solution": "Folgen" },
+          { "id": 2, "options": ["von", "für", "an"], "solution": "von" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Folge von dem Fehler ist deutlich.", "solution": "Wovon ist die Folge deutlich?" },
+          { "sentence": "Die Folge von der Änderung ist mehr Arbeit.", "solution": "Wovon ist die Folge mehr Arbeit?" },
+          { "sentence": "Die Folge von dem Ausfall wird spürbar.", "solution": "Wovon wird die Folge spürbar?" },
+          { "sentence": "Die Folge von der Störung war bekannt.", "solution": "Wovon war die Folge bekannt?" },
+          { "sentence": "Die Folgen von der Verzögerung wurden erklärt.", "solution": "Wovon wurden die Folgen erklärt?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Störung", "ru": "сбой" },
+      { "de": "anpassen", "ru": "корректировать" },
+      { "de": "deutlich", "ru": "очевидный" },
+      { "de": "spürbar", "ru": "ощутимый" },
+      { "de": "sammeln", "ru": "собирать" },
+      { "de": "die Alternative", "ru": "альтернатива" },
+      { "de": "der Bericht", "ru": "отчёт" }
+    ]
+  },
+  {
+    "id": "das-verstaendnis-fuer",
+    "expression": "das Verständnis für",
+    "case": "Akk",
+    "articles": { "m": "den Teilnehmer", "f": "die Situation", "n": "das Problem" },
+    "translation": "понимание чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Wir haben Verständnis für die Situation.", "ru": "Мы понимаем ситуацию." },
+        { "de": "Das Verständnis für den Teilnehmer ist wichtig.", "ru": "Важно понимание участника." }
+      ],
+      "past": [
+        { "de": "Das Verständnis für das Problem ist gewachsen.", "ru": "Понимание проблемы выросло." },
+        { "de": "Unser Verständnis für die Regeln ist besser geworden.", "ru": "Наше понимание правил стало лучше." }
+      ],
+      "future": [
+        { "de": "Das Verständnis für den Prozess wird steigen.", "ru": "Понимание процесса увеличится." },
+        { "de": "Wir werden Verständnis für die Verzögerung haben.", "ru": "У нас будет понимание задержки." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Verwaltung hat um Verständnis für die kurzfristige Änderung gebeten. Man hat Gründe genannt und hat am (an+dem) Ende einen neuen Termin vorgeschlagen.",
+        "questions": [
+          {
+            "q": "О чём администрация попросила в письме?",
+            "options": ["Um Verständnis für die kurzfristige Änderung.", "Um Hilfe beim Umzug.", "Um neue Möbel."],
+            "solution": "Um Verständnis für die kurzfristige Änderung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wir bitten ___ (1) ___ (2) die Verspätung.",
+        "gaps": [
+          { "id": 1, "options": ["um", "für", "auf"], "solution": "um" },
+          { "id": 2, "options": ["Verständnis für", "Interesse an", "Frage nach"], "solution": "Verständnis für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Das Verständnis für die Situation ist wichtig.", "solution": "Wofür ist das Verständnis wichtig?" },
+          { "sentence": "Wir haben Verständnis für den Teilnehmer.", "solution": "Wofür habt ihr Verständnis?" },
+          { "sentence": "Das Verständnis für den Prozess steigt.", "solution": "Wofür steigt das Verständnis?" },
+          { "sentence": "Unser Verständnis für das Problem wächst.", "solution": "Wofür wächst euer Verständnis?" },
+          { "sentence": "Sie bittet um Verständnis für die Änderung.", "solution": "Wofür bittet sie um Verständnis?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "kurzfristig", "ru": "в кратчайшие сроки" },
+      { "de": "nennen", "ru": "называть" },
+      { "de": "vorschlagen", "ru": "предлагать" },
+      { "de": "steigern", "ru": "повышать" },
+      { "de": "wachsen", "ru": "расти" },
+      { "de": "der Prozess", "ru": "процесс" },
+      { "de": "die Regel", "ru": "правило" }
+    ]
+  }
+]
