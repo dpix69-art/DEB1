@@ -1,0 +1,322 @@
+[
+  {
+    "id": "die-suche-nach",
+    "expression": "die Suche nach",
+    "case": "Dat",
+    "articles": { "m": "dem Raum", "f": "der Lösung", "n": "dem Dokument" },
+    "translation": "поиск чего-то",
+    "examples": {
+      "present": [
+        { "de": "Die Suche nach dem Raum dauert.", "ru": "Поиск помещения длится." },
+        { "de": "Unsere Suche nach der Lösung läuft.", "ru": "Наш поиск решения идёт." }
+      ],
+      "past": [
+        { "de": "Die Suche nach dem Dokument ist erfolgreich gewesen.", "ru": "Поиск документа был успешным." },
+        { "de": "Ihre Suche nach der Einladung ist schwierig gewesen.", "ru": "Её поиск приглашения был сложным." }
+      ],
+      "future": [
+        { "de": "Die Suche nach den Terminen wird morgen enden.", "ru": "Поиск дат закончится завтра." },
+        { "de": "Unsere Suche nach dem Fehler wird Ergebnisse bringen.", "ru": "Наш поиск ошибки принесёт результаты." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für das Meeting hat die Suche nach einem ruhigen Raum länger gedauert. Wir haben am (an+dem) Vormittag telefoniert und haben am (an+dem) Nachmittag eine Reservierung bekommen.",
+        "questions": [
+          {
+            "q": "Что искали для встречи?",
+            "options": ["Nach einem ruhigen Raum.", "Nach neuen Stühlen.", "Nach einem Fahrer."],
+            "solution": "Nach einem ruhigen Raum."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) der Lösung war erfolgreich.",
+        "gaps": [
+          { "id": 1, "options": ["Suche", "Lust", "Respekt"], "solution": "Suche" },
+          { "id": 2, "options": ["nach", "auf", "vor"], "solution": "nach" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Suche nach dem Raum dauert.", "solution": "Wonach dauert die Suche?" },
+          { "sentence": "Unsere Suche nach der Lösung läuft.", "solution": "Wonach läuft unsere Suche?" },
+          { "sentence": "Die Suche nach dem Dokument war erfolgreich.", "solution": "Wonach war die Suche erfolgreich?" },
+          { "sentence": "Ihre Suche nach der Einladung war schwierig.", "solution": "Wonach war ihre Suche schwierig?" },
+          { "sentence": "Die Suche nach den Terminen endet morgen.", "solution": "Wonach endet die Suche morgen?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "reservieren", "ru": "бронировать" },
+      { "de": "ruhig", "ru": "тихий" },
+      { "de": "telefonieren", "ru": "звонить" },
+      { "de": "erfolgreich", "ru": "успешный" },
+      { "de": "schwierig", "ru": "сложный" },
+      { "de": "dauern", "ru": "длиться" },
+      { "de": "enden", "ru": "заканчиваться" }
+    ]
+  },
+  {
+    "id": "der-respekt-vor",
+    "expression": "der Respekt vor",
+    "case": "Dat",
+    "articles": { "m": "dem Lehrer", "f": "der Regel", "n": "dem Prozess" },
+    "translation": "уважение к",
+    "examples": {
+      "present": [
+        { "de": "Der Respekt vor dem Lehrer ist wichtig.", "ru": "Уважение к учителю важно." },
+        { "de": "Unser Respekt vor der Regel bleibt.", "ru": "Наше уважение к правилу сохраняется." }
+      ],
+      "past": [
+        { "de": "Der Respekt vor dem Prozess ist groß gewesen.", "ru": "Уважение к процессу было велико." },
+        { "de": "Ihr Respekt vor der Entscheidung ist spürbar gewesen.", "ru": "Их уважение к решению было заметным." }
+      ],
+      "future": [
+        { "de": "Der Respekt vor den Terminen wird wachsen.", "ru": "Уважение к срокам вырастет." },
+        { "de": "Unser Respekt vor den Regeln wird bleiben.", "ru": "Наше уважение к правилам останется." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Schule hat um Respekt vor den Hausregeln gebeten. Man hat am (an+dem) Morgen eine Info-Mail geschickt und hat am (an+dem) Ende Plakate aufgehängt.",
+        "questions": [
+          {
+            "q": "К чему школа попросила проявить уважение?",
+            "options": ["Vor den Hausregeln.", "Vor den Preisen.", "Vor den Getränken."],
+            "solution": "Vor den Hausregeln."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Zeigt ___ (1) den Regeln ___ (2) und haltet euch daran.",
+        "gaps": [
+          { "id": 1, "options": ["Respekt vor", "Lust auf", "Suche nach"], "solution": "Respekt vor" },
+          { "id": 2, "options": ["bitte", "heute", "morgen"], "solution": "bitte" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Respekt vor dem Lehrer ist wichtig.", "solution": "Wovor ist der Respekt wichtig?" },
+          { "sentence": "Unser Respekt vor der Regel bleibt.", "solution": "Wovor bleibt euer Respekt?" },
+          { "sentence": "Der Respekt vor dem Prozess war groß.", "solution": "Wovor war der Respekt groß?" },
+          { "sentence": "Ihr Respekt vor der Entscheidung war spürbar.", "solution": "Wovor war ihr Respekt spürbar?" },
+          { "sentence": "Der Respekt vor den Terminen wird wachsen.", "solution": "Wovor wird der Respekt wachsen?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "bitten um", "ru": "просить о" },
+      { "de": "aufhängen", "ru": "вешать" },
+      { "de": "das Plakat", "ru": "плакат" },
+      { "de": "sich halten an", "ru": "придерживаться" },
+      { "de": "die Hausregeln", "ru": "правила дома/школы" },
+      { "de": "spürbar", "ru": "заметно" },
+      { "de": "wachsen", "ru": "расти" }
+    ]
+  },
+  {
+    "id": "die-lust-auf",
+    "expression": "die Lust auf",
+    "case": "Akk",
+    "articles": { "m": "den Ausflug", "f": "die Pause", "n": "das Treffen" },
+    "translation": "желание, охота к",
+    "examples": {
+      "present": [
+        { "de": "Ich habe Lust auf die Pause.", "ru": "Мне хочется паузы." },
+        { "de": "Wir haben Lust auf den Ausflug.", "ru": "Нам хочется поездки." }
+      ],
+      "past": [
+        { "de": "Sie hat Lust auf das Treffen gehabt.", "ru": "Ей хотелось встречи." },
+        { "de": "Er hat Lust auf die Pizza gehabt.", "ru": "Ему хотелось пиццы." }
+      ],
+      "future": [
+        { "de": "Ich werde Lust auf den Workshop haben.", "ru": "Мне захочется воркшопа." },
+        { "de": "Sie werden Lust auf das Konzert haben.", "ru": "Им захочется концерта." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Prüfung haben alle Lust auf eine kurze Pause gehabt. Wir haben am (an+dem) Abend einen Spaziergang gemacht und Eis gegessen.",
+        "questions": [
+          {
+            "q": "На что всем хотелось после экзамена?",
+            "options": ["Auf eine kurze Pause.", "Auf lange Aufgaben.", "Auf laute Musik."],
+            "solution": "Auf eine kurze Pause."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Habt ihr ___ (1) den Ausflug ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["Lust auf", "Respekt vor", "Appetit auf"], "solution": "Lust auf" },
+          { "id": 2, "options": ["heute", "bitte", "morgen"], "solution": "heute" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr habt Lust auf den Ausflug.", "solution": "Worauf habt ihr Lust?" },
+          { "sentence": "Er hat Lust auf die Pause.", "solution": "Worauf hat er Lust?" },
+          { "sentence": "Wir haben Lust auf das Treffen.", "solution": "Worauf haben wir Lust?" },
+          { "sentence": "Sie hat Lust auf das Konzert.", "solution": "Worauf hat sie Lust?" },
+          { "sentence": "Du hast Lust auf den Workshop.", "solution": "Worauf hast du Lust?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Prüfung", "ru": "экзамен" },
+      { "de": "der Spaziergang", "ru": "прогулка" },
+      { "de": "essen", "ru": "есть" },
+      { "de": "das Eis", "ru": "мороженое" },
+      { "de": "kurz", "ru": "короткий" },
+      { "de": "die Pause", "ru": "перерыв" },
+      { "de": "der Workshop", "ru": "воркшоп" }
+    ]
+  },
+  {
+    "id": "der-appetit-auf",
+    "expression": "der Appetit auf",
+    "case": "Akk",
+    "articles": { "m": "den Salat", "f": "die Suppe", "n": "das Brot" },
+    "translation": "аппетит к",
+    "examples": {
+      "present": [
+        { "de": "Ich habe Appetit auf die Suppe.", "ru": "У меня аппетит на суп." },
+        { "de": "Sie hat Appetit auf den Salat.", "ru": "У неё аппетит на салат." }
+      ],
+      "past": [
+        { "de": "Wir haben Appetit auf das Brot gehabt.", "ru": "У нас был аппетит на хлеб." },
+        { "de": "Er hat Appetit auf die Pizza gehabt.", "ru": "У него был аппетит на пиццу." }
+      ],
+      "future": [
+        { "de": "Ich werde Appetit auf den Kuchen haben.", "ru": "У меня будет аппетит на торт." },
+        { "de": "Sie werden Appetit auf das Dessert haben.", "ru": "У них будет аппетит на десерт." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Büro haben viele Appetit auf frische Suppe gehabt. Die Kantine hat am (an+dem) Mittag eine Tomatensuppe angeboten und hat am (an+dem) Abend die Karte aktualisiert.",
+        "questions": [
+          {
+            "q": "На что у многих был аппетит в офисе?",
+            "options": ["Auf frische Suppe.", "Auf trockene Kekse.", "Auf kalten Kaffee."],
+            "solution": "Auf frische Suppe."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ich habe ___ (1) den Salat, und du ___ (2) die Suppe.",
+        "gaps": [
+          { "id": 1, "options": ["Appetit auf", "Lust auf", "Suche nach"], "solution": "Appetit auf" },
+          { "id": 2, "options": ["nimmst", "isst", "hast Appetit auf"], "solution": "hast Appetit auf" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du hast Appetit auf die Suppe.", "solution": "Worauf hast du Appetit?" },
+          { "sentence": "Er hat Appetit auf den Salat.", "solution": "Worauf hat er Appetit?" },
+          { "sentence": "Wir haben Appetit auf das Brot.", "solution": "Worauf habt ihr Appetit?" },
+          { "sentence": "Sie hat Appetit auf die Pizza.", "solution": "Worauf hat sie Appetit?" },
+          { "sentence": "Ihr habt Appetit auf das Dessert.", "solution": "Worauf habt ihr Appetit?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "anbieten", "ru": "предлагать" },
+      { "de": "aktualisieren", "ru": "обновлять" },
+      { "de": "die Karte (Speisekarte)", "ru": "меню" },
+      { "de": "frisch", "ru": "свежий" },
+      { "de": "die Tomatensuppe", "ru": "томатный суп" },
+      { "de": "das Dessert", "ru": "десерт" },
+      { "de": "der Kuchen", "ru": "пирог, торт" }
+    ]
+  },
+  {
+    "id": "der-streit-ueber",
+    "expression": "der Streit über",
+    "case": "Akk",
+    "articles": { "m": "den Vertrag", "f": "die Regel", "n": "das Thema" },
+    "translation": "спор о",
+    "examples": {
+      "present": [
+        { "de": "Der Streit über den Vertrag dauert.", "ru": "Спор о договоре продолжается." },
+        { "de": "Unser Streit über die Regel ist unnötig.", "ru": "Наш спор о правиле не нужен." }
+      ],
+      "past": [
+        { "de": "Der Streit über das Thema ist laut gewesen.", "ru": "Спор о теме был громким." },
+        { "de": "Ihr Streit über die Planung ist hart gewesen.", "ru": "Их спор о планировании был жёстким." }
+      ],
+      "future": [
+        { "de": "Der Streit über die Termine wird enden.", "ru": "Спор о датах закончится." },
+        { "de": "Unser Streit über das Budget wird kleiner sein.", "ru": "Наш спор о бюджете станет меньше." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Gestern hat es einen Streit über das Budget gegeben. Die Beteiligten haben am (an+dem) Ende einen Kompromiss gefunden und haben am (an+dem) Abend alles schriftlich bestätigt.",
+        "questions": [
+          {
+            "q": "О чём был спор вчера?",
+            "options": ["Über das Budget.", "Über das Wetter.", "Über die Musik."],
+            "solution": "Über das Budget."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Der ___ (1) ___ (2) die Termine ist unnötig.",
+        "gaps": [
+          { "id": 1, "options": ["Streit", "Respekt", "Suche"], "solution": "Streit" },
+          { "id": 2, "options": ["über", "vor", "nach"], "solution": "über" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Streit über den Vertrag dauert.", "solution": "Worüber dauert der Streit?" },
+          { "sentence": "Unser Streit über die Regel ist unnötig.", "solution": "Worüber ist euer Streit unnötig?" },
+          { "sentence": "Der Streit über das Thema war laut.", "solution": "Worüber war der Streit laut?" },
+          { "sentence": "Ihr Streit über die Planung war hart.", "solution": "Worüber war ihr Streit hart?" },
+          { "sentence": "Der Streit über die Termine endet.", "solution": "Worüber endet der Streit?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "beteiligt", "ru": "участвующий" },
+      { "de": "bestätigen", "ru": "подтверждать" },
+      { "de": "der Kompromiss", "ru": "компромисс" },
+      { "de": "unnötig", "ru": "ненужный" },
+      { "de": "laut", "ru": "громкий" },
+      { "de": "hart", "ru": "жёсткий" },
+      { "de": "schriftlich", "ru": "письменно" }
+    ]
+  }
+]

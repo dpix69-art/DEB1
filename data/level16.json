@@ -1,0 +1,322 @@
+[
+  {
+    "id": "sich-beschweren-ueber",
+    "expression": "sich beschweren über",
+    "case": "Akk",
+    "articles": { "m": "den Service", "f": "die Lautstärke", "n": "das Problem" },
+    "translation": "жаловаться на",
+    "examples": {
+      "present": [
+        { "de": "Ich beschwere mich über den Service.", "ru": "Я жалуюсь на сервис." },
+        { "de": "Sie beschweren sich über die Lautstärke.", "ru": "Они жалуются на шум." }
+      ],
+      "past": [
+        { "de": "Er hat sich über das Problem beschwert.", "ru": "Он пожаловался на проблему." },
+        { "de": "Wir haben uns über den Termin beschwert.", "ru": "Мы пожаловались на встречу." }
+      ],
+      "future": [
+        { "de": "Ich werde mich über die Verspätung beschweren.", "ru": "Я пожалуюсь на задержку." },
+        { "de": "Sie werden sich über die Antwort beschweren.", "ru": "Они пожалуются на ответ." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Gespräch hat die Kundin sich über den Lärm beschwert. Sie hat am (an+dem) Abend eine E-Mail an die Verwaltung geschrieben und hat Fotos angehängt.",
+        "questions": [
+          {
+            "q": "На что пожаловалась клиентка?",
+            "options": ["Über den Lärm.", "Über das Wetter.", "Über das günstige Angebot."],
+            "solution": "Über den Lärm."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Beschwert euch ___ (1) die Verspätung nicht sofort, sondern ___ (2) ruhig.",
+        "gaps": [
+          { "id": 1, "options": ["über", "bei", "mit"], "solution": "über" },
+          { "id": 2, "options": ["bleibt", "schreibt", "sendet"], "solution": "bleibt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du beschwerst dich über den Service.", "solution": "Worüber beschwerst du dich?" },
+          { "sentence": "Er beschwert sich über die Lautstärke.", "solution": "Worüber beschwert er sich?" },
+          { "sentence": "Wir beschweren uns über das Problem.", "solution": "Worüber beschweren wir uns?" },
+          { "sentence": "Sie beschwert sich über den Termin.", "solution": "Worüber beschwert sie sich?" },
+          { "sentence": "Ihr beschwert euch über die Antwort.", "solution": "Worüber beschwert ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "anhängen", "ru": "прикреплять" },
+      { "de": "ruhig", "ru": "спокойно" },
+      { "de": "die Verwaltung", "ru": "администрация" },
+      { "de": "die Kundin", "ru": "клиентка" },
+      { "de": "der Lärm", "ru": "шум" },
+      { "de": "die Verspätung", "ru": "задержка" },
+      { "de": "der Service", "ru": "сервис" }
+    ]
+  },
+  {
+    "id": "sich-beschweren-bei",
+    "expression": "sich beschweren bei",
+    "case": "Dat",
+    "articles": { "m": "dem Leiter", "f": "der Verwaltung", "n": "dem Support" },
+    "translation": "жаловаться кому-либо",
+    "examples": {
+      "present": [
+        { "de": "Ich beschwere mich bei dem Leiter.", "ru": "Я жалуюсь руководителю." },
+        { "de": "Sie beschwert sich bei der Verwaltung.", "ru": "Она жалуется в администрацию." }
+      ],
+      "past": [
+        { "de": "Wir haben uns bei dem Support beschwert.", "ru": "Мы пожаловались в поддержку." },
+        { "de": "Er hat sich bei der Hotline beschwert.", "ru": "Он пожаловался на горячую линию." }
+      ],
+      "future": [
+        { "de": "Ich werde mich bei der Firma beschweren.", "ru": "Я пожалуюсь в фирму." },
+        { "de": "Sie werden sich bei dem Anbieter beschweren.", "ru": "Они пожалуются провайдеру." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Nachbarn haben sich bei der Verwaltung beschwert. Man hat am (an+dem) nächsten Tag geantwortet und hat am (an+dem) Abend einen Techniker geschickt.",
+        "questions": [
+          {
+            "q": "Куда пожаловались соседи?",
+            "options": ["Bei der Verwaltung.", "Bei der Polizei.", "Bei der Schule."],
+            "solution": "Bei der Verwaltung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Beschwert euch ___ (1) dem Support und ___ (2) eine genaue Beschreibung.",
+        "gaps": [
+          { "id": 1, "options": ["bei", "über", "mit"], "solution": "bei" },
+          { "id": 2, "options": ["gebt", "sendet", "arbeitet"], "solution": "gebt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du beschwerst dich bei dem Leiter.", "solution": "Wobei beschwerst du dich?" },
+          { "sentence": "Er beschwert sich bei der Verwaltung.", "solution": "Wobei beschwert er sich?" },
+          { "sentence": "Wir beschweren uns bei dem Support.", "solution": "Wobei beschweren wir uns?" },
+          { "sentence": "Sie beschwert sich bei der Firma.", "solution": "Wobei beschwert sie sich?" },
+          { "sentence": "Ihr beschwert euch bei dem Anbieter.", "solution": "Wobei beschwert ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "der Techniker", "ru": "техник" },
+      { "de": "antworten", "ru": "отвечать" },
+      { "de": "schicken", "ru": "посылать" },
+      { "de": "der Anbieter", "ru": "провайдер" },
+      { "de": "die Hotline", "ru": "горячая линия" },
+      { "de": "die Beschreibung", "ru": "описание" },
+      { "de": "genau", "ru": "точный" }
+    ]
+  },
+  {
+    "id": "sich-bewerben-bei",
+    "expression": "sich bewerben bei",
+    "case": "Dat",
+    "articles": { "m": "dem Unternehmen", "f": "der Agentur", "n": "dem Start-up" },
+    "translation": "подавать заявку в (компанию)",
+    "examples": {
+      "present": [
+        { "de": "Ich bewerbe mich bei dem Unternehmen.", "ru": "Я подаю заявку в компанию." },
+        { "de": "Sie bewirbt sich bei der Agentur.", "ru": "Она подаётся в агентство." }
+      ],
+      "past": [
+        { "de": "Wir haben uns bei dem Start-up beworben.", "ru": "Мы подались в стартап." },
+        { "de": "Er hat sich bei der Firma beworben.", "ru": "Он подался в фирму." }
+      ],
+      "future": [
+        { "de": "Ich werde mich bei der Stadt bewerben.", "ru": "Я подамся в городскую администрацию." },
+        { "de": "Sie werden sich bei dem Institut bewerben.", "ru": "Они подадутся в институт." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Stellenausschreibung hat Maria sich bei der Agentur beworben. Sie hat am (an+dem) Abend den Lebenslauf geschickt und hat am (an+dem) nächsten Tag eine Einladung bekommen.",
+        "questions": [
+          {
+            "q": "Куда Мария подала заявку?",
+            "options": ["Bei der Agentur.", "Bei der Schule.", "Bei der Bank."],
+            "solution": "Bei der Agentur."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Bewirbst du dich ___ (1) dem Unternehmen oder ___ (2) der Agentur?",
+        "gaps": [
+          { "id": 1, "options": ["bei", "über", "mit"], "solution": "bei" },
+          { "id": 2, "options": ["bei", "über", "mit"], "solution": "bei" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du bewirbst dich bei dem Unternehmen.", "solution": "Wobei bewirbst du dich?" },
+          { "sentence": "Er bewirbt sich bei der Agentur.", "solution": "Wobei bewirbt er sich?" },
+          { "sentence": "Wir bewerben uns bei dem Start-up.", "solution": "Wobei bewerben wir uns?" },
+          { "sentence": "Sie bewirbt sich bei der Stadt.", "solution": "Wobei bewirbt sie sich?" },
+          { "sentence": "Ihr bewerbt euch bei dem Institut.", "solution": "Wobei bewerbt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Stellenausschreibung", "ru": "вакансия" },
+      { "de": "der Lebenslauf", "ru": "резюме" },
+      { "de": "schicken", "ru": "отправлять" },
+      { "de": "die Einladung", "ru": "приглашение" },
+      { "de": "das Institut", "ru": "институт" },
+      { "de": "die Stadt", "ru": "городская администрация" },
+      { "de": "sich bewerben", "ru": "подавать заявку" }
+    ]
+  },
+  {
+    "id": "sich-erkundigen-bei",
+    "expression": "sich erkundigen bei",
+    "case": "Dat",
+    "articles": { "m": "dem Dozenten", "f": "der Verwaltung", "n": "dem Service" },
+    "translation": "наводить справки у (кого-то)",
+    "examples": {
+      "present": [
+        { "de": "Ich erkundige mich bei der Verwaltung.", "ru": "Я узнаю в администрации." },
+        { "de": "Wir erkundigen uns bei dem Dozenten.", "ru": "Мы узнаём у преподавателя." }
+      ],
+      "past": [
+        { "de": "Er hat sich bei dem Service erkundigt.", "ru": "Он навёл справки в сервисе." },
+        { "de": "Sie hat sich bei der Leiterin erkundigt.", "ru": "Она узнала у руководительницы." }
+      ],
+      "future": [
+        { "de": "Ich werde mich bei dem Prüfer erkundigen.", "ru": "Я узнаю у экзаменатора." },
+        { "de": "Sie werden sich bei der Schule erkundigen.", "ru": "Они узнают в школе." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Paul hat sich bei der Verwaltung nach den Fristen erkundigt. Er hat am (an+dem) Morgen telefoniert und hat am (an+dem) Abend eine Bestätigung bekommen.",
+        "questions": [
+          {
+            "q": "Где Пауль навёл справки?",
+            "options": ["Bei der Verwaltung.", "Bei der Bank.", "Bei der Werkstatt."],
+            "solution": "Bei der Verwaltung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Erkundigen Sie sich ___ (1) dem Dozenten und ___ (2) freundlich.",
+        "gaps": [
+          { "id": 1, "options": ["bei", "über", "an"], "solution": "bei" },
+          { "id": 2, "options": ["fragen", "erkundigen", "beschweren"], "solution": "fragen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ich erkundige mich bei der Verwaltung.", "solution": "Wobei erkundigst du dich?" },
+          { "sentence": "Er erkundigt sich bei dem Dozenten.", "solution": "Wobei erkundigt er sich?" },
+          { "sentence": "Wir erkundigen uns bei dem Service.", "solution": "Wobei erkundigen wir uns?" },
+          { "sentence": "Sie erkundigt sich bei der Leiterin.", "solution": "Wobei erkundigt sie sich?" },
+          { "sentence": "Ihr erkundigt euch bei der Schule.", "solution": "Wobei erkundigt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "bestätigen", "ru": "подтверждать" },
+      { "de": "telefonieren", "ru": "звонить" },
+      { "de": "freundlich", "ru": "вежливо" },
+      { "de": "der Dozent", "ru": "преподаватель" },
+      { "de": "die Leiterin", "ru": "руководительница" },
+      { "de": "die Fristen", "ru": "сроки" },
+      { "de": "der Service", "ru": "служба поддержки" }
+    ]
+  },
+  {
+    "id": "sich-bedanken-bei",
+    "expression": "sich bedanken bei",
+    "case": "Dat",
+    "articles": { "m": "dem Kollegen", "f": "der Helferin", "n": "dem Team" },
+    "translation": "благодарить кого-то",
+    "examples": {
+      "present": [
+        { "de": "Ich bedanke mich bei dem Kollegen.", "ru": "Я благодарю коллегу." },
+        { "de": "Wir bedanken uns bei dem Team.", "ru": "Мы благодарим команду." }
+      ],
+      "past": [
+        { "de": "Er hat sich bei der Helferin bedankt.", "ru": "Он поблагодарил помощницу." },
+        { "de": "Sie haben sich bei dem Trainer bedankt.", "ru": "Они поблагодарили тренера." }
+      ],
+      "future": [
+        { "de": "Ich werde mich bei der Leitung bedanken.", "ru": "Я поблагодарю руководство." },
+        { "de": "Sie werden sich bei den Gästen bedanken.", "ru": "Они поблагодарят гостей." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Veranstaltung haben wir uns bei dem Team bedankt. Wir haben am (an+dem) Abend eine Karte geschrieben und haben kleine Süßigkeiten gebracht.",
+        "questions": [
+          {
+            "q": "Кого команда поблагодарила после мероприятия?",
+            "options": ["Bei dem Team.", "Bei der Polizei.", "Bei der Bäckerei."],
+            "solution": "Bei dem Team."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Bedankt euch ___ (1) der Helferin und ___ (2) eine Karte.",
+        "gaps": [
+          { "id": 1, "options": ["bei", "über", "mit"], "solution": "bei" },
+          { "id": 2, "options": ["schreibt", "beschwert", "sucht"], "solution": "schreibt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Wir bedanken uns bei dem Team.", "solution": "Wobei bedanken wir uns?" },
+          { "sentence": "Ich bedanke mich bei dem Kollegen.", "solution": "Wobei bedanke ich mich?" },
+          { "sentence": "Er bedankt sich bei der Helferin.", "solution": "Wobei bedankt er sich?" },
+          { "sentence": "Sie bedanken sich bei der Leitung.", "solution": "Wobei bedanken sie sich?" },
+          { "sentence": "Ihr bedankt euch bei den Gästen.", "solution": "Wobei bedankt ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Veranstaltung", "ru": "мероприятие" },
+      { "de": "die Karte", "ru": "открытка" },
+      { "de": "bringen", "ru": "приносить" },
+      { "de": "die Süßigkeiten", "ru": "сладости" },
+      { "de": "danken", "ru": "благодарить" },
+      { "de": "die Leitung", "ru": "руководство" },
+      { "de": "der Trainer", "ru": "тренер" }
+    ]
+  }
+]

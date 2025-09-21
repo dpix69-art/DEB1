@@ -1,0 +1,322 @@
+[
+  {
+    "id": "geeignet-fuer",
+    "expression": "geeignet für",
+    "case": "Akk",
+    "articles": { "m": "den Kurs", "f": "die Aufgabe", "n": "das Formular" },
+    "translation": "подходящий для",
+    "examples": {
+      "present": [
+        { "de": "Dieses Material ist für den Kurs geeignet.", "ru": "Этот материал подходит для курса." },
+        { "de": "Die Software ist für die Aufgabe geeignet.", "ru": "Софт подходит для задания." }
+      ],
+      "past": [
+        { "de": "Das Tool ist für das Formular geeignet gewesen.", "ru": "Инструмент подходил для формы." },
+        { "de": "Die Regeln sind für den Test geeignet gewesen.", "ru": "Правила подходили для теста." }
+      ],
+      "future": [
+        { "de": "Das Gerät wird für die Prüfung geeignet sein.", "ru": "Устройство подойдёт для экзамена." },
+        { "de": "Die Methode wird für das Projekt geeignet sein.", "ru": "Метод подойдёт для проекта." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Lehrerin hat gesagt, dass das neue Übungsheft für die Prüfung geeignet ist. Viele haben es getestet und haben am (an+dem) Abend Feedback gegeben.",
+        "questions": [
+          {
+            "q": "Для чего подходит новое учебное пособие?",
+            "options": ["Für die Prüfung.", "Für den Urlaub.", "Für das Konzert."],
+            "solution": "Für die Prüfung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ist dieses Formular ___ (1) den Antrag ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["für", "über", "mit"], "solution": "für" },
+          { "id": 2, "options": ["geeignet", "zuständig", "typisch"], "solution": "geeignet" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Das Material ist für den Kurs geeignet.", "solution": "Wofür ist das Material geeignet?" },
+          { "sentence": "Die Software ist für die Aufgabe geeignet.", "solution": "Wofür ist die Software geeignet?" },
+          { "sentence": "Das Tool ist für das Formular geeignet.", "solution": "Wofür ist das Tool geeignet?" },
+          { "sentence": "Die Methode ist für das Projekt geeignet.", "solution": "Wofür ist die Methode geeignet?" },
+          { "sentence": "Das Gerät ist für die Prüfung geeignet.", "solution": "Wofür ist das Gerät geeignet?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "das Übungsheft", "ru": "тетрадь с упражнениями" },
+      { "de": "testen", "ru": "тестировать" },
+      { "de": "das Feedback", "ru": "обратная связь" },
+      { "de": "das Gerät", "ru": "устройство" },
+      { "de": "der Antrag", "ru": "заявление" },
+      { "de": "die Methode", "ru": "метод" },
+      { "de": "geeignet", "ru": "подходящий" }
+    ]
+  },
+  {
+    "id": "typisch-fuer",
+    "expression": "typisch für",
+    "case": "Akk",
+    "articles": { "m": "den Ablauf", "f": "die Kultur", "n": "das Verhalten" },
+    "translation": "типичный для",
+    "examples": {
+      "present": [
+        { "de": "Der Ablauf ist typisch für den Kurs.", "ru": "Этот порядок типичен для курса." },
+        { "de": "Die Kultur ist typisch für die Firma.", "ru": "Эта культура типична для компании." }
+      ],
+      "past": [
+        { "de": "Das Verhalten ist für das Team typisch gewesen.", "ru": "Поведение было типичным для команды." },
+        { "de": "Die Fragen sind für die Prüfung typisch gewesen.", "ru": "Вопросы были типичны для экзамена." }
+      ],
+      "future": [
+        { "de": "Die Aufgaben werden für das Projekt typisch sein.", "ru": "Задания будут типичны для проекта." },
+        { "de": "Der Plan wird für den Bereich typisch sein.", "ru": "План будет типичен для направления." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Onboarding hat die Chefin erklärt, dass kurze Stand-ups typisch für die Abteilung sind. Man hat Beispiele gezeigt und hat am (an+dem) Ende Fragen gesammelt.",
+        "questions": [
+          {
+            "q": "Что типично для отдела по словам руководительницы?",
+            "options": ["Kurze Stand-ups.", "Lange Mittagspausen.", "Seltene Meetings."],
+            "solution": "Kurze Stand-ups."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Ist diese Struktur ___ (1) den Ablauf hier ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["für", "über", "mit"], "solution": "für" },
+          { "id": 2, "options": ["typisch", "zuständig", "wichtig"], "solution": "typisch" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Ablauf ist für den Kurs typisch.", "solution": "Wofür ist der Ablauf typisch?" },
+          { "sentence": "Die Kultur ist für die Firma typisch.", "solution": "Wofür ist die Kultur typisch?" },
+          { "sentence": "Das Verhalten ist für das Team typisch.", "solution": "Wofür ist das Verhalten typisch?" },
+          { "sentence": "Die Fragen sind für die Prüfung typisch.", "solution": "Wofür sind die Fragen typisch?" },
+          { "sentence": "Der Plan ist für den Bereich typisch.", "solution": "Wofür ist der Plan typisch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "das Onboarding", "ru": "ввод в должность" },
+      { "de": "die Abteilung", "ru": "отдел" },
+      { "de": "sammeln", "ru": "собирать" },
+      { "de": "zeigen", "ru": "показывать" },
+      { "de": "die Struktur", "ru": "структура" },
+      { "de": "der Ablauf", "ru": "порядок, процесс" },
+      { "de": "typisch", "ru": "типичный" }
+    ]
+  },
+  {
+    "id": "wichtig-fuer",
+    "expression": "wichtig für",
+    "case": "Akk",
+    "articles": { "m": "den Erfolg", "f": "die Sicherheit", "n": "das Ergebnis" },
+    "translation": "важный для",
+    "examples": {
+      "present": [
+        { "de": "Pünktlichkeit ist wichtig für den Erfolg.", "ru": "Пунктуальность важна для успеха." },
+        { "de": "Diese Regel ist wichtig für die Sicherheit.", "ru": "Это правило важно для безопасности." }
+      ],
+      "past": [
+        { "de": "Transparenz ist für das Ergebnis wichtig gewesen.", "ru": "Прозрачность была важна для результата." },
+        { "de": "Teamarbeit ist für den Termin wichtig gewesen.", "ru": "Командная работа была важна для встречи." }
+      ],
+      "future": [
+        { "de": "Die Vorbereitung wird für die Prüfung wichtig sein.", "ru": "Подготовка будет важна для экзамена." },
+        { "de": "Klare Ziele werden für das Projekt wichtig sein.", "ru": "Чёткие цели будут важны для проекта." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Brief hat die Leitung geschrieben, dass die Rückmeldung wichtig für die Planung ist. Man hat am (an+dem) Abend ein Formular verschickt, damit alle antworten.",
+        "questions": [
+          {
+            "q": "Что важно для планирования по письму руководства?",
+            "options": ["Die Rückmeldung.", "Die Musik.", "Die Dekoration."],
+            "solution": "Die Rückmeldung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Regelmäßiges Üben ist ___ (1) die Prüfung sehr ___ (2).",
+        "gaps": [
+          { "id": 1, "options": ["für", "über", "mit"], "solution": "für" },
+          { "id": 2, "options": ["wichtig", "geeignet", "typisch"], "solution": "wichtig" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Pünktlichkeit ist für den Erfolg wichtig.", "solution": "Wofür ist Pünktlichkeit wichtig?" },
+          { "sentence": "Diese Regel ist für die Sicherheit wichtig.", "solution": "Wofür ist diese Regel wichtig?" },
+          { "sentence": "Transparenz ist für das Ergebnis wichtig.", "solution": "Wofür ist Transparenz wichtig?" },
+          { "sentence": "Teamarbeit ist für den Termin wichtig.", "solution": "Wofür ist Teamarbeit wichtig?" },
+          { "sentence": "Die Vorbereitung ist für die Prüfung wichtig.", "solution": "Wofür ist die Vorbereitung wichtig?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "pünktlich", "ru": "пунктуальный" },
+      { "de": "die Planung", "ru": "планирование" },
+      { "de": "verschicken", "ru": "отправлять" },
+      { "de": "antworten", "ru": "отвечать" },
+      { "de": "die Sicherheit", "ru": "безопасность" },
+      { "de": "die Transparenz", "ru": "прозрачность" },
+      { "de": "das Ziel", "ru": "цель" }
+    ]
+  },
+  {
+    "id": "zustaendig-fuer",
+    "expression": "zuständig für",
+    "case": "Akk",
+    "articles": { "m": "den Bereich", "f": "die Anmeldung", "n": "das Budget" },
+    "translation": "компетентный/ответственный по",
+    "examples": {
+      "present": [
+        { "de": "Anna ist zuständig für die Anmeldung.", "ru": "Анна отвечает за регистрацию." },
+        { "de": "Paul ist zuständig für das Budget.", "ru": "Пауль отвечает за бюджет." }
+      ],
+      "past": [
+        { "de": "Wir sind für den Bereich zuständig gewesen.", "ru": "Мы отвечали за направление." },
+        { "de": "Er ist für die Kommunikation zuständig gewesen.", "ru": "Он отвечал за коммуникацию." }
+      ],
+      "future": [
+        { "de": "Ich werde für die Termine zuständig sein.", "ru": "Я буду ответственным за встречи." },
+        { "de": "Sie werden für das Projekt zuständig sein.", "ru": "Они будут ответственны за проект." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im neuen Plan ist Mia für die Kommunikation zuständig gewesen. Sie hat am (an+dem) Morgen E-Mails beantwortet und hat am (an+dem) Abend Einladungen verschickt.",
+        "questions": [
+          {
+            "q": "За что Мия отвечала в новом плане?",
+            "options": ["Für die Kommunikation.", "Für die Küche.", "Für den Parkplatz."],
+            "solution": "Für die Kommunikation."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wer ist ___ (1) die Verträge ___ (2)?",
+        "gaps": [
+          { "id": 1, "options": ["für", "mit", "über"], "solution": "für" },
+          { "id": 2, "options": ["zuständig", "wichtig", "typisch"], "solution": "zuständig" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Anna ist für die Anmeldung zuständig.", "solution": "Wofür ist Anna zuständig?" },
+          { "sentence": "Paul ist für das Budget zuständig.", "solution": "Wofür ist Paul zuständig?" },
+          { "sentence": "Wir sind für den Bereich zuständig.", "solution": "Wofür sind wir zuständig?" },
+          { "sentence": "Er ist für die Kommunikation zuständig.", "solution": "Wofür ist er zuständig?" },
+          { "sentence": "Sie sind für die Termine zuständig.", "solution": "Wofür sind sie zuständig?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "beantworten", "ru": "отвечать (на письмо)" },
+      { "de": "zuständig", "ru": "компетентный, ответственный" },
+      { "de": "der Vertrag", "ru": "договор" },
+      { "de": "der Bereich", "ru": "направление" },
+      { "de": "die Kommunikation", "ru": "коммуникация" },
+      { "de": "verschicken", "ru": "отправлять" },
+      { "de": "der Plan", "ru": "план" }
+    ]
+  },
+  {
+    "id": "die-ursache-fuer",
+    "expression": "die Ursache für",
+    "case": "Akk",
+    "articles": { "m": "den Ausfall", "f": "die Verzögerung", "n": "das Problem" },
+    "translation": "причина чего-либо",
+    "examples": {
+      "present": [
+        { "de": "Die Ursache für die Verzögerung ist bekannt.", "ru": "Причина задержки известна." },
+        { "de": "Unsere Ursache für den Ausfall ist dokumentiert.", "ru": "Наша причина отмены задокументирована." }
+      ],
+      "past": [
+        { "de": "Die Ursache für das Problem ist gefunden gewesen.", "ru": "Причина проблемы была найдена." },
+        { "de": "Die Ursache für den Fehler ist erklärt gewesen.", "ru": "Причина ошибки была объяснена." }
+      ],
+      "future": [
+        { "de": "Die Ursache für den Terminwechsel wird genannt sein.", "ru": "Причина переноса встречи будет указана." },
+        { "de": "Die Ursache für den Lärm wird geklärt sein.", "ru": "Причина шума будет прояснена." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach der Panne hat die Leitung die Ursache für den Ausfall erklärt. Man hat die Technik geprüft und hat am (an+dem) Ende einen neuen Plan erstellt.",
+        "questions": [
+          {
+            "q": "Что руководство объяснило после поломки?",
+            "options": ["Die Ursache für den Ausfall.", "Den Preis für Kaffee.", "Die Farbe der Stühle."],
+            "solution": "Die Ursache für den Ausfall."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die ___ (1) ___ (2) die Verzögerung wurde im Bericht genannt.",
+        "gaps": [
+          { "id": 1, "options": ["Ursache", "Kultur", "Sicherheit"], "solution": "Ursache" },
+          { "id": 2, "options": ["für", "an", "mit"], "solution": "für" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Ursache für die Verzögerung ist bekannt.", "solution": "Wofür ist die Ursache bekannt?" },
+          { "sentence": "Unsere Ursache für den Ausfall ist dokumentiert.", "solution": "Wofür ist unsere Ursache dokumentiert?" },
+          { "sentence": "Die Ursache für das Problem wurde gefunden.", "solution": "Wofür wurde die Ursache gefunden?" },
+          { "sentence": "Die Ursache für den Fehler war erklärt.", "solution": "Wofür war die Ursache erklärt?" },
+          { "sentence": "Die Ursache für den Terminwechsel wird genannt.", "solution": "Wofür wird die Ursache genannt?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Panne", "ru": "поломка, сбой" },
+      { "de": "prüfen", "ru": "проверять" },
+      { "de": "erstellen", "ru": "составлять" },
+      { "de": "nennen", "ru": "называть" },
+      { "de": "klären", "ru": "выяснять" },
+      { "de": "der Lärm", "ru": "шум" },
+      { "de": "der Terminwechsel", "ru": "перенос встречи" }
+    ]
+  }
+]

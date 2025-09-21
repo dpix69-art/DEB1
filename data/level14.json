@@ -1,0 +1,322 @@
+[
+  {
+    "id": "schuetzen-vor",
+    "expression": "schützen vor",
+    "case": "Dat",
+    "articles": { "m": "dem Betrug", "f": "der Kälte", "n": "dem Lärm" },
+    "translation": "защищать от",
+    "examples": {
+      "present": [
+        { "de": "Dieses Passwort schützt vor dem Betrug.", "ru": "Этот пароль защищает от мошенничества." },
+        { "de": "Die Jacke schützt vor der Kälte.", "ru": "Куртка защищает от холода." }
+      ],
+      "past": [
+        { "de": "Wir haben uns vor dem Lärm geschützt.", "ru": "Мы защитились от шума." },
+        { "de": "Er hat die Daten vor dem Zugriff geschützt.", "ru": "Он защитил данные от доступа." }
+      ],
+      "future": [
+        { "de": "Das Update wird vor der Störung schützen.", "ru": "Обновление защитит от сбоя." },
+        { "de": "Die Maske wird vor der Erkältung schützen.", "ru": "Маска защитит от простуды." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Verwaltung hat die Mitarbeitenden vor Phishing-Mails gewarnt und hat Tipps gegeben. Man hat am (an+dem) Morgen Filter eingerichtet und hat am (an+dem) Abend die Passwörter geändert.",
+        "questions": [
+          {
+            "q": "От чего администрация предостерегла сотрудников?",
+            "options": ["Vor Phishing-Mails.", "Vor billigen Tickets.", "Vor netten Einladungen."],
+            "solution": "Vor Phishing-Mails."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Gute Regeln schützen ___ (1) falschen Links, und wir ___ (2) die Einstellungen heute.",
+        "gaps": [
+          { "id": 1, "options": ["vor", "mit", "an"], "solution": "vor" },
+          { "id": 2, "options": ["schützen", "leiden", "suchen"], "solution": "schützen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Diese Maßnahme schützt vor dem Betrug.", "solution": "Wovor schützt diese Maßnahme?" },
+          { "sentence": "Die Jacke schützt vor der Kälte.", "solution": "Wovor schützt die Jacke?" },
+          { "sentence": "Das Update schützt vor der Störung.", "solution": "Wovor schützt das Update?" },
+          { "sentence": "Die Maske schützt vor der Erkältung.", "solution": "Wovor schützt die Maske?" },
+          { "sentence": "Die Filter schützen vor dem Spam.", "solution": "Wovor schützen die Filter?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "warnen", "ru": "предупреждать" },
+      { "de": "einrichten", "ru": "настраивать" },
+      { "de": "ändern", "ru": "менять" },
+      { "de": "der Zugriff", "ru": "доступ" },
+      { "de": "die Störung", "ru": "сбой" },
+      { "de": "der Spam", "ru": "спам" },
+      { "de": "die Maßnahme", "ru": "мера" }
+    ]
+  },
+  {
+    "id": "leiden-an",
+    "expression": "leiden an",
+    "case": "Dat",
+    "articles": { "m": "dem Husten", "f": "der Migräne", "n": "dem Fieber" },
+    "translation": "страдать от (болезнь)",
+    "examples": {
+      "present": [
+        { "de": "Er leidet an der Migräne.", "ru": "Он страдает от мигрени." },
+        { "de": "Sie leidet an dem Fieber.", "ru": "Она страдает от жара." }
+      ],
+      "past": [
+        { "de": "Ich habe an dem Husten gelitten.", "ru": "Я страдал от кашля." },
+        { "de": "Wir haben an der Grippe gelitten.", "ru": "Мы страдали от гриппа." }
+      ],
+      "future": [
+        { "de": "Er wird nicht an der Erkältung leiden.", "ru": "Он не будет страдать от простуды." },
+        { "de": "Sie werden an der Allergie leiden.", "ru": "Они будут страдать от аллергии." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Tom hat an der Migräne gelitten und hat den Termin verschoben. Er hat am (an+dem) Vormittag den Arzt angerufen und hat am (an+dem) Nachmittag Medikamente bekommen.",
+        "questions": [
+          {
+            "q": "От чего страдал Том?",
+            "options": ["An der Migräne.", "An dem Stress im Stau.", "An der Müdigkeit nach Sport."],
+            "solution": "An der Migräne."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Viele leiden ___ (1) Allergien und ___ (2) deshalb Termine um.",
+        "gaps": [
+          { "id": 1, "options": ["an", "unter", "nach"], "solution": "an" },
+          { "id": 2, "options": ["verschieben", "suchen", "schmecken"], "solution": "verschieben" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Er leidet an dem Fieber.", "solution": "Woran leidet er?" },
+          { "sentence": "Sie leidet an der Migräne.", "solution": "Woran leidet sie?" },
+          { "sentence": "Ich leide an dem Husten.", "solution": "Woran leidest du?" },
+          { "sentence": "Wir leiden an der Grippe.", "solution": "Woran leiden wir?" },
+          { "sentence": "Ihr leidet an der Allergie.", "solution": "Woran leidet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "verschieben", "ru": "переносить" },
+      { "de": "der Arzt", "ru": "врач" },
+      { "de": "das Medikament", "ru": "лекарство" },
+      { "de": "die Erkältung", "ru": "простуда" },
+      { "de": "die Allergie", "ru": "аллергия" },
+      { "de": "der Husten", "ru": "кашель" },
+      { "de": "das Fieber", "ru": "жар" }
+    ]
+  },
+  {
+    "id": "leiden-unter",
+    "expression": "leiden unter",
+    "case": "Dat",
+    "articles": { "m": "dem Stress", "f": "der Lautstärke", "n": "dem Wetter" },
+    "translation": "страдать от (обстоятельства)",
+    "examples": {
+      "present": [
+        { "de": "Das Team leidet unter dem Stress.", "ru": "Команда страдает от стресса." },
+        { "de": "Viele leiden unter der Lautstärke.", "ru": "Многие страдают от шума." }
+      ],
+      "past": [
+        { "de": "Wir haben unter dem Wetter gelitten.", "ru": "Мы страдали из-за погоды." },
+        { "de": "Er hat unter der Situation gelitten.", "ru": "Он страдал от ситуации." }
+      ],
+      "future": [
+        { "de": "Ich werde nicht unter dem Druck leiden.", "ru": "Я не буду страдать от давления." },
+        { "de": "Sie werden unter der Baustelle leiden.", "ru": "Они будут страдать из-за стройки." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Während der Prüfungsvorbereitung hat die Klasse unter dem Lärm gelitten. Die Schule hat am (an+dem) Abend zusätzliche Räume geöffnet und hat am (an+dem) nächsten Tag Ohrstöpsel verteilt.",
+        "questions": [
+          {
+            "q": "От чего страдал класс во время подготовки?",
+            "options": ["Unter dem Lärm.", "Unter der Kälte.", "Unter dem Regen."],
+            "solution": "Unter dem Lärm."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Viele leiden ___ (1) dem Druck und ___ (2) nur kurze Pausen.",
+        "gaps": [
+          { "id": 1, "options": ["unter", "an", "nach"], "solution": "unter" },
+          { "id": 2, "options": ["machen", "suchen", "schmecken"], "solution": "machen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Das Team leidet unter dem Stress.", "solution": "Worunter leidet das Team?" },
+          { "sentence": "Viele leiden unter der Lautstärke.", "solution": "Worunter leiden viele?" },
+          { "sentence": "Wir leiden unter dem Wetter.", "solution": "Worunter leiden wir?" },
+          { "sentence": "Er leidet unter der Situation.", "solution": "Worunter leidet er?" },
+          { "sentence": "Ihr leidet unter der Baustelle.", "solution": "Worunter leidet ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Prüfungsvorbereitung", "ru": "подготовка к экзамену" },
+      { "de": "der Lärm", "ru": "шум" },
+      { "de": "öffnen", "ru": "открывать" },
+      { "de": "verteilen", "ru": "раздавать" },
+      { "de": "der Druck", "ru": "давление" },
+      { "de": "die Baustelle", "ru": "стройка" },
+      { "de": "der Ohrstöpsel", "ru": "беруши" }
+    ]
+  },
+  {
+    "id": "suchen-nach",
+    "expression": "suchen nach",
+    "case": "Dat",
+    "articles": { "m": "dem Raum", "f": "der Lösung", "n": "dem Dokument" },
+    "translation": "искать что-то",
+    "examples": {
+      "present": [
+        { "de": "Ich suche nach der Lösung.", "ru": "Я ищу решение." },
+        { "de": "Wir suchen nach dem Raum.", "ru": "Мы ищем помещение." }
+      ],
+      "past": [
+        { "de": "Er hat nach dem Dokument gesucht.", "ru": "Он искал документ." },
+        { "de": "Sie haben nach der Einladung gesucht.", "ru": "Они искали приглашение." }
+      ],
+      "future": [
+        { "de": "Ich werde nach dem Ergebnis suchen.", "ru": "Я буду искать результат." },
+        { "de": "Sie werden nach den Terminen suchen.", "ru": "Они будут искать даты встреч." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor dem Meeting hat das Team nach dem freien Raum gesucht. Man hat am (an+dem) Morgen in drei Gebäuden gesucht und hat am (an+dem) Mittag endlich einen Platz gefunden.",
+        "questions": [
+          {
+            "q": "Что команда искала перед встречей?",
+            "options": ["Nach dem freien Raum.", "Nach dem neuen Drucker.", "Nach dem Café."],
+            "solution": "Nach dem freien Raum."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Suchst du ___ (1) einer Alternative oder ___ (2) dem alten Dokument?",
+        "gaps": [
+          { "id": 1, "options": ["nach", "an", "mit"], "solution": "nach" },
+          { "id": 2, "options": ["nach", "an", "mit"], "solution": "nach" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr sucht nach der Lösung.", "solution": "Wonach sucht ihr?" },
+          { "sentence": "Er sucht nach dem Raum.", "solution": "Wonach sucht er?" },
+          { "sentence": "Wir suchen nach dem Dokument.", "solution": "Wonach suchen wir?" },
+          { "sentence": "Sie sucht nach der Einladung.", "solution": "Wonach sucht sie?" },
+          { "sentence": "Du suchst nach dem Termin.", "solution": "Wonach suchst du?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "finden", "ru": "находить" },
+      { "de": "das Gebäude", "ru": "здание" },
+      { "de": "frei", "ru": "свободный" },
+      { "de": "endlich", "ru": "наконец" },
+      { "de": "der Platz", "ru": "место" },
+      { "de": "die Alternative", "ru": "альтернатива" },
+      { "de": "das Dokument", "ru": "документ" }
+    ]
+  },
+  {
+    "id": "schmecken-nach",
+    "expression": "schmecken nach",
+    "case": "Dat",
+    "articles": { "m": "dem Kaffee", "f": "der Zitrone", "n": "dem Pfeffer" },
+    "translation": "иметь вкус чего-то",
+    "examples": {
+      "present": [
+        { "de": "Der Tee schmeckt nach der Zitrone.", "ru": "Чай имеет вкус лимона." },
+        { "de": "Die Suppe schmeckt nach dem Pfeffer.", "ru": "Суп имеет вкус перца." }
+      ],
+      "past": [
+        { "de": "Der Kuchen hat nach dem Kaffee geschmeckt.", "ru": "Пирог имел кофейный вкус." },
+        { "de": "Das Wasser hat nach der Zitrone geschmeckt.", "ru": "Вода имела вкус лимона." }
+      ],
+      "future": [
+        { "de": "Das Gericht wird nach den Kräutern schmecken.", "ru": "Блюдо будет с вкусом трав." },
+        { "de": "Der Tee wird nach dem Honig schmecken.", "ru": "Чай будет с вкусом мёда." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Kurs hat die Kantine ein neues Getränk vorgestellt. Viele haben gesagt, es hat nach der Zitrone geschmeckt und hat am (an+dem) Nachmittag für Energie gesorgt.",
+        "questions": [
+          {
+            "q": "Какой вкус, по мнению многих, было у напитка?",
+            "options": ["Nach der Zitrone.", "Nach dem Pfeffer.", "Nach dem Kaffee."],
+            "solution": "Nach der Zitrone."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die Suppe schmeckt ___ (1) Kräutern, aber der Tee ___ (2) Honig.",
+        "gaps": [
+          { "id": 1, "options": ["nach", "mit", "von"], "solution": "nach" },
+          { "id": 2, "options": ["schmeckt nach", "sucht nach", "leidet an"], "solution": "schmeckt nach" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Der Tee schmeckt nach der Zitrone.", "solution": "Wonach schmeckt der Tee?" },
+          { "sentence": "Das Wasser schmeckt nach dem Kaffee.", "solution": "Wonach schmeckt das Wasser?" },
+          { "sentence": "Die Suppe schmeckt nach dem Pfeffer.", "solution": "Wonach schmeckt die Suppe?" },
+          { "sentence": "Das Gericht schmeckt nach den Kräutern.", "solution": "Wonach schmeckt das Gericht?" },
+          { "sentence": "Der Saft schmeckt nach dem Honig.", "solution": "Wonach schmeckt der Saft?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "vorstellen", "ru": "представлять" },
+      { "de": "sagen", "ru": "говорить" },
+      { "de": "sorgen für", "ru": "заботиться/обеспечивать" },
+      { "de": "die Kantine", "ru": "столовая" },
+      { "de": "das Getränk", "ru": "напиток" },
+      { "de": "die Kräuter", "ru": "травы" },
+      { "de": "der Honig", "ru": "мёд" }
+    ]
+  }
+]

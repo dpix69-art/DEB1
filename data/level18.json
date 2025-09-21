@@ -1,0 +1,322 @@
+[
+  {
+    "id": "schreiben-an",
+    "expression": "schreiben an",
+    "case": "Akk",
+    "articles": { "m": "den Leiter", "f": "die Behörde", "n": "das Büro" },
+    "translation": "писать кому-то (по адресу/кому)",
+    "examples": {
+      "present": [
+        { "de": "Ich schreibe an den Leiter.", "ru": "Я пишу руководителю." },
+        { "de": "Wir schreiben an die Behörde.", "ru": "Мы пишем в ведомство." }
+      ],
+      "past": [
+        { "de": "Er hat an das Büro geschrieben.", "ru": "Он написал в офис." },
+        { "de": "Sie haben an die Verwaltung geschrieben.", "ru": "Они написали в администрацию." }
+      ],
+      "future": [
+        { "de": "Ich werde an den Kunden schreiben.", "ru": "Я напишу клиенту." },
+        { "de": "Sie werden an die Schule schreiben.", "ru": "Они напишут в школу." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Nach dem Termin hat Paul an die Behörde geschrieben. Er hat am (an+dem) Abend das Formular ausgefüllt und hat Unterlagen angehängt.",
+        "questions": [
+          {
+            "q": "Куда Пауль написал после встречи?",
+            "options": ["An die Behörde.", "An den Nachbarn.", "An das Restaurant."],
+            "solution": "An die Behörde."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Schreibst du ___ (1) den Leiter oder ___ (2) die Verwaltung?",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf", "für"], "solution": "an" },
+          { "id": 2, "options": ["an", "auf", "für"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du schreibst an den Leiter.", "solution": "Woran schreibst du?" },
+          { "sentence": "Er schreibt an die Behörde.", "solution": "Woran schreibt er?" },
+          { "sentence": "Wir schreiben an das Büro.", "solution": "Woran schreiben wir?" },
+          { "sentence": "Sie schreibt an die Verwaltung.", "solution": "Woran schreibt sie?" },
+          { "sentence": "Ihr schreibt an die Schule.", "solution": "Woran schreibt ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "ausfüllen", "ru": "заполнять" },
+      { "de": "anhängen", "ru": "прикреплять" },
+      { "de": "das Formular", "ru": "форма" },
+      { "de": "die Unterlagen", "ru": "документы" },
+      { "de": "der Kunde", "ru": "клиент" },
+      { "de": "die Schule", "ru": "школа" },
+      { "de": "die Verwaltung", "ru": "администрация" }
+    ]
+  },
+  {
+    "id": "sich-wenden-an",
+    "expression": "sich wenden an",
+    "case": "Akk",
+    "articles": { "m": "den Ansprechpartner", "f": "die Beratung", "n": "das Amt" },
+    "translation": "обращаться к",
+    "examples": {
+      "present": [
+        { "de": "Ich wende mich an den Ansprechpartner.", "ru": "Я обращаюсь к контактному лицу." },
+        { "de": "Wir wenden uns an die Beratung.", "ru": "Мы обращаемся в консультацию." }
+      ],
+      "past": [
+        { "de": "Er hat sich an das Amt gewendet.", "ru": "Он обратился в учреждение." },
+        { "de": "Sie haben sich an die Hotline gewendet.", "ru": "Они обратились на горячую линию." }
+      ],
+      "future": [
+        { "de": "Ich werde mich an die Verwaltung wenden.", "ru": "Я обращусь в администрацию." },
+        { "de": "Sie werden sich an den Service wenden.", "ru": "Они обратятся в сервис." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Bei Fragen hat die Leiterin gesagt, man soll sich an den Ansprechpartner wenden. Viele haben am (an+dem) Nachmittag angerufen und haben Hilfe bekommen.",
+        "questions": [
+          {
+            "q": "К кому следует обращаться по словам руководительницы?",
+            "options": ["An den Ansprechpartner.", "An den Fahrer.", "An den Nachbarn."],
+            "solution": "An den Ansprechpartner."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Wenden Sie sich ___ (1) den Service und ___ (2) kurz Ihr Anliegen.",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf", "für"], "solution": "an" },
+          { "id": 2, "options": ["schildern", "senden", "glauben"], "solution": "schildern" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ich wende mich an den Ansprechpartner.", "solution": "Woran wendest du dich?" },
+          { "sentence": "Er wendet sich an das Amt.", "solution": "Woran wendet er sich?" },
+          { "sentence": "Wir wenden uns an die Beratung.", "solution": "Woran wenden wir uns?" },
+          { "sentence": "Sie wendet sich an die Verwaltung.", "solution": "Woran wendet sie sich?" },
+          { "sentence": "Ihr wendet euch an den Service.", "solution": "Woran wendet ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "der Ansprechpartner", "ru": "контактное лицо" },
+      { "de": "die Beratung", "ru": "консультация" },
+      { "de": "schildern", "ru": "излагать" },
+      { "de": "anrufen", "ru": "звонить" },
+      { "de": "die Hilfe", "ru": "помощь" },
+      { "de": "die Leiterin", "ru": "руководительница" },
+      { "de": "das Anliegen", "ru": "просьба, вопрос" }
+    ]
+  },
+  {
+    "id": "senden-an",
+    "expression": "senden an",
+    "case": "Akk",
+    "articles": { "m": "den Kunden", "f": "die Redaktion", "n": "das Labor" },
+    "translation": "отправлять кому-то/в",
+    "examples": {
+      "present": [
+        { "de": "Ich sende die Datei an den Kunden.", "ru": "Я отправляю файл клиенту." },
+        { "de": "Wir senden die Proben an das Labor.", "ru": "Мы отправляем образцы в лабораторию." }
+      ],
+      "past": [
+        { "de": "Er hat die Unterlagen an die Redaktion gesendet.", "ru": "Он отправил документы в редакцию." },
+        { "de": "Sie haben die Einladung an die Teilnehmer gesendet.", "ru": "Они отправили приглашение участникам." }
+      ],
+      "future": [
+        { "de": "Ich werde die Rechnung an die Firma senden.", "ru": "Я отправлю счёт фирме." },
+        { "de": "Sie werden die Daten an die Schule senden.", "ru": "Они отправят данные в школу." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Die Assistentin hat die Protokolle an die Redaktion gesendet. Sie hat am (an+dem) Abend alle E-Mails geprüft und hat am (an+dem) Ende die Dateien hochgeladen.",
+        "questions": [
+          {
+            "q": "Куда ассистентка отправила протоколы?",
+            "options": ["An die Redaktion.", "An den Trainer.", "An das Restaurant."],
+            "solution": "An die Redaktion."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Sendet ihr die Einladungen ___ (1) die Gäste und ___ (2) die Anhänge?",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf", "für"], "solution": "an" },
+          { "id": 2, "options": ["prüft", "glaubt", "wendet"], "solution": "prüft" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr sendet die Datei an den Kunden.", "solution": "Woran sendet ihr die Datei?" },
+          { "sentence": "Er sendet die Proben an das Labor.", "solution": "Woran sendet er die Proben?" },
+          { "sentence": "Wir senden die Unterlagen an die Redaktion.", "solution": "Woran senden wir die Unterlagen?" },
+          { "sentence": "Sie sendet die Rechnung an die Firma.", "solution": "Woran sendet sie die Rechnung?" },
+          { "sentence": "Du sendest die Daten an die Schule.", "solution": "Woran sendest du die Daten?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "hochladen", "ru": "загружать" },
+      { "de": "prüfen", "ru": "проверять" },
+      { "de": "die Rechnung", "ru": "счёт" },
+      { "de": "die Probe", "ru": "образец" },
+      { "de": "das Labor", "ru": "лаборатория" },
+      { "de": "die Redaktion", "ru": "редакция" },
+      { "de": "der Teilnehmer", "ru": "участник" }
+    ]
+  },
+  {
+    "id": "glauben-an",
+    "expression": "glauben an",
+    "case": "Akk",
+    "articles": { "m": "den Erfolg", "f": "die Idee", "n": "das Ziel" },
+    "translation": "верить в",
+    "examples": {
+      "present": [
+        { "de": "Ich glaube an den Erfolg.", "ru": "Я верю в успех." },
+        { "de": "Wir glauben an die Idee.", "ru": "Мы верим в идею." }
+      ],
+      "past": [
+        { "de": "Er hat an das Ziel geglaubt.", "ru": "Он верил в цель." },
+        { "de": "Sie haben an das Projekt geglaubt.", "ru": "Они верили в проект." }
+      ],
+      "future": [
+        { "de": "Ich werde an die Lösung glauben.", "ru": "Я буду верить в решение." },
+        { "de": "Sie werden an das Team glauben.", "ru": "Они будут верить в команду." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Trotz der Verzögerung hat die Gruppe an den Erfolg geglaubt. Man hat am (an+dem) Abend weitergearbeitet und hat am (an+dem) Ende ein gutes Ergebnis erreicht.",
+        "questions": [
+          {
+            "q": "Во что группа продолжала верить?",
+            "options": ["An den Erfolg.", "An die Pause.", "An die billigen Tickets."],
+            "solution": "An den Erfolg."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Glaubst du ___ (1) die Idee und ___ (2) motiviert weiter?",
+        "gaps": [
+          { "id": 1, "options": ["an", "auf", "für"], "solution": "an" },
+          { "id": 2, "options": ["arbeitest", "sendest", "wendest"], "solution": "arbeitest" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr glaubt an den Erfolg.", "solution": "Woran glaubt ihr?" },
+          { "sentence": "Er glaubt an die Idee.", "solution": "Woran glaubt er?" },
+          { "sentence": "Wir glauben an das Ziel.", "solution": "Woran glauben wir?" },
+          { "sentence": "Sie glaubt an das Team.", "solution": "Woran glaubt sie?" },
+          { "sentence": "Du glaubst an die Lösung.", "solution": "Woran glaubst du?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "trotz", "ru": "несмотря на" },
+      { "de": "erreichen", "ru": "достигать" },
+      { "de": "weiterarbeiten", "ru": "работать дальше" },
+      { "de": "motiviert", "ru": "мотивированный" },
+      { "de": "die Lösung", "ru": "решение" },
+      { "de": "der Erfolg", "ru": "успех" },
+      { "de": "die Idee", "ru": "идея" }
+    ]
+  },
+  {
+    "id": "fuehren-zu",
+    "expression": "führen zu",
+    "case": "Dat",
+    "articles": { "m": "dem Ergebnis", "f": "der Änderung", "n": "dem Konflikt" },
+    "translation": "приводить к",
+    "examples": {
+      "present": [
+        { "de": "Die Diskussion führt zu dem Ergebnis.", "ru": "Дискуссия приводит к результату." },
+        { "de": "Der Fehler führt zu der Änderung.", "ru": "Ошибка приводит к изменению." }
+      ],
+      "past": [
+        { "de": "Die Maßnahme hat zu dem Erfolg geführt.", "ru": "Мера привела к успеху." },
+        { "de": "Der Streit hat zu dem Konflikt geführt.", "ru": "Спор привёл к конфликту." }
+      ],
+      "future": [
+        { "de": "Die Kooperation wird zu dem Vorteil führen.", "ru": "Сотрудничество приведёт к преимуществу." },
+        { "de": "Die Idee wird zu der Verbesserung führen.", "ru": "Идея приведёт к улучшению." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Mehr Feedback hat zu besseren Ergebnissen geführt. Das Team hat am (an+dem) Morgen Hinweise gesammelt und hat am (an+dem) Abend die Präsentation verbessert.",
+        "questions": [
+          {
+            "q": "К чему привело больше обратной связи?",
+            "options": ["Zu besseren Ergebnissen.", "Zu längeren Pausen.", "Zu weniger Fragen."],
+            "solution": "Zu besseren Ergebnissen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Die klare Regel ___ (1) einem Vorteil und die Übung ___ (2) einer Verbesserung.",
+        "gaps": [
+          { "id": 1, "options": ["führt zu", "sendet an", "glaubt an"], "solution": "führt zu" },
+          { "id": 2, "options": ["führt zu", "wendet an", "arbeitet mit"], "solution": "führt zu" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Die Diskussion führt zu dem Ergebnis.", "solution": "Wozu führt die Diskussion?" },
+          { "sentence": "Der Fehler führt zu der Änderung.", "solution": "Wozu führt der Fehler?" },
+          { "sentence": "Die Maßnahme hat zu dem Erfolg geführt.", "solution": "Wozu hat die Maßnahme geführt?" },
+          { "sentence": "Der Streit führt zu dem Konflikt.", "solution": "Wozu führt der Streit?" },
+          { "sentence": "Die Idee führt zu der Verbesserung.", "solution": "Wozu führt die Idee?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "verbessern", "ru": "улучшать" },
+      { "de": "der Vorteil", "ru": "преимущество" },
+      { "de": "der Hinweis", "ru": "подсказка, указание" },
+      { "de": "die Kooperation", "ru": "сотрудничество" },
+      { "de": "der Streit", "ru": "спор" },
+      { "de": "die Maßnahme", "ru": "мера" },
+      { "de": "die Verbesserung", "ru": "улучшение" }
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "anfangen-mit",
+    "expression": "anfangen mit",
+    "case": "Dat",
+    "articles": { "m": "dem Kurs", "f": "der Aufgabe", "n": "dem Projekt" },
+    "translation": "начинать с",
+    "examples": {
+      "present": [
+        { "de": "Ich fange mit dem Projekt an.", "ru": "Я начинаю с проекта." },
+        { "de": "Wir fangen mit der Aufgabe an.", "ru": "Мы начинаем с задания." }
+      ],
+      "past": [
+        { "de": "Er hat mit dem Kurs angefangen.", "ru": "Он начал с курса." },
+        { "de": "Sie haben mit der Präsentation angefangen.", "ru": "Они начали с презентации." }
+      ],
+      "future": [
+        { "de": "Ich werde mit der Vorbereitung anfangen.", "ru": "Я начну с подготовки." },
+        { "de": "Sie werden mit dem Gespräch anfangen.", "ru": "Они начнут с разговора." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Das Team hat am (an+dem) Morgen mit der Planung angefangen. Danach hat man Aufgaben verteilt und hat am (an+dem) Nachmittag erste Entwürfe geschickt.",
+        "questions": [
+          {
+            "q": "С чего команда начала утром?",
+            "options": ["Mit der Planung.", "Mit dem Feiern.", "Mit dem Einkauf."],
+            "solution": "Mit der Planung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Fangen wir ___ (1) dem einfachen Teil ___ (2)!",
+        "gaps": [
+          { "id": 1, "options": ["mit", "bei", "an"], "solution": "mit" },
+          { "id": 2, "options": ["an", "mit", "bei"], "solution": "an" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Ihr fangt mit der Aufgabe an.", "solution": "Womit fangt ihr an?" },
+          { "sentence": "Er fängt mit dem Projekt an.", "solution": "Womit fängt er an?" },
+          { "sentence": "Wir fangen mit der Präsentation an.", "solution": "Womit fangen wir an?" },
+          { "sentence": "Sie fängt mit dem Gespräch an.", "solution": "Womit fängt sie an?" },
+          { "sentence": "Du fängst mit dem Kurs an.", "solution": "Womit fängst du an?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "verteilen", "ru": "распределять" },
+      { "de": "der Entwurf", "ru": "черновик" },
+      { "de": "die Planung", "ru": "планирование" },
+      { "de": "einfach", "ru": "простой" },
+      { "de": "der Teil", "ru": "часть" },
+      { "de": "anfangen", "ru": "начинать" },
+      { "de": "schicken", "ru": "отправлять" }
+    ]
+  },
+  {
+    "id": "beginnen-mit",
+    "expression": "beginnen mit",
+    "case": "Dat",
+    "articles": { "m": "dem Termin", "f": "der Liste", "n": "dem Training" },
+    "translation": "начинать с",
+    "examples": {
+      "present": [
+        { "de": "Wir beginnen mit dem Training.", "ru": "Мы начинаем с тренировки." },
+        { "de": "Sie beginnt mit der Liste.", "ru": "Она начинает со списка." }
+      ],
+      "past": [
+        { "de": "Ich habe mit dem Termin begonnen.", "ru": "Я начал со встречи." },
+        { "de": "Er hat mit der Recherche begonnen.", "ru": "Он начал с исследования." }
+      ],
+      "future": [
+        { "de": "Wir werden mit der Einführung beginnen.", "ru": "Мы начнём со вводной части." },
+        { "de": "Sie werden mit dem Überblick beginnen.", "ru": "Они начнут с обзора." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Im Kurs hat die Dozentin mit einer kurzen Wiederholung begonnen. Danach hat sie am (an+dem) Vormittag neue Themen erklärt und hat am (an+dem) Ende eine Übung gegeben.",
+        "questions": [
+          {
+            "q": "С чего преподавательница начала на курсе?",
+            "options": ["Mit einer kurzen Wiederholung.", "Mit einer langen Pause.", "Mit einem Ausflug."],
+            "solution": "Mit einer kurzen Wiederholung."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Beginnen wir ___ (1) der Liste und ___ (2) danach mit den Terminen.",
+        "gaps": [
+          { "id": 1, "options": ["mit", "bei", "an"], "solution": "mit" },
+          { "id": 2, "options": ["machen", "beginnen", "sprechen"], "solution": "beginnen" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence":"Wir beginnen mit dem Training.","solution":"Womit beginnen wir?" },
+          { "sentence": "Sie beginnt mit der Liste.", "solution": "Womit beginnt sie?" },
+          { "sentence": "Ich beginne mit dem Termin.", "solution": "Womit beginnst du?" },
+          { "sentence": "Er beginnt mit der Recherche.", "solution": "Womit beginnt er?" },
+          { "sentence": "Sie beginnen mit dem Überblick.", "solution": "Womit beginnen sie?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Wiederholung", "ru": "повторение" },
+      { "de": "erklären", "ru": "объяснять" },
+      { "de": "die Einführung", "ru": "введение" },
+      { "de": "der Überblick", "ru": "обзор" },
+      { "de": "die Übung", "ru": "упражнение" },
+      { "de": "die Recherche", "ru": "исследование" },
+      { "de": "der Vormittag", "ru": "первая половина дня" }
+    ]
+  },
+  {
+    "id": "sich-unterhalten-mit",
+    "expression": "sich unterhalten mit",
+    "case": "Dat",
+    "articles": { "m": "dem Kollegen", "f": "der Lehrerin", "n": "dem Team" },
+    "translation": "беседовать с",
+    "examples": {
+      "present": [
+        { "de": "Ich unterhalte mich mit dem Kollegen.", "ru": "Я беседую с коллегой." },
+        { "de": "Wir unterhalten uns mit dem Team.", "ru": "Мы беседуем с командой." }
+      ],
+      "past": [
+        { "de": "Sie hat sich mit der Lehrerin unterhalten.", "ru": "Она поговорила с учительницей." },
+        { "de": "Er hat sich mit dem Kunden unterhalten.", "ru": "Он побеседовал с клиентом." }
+      ],
+      "future": [
+        { "de": "Ich werde mich mit der Verwaltung unterhalten.", "ru": "Я поговорю с администрацией." },
+        { "de": "Sie werden sich mit den Gästen unterhalten.", "ru": "Они побеседуют с гостями." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Vor der Entscheidung hat sich Jana mit dem Kollegen unterhalten. Sie hat am (an+dem) Mittag mit der Chefin gesprochen und hat am (an+dem) Abend eine Notiz geschrieben.",
+        "questions": [
+          {
+            "q": "С кем Яна беседовала перед решением?",
+            "options": ["Mit dem Kollegen.", "Mit der Nachbarin.", "Mit dem Fahrer."],
+            "solution": "Mit dem Kollegen."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Unterhältst du dich ___ (1) dem Team und ___ (2) ihr über die Ziele?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "bei", "an"], "solution": "mit" },
+          { "id": 2, "options": ["sprecht", "beginnt", "arbeitet"], "solution": "sprecht" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du unterhältst dich mit dem Kollegen.", "solution": "Womit unterhältst du dich?" },
+          { "sentence": "Er unterhält sich mit der Lehrerin.", "solution": "Womit unterhält er sich?" },
+          { "sentence":"Wir unterhalten uns mit dem Team.","solution":"Womit unterhalten wir uns?" },
+          { "sentence": "Sie unterhält sich mit dem Kunden.", "solution": "Womit unterhält sie sich?" },
+          { "sentence": "Ihr unterhaltet euch mit den Gästen.", "solution": "Womit unterhaltet ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "die Notiz", "ru": "заметка" },
+      { "de": "sprechen", "ru": "говорить" },
+      { "de": "das Ziel", "ru": "цель" },
+      { "de": "die Entscheidung", "ru": "решение" },
+      { "de": "der Kunde", "ru": "клиент" },
+      { "de": "die Chefin", "ru": "руководительница" },
+      { "de": "besprechen", "ru": "обсуждать" }
+    ]
+  },
+  {
+    "id": "sprechen-mit",
+    "expression": "sprechen mit",
+    "case": "Dat",
+    "articles": { "m": "dem Prüfer", "f": "der Kollegin", "n": "dem Support" },
+    "translation": "говорить с",
+    "examples": {
+      "present": [
+        { "de": "Ich spreche mit dem Prüfer.", "ru": "Я говорю с экзаменатором." },
+        { "de": "Sie spricht mit der Kollegin.", "ru": "Она говорит с коллегой." }
+      ],
+      "past": [
+        { "de": "Wir haben mit dem Support gesprochen.", "ru": "Мы поговорили с поддержкой." },
+        { "de": "Er hat mit der Verwaltung gesprochen.", "ru": "Он говорил с администрацией." }
+      ],
+      "future": [
+        { "de": "Ich werde mit dem Team sprechen.", "ru": "Я поговорю с командой." },
+        { "de": "Sie werden mit der Chefin sprechen.", "ru": "Они поговорят с руководительницей." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Tom hat mit dem Prüfer gesprochen und hat die Fragen geklärt. Danach hat er am (an+dem) Nachmittag mit der Kollegin telefoniert.",
+        "questions": [
+          {
+            "q": "С кем Том поговорил, чтобы прояснить вопросы?",
+            "options": ["Mit dem Prüfer.", "Mit dem Hausmeister.", "Mit dem Fahrer."],
+            "solution": "Mit dem Prüfer."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Sprecht ihr ___ (1) dem Support und ___ (2) die Störung?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "an", "bei"], "solution": "mit" },
+          { "id": 2, "options": ["klärt", "beginnt", "schreibt"], "solution": "klärt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du sprichst mit dem Prüfer.", "solution": "Womit sprichst du?" },
+          { "sentence": "Er spricht mit der Kollegin.", "solution": "Womit spricht er?" },
+          { "sentence":"Wir sprechen mit dem Support.","solution":"Womit sprechen wir?" },
+          { "sentence": "Sie spricht mit der Verwaltung.", "solution": "Womit spricht sie?" },
+          { "sentence": "Ihr sprecht mit dem Team.", "solution": "Womit sprecht ihr?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "klären", "ru": "прояснять" },
+      { "de": "telefonieren", "ru": "звонить" },
+      { "de": "die Störung", "ru": "сбой" },
+      { "de": "die Frage", "ru": "вопрос" },
+      { "de": "der Prüfer", "ru": "экзаменатор" },
+      { "de": "die Kollegin", "ru": "коллега (жен.)" },
+      { "de": "die Verwaltung", "ru": "администрация" }
+    ]
+  },
+  {
+    "id": "sich-verabreden-mit",
+    "expression": "sich verabreden mit",
+    "case": "Dat",
+    "articles": { "m": "dem Trainer", "f": "der Gruppe", "n": "dem Team" },
+    "translation": "договариваться о встрече с",
+    "examples": {
+      "present": [
+        { "de": "Ich verabrede mich mit dem Trainer.", "ru": "Я договариваюсь о встрече с тренером." },
+        { "de": "Wir verabreden uns mit der Gruppe.", "ru": "Мы договариваемся с группой." }
+      ],
+      "past": [
+        { "de": "Sie hat sich mit dem Team verabredet.", "ru": "Она договорилась с командой." },
+        { "de": "Er hat sich mit der Kollegin verabredet.", "ru": "Он договорился с коллегой." }
+      ],
+      "future": [
+        { "de": "Ich werde mich mit der Leitung verabreden.", "ru": "Я договорюсь с руководством." },
+        { "de": "Sie werden sich mit den Gästen verabreden.", "ru": "Они договорятся с гостями." }
+      ]
+    },
+    "exercises": [
+      {
+        "type": "reading",
+        "task": "Прочитай текст и ответь на вопрос.",
+        "text": "Für die Übung hat sich die Klasse mit dem Trainer verabredet. Man hat am (an+dem) Abend einen Termin gefunden und hat den Raum gebucht.",
+        "questions": [
+          {
+            "q": "С кем класс договорился о встрече для упражнения?",
+            "options": ["Mit dem Trainer.", "Mit dem Fahrer.", "Mit dem Koch."],
+            "solution": "Mit dem Trainer."
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "task": "Вставь подходящее слово/предлог.",
+        "text": "Verabredet ihr euch ___ (1) dem Team und ___ (2) den Raum im Kalender?",
+        "gaps": [
+          { "id": 1, "options": ["mit", "an", "bei"], "solution": "mit" },
+          { "id": 2, "options": ["tragt", "fangt", "klärt"], "solution": "tragt" }
+        ]
+      },
+      {
+        "type": "da_wo",
+        "task": "Переформулируй с wo-компаундом (только вопрос).",
+        "content": [
+          { "sentence": "Du verabredest dich mit dem Trainer.", "solution": "Womit verabredest du dich?" },
+          { "sentence": "Er verabredet sich mit der Gruppe.", "solution": "Womit verabredet er sich?" },
+          { "sentence": "Wir verabreden uns mit dem Team.", "solution": "Womit verabreden wir uns?" },
+          { "sentence": "Sie verabredet sich mit der Kollegin.", "solution": "Womit verabredet sie sich?" },
+          { "sentence": "Ihr verabredet euch mit den Gästen.", "solution": "Womit verabredet ihr euch?" }
+        ]
+      }
+    ],
+    "vocab": [
+      { "de": "buchen", "ru": "бронировать" },
+      { "de": "finden", "ru": "находить" },
+      { "de": "der Kalender", "ru": "календарь" },
+      { "de": "die Übung", "ru": "упражнение" },
+      { "de": "die Klasse", "ru": "класс, группа" },
+      { "de": "der Trainer", "ru": "тренер" },
+      { "de": "der Raum", "ru": "помещение" }
+    ]
+  }
+]
