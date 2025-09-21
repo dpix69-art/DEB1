@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import DictionaryEntry from './pages/DictionaryEntry';
-import DictionaryCategory from './pages/DictionaryCategory';
+
 
 
 
@@ -13,6 +12,8 @@ import { Home } from './pages/Home';
 import { Level } from './pages/Level';
 import { Card } from './pages/Card';
 import Dictionary from './pages/Dictionary';
+import { DictionaryEntry } from './pages/DictionaryEntry';
+import DictionaryCategory from './pages/DictionaryCategory';
 import { Emails } from './pages/Emails';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
