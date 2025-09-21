@@ -1,7 +1,3 @@
-// src/pages/DictionaryEntry.tsx
-import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, Home } from 'lucide-react';
-import { getDictionaryEntry } from '../lib/data';
 import React, { useEffect, useMemo } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { getDictionaryEntry, getDictionaryIndex } from '../lib/data';
@@ -100,7 +96,6 @@ export function DictionaryEntry() {
   const { entryId } = useParams<{ entryId: string }>();
 
   useEffect(() => {
-    // при каждой записи начинаем с верха
     window.scrollTo(0, 0);
   }, [entryId]);
 
@@ -109,7 +104,6 @@ export function DictionaryEntry() {
   const item = getDictionaryEntry(entryId) as DictItem | null;
   const index = getDictionaryIndex() as DictItem[];
 
-  // соседние записи (A→Z), чтобы можно было листать
   const { prev, next } = useMemo(() => {
     const sorted = [...index].sort((a, b) => latinize(a.headword).localeCompare(latinize(b.headword)));
     const i = sorted.findIndex(e => e.id === entryId);

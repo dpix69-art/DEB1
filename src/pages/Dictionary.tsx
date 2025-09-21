@@ -1,4 +1,3 @@
-// src/pages/Dictionary.tsx
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getDictionaryIndex } from '../lib/data';
@@ -31,11 +30,8 @@ const latinize = (s: string) =>
     .replaceAll('ü', 'ue')
     .replaceAll('ß', 'ss');
 
-const byAlpha = (a: DictItem, b: DictItem) => {
-  const aa = latinize(a.headword);
-  const bb = latinize(b.headword);
-  return aa.localeCompare(bb);
-};
+const byAlpha = (a: DictItem, b: DictItem) =>
+  latinize(a.headword).localeCompare(latinize(b.headword));
 
 const POS_LABEL = (pos?: string) => {
   switch (pos) {
@@ -139,6 +135,7 @@ export function Dictionary() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-6">
+        {/* Верхняя навигация */}
         <div className="flex items-center justify-between mb-6">
           <Link to="/" className="p-2 hover:bg-gray-100 rounded" style={{ color: '#111' }}>← Back</Link>
         </div>
@@ -150,7 +147,7 @@ export function Dictionary() {
           </div>
         </div>
 
-        {/* Поиск (можно убрать, если не нужен) */}
+        {/* Поиск */}
         <div className="mb-4">
           <input
             value={q}
@@ -161,6 +158,7 @@ export function Dictionary() {
           />
         </div>
 
+        {/* Список */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-0">
           {filtered.length === 0 ? (
             <div className="p-6 text-sm" style={{ color: '#666' }}>
@@ -169,7 +167,12 @@ export function Dictionary() {
           ) : (
             <div className="divide-y" style={{ borderColor: '#E5E7EB' }}>
               {filtered.map((it) => (
-                <div key={it.id} className="p-4 sm:p-5">
+                <Link
+                  key={it.id}
+                  to={`/dictionary/${it.id}`}
+                  className="block p-4 sm:p-5 hover:bg-gray-50"
+                  style={{ color: 'inherit', textDecoration: 'none' }}
+                >
                   {/* Заголовок: слово + POS + род (для N) + register */}
                   <div className="flex flex-wrap items-center gap-2 mb-1">
                     <div className="text-lg font-semibold" style={{ color: '#111' }}>
@@ -233,7 +236,7 @@ export function Dictionary() {
                       </span>
                     )}
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           )}
