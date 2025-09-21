@@ -136,16 +136,16 @@ export function DictionaryEntry() {
           <Link to="/dictionary" className="p-2 hover:bg-gray-100 rounded" style={{ color: '#111' }}>← Back</Link>
           <div className="flex items-center gap-2">
             {prev && (
-              <Link to={`/dictionary/${prev.id}`} className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
-                style={{ borderColor: '#E5E7EB', color: '#111' }}>
-                ← {prev.headword}
-              </Link>
+            //   <Link to={`/dictionary/${prev.id}`} className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
+            //     style={{ borderColor: '#E5E7EB', color: '#111' }}>
+            //     ← {prev.headword}
+            //   </Link>
             )}
             {next && (
-              <Link to={`/dictionary/${next.id}`} className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
-                style={{ borderColor: '#E5E7EB', color: '#111' }}>
-                {next.headword} →
-              </Link>
+            //   <Link to={`/dictionary/${next.id}`} className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
+            //     style={{ borderColor: '#E5E7EB', color: '#111' }}>
+            //     {next.headword} →
+            //   </Link>
             )}
           </div>
         </div>
