@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { ArrowLeft, Home, ArrowRight } from 'lucide-react';
+// ВАЖНО: оставь свой реальный путь к утилите данных
 import { getCard } from '../lib/data';
 import { CaseTag } from '../components/CaseTag';
 import { ExampleList } from '../components/ExampleList';
@@ -11,27 +12,32 @@ import { DaWo } from '../components/exercises/DaWo';
 
 export function Card() {
   const { moduleId, cardId } = useParams<{ moduleId: string; cardId: string }>();
-  
+
   if (!moduleId || !cardId) {
     return <Navigate to="/" replace />;
   }
-  
+
   const result = getCard(moduleId, cardId);
-  
   if (!result) {
     return <Navigate to="/" replace />;
   }
-  
+
+  // <<< Вот здесь у нас появляются module и card >>>
   const { module, card } = result;
 
-  // ── NEW: вычисляем следующую карточку в модуле
+  // Скроллим в самый верх при каждой смене карточки
+  useEffect(() => {
+    // надёжно и без анимации
+    window.scrollTo(0, 0);
+  }, [moduleId, cardId, card?.id]);
+
+  // Подготовим данные для кнопки Next
   const currentIndex = module.cards.findIndex((c: any) => c.id === card.id);
   const isLast = currentIndex === module.cards.length - 1;
   const nextCard = !isLast ? module.cards[currentIndex + 1] : null;
 
   const renderExercise = (exercise: any, index: number) => {
     const key = `${exercise.type}-${index}`;
-    
     switch (exercise.type) {
       case 'order':
         return <Order key={key} exercise={exercise} />;
@@ -49,14 +55,14 @@ export function Card() {
         );
     }
   };
-  
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
-          <Link 
-            to={`/level/${moduleId}`} 
+          <Link
+            to={`/level/${moduleId}`}
             className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded"
           >
             <ArrowLeft size={24} style={{ color: '#111' }} />
@@ -66,7 +72,7 @@ export function Card() {
             <Home size={24} style={{ color: '#666' }} />
           </Link>
         </div>
-        
+
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Title Section */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
@@ -76,38 +82,33 @@ export function Card() {
               </h1>
               <CaseTag case={card.case} />
             </div>
+
             {card.translation && (
               <p style={{ color: '#666' }} className="text-lg italic mb-4">
                 {card.translation}
               </p>
             )}
-            
+
             {/* Articles */}
             {card.articles && (
               <div className="space-y-2">
                 <h3 className="font-semibold" style={{ color: '#111' }}>Articles</h3>
                 <div className="flex flex-wrap gap-4 text-sm">
-                  {card.articles.m && (
-                    <span><strong>m:</strong> {card.articles.m}</span>
-                  )}
-                  {card.articles.f && (
-                    <span><strong>f:</strong> {card.articles.f}</span>
-                  )}
-                  {card.articles.n && (
-                    <span><strong>n:</strong> {card.articles.n}</span>
-                  )}
+                  {card.articles.m && <span><strong>m:</strong> {card.articles.m}</span>}
+                  {card.articles.f && <span><strong>f:</strong> {card.articles.f}</span>}
+                  {card.articles.n && <span><strong>n:</strong> {card.articles.n}</span>}
                 </div>
               </div>
             )}
           </div>
-          
+
           {/* Examples */}
           {card.examples && (
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <ExampleList examples={card.examples} />
             </div>
           )}
-          
+
           {/* Exercises */}
           <div className="space-y-6">
             <h2 className="text-2xl font-bold" style={{ color: '#111' }}>Exercises</h2>
@@ -117,14 +118,17 @@ export function Card() {
               </div>
             ))}
           </div>
-          
+
           {/* Vocabulary */}
           {card.vocab && card.vocab.length > 0 && (
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <h3 className="text-lg font-semibold mb-4" style={{ color: '#111' }}>Vocabulary</h3>
               <div className="grid gap-2">
                 {card.vocab.map((item: any, index: number) => (
-                  <div key={index} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
+                  <div
+                    key={index}
+                    className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0"
+                  >
                     <span style={{ color: '#111' }}>{item.de}</span>
                     <span style={{ color: '#666' }} className="italic">{item.ru}</span>
                   </div>
@@ -133,7 +137,7 @@ export function Card() {
             </div>
           )}
 
-          {/* ── NEW: Нижняя навигация "Next" / "Back to level" + прогресс */}
+          {/* Bottom nav: Next / Back to level + progress */}
           <div className="pt-2 pb-8">
             {!isLast && nextCard ? (
               <div className="space-y-2">
