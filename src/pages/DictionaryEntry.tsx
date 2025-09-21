@@ -151,7 +151,7 @@ export function DictionaryEntry() {
         </div>
 
         {/* Карточка записи */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 pt-5">
           <div className="flex flex-wrap items-center gap-2 mb-2">
             <h1 className="text-2xl font-bold" style={{ color: '#111' }}>{item.headword}</h1>
             <span className="inline-flex items-center rounded border px-1.5 py-0.5 text-xs"
