@@ -13,7 +13,7 @@ import { Level } from './pages/Level';
 import { Card } from './pages/Card';
 import Dictionary from './pages/Dictionary';
 import { DictionaryEntry } from './pages/DictionaryEntry';
-import DictionaryCategory from './pages/DictionaryCategory';
+// import DictionaryCategory from './pages/DictionaryCategory';
 import { Emails } from './pages/Emails';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
