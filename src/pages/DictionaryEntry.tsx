@@ -93,7 +93,7 @@ const FormsBlock: React.FC<{ item: DictItem }> = ({ item }) => {
   return null;
 };
 
-export function DictionaryEntry() {
+export default function DictionaryEntry() {
   const { entryId } = useParams<{ entryId: string }>();
 
   useEffect(() => {
