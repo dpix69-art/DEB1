@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "absage",
+    "headword": "die Absage",
+    "pos": "N",
+    "preview": "отказ",
+    "translation_ru": "отказ, уведомление об отказе",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Absage",
+      "plural": "die Absagen"
+    },
+    "examples": [
+      { "de": "Gestern erhielt ich leider eine schriftliche Absage auf meine vollständige Bewerbung.", "ru": "Вчера я, к сожалению, получил письменный отказ на мою полную заявку." }
+    ],
+    "notes": {
+      "usage": "formelle Mitteilung nach Bewerbung oder Anfrage",
+      "collocations": ["eine Absage erhalten", "eine Absage schreiben"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung", "Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "abteilung",
+    "headword": "die Abteilung",
+    "pos": "N",
+    "preview": "отдел",
+    "translation_ru": "отдел, подразделение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Abteilung",
+      "plural": "die Abteilungen"
+    },
+    "examples": [
+      { "de": "Unsere Abteilung bearbeitet Reklamationen zentral und stimmt Entscheidungen mit der Leitung ab.", "ru": "Наш отдел централизованно обрабатывает рекламации и согласует решения с руководством." }
+    ],
+    "notes": {
+      "usage": "Unternehmen, Verwaltung",
+      "collocations": ["in der Abteilung arbeiten", "Leitung der Abteilung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anmeldung",
+    "headword": "die Anmeldung",
+    "pos": "N",
+    "preview": "регистрация",
+    "translation_ru": "регистрация, запись",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Anmeldung",
+      "plural": "die Anmeldungen"
+    },
+    "examples": [
+      { "de": "Die Anmeldung beim Bürgeramt muss innerhalb von zwei Wochen persönlich erfolgen.", "ru": "Регистрация в управлении должна быть выполнена лично в течение двух недель." }
+    ],
+    "notes": {
+      "usage": "Kurse, Behörden, Portale",
+      "collocations": ["Online-Anmeldung", "Anmeldung bestätigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Bildung"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "antrag",
+    "headword": "der Antrag",
+    "pos": "N",
+    "preview": "заявление",
+    "translation_ru": "заявление, ходатайство",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Antrags",
+      "plural": "die Anträge"
+    },
+    "examples": [
+      { "de": "Den Antrag auf Verlängerung der Frist habe ich fristgerecht mit Belegen eingereicht.", "ru": "Заявление о продлении срока я подал в срок, с подтверждениями." }
+    ],
+    "notes": {
+      "usage": "formelle Behördensprache",
+      "collocations": ["einen Antrag stellen", "Antrag bewilligen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "anweisung",
+    "headword": "die Anweisung",
+    "pos": "N",
+    "preview": "инструкция",
+    "translation_ru": "инструкция, распоряжение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Anweisung",
+      "plural": "die Anweisungen"
+    },
+    "examples": [
+      { "de": "Bitte befolgen Sie die Sicherheitsanweisungen während der Schicht ohne Ausnahme genau.", "ru": "Пожалуйста, без исключений точно соблюдайте инструкции по безопасности во время смены." }
+    ],
+    "notes": {
+      "usage": "Betrieb, Sicherheit",
+      "collocations": ["eine Anweisung geben", "Anweisungen befolgen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "arbeitsbedingungen",
+    "headword": "die Arbeitsbedingungen",
+    "pos": "N",
+    "preview": "условия труда",
+    "translation_ru": "условия труда",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Arbeitsbedingungen",
+      "plural": "die Arbeitsbedingungen"
+    },
+    "examples": [
+      { "de": "Gute Arbeitsbedingungen erhöhen die Zufriedenheit spürbar und reduzieren die Fluktuation im Team.", "ru": "Хорошие условия труда заметно повышают удовлетворённость и снижают текучесть в команде." }
+    ],
+    "notes": {
+      "usage": "Tarife, Verträge",
+      "collocations": ["faire Arbeitsbedingungen", "Arbeitsbedingungen verbessern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "arbeitsvertrag",
+    "headword": "der Arbeitsvertrag",
+    "pos": "N",
+    "preview": "трудовой договор",
+    "translation_ru": "трудовой договор",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Arbeitsvertrags",
+      "plural": "die Arbeitsverträge"
+    },
+    "examples": [
+      { "de": "Der Arbeitsvertrag enthält eine sechsmonatige Probezeit und eine Kündigungsfrist von vier Wochen.", "ru": "Трудовой договор содержит шестимесячный испытательный срок и срок увольнения четыре недели." }
+    ],
+    "notes": {
+      "usage": "Beschäftigung, Recht",
+      "collocations": ["einen Arbeitsvertrag unterschreiben", "Arbeitsvertrag kündigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ausbildung",
+    "headword": "die Ausbildung",
+    "pos": "N",
+    "preview": "обучение",
+    "translation_ru": "профессиональное обучение, подготовка",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Ausbildung",
+      "plural": "die Ausbildungen"
+    },
+    "examples": [
+      { "de": "Die duale Ausbildung verbindet praktische Erfahrungen im Betrieb mit Unterricht an der Berufsschule.", "ru": "Дуальное обучение сочетает практический опыт на предприятии с занятиями в профшколе." }
+    ],
+    "notes": {
+      "usage": "Beruf, Schule",
+      "collocations": ["eine Ausbildung machen", "in Ausbildung sein"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "auskunft",
+    "headword": "die Auskunft",
+    "pos": "N",
+    "preview": "справка",
+    "translation_ru": "справка, информация",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Auskunft",
+      "plural": "die Auskünfte"
+    },
+    "examples": [
+      { "de": "Am Schalter erhalten Sie Auskunft über Fahrpläne und aktuelle Störungen im Netz.", "ru": "У стойки вы получите информацию о расписаниях и текущих сбоях в сети." }
+    ],
+    "notes": {
+      "usage": "Service, Behörden",
+      "collocations": ["Auskunft erteilen", "um Auskunft bitten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "auszahlung",
+    "headword": "die Auszahlung",
+    "pos": "N",
+    "preview": "выплата",
+    "translation_ru": "выплата, выдача денег",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Auszahlung",
+      "plural": "die Auszahlungen"
+    },
+    "examples": [
+      { "de": "Die Auszahlung des Gehalts erfolgt jeweils am letzten Werktag des Monats.", "ru": "Выплата зарплаты производится в последний рабочий день месяца." }
+    ],
+    "notes": {
+      "usage": "Lohn, Kasse",
+      "collocations": ["Auszahlung beantragen", "Auszahlung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "beratung",
+    "headword": "die Beratung",
+    "pos": "N",
+    "preview": "консультация",
+    "translation_ru": "консультация, консультирование",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Beratung",
+      "plural": "die Beratungen"
+    },
+    "examples": [
+      { "de": "Eine kostenlose Beratung zu Bewerbungsunterlagen findet jeden Mittwoch nach Anmeldung statt.", "ru": "Бесплатная консультация по документам на работу проходит каждую среду по записи." }
+    ],
+    "notes": {
+      "usage": "Service, Entscheidungshilfe",
+      "collocations": ["Beratung anbieten", "Beratungstermin vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bescheinigung",
+    "headword": "die Bescheinigung",
+    "pos": "N",
+    "preview": "справка",
+    "translation_ru": "справка, удостоверение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bescheinigung",
+      "plural": "die Bescheinigungen"
+    },
+    "examples": [
+      { "de": "Für die Anmeldung benötigen Sie eine aktuelle Meldebescheinigung der Stadtverwaltung.", "ru": "Для регистрации вам нужна актуальная справка о прописке из городского управления." }
+    ],
+    "notes": {
+      "usage": "Nachweise, Behörden",
+      "collocations": ["eine Bescheinigung ausstellen", "Bescheinigung vorlegen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bestaetigung",
+    "headword": "die Bestätigung",
+    "pos": "N",
+    "preview": "подтверждение",
+    "translation_ru": "подтверждение, удостоверение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bestätigung",
+      "plural": "die Bestätigungen"
+    },
+    "examples": [
+      { "de": "Sie erhalten eine Bestätigung des Termins per E-Mail innerhalb von zwei Tagen.", "ru": "Вы получите подтверждение встречи по электронной почте в течение двух дней." }
+    ],
+    "notes": {
+      "usage": "formelle Kommunikation",
+      "collocations": ["eine Bestätigung erhalten", "Bestätigung anfordern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation", "Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "betreuung",
+    "headword": "die Betreuung",
+    "pos": "N",
+    "preview": "сопровождение",
+    "translation_ru": "сопровождение, кураторство, обслуживание",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Betreuung",
+      "plural": "die Betreuungen"
+    },
+    "examples": [
+      { "de": "Die persönliche Betreuung der Kundinnen erfolgt während der Geschäftszeiten telefonisch oder vor Ort.", "ru": "Личное сопровождение клиенток осуществляется в часы работы по телефону или на месте." }
+    ],
+    "notes": {
+      "usage": "Kundenservice, Pflege",
+      "collocations": ["pädagogische Betreuung", "Kundenbetreuung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bezahlung",
+    "headword": "die Bezahlung",
+    "pos": "N",
+    "preview": "оплата",
+    "translation_ru": "оплата, вознаграждение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bezahlung",
+      "plural": "die Bezahlungen"
+    },
+    "examples": [
+      { "de": "Die Bezahlung erfolgt per Überweisung innerhalb von vierzehn Tagen ohne Abzug.", "ru": "Оплата производится банковским переводом в течение четырнадцати дней без вычета." }
+    ],
+    "notes": {
+      "usage": "Rechnungen, Verträge",
+      "collocations": ["pünktliche Bezahlung", "Bezahlung vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bewerbungsunterlagen",
+    "headword": "die Bewerbungsunterlagen",
+    "pos": "N",
+    "preview": "документы заявки",
+    "translation_ru": "документы для подачи на работу",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bewerbungsunterlagen",
+      "plural": "die Bewerbungsunterlagen"
+    },
+    "examples": [
+      { "de": "Bitte senden Sie die vollständigen Bewerbungsunterlagen mit Lebenslauf und Zeugnissen als PDF.", "ru": "Пожалуйста, отправьте полный пакет документов с резюме и свидетельствами в PDF." }
+    ],
+    "notes": {
+      "usage": "Stellenbewerbung",
+      "collocations": ["vollständige Bewerbungsunterlagen", "Unterlagen nachreichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung", "Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bewerbung",
+    "headword": "die Bewerbung",
+    "pos": "N",
+    "preview": "заявка",
+    "translation_ru": "заявка на работу, поступление",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bewerbung",
+      "plural": "die Bewerbungen"
+    },
+    "examples": [
+      { "de": "Ihre Bewerbung wirkt überzeugend, dennoch benötigen wir eine aktuelle Arbeitszeugnis-Kopie.", "ru": "Ваша заявка выглядит убедительно, однако нам нужна копия актуального рабочего отзыва." }
+    ],
+    "notes": {
+      "usage": "Karriere, Studium",
+      "collocations": ["eine Bewerbung einreichen", "Bewerbung prüfen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung", "Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "behoerde",
+    "headword": "die Behörde",
+    "pos": "N",
+    "preview": "учреждение",
+    "translation_ru": "госучреждение, ведомство",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Behörde",
+      "plural": "die Behörden"
+    },
+    "examples": [
+      { "de": "Die zuständige Behörde bearbeitet Ihren Antrag nach Eingang der fehlenden Unterlagen.", "ru": "Компетентное учреждение обработает ваше заявление после поступления недостающих документов." }
+    ],
+    "notes": {
+      "usage": "Verwaltung, Amt",
+      "collocations": ["zuständige Behörde", "bei der Behörde vorlegen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "betriebsvereinbarung",
+    "headword": "die Betriebsvereinbarung",
+    "pos": "N",
+    "preview": "соглашение",
+    "translation_ru": "производственное соглашение, коллективное соглашение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Betriebsvereinbarung",
+      "plural": "die Betriebsvereinbarungen"
+    },
+    "examples": [
+      { "de": "Die neue Betriebsvereinbarung regelt Homeoffice und flexible Arbeitszeiten verbindlich.", "ru": "Новое производственное соглашение регулирует удалённую работу и гибкий график обязательно." }
+    ],
+    "notes": {
+      "usage": "Arbeitsrecht, Mitbestimmung",
+      "collocations": ["eine Betriebsvereinbarung abschließen", "Betriebsvereinbarung anpassen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "dienstleistung",
+    "headword": "die Dienstleistung",
+    "pos": "N",
+    "preview": "услуга",
+    "translation_ru": "услуга, сервис",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Dienstleistung",
+      "plural": "die Dienstleistungen"
+    },
+    "examples": [
+      { "de": "Unsere Dienstleistung umfasst Beratung, Reparatur und eine verlängerte Garantie ohne Aufpreis.", "ru": "Наша услуга включает консультацию, ремонт и расширенную гарантию без наценки." }
+    ],
+    "notes": {
+      "usage": "Serviceangebote",
+      "collocations": ["Dienstleistungen anbieten", "Dienstleistung beauftragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "einzugsermaechtigung",
+    "headword": "die Einzugsermächtigung",
+    "pos": "N",
+    "preview": "автосписание",
+    "translation_ru": "разрешение на автоматическое списание средств",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Einzugsermächtigung",
+      "plural": "die Einzugsermächtigungen"
+    },
+    "examples": [
+      { "de": "Mit der Einzugsermächtigung wird die Miete monatlich automatisch vom Konto abgebucht.", "ru": "С разрешением на автосписание аренда ежемесячно списывается со счёта автоматически." }
+    ],
+    "notes": {
+      "usage": "Zahlungen, Verträge",
+      "collocations": ["Einzugsermächtigung erteilen", "Einzugsermächtigung widerrufen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "einschraenkung",
+    "headword": "die Einschränkung",
+    "pos": "N",
+    "preview": "ограничение",
+    "translation_ru": "ограничение, ограничительное условие",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Einschränkung",
+      "plural": "die Einschränkungen"
+    },
+    "examples": [
+      { "de": "Wegen Bauarbeiten gibt es zeitweise Einschränkungen im Zugverkehr der Region.", "ru": "Из-за строительных работ временно есть ограничения в железнодорожном движении региона." }
+    ],
+    "notes": {
+      "usage": "Hinweis, Störung",
+      "collocations": ["Einschränkungen beachten", "Einschränkungen bekanntgeben"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "empfehlung",
+    "headword": "die Empfehlung",
+    "pos": "N",
+    "preview": "рекомендация",
+    "translation_ru": "рекомендация, совет",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Empfehlung",
+      "plural": "die Empfehlungen"
+    },
+    "examples": [
+      { "de": "Die Ärztin gab eine Empfehlung für Physiotherapie und regelmäßige Bewegung.", "ru": "Врач дала рекомендацию на физиотерапию и регулярные физические упражнения." }
+    ],
+    "notes": {
+      "usage": "Gesundheit, Karriere",
+      "collocations": ["eine Empfehlung aussprechen", "Empfehlung beachten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "entschaedigung",
+    "headword": "die Entschädigung",
+    "pos": "N",
+    "preview": "компенсация",
+    "translation_ru": "компенсация, возмещение ущерба",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Entschädigung",
+      "plural": "die Entschädigungen"
+    },
+    "examples": [
+      { "de": "Bei erheblicher Verspätung steht Ihnen eine angemessene Entschädigung nach Tarif zu.", "ru": "При значительной задержке вам полагается соответствующая компенсация согласно тарифу." }
+    ],
+    "notes": {
+      "usage": "Reklamation, Recht",
+      "collocations": ["Entschädigung beantragen", "Entschädigung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich", "Verkehr"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ermaessigung",
+    "headword": "die Ermäßigung",
+    "pos": "N",
+    "preview": "скидка",
+    "translation_ru": "льгота, скидка, понижение платы",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Ermäßigung",
+      "plural": "die Ermäßigungen"
+    },
+    "examples": [
+      { "de": "Studierende erhalten eine Ermäßigung auf den Monatsfahrpreis bei Vorlage der Bescheinigung.", "ru": "Студенты получают скидку на месячный проездной при предъявлении справки." }
+    ],
+    "notes": {
+      "usage": "Tarife, Preise",
+      "collocations": ["Ermäßigung beantragen", "Ermäßigung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "frist",
+    "headword": "die Frist",
+    "pos": "N",
+    "preview": "срок",
+    "translation_ru": "срок, установленный период",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Frist",
+      "plural": "die Fristen"
+    },
+    "examples": [
+      { "de": "Bitte beachten Sie die Frist zur Einreichung der Unterlagen bis kommenden Montag.", "ru": "Пожалуйста, соблюдайте срок подачи документов до следующего понедельника." }
+    ],
+    "notes": {
+      "usage": "Verträge, Abgaben",
+      "collocations": ["eine Frist setzen", "Fristverlängerung beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Formalitaeten", "Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "formular",
+    "headword": "das Formular",
+    "pos": "N",
+    "preview": "бланк",
+    "translation_ru": "бланк, форма для заполнения",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Formulars",
+      "plural": "die Formulare"
+    },
+    "examples": [
+      { "de": "Füllen Sie das Formular gut lesbar aus und unterschreiben Sie auf Seite drei.", "ru": "Заполните бланк разборчиво и подпишите на третьей странице." }
+    ],
+    "notes": {
+      "usage": "Anträge, Verträge",
+      "collocations": ["ein Formular ausfüllen", "Formular einreichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Formalitaeten", "Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "genehmigung",
+    "headword": "die Genehmigung",
+    "pos": "N",
+    "preview": "разрешение",
+    "translation_ru": "разрешение, согласование",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Genehmigung",
+      "plural": "die Genehmigungen"
+    },
+    "examples": [
+      { "de": "Für den Umbau benötigen Sie eine schriftliche Genehmigung der Hausverwaltung.", "ru": "Для перепланировки вам нужно письменное разрешение домоуправления." }
+    ],
+    "notes": {
+      "usage": "Bau, Verwaltung",
+      "collocations": ["Genehmigung erteilen", "Genehmigung beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Wohnen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "gehalt",
+    "headword": "das Gehalt",
+    "pos": "N",
+    "preview": "зарплата",
+    "translation_ru": "заработная плата (оклад)",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Gehalts",
+      "plural": "die Gehälter"
+    },
+    "examples": [
+      { "de": "Das Gehalt wird jeweils zum Monatsende überwiesen und schriftlich abgerechnet.", "ru": "Оклад переводится в конце месяца и оформляется письменно." }
+    ],
+    "notes": {
+      "usage": "Beschäftigung, Finanzen",
+      "collocations": ["Gehalt überweisen", "Gehaltserhöhung verhandeln"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "geschaeftszeit",
+    "headword": "die Geschäftszeit",
+    "pos": "N",
+    "preview": "часы работы",
+    "translation_ru": "часы работы организации",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Geschäftszeit",
+      "plural": "die Geschäftszeiten"
+    },
+    "examples": [
+      { "de": "Außerhalb der Geschäftszeiten erreichen Sie unseren Notdienst unter der angegebenen Nummer.", "ru": "Вне часов работы вы можете связаться с аварийной службой по указанному номеру." }
+    ],
+    "notes": {
+      "usage": "Öffnungszeiten",
+      "collocations": ["während der Geschäftszeiten", "geänderte Geschäftszeiten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "gespraech",
+    "headword": "das Gespräch",
+    "pos": "N",
+    "preview": "разговор",
+    "translation_ru": "разговор, беседа, переговоры",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Gesprächs",
+      "plural": "die Gespräche"
+    },
+    "examples": [
+      { "de": "Das Gespräch mit der Personalabteilung verlief konstruktiv und sehr lösungsorientiert.", "ru": "Беседа с отделом кадров прошла конструктивно и очень ориентированно на решения." }
+    ],
+    "notes": {
+      "usage": "Interview, Beratung",
+      "collocations": ["ein Gespräch führen", "Vorstellungsgespräch"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "gleis",
+    "headword": "das Gleis",
+    "pos": "N",
+    "preview": "путь",
+    "translation_ru": "железнодорожный путь, платформа",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Gleises",
+      "plural": "die Gleise"
+    },
+    "examples": [
+      { "de": "Der Zug nach Köln fährt heute von Gleis sieben statt Gleis drei ab.", "ru": "Поезд на Кёльн сегодня отправляется с пути семь вместо пути три." }
+    ],
+    "notes": {
+      "usage": "Bahnhof, Ansagen",
+      "collocations": ["am Gleis warten", "Gleisänderung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr", "Reisen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "hausordnung",
+    "headword": "die Hausordnung",
+    "pos": "N",
+    "preview": "правила дома",
+    "translation_ru": "домовые правила, распорядок дома",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Hausordnung",
+      "plural": "die Hausordnungen"
+    },
+    "examples": [
+      { "de": "Die Hausordnung verbietet laute Musik nach 22 Uhr und Grillen auf dem Balkon.", "ru": "Правила дома запрещают громкую музыку после 22 часов и гриль на балконе." }
+    ],
+    "notes": {
+      "usage": "Mietshaus, Gemeinschaft",
+      "collocations": ["Hausordnung aushängen", "Hausordnung beachten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "heizung",
+    "headword": "die Heizung",
+    "pos": "N",
+    "preview": "отопление",
+    "translation_ru": "отопление, система отопления",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Heizung",
+      "plural": "die Heizungen"
+    },
+    "examples": [
+      { "de": "Die Heizung wird zentral gesteuert und verbraucht laut Abrechnung deutlich weniger Energie.", "ru": "Отопление управляется централизованно и расходует заметно меньше энергии по счёту." }
+    ],
+    "notes": {
+      "usage": "Wohnung, Technik",
+      "collocations": ["Heizung ausfallen", "Heizung einstellen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "lieferzeit",
+    "headword": "die Lieferzeit",
+    "pos": "N",
+    "preview": "срок поставки",
+    "translation_ru": "срок поставки, время доставки",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Lieferzeit",
+      "plural": "die Lieferzeiten"
+    },
+    "examples": [
+      { "de": "Die aktuelle Lieferzeit beträgt zwei Wochen, Expressversand ist gegen Aufpreis möglich.", "ru": "Текущий срок поставки составляет две недели, экспресс-доставка возможна за доплату." }
+    ],
+    "notes": {
+      "usage": "Bestellungen, Logistik",
+      "collocations": ["Lieferzeit angeben", "Lieferzeit einhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "lieferung",
+    "headword": "die Lieferung",
+    "pos": "N",
+    "preview": "поставка",
+    "translation_ru": "поставка, доставка товара",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Lieferung",
+      "plural": "die Lieferungen"
+    },
+    "examples": [
+      { "de": "Die Lieferung kam unvollständig an, wir reichen fehlende Teile umgehend nach.", "ru": "Поставка пришла неполной; мы оперативно досылаем недостающие детали." }
+    ],
+    "notes": {
+      "usage": "Handel, Versand",
+      "collocations": ["Lieferung erhalten", "Lieferung verzögert sich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "kuendigung",
+    "headword": "die Kündigung",
+    "pos": "N",
+    "preview": "расторжение",
+    "translation_ru": "расторжение договора; увольнение, заявление об увольнении",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Kündigung",
+      "plural": "die Kündigungen"
+    },
+    "examples": [
+      { "de": "Die Kündigung muss schriftlich erfolgen und die Frist eindeutig berücksichtigen.", "ru": "Расторжение должно быть оформлено письменно и чётко учитывать срок." }
+    ],
+    "notes": {
+      "usage": "Arbeitsrecht, Miete",
+      "collocations": ["fristgerechte Kündigung", "Kündigung einreichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich", "Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "kuendigungsfrist",
+    "headword": "die Kündigungsfrist",
+    "pos": "N",
+    "preview": "срок уведомления",
+    "translation_ru": "срок уведомления о расторжении",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Kündigungsfrist",
+      "plural": "die Kündigungsfristen"
+    },
+    "examples": [
+      { "de": "Die Kündigungsfrist beträgt laut Vertrag vier Wochen zum Monatsende.", "ru": "Срок уведомления согласно договору составляет четыре недели к концу месяца." }
+    ],
+    "notes": {
+      "usage": "Verträge, Arbeitsverhältnis",
+      "collocations": ["Kündigungsfrist einhalten", "Kündigungsfrist prüfen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich", "Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "mahnung",
+    "headword": "die Mahnung",
+    "pos": "N",
+    "preview": "напоминание",
+    "translation_ru": "письменное напоминание об оплате, предупреждение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Mahnung",
+      "plural": "die Mahnungen"
+    },
+    "examples": [
+      { "de": "Nach Ablauf der Frist erhalten säumige Kundinnen automatisch eine Mahnung per Post.", "ru": "После истечения срока должницы автоматически получают письменное напоминание по почте." }
+    ],
+    "notes": {
+      "usage": "Forderungsmanagement",
+      "collocations": ["Mahnung schicken", "Mahnstufe"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "miete",
+    "headword": "die Miete",
+    "pos": "N",
+    "preview": "аренда",
+    "translation_ru": "арендная плата, наём жилья",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Miete",
+      "plural": "die Mieten"
+    },
+    "examples": [
+      { "de": "Die Miete ist monatlich im Voraus zu zahlen und enthält die Betriebskosten.", "ru": "Аренда оплачивается ежемесячно авансом и включает эксплуатационные расходы." }
+    ],
+    "notes": {
+      "usage": "Wohnung, Vertrag",
+      "collocations": ["Miete zahlen", "Miete erhöhen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "mietvertrag",
+    "headword": "der Mietvertrag",
+    "pos": "N",
+    "preview": "договор аренды",
+    "translation_ru": "договор аренды жилья",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Mietvertrags",
+      "plural": "die Mietverträge"
+    },
+    "examples": [
+      { "de": "Im Mietvertrag sind Kaution, Nebenkosten und Hausordnung detailliert geregelt.", "ru": "В договоре аренды подробно оговорены залог, коммунальные платежи и правила дома." }
+    ],
+    "notes": {
+      "usage": "Vermietung, Recht",
+      "collocations": ["einen Mietvertrag unterschreiben", "Mietvertrag kündigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "mitteilung",
+    "headword": "die Mitteilung",
+    "pos": "N",
+    "preview": "сообщение",
+    "translation_ru": "сообщение, уведомление, извещение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Mitteilung",
+      "plural": "die Mitteilungen"
+    },
+    "examples": [
+      { "de": "Sie erhalten eine schriftliche Mitteilung, sobald die Entscheidung vorliegt.", "ru": "Вы получите письменное уведомление, как только будет решение." }
+    ],
+    "notes": {
+      "usage": "Behörden, Unternehmen",
+      "collocations": ["eine Mitteilung senden", "Mitteilung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation", "Behoerden"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "probezeit",
+    "headword": "die Probezeit",
+    "pos": "N",
+    "preview": "испытательный срок",
+    "translation_ru": "испытательный срок на работе",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Probezeit",
+      "plural": "die Probezeiten"
+    },
+    "examples": [
+      { "de": "Während der Probezeit gelten verkürzte Kündigungsfristen und regelmäßige Feedbackgespräche.", "ru": "Во время испытательного срока действуют сокращённые сроки увольнения и регулярные беседы обратной связи." }
+    ],
+    "notes": {
+      "usage": "Arbeitsvertrag",
+      "collocations": ["Probezeit bestehen", "Probezeit vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "quittung",
+    "headword": "die Quittung",
+    "pos": "N",
+    "preview": "квитанция",
+    "translation_ru": "квитанция, расписка об оплате",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Quittung",
+      "plural": "die Quittungen"
+    },
+    "examples": [
+      { "de": "Bewahren Sie die Quittung bitte auf, falls eine Rückerstattung notwendig wird.", "ru": "Сохраните, пожалуйста, квитанцию на случай необходимости возврата." }
+    ],
+    "notes": {
+      "usage": "Kauf, Service",
+      "collocations": ["eine Quittung ausstellen", "Quittung vorlegen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "rabatt",
+    "headword": "der Rabatt",
+    "pos": "N",
+    "preview": "скидка",
+    "translation_ru": "скидка, уценка",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Rabatts",
+      "plural": "die Rabatte"
+    },
+    "examples": [
+      { "de": "Für Sammelbestellungen gewähren wir einen Rabatt nach individueller Absprache.", "ru": "За коллективные заказы мы предоставляем скидку по индивидуальной договорённости." }
+    ],
+    "notes": {
+      "usage": "Preise, Aktionen",
+      "collocations": ["Rabatt gewähren", "Rabatt erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "rechnung",
+    "headword": "die Rechnung",
+    "pos": "N",
+    "preview": "счёт",
+    "translation_ru": "счёт, счёт-фактура",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Rechnung",
+      "plural": "die Rechnungen"
+    },
+    "examples": [
+      { "de": "Die Rechnung enthält alle Positionen detailliert und die fällige Zahlungsfrist.", "ru": "Счёт содержит все позиции подробно и указанный срок оплаты." }
+    ],
+    "notes": {
+      "usage": "Abrechnung, Zahlung",
+      "collocations": ["eine Rechnung stellen", "Rechnung begleichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "reklamation",
+    "headword": "die Reklamation",
+    "pos": "N",
+    "preview": "претензия",
+    "translation_ru": "рекламация, претензия по качеству",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Reklamation",
+      "plural": "die Reklamationen"
+    },
+    "examples": [
+      { "de": "Ihre Reklamation wird geprüft; Sie erhalten zeitnah eine schriftliche Rückmeldung.", "ru": "Ваша претензия будет рассмотрена; вы оперативно получите письменный ответ." }
+    ],
+    "notes": {
+      "usage": "Kundenservice",
+      "collocations": ["eine Reklamation einreichen", "Reklamation bearbeiten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen", "Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "reparatur",
+    "headword": "die Reparatur",
+    "pos": "N",
+    "preview": "ремонт",
+    "translation_ru": "ремонт, починка",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Reparatur",
+      "plural": "die Reparaturen"
+    },
+    "examples": [
+      { "de": "Die Reparatur dauert voraussichtlich drei Tage, ein Leihgerät steht kostenlos bereit.", "ru": "Ремонт, предположительно, займёт три дня; бесплатное устройство предоставляется." }
+    ],
+    "notes": {
+      "usage": "Werkstatt, Service",
+      "collocations": ["Reparatur beauftragen", "Reparatur durchführen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "schicht",
+    "headword": "die Schicht",
+    "pos": "N",
+    "preview": "смена",
+    "translation_ru": "рабочая смена, слой",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Schicht",
+      "plural": "die Schichten"
+    },
+    "examples": [
+      { "de": "Ich arbeite nächste Woche in der Frühschicht von sechs bis vierzehn Uhr.", "ru": "На следующей неделе я работаю в раннюю смену с шести до четырнадцати часов." }
+    ],
+    "notes": {
+      "usage": "Arbeitszeitmodelle",
+      "collocations": ["Frühschicht", "Spätschicht"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "sprechstunde",
+    "headword": "die Sprechstunde",
+    "pos": "N",
+    "preview": "приём",
+    "translation_ru": "приёмные часы, консультация у врача/преподавателя",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Sprechstunde",
+      "plural": "die Sprechstunden"
+    },
+    "examples": [
+      { "de": "Die Sprechstunde findet mittwochs statt; bitte vereinbaren Sie vorher einen Termin.", "ru": "Приём проходит по средам; пожалуйста, заранее согласуйте время." }
+    ],
+    "notes": {
+      "usage": "Praxis, Hochschule",
+      "collocations": ["Sprechstunde vereinbaren", "offene Sprechstunde"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit", "Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "stundenplan",
+    "headword": "der Stundenplan",
+    "pos": "N",
+    "preview": "расписание",
+    "translation_ru": "расписание занятий, учебный план",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Stundenplans",
+      "plural": "die Stundenpläne"
+    },
+    "examples": [
+      { "de": "Der neue Stundenplan berücksichtigt Praktika und blockweise stattfindende Seminare.", "ru": "Новое расписание учитывает практики и проходящие блоками семинары." }
+    ],
+    "notes": {
+      "usage": "Schule, Kurs",
+      "collocations": ["Stundenplan erstellen", "Stundenplan ändern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "teilnahmebestaetigung",
+    "headword": "die Teilnahmebestätigung",
+    "pos": "N",
+    "preview": "подтверждение участия",
+    "translation_ru": "подтверждение участия, сертификат посещения",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Teilnahmebestätigung",
+      "plural": "die Teilnahmebestätigungen"
+    },
+    "examples": [
+      { "de": "Nach dem Seminar erhalten Sie per E-Mail eine offizielle Teilnahmebestätigung.", "ru": "После семинара вы получите по электронной почте официальное подтверждение участия." }
+    ],
+    "notes": {
+      "usage": "Kurse, Fortbildung",
+      "collocations": ["Teilnahmebestätigung ausstellen", "Teilnahmebestätigung vorlegen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "tarif",
+    "headword": "der Tarif",
+    "pos": "N",
+    "preview": "тариф",
+    "translation_ru": "тариф, ценовой план",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Tarifs",
+      "plural": "die Tarife"
+    },
+    "examples": [
+      { "de": "Wählen Sie den Tarif, der zu Ihrem Verbrauchsprofil und Budget passt.", "ru": "Выберите тариф, который соответствует вашему профилю потребления и бюджету." }
+    ],
+    "notes": {
+      "usage": "Verkehr, Verträge",
+      "collocations": ["günstiger Tarif", "Tarif wechseln"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ueberweisung",
+    "headword": "die Überweisung",
+    "pos": "N",
+    "preview": "перевод",
+    "translation_ru": "банковский перевод; направление к врачу",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Überweisung",
+      "plural": "die Überweisungen"
+    },
+    "examples": [
+      { "de": "Bitte geben Sie bei der Überweisung die Rechnungsnummer im Verwendungszweck an.", "ru": "Пожалуйста, укажите при переводе номер счёта в назначении платежа." }
+    ],
+    "notes": {
+      "usage": "Zahlungen, Medizin",
+      "collocations": ["eine Überweisung tätigen", "Überweisung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Gesundheit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "umzug",
+    "headword": "der Umzug",
+    "pos": "N",
+    "preview": "переезд",
+    "translation_ru": "переезд, смена жилья; шествие",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Umzugs",
+      "plural": "die Umzüge"
+    },
+    "examples": [
+      { "de": "Der Umzug ins neue Haus erfolgt am Samstag mit einer Spedition.", "ru": "Переезд в новый дом состоится в субботу с транспортной компанией." }
+    ],
+    "notes": {
+      "usage": "Wohnen, Logistik",
+      "collocations": ["Umzug organisieren", "Umzug melden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "unterkunft",
+    "headword": "die Unterkunft",
+    "pos": "N",
+    "preview": "жильё",
+    "translation_ru": "жильё, место проживания, размещение",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Unterkunft",
+      "plural": "die Unterkünfte"
+    },
+    "examples": [
+      { "de": "Die Unterkunft liegt zentral und ist gut an den Nahverkehr angebunden.", "ru": "Жильё расположено в центре и хорошо связано с общественным транспортом." }
+    ],
+    "notes": {
+      "usage": "Reisen, Wohnen",
+      "collocations": ["Unterkunft buchen", "Unterkunft bereitstellen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Reisen", "Wohnen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "versicherung",
+    "headword": "die Versicherung",
+    "pos": "N",
+    "preview": "страховка",
+    "translation_ru": "страхование, страховка",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Versicherung",
+      "plural": "die Versicherungen"
+    },
+    "examples": [
+      { "de": "Die Versicherung deckt Schäden durch Leitungswasser und bietet einen Notdienst.", "ru": "Страховка покрывает ущерб из-за протечки и предоставляет аварийную службу." }
+    ],
+    "notes": {
+      "usage": "Finanzen, Schutz",
+      "collocations": ["eine Versicherung abschließen", "Versicherung kündigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vertrag",
+    "headword": "der Vertrag",
+    "pos": "N",
+    "preview": "договор",
+    "translation_ru": "договор, контракт",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Vertrags",
+      "plural": "die Verträge"
+    },
+    "examples": [
+      { "de": "Der Vertrag regelt Laufzeit, Preise und Zuständigkeiten der Vertragspartner ausführlich.", "ru": "Договор подробно регулирует срок действия, цены и ответственность сторон." }
+    ],
+    "notes": {
+      "usage": "Recht, Geschäft",
+      "collocations": ["einen Vertrag schließen", "Vertrag verlängern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich", "Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "vertretung",
+    "headword": "die Vertretung",
+    "pos": "N",
+    "preview": "замещение",
+    "translation_ru": "замещение, представительствование",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Vertretung",
+      "plural": "die Vertretungen"
+    },
+    "examples": [
+      { "de": "Während des Urlaubs übernimmt die Kollegin die Vertretung im Kundenservice.", "ru": "Во время отпуска замещение в клиентском сервисе берёт на себя коллега." }
+    ],
+    "notes": {
+      "usage": "Arbeitsorganisation",
+      "collocations": ["Vertretung übernehmen", "rechtliche Vertretung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "verspaetung",
+    "headword": "die Verspätung",
+    "pos": "N",
+    "preview": "задержка",
+    "translation_ru": "задержка, опоздание",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Verspätung",
+      "plural": "die Verspätungen"
+    },
+    "examples": [
+      { "de": "Aufgrund einer Signalstörung kommt es zu einer Verspätung von zwanzig Minuten.", "ru": "Из-за неисправности сигнала возникает задержка в двадцать минут." }
+    ],
+    "notes": {
+      "usage": "Bahn, Termine",
+      "collocations": ["Verspätung ankündigen", "erhebliche Verspätung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "weiterbildung",
+    "headword": "die Weiterbildung",
+    "pos": "N",
+    "preview": "повышение квалификации",
+    "translation_ru": "повышение квалификации, дополнительное образование",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Weiterbildung",
+      "plural": "die Weiterbildungen"
+    },
+    "examples": [
+      { "de": "Die Weiterbildung findet berufsbegleitend statt und schließt mit einem Zertifikat ab.", "ru": "Повышение квалификации проходит параллельно работе и завершается сертификатом." }
+    ],
+    "notes": {
+      "usage": "Beruf, Kurse",
+      "collocations": ["eine Weiterbildung machen", "Weiterbildung fördern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "werkstatt",
+    "headword": "die Werkstatt",
+    "pos": "N",
+    "preview": "мастерская",
+    "translation_ru": "мастерская, сервисный центр",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Werkstatt",
+      "plural": "die Werkstätten"
+    },
+    "examples": [
+      { "de": "Die Werkstatt prüft das Fahrzeug morgen und meldet sich mit einem Kostenvoranschlag.", "ru": "Мастерская проверит автомобиль завтра и сообщит предварительную стоимость." }
+    ],
+    "notes": {
+      "usage": "Reparaturen, Service",
+      "collocations": ["in die Werkstatt bringen", "Werkstatttermin"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wohnungsanzeige",
+    "headword": "die Wohnungsanzeige",
+    "pos": "N",
+    "preview": "объявление о квартире",
+    "translation_ru": "объявление о сдаче/продаже квартиры",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Wohnungsanzeige",
+      "plural": "die Wohnungsanzeigen"
+    },
+    "examples": [
+      { "de": "In der Wohnungsanzeige stehen Kaltmiete, Nebenkosten und gewünschte Unterlagen.", "ru": "В объявлении о квартире указаны чистая аренда, коммунальные и требуемые документы." }
+    ],
+    "notes": {
+      "usage": "Immobilienmarkt",
+      "collocations": ["eine Wohnungsanzeige schalten", "auf eine Wohnungsanzeige reagieren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  }
+]

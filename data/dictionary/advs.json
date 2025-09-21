@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "allerdings",
+    "headword": "allerdings",
+    "pos": "ADV",
+    "preview": "однако",
+    "translation_ru": "однако, правда",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Wohnung ist schön, allerdings liegt sie direkt an einer lauten Straße.", "ru": "Квартира красивая, однако она находится прямо у шумной улицы." }
+    ],
+    "notes": {
+      "usage": "противопоставление, оговорка",
+      "collocations": ["allerdings nicht","das stimmt allerdings"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "andernfalls",
+    "headword": "andernfalls",
+    "pos": "ADV",
+    "preview": "иначе",
+    "translation_ru": "иначе, в противном случае",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte senden Sie die Unterlagen bis Freitag, andernfalls verzögert sich die Bearbeitung.", "ru": "Пожалуйста, отправьте документы до пятницы, иначе обработка задержится." }
+    ],
+    "notes": {
+      "usage": "условие и последствие",
+      "collocations": ["andernfalls droht","andernfalls müssen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "andernorts",
+    "headword": "andernorts",
+    "pos": "ADV",
+    "preview": "в другом месте",
+    "translation_ru": "в другом месте",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Reparatur ist hier ausgebucht, andernorts bekommen Sie schneller einen Termin.", "ru": "Здесь ремонт расписан, в другом месте вы быстрее получите запись." }
+    ],
+    "notes": {
+      "usage": "сравнение мест",
+      "collocations": ["andernorts verfügbar","andernorts günstiger"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anschliessend",
+    "headword": "anschließend",
+    "pos": "ADV",
+    "preview": "вслед за",
+    "translation_ru": "вслед за этим, затем",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wir besprechen den Vertrag und senden Ihnen anschließend die schriftliche Bestätigung.", "ru": "Мы обсудим договор и затем отправим вам письменное подтверждение." }
+    ],
+    "notes": {
+      "usage": "порядок действий",
+      "collocations": ["anschließend senden","anschließend erfolgen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bisher",
+    "headword": "bisher",
+    "pos": "ADV",
+    "preview": "до сих пор",
+    "translation_ru": "до сих пор, ранее",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bisher haben wir keine Rückmeldung vom Vermieter erhalten.", "ru": "До сих пор мы не получили ответа от арендодателя." }
+    ],
+    "notes": {
+      "usage": "итоги на текущий момент",
+      "collocations": ["bisher keine Rückmeldung","bisher keine Probleme"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "daher",
+    "headword": "daher",
+    "pos": "ADV",
+    "preview": "поэтому",
+    "translation_ru": "поэтому, оттого",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Frist ist kurz, daher schicken wir die Unterlagen heute noch ab.", "ru": "Срок короткий, поэтому мы отправим документы ещё сегодня." }
+    ],
+    "notes": {
+      "usage": "причина-следствие",
+      "collocations": ["und daher","daher bitten wir"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Formalitaeten"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "demnaechst",
+    "headword": "demnächst",
+    "pos": "ADV",
+    "preview": "скоро",
+    "translation_ru": "в ближайшее время, скоро",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Werkstatt meldet sich demnächst mit einem Terminvorschlag.", "ru": "Мастерская скоро свяжется с предложением времени." }
+    ],
+    "notes": {
+      "usage": "ближайшее будущее",
+      "collocations": ["erscheint demnächst","demnächst verfügbar"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "dennoch",
+    "headword": "dennoch",
+    "pos": "ADV",
+    "preview": "тем не менее",
+    "translation_ru": "тем не менее, всё же",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Es regnet stark, dennoch findet die Veranstaltung heute statt.", "ru": "Сильно идёт дождь, тем не менее мероприятие сегодня состоится." }
+    ],
+    "notes": {
+      "usage": "противопоставление",
+      "collocations": ["dennoch wichtig","dennoch möglich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Stadtleben","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "derzeit",
+    "headword": "derzeit",
+    "pos": "ADV",
+    "preview": "в настоящее время",
+    "translation_ru": "в настоящее время, сейчас",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Derzeit sind alle Plätze belegt, wir führen eine Warteliste.", "ru": "В настоящее время все места заняты, у нас есть лист ожидания." }
+    ],
+    "notes": {
+      "usage": "текущая ситуация",
+      "collocations": ["derzeit nicht möglich","derzeit verfügbar"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "durchaus",
+    "headword": "durchaus",
+    "pos": "ADV",
+    "preview": "вполне",
+    "translation_ru": "вполне, совсем",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Lösung ist durchaus praktikabel und spart Kosten.", "ru": "Решение вполне практично и экономит расходы." }
+    ],
+    "notes": {
+      "usage": "подтверждение, усиление",
+      "collocations": ["durchaus möglich","durchaus sinnvoll"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ebenfalls",
+    "headword": "ebenfalls",
+    "pos": "ADV",
+    "preview": "также",
+    "translation_ru": "также, взаимно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte bringen Sie Ihren Ausweis mit; die Begleitperson benötigt ihn ebenfalls.", "ru": "Пожалуйста, возьмите паспорт; сопровождающему он также нужен." }
+    ],
+    "notes": {
+      "usage": "добавление",
+      "collocations": ["ich ebenfalls","ebenfalls vielen Dank"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Wohnen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "etwa",
+    "headword": "etwa",
+    "pos": "ADV",
+    "preview": "примерно",
+    "translation_ru": "примерно, около; разве",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Reparatur dauert etwa zwei Tage, je nach Ersatzteilen.", "ru": "Ремонт длится примерно два дня, в зависимости от запчастей." }
+    ],
+    "notes": {
+      "usage": "примерная величина, вопрос",
+      "collocations": ["etwa zehn Minuten","meinst du etwa"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "folglich",
+    "headword": "folglich",
+    "pos": "ADV",
+    "preview": "следовательно",
+    "translation_ru": "следовательно, таким образом",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Nachfrage steigt, folglich erhöhen wir die Kapazitäten.", "ru": "Спрос растёт, следовательно, мы увеличиваем мощности." }
+    ],
+    "notes": {
+      "usage": "логический вывод",
+      "collocations": ["folglich ergibt sich","folglich ist klar"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "gegebenenfalls",
+    "headword": "gegebenenfalls",
+    "pos": "ADV",
+    "preview": "при необходимости",
+    "translation_ru": "при необходимости, в случае необходимости",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte legen Sie gegebenenfalls Nachweise über Ihre Ausbildung vor.", "ru": "При необходимости приложите подтверждения вашего образования." }
+    ],
+    "notes": {
+      "usage": "условная оговорка",
+      "collocations": ["gegebenenfalls nachreichen","gegebenenfalls anpassen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Bildung"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "generell",
+    "headword": "generell",
+    "pos": "ADV",
+    "preview": "в целом",
+    "translation_ru": "в целом, вообще",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Generell sind Haustiere erlaubt, es gelten jedoch bestimmte Regeln.", "ru": "В целом домашние животные разрешены, однако действуют определённые правила." }
+    ],
+    "notes": {
+      "usage": "общие положения",
+      "collocations": ["generell gilt","generell möglich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "grundsaetzlich",
+    "headword": "grundsätzlich",
+    "pos": "ADV",
+    "preview": "в принципе",
+    "translation_ru": "в принципе, как правило",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Grundsätzlich beantworten wir Anfragen innerhalb von zwei Werktagen.", "ru": "В принципе мы отвечаем на запросы в течение двух рабочих дней." }
+    ],
+    "notes": {
+      "usage": "общее правило",
+      "collocations": ["grundsätzlich möglich","grundsätzlich gilt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "immerhin",
+    "headword": "immerhin",
+    "pos": "ADV",
+    "preview": "всё-таки",
+    "translation_ru": "всё-таки, по крайней мере",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Der Zug ist verspätet, immerhin gibt es eine Entschädigung.", "ru": "Поезд опаздывает, но всё-таки есть компенсация." }
+    ],
+    "notes": {
+      "usage": "смягчение, утешение",
+      "collocations": ["immerhin etwas","immerhin noch"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "jederzeit",
+    "headword": "jederzeit",
+    "pos": "ADV",
+    "preview": "в любое время",
+    "translation_ru": "в любое время",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Sie können uns jederzeit telefonisch erreichen.", "ru": "Вы можете связаться с нами по телефону в любое время." }
+    ],
+    "notes": {
+      "usage": "доступность",
+      "collocations": ["jederzeit erreichbar","jederzeit möglich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "keinesfalls",
+    "headword": "keinesfalls",
+    "pos": "ADV",
+    "preview": "ни в коем случае",
+    "translation_ru": "ни в коем случае",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Geben Sie keinesfalls Ihre Zugangsdaten an Unbekannte weiter.", "ru": "Ни в коем случае не передавайте свои данные доступа незнакомым." }
+    ],
+    "notes": {
+      "usage": "строгий запрет",
+      "collocations": ["keinesfalls zulässig","keinesfalls erlaubt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Medien","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "keineswegs",
+    "headword": "keineswegs",
+    "pos": "ADV",
+    "preview": "ни в коем случае",
+    "translation_ru": "ни в коем случае, вовсе не",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Verzögerung bedeutet keineswegs, dass der Antrag abgelehnt wird.", "ru": "Задержка вовсе не означает, что заявление будет отклонено." }
+    ],
+    "notes": {
+      "usage": "отрицательное уточнение",
+      "collocations": ["keineswegs sicher","keineswegs einfach"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "lediglich",
+    "headword": "lediglich",
+    "pos": "ADV",
+    "preview": "лишь",
+    "translation_ru": "лишь, только",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Änderung betrifft lediglich die Öffnungszeiten am Wochenende.", "ru": "Изменение касается лишь времени работы по выходным." }
+    ],
+    "notes": {
+      "usage": "ограничение объёма",
+      "collocations": ["lediglich einmal","lediglich formal"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Stadtleben","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "mittlerweile",
+    "headword": "mittlerweile",
+    "pos": "ADV",
+    "preview": "между тем",
+    "translation_ru": "между тем, тем временем",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Mittlerweile sind alle Ergebnisse online verfügbar.", "ru": "Между тем все результаты доступны онлайн." }
+    ],
+    "notes": {
+      "usage": "изменение со временем",
+      "collocations": ["mittlerweile üblich","mittlerweile möglich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Medien","Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "nachtraeglich",
+    "headword": "nachträglich",
+    "pos": "ADV",
+    "preview": "задним числом",
+    "translation_ru": "задним числом, позже",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Bescheinigung kann nachträglich per E-Mail nachgereicht werden.", "ru": "Справку можно позже дослать по электронной почте." }
+    ],
+    "notes": {
+      "usage": "досылка, дополнение",
+      "collocations": ["nachträglich einreichen","nachträglich ändern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Bildung"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "neuerdings",
+    "headword": "neuerdings",
+    "pos": "ADV",
+    "preview": "недавно",
+    "translation_ru": "недавно, в последнее время",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Neuerdings kann man die Anträge vollständig digital stellen.", "ru": "В последнее время заявления можно подавать полностью в цифровом виде." }
+    ],
+    "notes": {
+      "usage": "изменение правила/услуги",
+      "collocations": ["neuerdings verfügbar","neuerdings erlaubt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "notfalls",
+    "headword": "notfalls",
+    "pos": "ADV",
+    "preview": "в крайнем случае",
+    "translation_ru": "в крайнем случае, при необходимости",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Notfalls können wir den Termin auf nächste Woche verschieben.", "ru": "В крайнем случае мы можем перенести встречу на следующую неделю." }
+    ],
+    "notes": {
+      "usage": "резервный вариант",
+      "collocations": ["notfalls anrufen","notfalls absagen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "nunmehr",
+    "headword": "nunmehr",
+    "pos": "ADV",
+    "preview": "теперь",
+    "translation_ru": "теперь, отныне",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Frist ist nunmehr abgelaufen, Einreichungen sind nicht mehr möglich.", "ru": "Срок теперь истёк, подача больше невозможна." }
+    ],
+    "notes": {
+      "usage": "официальное сообщение",
+      "collocations": ["nunmehr gültig","nunmehr abgeschlossen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Behoerden"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ohnehin",
+    "headword": "ohnehin",
+    "pos": "ADV",
+    "preview": "всё равно",
+    "translation_ru": "всё равно, и без того",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wir sind ohnehin vor Ort, deshalb bringen wir die Unterlagen direkt vorbei.", "ru": "Мы всё равно будем на месте, поэтому занесём документы сразу." }
+    ],
+    "notes": {
+      "usage": "добавочное действие",
+      "collocations": ["ohnehin geplant","ohnehin nötig"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "rechtzeitig",
+    "headword": "rechtzeitig",
+    "pos": "ADV",
+    "preview": "вовремя",
+    "translation_ru": "вовремя, своевременно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte erscheinen Sie rechtzeitig, damit wir pünktlich beginnen können.", "ru": "Пожалуйста, приходите вовремя, чтобы мы могли начать пунктуально." }
+    ],
+    "notes": {
+      "usage": "соблюдение сроков",
+      "collocations": ["rechtzeitig ankommen","rechtzeitig abgeben"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "seitdem",
+    "headword": "seitdem",
+    "pos": "ADV",
+    "preview": "с тех пор",
+    "translation_ru": "с тех пор",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Er hat die Stelle gewechselt und arbeitet seitdem im Homeoffice.", "ru": "Он сменил работу и с тех пор работает из дома." }
+    ],
+    "notes": {
+      "usage": "временная отсылка",
+      "collocations": ["seitdem hat","seitdem funktioniert"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Wohnen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "seither",
+    "headword": "seither",
+    "pos": "ADV",
+    "preview": "с тех пор",
+    "translation_ru": "с тех пор, с этого времени",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Seither gab es keine Störungen mehr im Netz.", "ru": "С тех пор в сети не было больше сбоев." }
+    ],
+    "notes": {
+      "usage": "возврат к прошлому событию",
+      "collocations": ["seither unverändert","seither stabil"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Medien","Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "somit",
+    "headword": "somit",
+    "pos": "ADV",
+    "preview": "таким образом",
+    "translation_ru": "таким образом, следовательно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Alle Unterlagen sind vollständig, somit können wir den Antrag bewilligen.", "ru": "Все документы полные, таким образом, мы можем одобрить заявление." }
+    ],
+    "notes": {
+      "usage": "логический вывод",
+      "collocations": ["somit ergibt sich","somit ist klar"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "stattdessen",
+    "headword": "stattdessen",
+    "pos": "ADV",
+    "preview": "вместо этого",
+    "translation_ru": "вместо этого",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Der Kurs fällt aus, stattdessen findet ein Online-Termin statt.", "ru": "Курс отменяется, вместо этого состоится онлайн-встреча." }
+    ],
+    "notes": {
+      "usage": "замена действия",
+      "collocations": ["stattdessen nutzen","stattdessen wählen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "teilweise",
+    "headword": "teilweise",
+    "pos": "ADV",
+    "preview": "частично",
+    "translation_ru": "частично, отчасти",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Kosten werden teilweise von der Versicherung übernommen.", "ru": "Расходы частично покрываются страховкой." }
+    ],
+    "notes": {
+      "usage": "неполнота, доля",
+      "collocations": ["teilweise möglich","teilweise erstattet"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "trotzdem",
+    "headword": "trotzdem",
+    "pos": "ADV",
+    "preview": "несмотря на это",
+    "translation_ru": "несмотря на это, всё же",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Es gibt Baustellen, trotzdem fährt der Bus nach Plan.", "ru": "Есть строительные работы, но автобус всё же ходит по расписанию." }
+    ],
+    "notes": {
+      "usage": "противопоставление",
+      "collocations": ["trotzdem weiter","und trotzdem"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ueberdies",
+    "headword": "überdies",
+    "pos": "ADV",
+    "preview": "кроме того",
+    "translation_ru": "кроме того, сверх того",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Wohnung ist hell und überdies sehr gut angebunden.", "ru": "Квартира светлая и кроме того очень хорошо связана транспортом." }
+    ],
+    "notes": {
+      "usage": "дополнение аргумента",
+      "collocations": ["überdies noch","überdies ist"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "uebrigens",
+    "headword": "übrigens",
+    "pos": "ADV",
+    "preview": "кстати",
+    "translation_ru": "кстати, между прочим",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Übrigens gibt es morgen längere Öffnungszeiten im Bürgeramt.", "ru": "Кстати, завтра в управлении будут более долгие часы работы." }
+    ],
+    "notes": {
+      "usage": "вставное замечание",
+      "collocations": ["übrigens noch","übrigens habe ich"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ueberwiegend",
+    "headword": "überwiegend",
+    "pos": "ADV",
+    "preview": "в основном",
+    "translation_ru": "в основном, преимущественно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Rückmeldungen waren überwiegend positiv und hilfreich.", "ru": "Отзывы были в основном положительными и полезными." }
+    ],
+    "notes": {
+      "usage": "оценка количества",
+      "collocations": ["überwiegend positiv","überwiegend online"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "unverzueglich",
+    "headword": "unverzüglich",
+    "pos": "ADV",
+    "preview": "немедленно",
+    "translation_ru": "немедленно, без промедления",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte melden Sie den Schaden unverzüglich der Versicherung.", "ru": "Пожалуйста, немедленно сообщите о повреждении в страховую." }
+    ],
+    "notes": {
+      "usage": "официальное требование",
+      "collocations": ["unverzüglich handeln","unverzüglich informieren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "voraussichtlich",
+    "headword": "voraussichtlich",
+    "pos": "ADV",
+    "preview": "предположительно",
+    "translation_ru": "предположительно, ожидаемо",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Lieferung kommt voraussichtlich nächste Woche an.", "ru": "Поставка прибудет предположительно на следующей неделе." }
+    ],
+    "notes": {
+      "usage": "прогноз, ожидание",
+      "collocations": ["voraussichtlich ab","voraussichtlich dauern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vorwiegend",
+    "headword": "vorwiegend",
+    "pos": "ADV",
+    "preview": "преимущественно",
+    "translation_ru": "преимущественно, главным образом",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Anfragen kommen vorwiegend per E-Mail.", "ru": "Запросы поступают преимущественно по электронной почте." }
+    ],
+    "notes": {
+      "usage": "преобладающая форма",
+      "collocations": ["vorwiegend online","vorwiegend genutzt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Medien","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "weiterhin",
+    "headword": "weiterhin",
+    "pos": "ADV",
+    "preview": "и дальше",
+    "translation_ru": "и дальше, по-прежнему",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Hotline ist weiterhin täglich erreichbar.", "ru": "Горячая линия по-прежнему доступна ежедневно." }
+    ],
+    "notes": {
+      "usage": "продолжение действия",
+      "collocations": ["weiterhin gelten","weiterhin bestehen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "weitgehend",
+    "headword": "weitgehend",
+    "pos": "ADV",
+    "preview": "в значительной мере",
+    "translation_ru": "в значительной мере, по большей части",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Störung ist weitgehend behoben, kleinere Probleme bleiben.", "ru": "Неисправность в значительной мере устранена, остаются мелкие проблемы." }
+    ],
+    "notes": {
+      "usage": "степень выполнения",
+      "collocations": ["weitgehend stabil","weitgehend abgeschlossen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Medien","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wiederum",
+    "headword": "wiederum",
+    "pos": "ADV",
+    "preview": "в свою очередь",
+    "translation_ru": "в свою очередь, снова",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Miete steigt, wiederum werden auch die Nebenkosten angepasst.", "ru": "Аренда растёт, в свою очередь корректируются и коммунальные платежи." }
+    ],
+    "notes": {
+      "usage": "связь событий",
+      "collocations": ["wiederum bedeutet","wiederum führt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zeitnah",
+    "headword": "zeitnah",
+    "pos": "ADV",
+    "preview": "в краткие сроки",
+    "translation_ru": "в краткие сроки, оперативно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wir melden uns zeitnah mit einem Vorschlag für den Termin.", "ru": "Мы скоро свяжемся с предложением по времени встречи." }
+    ],
+    "notes": {
+      "usage": "оперативность",
+      "collocations": ["zeitnah reagieren","zeitnah informieren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "zu-recht",
+    "headword": "zu Recht",
+    "pos": "ADV",
+    "preview": "справедливо",
+    "translation_ru": "справедливо, обоснованно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Kundin beschwerte sich zu Recht über die fehlerhafte Rechnung.", "ru": "Клиентка справедливо пожаловалась на неверный счёт." }
+    ],
+    "notes": {
+      "usage": "оценка обоснованности",
+      "collocations": ["zu Recht kritisieren","zu Recht verlangen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zugleich",
+    "headword": "zugleich",
+    "pos": "ADV",
+    "preview": "одновременно",
+    "translation_ru": "одновременно, вместе с тем",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Der Kurs verbessert die Sprache und vermittelt zugleich berufliche Kenntnisse.", "ru": "Курс улучшает язык и одновременно даёт профессиональные знания." }
+    ],
+    "notes": {
+      "usage": "двойная функция",
+      "collocations": ["zugleich auch","zugleich erfolgen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zumindest",
+    "headword": "zumindest",
+    "pos": "ADV",
+    "preview": "по крайней мере",
+    "translation_ru": "по крайней мере, хотя бы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wir brauchen zumindest eine Kopie des Ausweises.", "ru": "Нам нужна хотя бы копия удостоверения." }
+    ],
+    "notes": {
+      "usage": "минимальное требование",
+      "collocations": ["zumindest einmal","zumindest teilweise"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Formalitaeten"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zunaechst",
+    "headword": "zunächst",
+    "pos": "ADV",
+    "preview": "сначала",
+    "translation_ru": "сначала, прежде всего",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Zunächst prüfen wir die Angaben, danach erhalten Sie eine Rückmeldung.", "ru": "Сначала мы проверим данные, затем вы получите ответ." }
+    ],
+    "notes": {
+      "usage": "порядок действий",
+      "collocations": ["zunächst einmal","zunächst prüfen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zunehmend",
+    "headword": "zunehmend",
+    "pos": "ADV",
+    "preview": "всё больше",
+    "translation_ru": "всё больше, в возрастающей степени",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Kundinnen nutzen zunehmend digitale Bezahlmöglichkeiten.", "ru": "Клиентки всё чаще используют цифровые способы оплаты." }
+    ],
+    "notes": {
+      "usage": "тенденция роста",
+      "collocations": ["zunehmend wichtig","zunehmend digital"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zuverlaessig",
+    "headword": "zuverlässig",
+    "pos": "ADV",
+    "preview": "надёжно",
+    "translation_ru": "надёжно, стабильно",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Der Dienst funktioniert zuverlässig auch bei hoher Auslastung.", "ru": "Сервис надёжно работает даже при высокой нагрузке." }
+    ],
+    "notes": {
+      "usage": "качество обслуживания",
+      "collocations": ["zuverlässig liefern","zuverlässig funktionieren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  }
+]

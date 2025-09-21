@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "anerkannt",
+    "headword": "anerkannt",
+    "pos": "ADJ",
+    "preview": "признанный",
+    "translation_ru": "признанный, аккредитованный",
+    "gender": null,
+    "forms": {
+      "comparative": "anerkannter",
+      "superlative": "am anerkanntesten"
+    },
+    "examples": [
+      { "de": "Er hat ein anerkanntes Zertifikat, das bei Bewerbungen häufig verlangt wird.", "ru": "У него признанный сертификат, который часто требуется при подаче заявок." }
+    ],
+    "notes": {
+      "usage": "Bildung, Qualifikationen",
+      "collocations": ["anerkannter Abschluss","anerkanntes Verfahren"],
+      "synonyms": ["akkreditiert","geschätzt"],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "angemessen",
+    "headword": "angemessen",
+    "pos": "ADJ",
+    "preview": "соразмерный",
+    "translation_ru": "соразмерный, подходящий",
+    "gender": null,
+    "forms": {
+      "comparative": "angemessener",
+      "superlative": "am angemessensten"
+    },
+    "examples": [
+      { "de": "Die Miete gilt als angemessen, weil Lage und Ausstattung überzeugen.", "ru": "Аренда считается соразмерной, потому что расположение и оснащение убедительно." }
+    ],
+    "notes": {
+      "usage": "Bewertung, Verträge",
+      "collocations": ["angemessene Frist","angemessener Preis"],
+      "synonyms": ["passend"],
+      "antonyms": ["unangemessen"]
+    },
+    "topics": ["Wohnen","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "arbeitslos",
+    "headword": "arbeitslos",
+    "pos": "ADJ",
+    "preview": "безработный",
+    "translation_ru": "безработный",
+    "gender": null,
+    "forms": {
+      "comparative": "arbeitsloser",
+      "superlative": "am arbeitslosesten"
+    },
+    "examples": [
+      { "de": "Nach der Kündigung war er mehrere Monate arbeitslos gemeldet.", "ru": "После увольнения он несколько месяцев был зарегистрирован безработным." }
+    ],
+    "notes": {
+      "usage": "Arbeitsmarkt, Soziales",
+      "collocations": ["arbeitslos melden","arbeitslos werden"],
+      "synonyms": [],
+      "antonyms": ["beschäftigt"]
+    },
+    "topics": ["Arbeit","Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ausreichend",
+    "headword": "ausreichend",
+    "pos": "ADJ",
+    "preview": "достаточный",
+    "translation_ru": "достаточный",
+    "gender": null,
+    "forms": {
+      "comparative": "ausreichender",
+      "superlative": "am ausreichendsten"
+    },
+    "examples": [
+      { "de": "Bitte bringen Sie ausreichend Kopien der Unterlagen zum Termin mit.", "ru": "Пожалуйста, принесите достаточное количество копий документов на встречу." }
+    ],
+    "notes": {
+      "usage": "Menge, Vorbereitung",
+      "collocations": ["ausreichend Zeit","ausreichende Mittel"],
+      "synonyms": ["genug"],
+      "antonyms": ["unzureichend"]
+    },
+    "topics": ["Formalitaeten","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zuverlaessig",
+    "headword": "zuverlässig",
+    "pos": "ADJ",
+    "preview": "надёжный",
+    "translation_ru": "надёжный, стабильный",
+    "gender": null,
+    "forms": {
+      "comparative": "zuverlässiger",
+      "superlative": "am zuverlässigsten"
+    },
+    "examples": [
+      { "de": "Ein zuverlässiger Lieferant hält Termine ein und informiert bei Problemen frühzeitig.", "ru": "Надёжный поставщик соблюдает сроки и заранее сообщает о проблемах." }
+    ],
+    "notes": {
+      "usage": "Service, Arbeit",
+      "collocations": ["zuverlässiger Partner","zuverlässige Lieferung"],
+      "synonyms": ["verlässlich"],
+      "antonyms": ["unzuverlässig"]
+    },
+    "topics": ["Dienstleistungen","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zustaendig",
+    "headword": "zuständig",
+    "pos": "ADJ",
+    "preview": "ответственный",
+    "translation_ru": "ответственный, компетентный",
+    "gender": null,
+    "forms": {
+      "comparative": "zuständiger",
+      "superlative": "am zuständigsten"
+    },
+    "examples": [
+      { "de": "Für die Genehmigung ist ausschließlich die Bauabteilung zuständig.", "ru": "За разрешение отвечает исключительно строительный отдел." }
+    ],
+    "notes": {
+      "usage": "Behörden, Organisation",
+      "collocations": ["zuständige Stelle","zuständige Person"],
+      "synonyms": ["verantwortlich"],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "verfuegbar",
+    "headword": "verfügbar",
+    "pos": "ADJ",
+    "preview": "доступный",
+    "translation_ru": "доступный, имеющийся",
+    "gender": null,
+    "forms": {
+      "comparative": "verfügbarer",
+      "superlative": "am verfügbarsten"
+    },
+    "examples": [
+      { "de": "Die Wohnung ist ab dem ersten März wieder verfügbar.", "ru": "Квартира снова доступна с первого марта." }
+    ],
+    "notes": {
+      "usage": "Angebote, Termine",
+      "collocations": ["sofort verfügbar","nicht verfügbar"],
+      "synonyms": ["frei"],
+      "antonyms": ["belegt"]
+    },
+    "topics": ["Wohnen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "verbindlich",
+    "headword": "verbindlich",
+    "pos": "ADJ",
+    "preview": "обязательный",
+    "translation_ru": "обязательный, обязательный к исполнению",
+    "gender": null,
+    "forms": {
+      "comparative": "verbindlicher",
+      "superlative": "am verbindlichsten"
+    },
+    "examples": [
+      { "de": "Die Anmeldung ist nach der Bestätigung verbindlich und kostenpflichtig.", "ru": "После подтверждения регистрация обязательна и платная." }
+    ],
+    "notes": {
+      "usage": "Verträge, Zusagen",
+      "collocations": ["verbindliche Zusage","verbindlicher Termin"],
+      "synonyms": [],
+      "antonyms": ["unverbindlich"]
+    },
+    "topics": ["Rechtlich","Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "verstaendlich",
+    "headword": "verständlich",
+    "pos": "ADJ",
+    "preview": "понятный",
+    "translation_ru": "понятный, доступный",
+    "gender": null,
+    "forms": {
+      "comparative": "verständlicher",
+      "superlative": "am verständlichsten"
+    },
+    "examples": [
+      { "de": "Die Erklärung war verständlich formuliert und enthielt praktische Beispiele.", "ru": "Объяснение было сформулировано понятно и содержало практические примеры." }
+    ],
+    "notes": {
+      "usage": "Texte, Beratung",
+      "collocations": ["verständlich erklären","verständlich schreiben"],
+      "synonyms": ["klar"],
+      "antonyms": ["unverständlich"]
+    },
+    "topics": ["Bildung","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "flexibel",
+    "headword": "flexibel",
+    "pos": "ADJ",
+    "preview": "гибкий",
+    "translation_ru": "гибкий, подвижный",
+    "gender": null,
+    "forms": {
+      "comparative": "flexibler",
+      "superlative": "am flexibelsten"
+    },
+    "examples": [
+      { "de": "Wir suchen flexible Mitarbeitende, die auch am Wochenende arbeiten können.", "ru": "Мы ищем гибких сотрудников, которые могут работать и по выходным." }
+    ],
+    "notes": {
+      "usage": "Arbeitszeiten, Planung",
+      "collocations": ["flexible Arbeitszeit","flexible Lösung"],
+      "synonyms": ["anpassungsfähig"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Soziales"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "foermlich",
+    "headword": "förmlich",
+    "pos": "ADJ",
+    "preview": "формальный",
+    "translation_ru": "формальный, официальный",
+    "gender": null,
+    "forms": {
+      "comparative": "förmlicher",
+      "superlative": "am förmlichsten"
+    },
+    "examples": [
+      { "de": "Die Beschwerde sollte in einem förmlichen Schreiben eingereicht werden.", "ru": "Жалобу следует подать в формальном письме." }
+    ],
+    "notes": {
+      "usage": "Behörden, Schreiben",
+      "collocations": ["förmlicher Antrag","förmliche Sprache"],
+      "synonyms": ["offiziell"],
+      "antonyms": ["informell"]
+    },
+    "topics": ["Behoerden","Formalitaeten"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "freundlich",
+    "headword": "freundlich",
+    "pos": "ADJ",
+    "preview": "дружелюбный",
+    "translation_ru": "дружелюбный, любезный",
+    "gender": null,
+    "forms": {
+      "comparative": "freundlicher",
+      "superlative": "am freundlichsten"
+    },
+    "examples": [
+      { "de": "Die Mitarbeiterin blieb freundlich und half bei der Online-Anmeldung.", "ru": "Сотрудница оставалась дружелюбной и помогла с онлайн-регистрацией." }
+    ],
+    "notes": {
+      "usage": "Service, Umgang",
+      "collocations": ["freundlicher Service","freundliche Beratung"],
+      "synonyms": ["höflich"],
+      "antonyms": ["unfreundlich"]
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "geeignet",
+    "headword": "geeignet",
+    "pos": "ADJ",
+    "preview": "подходящий",
+    "translation_ru": "подходящий, пригодный",
+    "gender": null,
+    "forms": {
+      "comparative": "geeigneter",
+      "superlative": "am geeignetsten"
+    },
+    "examples": [
+      { "de": "Dieses Angebot ist besonders geeignet für Familien mit Kindern.", "ru": "Это предложение особенно подходит для семей с детьми." }
+    ],
+    "notes": {
+      "usage": "Auswahl, Beratung",
+      "collocations": ["geeignet für","geeignete Maßnahme"],
+      "synonyms": ["passend"],
+      "antonyms": ["ungeeignet"]
+    },
+    "topics": ["Dienstleistungen","Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "gerecht",
+    "headword": "gerecht",
+    "pos": "ADJ",
+    "preview": "справедливый",
+    "translation_ru": "справедливый, оправданный",
+    "gender": null,
+    "forms": {
+      "comparative": "gerechter",
+      "superlative": "am gerechtesten"
+    },
+    "examples": [
+      { "de": "Die Kostenverteilung erscheint gerecht und transparent geregelt.", "ru": "Распределение затрат кажется справедливым и прозрачно урегулировано." }
+    ],
+    "notes": {
+      "usage": "Bewertung, Verträge",
+      "collocations": ["gerechte Regelung","gerechter Lohn"],
+      "synonyms": [],
+      "antonyms": ["ungerecht"]
+    },
+    "topics": ["Arbeit","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "gesundheitlich",
+    "headword": "gesundheitlich",
+    "pos": "ADJ",
+    "preview": "связанный со здоровьем",
+    "translation_ru": "связанный со здоровьем; медицинский",
+    "gender": null,
+    "forms": {
+      "comparative": "gesundheitlicher",
+      "superlative": "am gesundheitlichsten"
+    },
+    "examples": [
+      { "de": "Aus gesundheitlichen Gründen benötigt er vorübergehend leichtere Aufgaben.", "ru": "По медицинским причинам ему временно нужны более лёгкие задания." }
+    ],
+    "notes": {
+      "usage": "Arbeit, Gesundheit",
+      "collocations": ["gesundheitliche Gründe","gesundheitliche Einschränkung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "guenstig",
+    "headword": "günstig",
+    "pos": "ADJ",
+    "preview": "выгодный",
+    "translation_ru": "выгодный, недорогой",
+    "gender": null,
+    "forms": {
+      "comparative": "günstiger",
+      "superlative": "am günstigsten"
+    },
+    "examples": [
+      { "de": "Der Anbieter hat einen günstigen Tarif für Studierende eingeführt.", "ru": "Провайдер ввёл выгодный тариф для студентов." }
+    ],
+    "notes": {
+      "usage": "Preise, Angebote",
+      "collocations": ["günstiger Preis","günstiges Angebot"],
+      "synonyms": ["preiswert"],
+      "antonyms": ["teuer"]
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "hoeflich",
+    "headword": "höflich",
+    "pos": "ADJ",
+    "preview": "вежливый",
+    "translation_ru": "вежливый, учтивый",
+    "gender": null,
+    "forms": {
+      "comparative": "höflicher",
+      "superlative": "am höflichsten"
+    },
+    "examples": [
+      { "de": "Bitte formulieren Sie die Nachfrage höflich und präzise.", "ru": "Пожалуйста, сформулируйте уточнение вежливо и точно." }
+    ],
+    "notes": {
+      "usage": "E-Mails, Gespräche",
+      "collocations": ["höfliche Anfrage","höflicher Ton"],
+      "synonyms": ["freundlich"],
+      "antonyms": ["unhöflich"]
+    },
+    "topics": ["Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "inhaltlich",
+    "headword": "inhaltlich",
+    "pos": "ADJ",
+    "preview": "содержательный",
+    "translation_ru": "содержательный, по содержанию",
+    "gender": null,
+    "forms": {
+      "comparative": "inhaltlicher",
+      "superlative": "am inhaltlichsten"
+    },
+    "examples": [
+      { "de": "Der Bericht ist inhaltlich klar strukturiert und gut nachvollziehbar.", "ru": "Отчёт по содержанию чётко структурирован и хорошо понятен." }
+    ],
+    "notes": {
+      "usage": "Texte, Prüfung",
+      "collocations": ["inhaltliche Qualität","inhaltliche Schwerpunkte"],
+      "synonyms": ["sachlich"],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "kostenpflichtig",
+    "headword": "kostenpflichtig",
+    "pos": "ADJ",
+    "preview": "платный",
+    "translation_ru": "платный, за плату",
+    "gender": null,
+    "forms": {
+      "comparative": "kostenpflichtiger",
+      "superlative": "am kostenpflichtigsten"
+    },
+    "examples": [
+      { "de": "Nach der Testphase bleibt die Nutzung des Dienstes kostenpflichtig.", "ru": "После тестового периода использование сервиса остаётся платным." }
+    ],
+    "notes": {
+      "usage": "Tarife, Verträge",
+      "collocations": ["kostenpflichtige Leistung","kostenpflichtiger Service"],
+      "synonyms": [],
+      "antonyms": ["kostenlos"]
+    },
+    "topics": ["Dienstleistungen","Formalitaeten"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "kurzfristig",
+    "headword": "kurzfristig",
+    "pos": "ADJ",
+    "preview": "срочный",
+    "translation_ru": "краткосрочный, срочный",
+    "gender": null,
+    "forms": {
+      "comparative": "kurzfristiger",
+      "superlative": "am kurzfristigsten"
+    },
+    "examples": [
+      { "de": "Wir suchen eine kurzfristige Lösung für die Terminverschiebung.", "ru": "Мы ищем краткосрочное решение для переноса встречи." }
+    ],
+    "notes": {
+      "usage": "Planung, Termine",
+      "collocations": ["kurzfristige Änderung","kurzfristige Absage"],
+      "synonyms": [],
+      "antonyms": ["langfristig"]
+    },
+    "topics": ["Arbeit","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "langfristig",
+    "headword": "langfristig",
+    "pos": "ADJ",
+    "preview": "долгосрочный",
+    "translation_ru": "долгосрочный",
+    "gender": null,
+    "forms": {
+      "comparative": "langfristiger",
+      "superlative": "am langfristigsten"
+    },
+    "examples": [
+      { "de": "Das Unternehmen plant eine langfristige Zusammenarbeit mit lokalen Partnern.", "ru": "Компания планирует долгосрочное сотрудничество с местными партнёрами." }
+    ],
+    "notes": {
+      "usage": "Planung, Verträge",
+      "collocations": ["langfristige Strategie","langfristiger Vertrag"],
+      "synonyms": [],
+      "antonyms": ["kurzfristig"]
+    },
+    "topics": ["Arbeit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "legal",
+    "headword": "legal",
+    "pos": "ADJ",
+    "preview": "законный",
+    "translation_ru": "законный, легальный",
+    "gender": null,
+    "forms": {
+      "comparative": "legaler",
+      "superlative": "am legalsten"
+    },
+    "examples": [
+      { "de": "Bitte prüfen Sie, ob der geplante Umbau legal ist.", "ru": "Пожалуйста, проверьте, законна ли планируемая перепланировка." }
+    ],
+    "notes": {
+      "usage": "Recht, Genehmigungen",
+      "collocations": ["legal handeln","legaler Aufenthalt"],
+      "synonyms": ["rechtmäßig"],
+      "antonyms": ["illegal"]
+    },
+    "topics": ["Rechtlich","Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zulaessig",
+    "headword": "zulässig",
+    "pos": "ADJ",
+    "preview": "допустимый",
+    "translation_ru": "допустимый, разрешённый",
+    "gender": null,
+    "forms": {
+      "comparative": "zulässiger",
+      "superlative": "am zulässigsten"
+    },
+    "examples": [
+      { "de": "Ist die Nutzung des Innenhofs für Fahrräder hier zulässig?", "ru": "Допустимо ли здесь использовать внутренний двор для велосипедов?" }
+    ],
+    "notes": {
+      "usage": "Regeln, Vorschriften",
+      "collocations": ["zulässige Höchstgeschwindigkeit","zulässige Nutzung"],
+      "synonyms": ["erlaubt"],
+      "antonyms": ["unzulässig"]
+    },
+    "topics": ["Rechtlich","Wohnen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "erforderlich",
+    "headword": "erforderlich",
+    "pos": "ADJ",
+    "preview": "необходимый",
+    "translation_ru": "необходимый, обязательный",
+    "gender": null,
+    "forms": {
+      "comparative": "erforderlicher",
+      "superlative": "am erforderlichsten"
+    },
+    "examples": [
+      { "de": "Für die Verlängerung sind weitere Nachweise erforderlich.", "ru": "Для продления необходимы дополнительные подтверждения." }
+    ],
+    "notes": {
+      "usage": "Unterlagen, Bedingungen",
+      "collocations": ["erforderliche Dokumente","erforderliche Schritte"],
+      "synonyms": ["notwendig"],
+      "antonyms": []
+    },
+    "topics": ["Formalitaeten","Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "puenktlich",
+    "headword": "pünktlich",
+    "pos": "ADJ",
+    "preview": "пунктуальный",
+    "translation_ru": "пунктуальный, вовремя",
+    "gender": null,
+    "forms": {
+      "comparative": "pünktlicher",
+      "superlative": "am pünktlichsten"
+    },
+    "examples": [
+      { "de": "Bitte erscheinen Sie pünktlich zum Gespräch und bringen Sie Ihren Ausweis mit.", "ru": "Пожалуйста, приходите на беседу вовремя и возьмите с собой удостоверение." }
+    ],
+    "notes": {
+      "usage": "Termine, Verkehr",
+      "collocations": ["pünktliche Lieferung","pünktlicher Beginn"],
+      "synonyms": [],
+      "antonyms": ["unpünktlich"]
+    },
+    "topics": ["Kommunikation","Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "rechtlich",
+    "headword": "rechtlich",
+    "pos": "ADJ",
+    "preview": "юридический",
+    "translation_ru": "юридический, правовой",
+    "gender": null,
+    "forms": {
+      "comparative": "rechtlicher",
+      "superlative": "am rechtlichsten"
+    },
+    "examples": [
+      { "de": "Wir prüfen die Sache auch aus rechtlicher Perspektive.", "ru": "Мы проверим дело также с правовой точки зрения." }
+    ],
+    "notes": {
+      "usage": "Verträge, Verfahren",
+      "collocations": ["rechtliche Schritte","rechtliche Grundlage"],
+      "synonyms": ["juristisch"],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "rechtzeitig",
+    "headword": "rechtzeitig",
+    "pos": "ADJ",
+    "preview": "своевременный",
+    "translation_ru": "своевременный, вовремя",
+    "gender": null,
+    "forms": {
+      "comparative": "rechtzeitiger",
+      "superlative": "am rechtzeitigsten"
+    },
+    "examples": [
+      { "de": "Senden Sie die Unterlagen rechtzeitig, damit die Frist nicht verpasst wird.", "ru": "Отправьте документы своевременно, чтобы не пропустить срок." }
+    ],
+    "notes": {
+      "usage": "Pünktlich, Planung",
+      "collocations": ["rechtzeitige Anmeldung","rechtzeitige Lieferung"],
+      "synonyms": ["fristgerecht"],
+      "antonyms": ["verspätet"]
+    },
+    "topics": ["Formalitaeten","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "schriftlich",
+    "headword": "schriftlich",
+    "pos": "ADJ",
+    "preview": "письменный",
+    "translation_ru": "письменный, в письме",
+    "gender": null,
+    "forms": {
+      "comparative": "schriftlicher",
+      "superlative": "am schriftlichsten"
+    },
+    "examples": [
+      { "de": "Bitte stellen Sie die Anfrage schriftlich per E-Mail.", "ru": "Пожалуйста, подайте запрос письменно по электронной почте." }
+    ],
+    "notes": {
+      "usage": "Anträge, Kommunikation",
+      "collocations": ["schriftliche Bestätigung","schriftliche Anfrage"],
+      "synonyms": [],
+      "antonyms": ["mündlich"]
+    },
+    "topics": ["Formalitaeten","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "muendlich",
+    "headword": "mündlich",
+    "pos": "ADJ",
+    "preview": "устный",
+    "translation_ru": "устный, на словах",
+    "gender": null,
+    "forms": {
+      "comparative": "mündlicher",
+      "superlative": "am mündlichsten"
+    },
+    "examples": [
+      { "de": "Die Prüfung besteht aus einem schriftlichen und einem mündlichen Teil.", "ru": "Экзамен состоит из письменной и устной частей." }
+    ],
+    "notes": {
+      "usage": "Prüfung, Gespräche",
+      "collocations": ["mündliche Prüfung","mündliche Zusage"],
+      "synonyms": [],
+      "antonyms": ["schriftlich"]
+    },
+    "topics": ["Bildung","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "sicher",
+    "headword": "sicher",
+    "pos": "ADJ",
+    "preview": "надежный",
+    "translation_ru": "надежный, безопасный",
+    "gender": null,
+    "forms": {
+      "comparative": "sicherer",
+      "superlative": "am sichersten"
+    },
+    "examples": [
+      { "de": "Wählen Sie ein sicheres Passwort und ändern Sie es regelmäßig.", "ru": "Выберите надёжный пароль и регулярно его меняйте." }
+    ],
+    "notes": {
+      "usage": "IT, Arbeitsschutz",
+      "collocations": ["sichere Verbindung","sicheres Passwort"],
+      "synonyms": ["zuverlässig"],
+      "antonyms": ["unsicher"]
+    },
+    "topics": ["Medien","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "sichtbar",
+    "headword": "sichtbar",
+    "pos": "ADJ",
+    "preview": "видимый",
+    "translation_ru": "видимый, заметный",
+    "gender": null,
+    "forms": {
+      "comparative": "sichtbarer",
+      "superlative": "am sichtbarsten"
+    },
+    "examples": [
+      { "de": "Die Verbesserungen sind im neuen Ablauf bereits sichtbar.", "ru": "Улучшения уже заметны в новом процессе." }
+    ],
+    "notes": {
+      "usage": "Ergebnisse, Darstellung",
+      "collocations": ["sichtbare Ergebnisse","sichtbare Schäden"],
+      "synonyms": ["erkennbar"],
+      "antonyms": ["unsichtbar"]
+    },
+    "topics": ["Arbeit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "sinnvoll",
+    "headword": "sinnvoll",
+    "pos": "ADJ",
+    "preview": "целесообразный",
+    "translation_ru": "целесообразный, разумный",
+    "gender": null,
+    "forms": {
+      "comparative": "sinnvoller",
+      "superlative": "am sinnvollsten"
+    },
+    "examples": [
+      { "de": "Eine kurze Zusammenfassung wäre hier sehr sinnvoll.", "ru": "Краткое резюме здесь было бы очень целесообразно." }
+    ],
+    "notes": {
+      "usage": "Planung, Beratung",
+      "collocations": ["sinnvolle Lösung","sinnvolle Maßnahme"],
+      "synonyms": ["zweckmäßig"],
+      "antonyms": ["unsinnig"]
+    },
+    "topics": ["Arbeit","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "sozial",
+    "headword": "sozial",
+    "pos": "ADJ",
+    "preview": "социальный",
+    "translation_ru": "социальный, общественный",
+    "gender": null,
+    "forms": {
+      "comparative": "sozialer",
+      "superlative": "am sozialsten"
+    },
+    "examples": [
+      { "de": "Das Unternehmen engagiert sich sozial in der Stadt.", "ru": "Компания участвует в социальных проектах в жизни города." }
+    ],
+    "notes": {
+      "usage": "Gesellschaft, Projekte",
+      "collocations": ["soziales Engagement","soziale Unterstützung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Soziales","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "technisch",
+    "headword": "technisch",
+    "pos": "ADJ",
+    "preview": "технический",
+    "translation_ru": "технический",
+    "gender": null,
+    "forms": {
+      "comparative": "technischer",
+      "superlative": "am technischsten"
+    },
+    "examples": [
+      { "de": "Technisch ist das Gerät auf dem neuesten Stand.", "ru": "Технически устройство на самом современном уровне." }
+    ],
+    "notes": {
+      "usage": "Geräte, Verfahren",
+      "collocations": ["technische Probleme","technische Unterstützung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Medien"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "telefonisch",
+    "headword": "telefonisch",
+    "pos": "ADJ",
+    "preview": "телефонный",
+    "translation_ru": "по телефону, телефонный",
+    "gender": null,
+    "forms": {
+      "comparative": "telefonischer",
+      "superlative": "am telefonischsten"
+    },
+    "examples": [
+      { "de": "Die Beratung ist telefonisch oder schriftlich möglich.", "ru": "Консультация возможна по телефону или письменно." }
+    ],
+    "notes": {
+      "usage": "Kontakt, Service",
+      "collocations": ["telefonische Beratung","telefonische Anmeldung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "termingerecht",
+    "headword": "termingerecht",
+    "pos": "ADJ",
+    "preview": "своевременный",
+    "translation_ru": "своевременный, в срок",
+    "gender": null,
+    "forms": {
+      "comparative": "termingerechter",
+      "superlative": "am termingerechtesten"
+    },
+    "examples": [
+      { "de": "Die Firma lieferte die Ware termingerecht und vollständig.", "ru": "Фирма поставила товар вовремя и полностью." }
+    ],
+    "notes": {
+      "usage": "Lieferung, Projekte",
+      "collocations": ["termingerechte Lieferung","termingerechte Abgabe"],
+      "synonyms": ["fristgerecht"],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "umfangreich",
+    "headword": "umfangreich",
+    "pos": "ADJ",
+    "preview": "обширный",
+    "translation_ru": "обширный, широкий",
+    "gender": null,
+    "forms": {
+      "comparative": "umfangreicher",
+      "superlative": "am umfangreichsten"
+    },
+    "examples": [
+      { "de": "Das Angebot ist umfangreich und deckt viele Bereiche ab.", "ru": "Предложение обширное и охватывает многие области." }
+    ],
+    "notes": {
+      "usage": "Angebote, Inhalte",
+      "collocations": ["umfangreiche Auswahl","umfangreiche Informationen"],
+      "synonyms": ["breit"],
+      "antonyms": ["begrenzt"]
+    },
+    "topics": ["Dienstleistungen","Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "unbefristet",
+    "headword": "unbefristet",
+    "pos": "ADJ",
+    "preview": "бессрочный",
+    "translation_ru": "бессрочный",
+    "gender": null,
+    "forms": {
+      "comparative": "",
+      "superlative": ""
+    },
+    "examples": [
+      { "de": "Sie erhielt einen unbefristeten Arbeitsvertrag nach der Probezeit.", "ru": "После испытательного срока она получила бессрочный трудовой договор." }
+    ],
+    "notes": {
+      "usage": "Verträge, Arbeit",
+      "collocations": ["unbefristeter Vertrag","unbefristete Stelle"],
+      "synonyms": [],
+      "antonyms": ["befristet"]
+    },
+    "topics": ["Arbeit","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "unnoetig",
+    "headword": "unnötig",
+    "pos": "ADJ",
+    "preview": "ненужный",
+    "translation_ru": "ненужный, лишний",
+    "gender": null,
+    "forms": {
+      "comparative": "unnötiger",
+      "superlative": "am unnötigsten"
+    },
+    "examples": [
+      { "de": "Bitte vermeiden Sie unnötige Doppelungen in den Unterlagen.", "ru": "Пожалуйста, избегайте ненужных дублирований в документах." }
+    ],
+    "notes": {
+      "usage": "Dokumente, Prozesse",
+      "collocations": ["unnötiger Aufwand","unnötige Kosten"],
+      "synonyms": [],
+      "antonyms": ["notwendig"]
+    },
+    "topics": ["Formalitaeten","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "verlaesslich",
+    "headword": "verlässlich",
+    "pos": "ADJ",
+    "preview": "надёжный",
+    "translation_ru": "надёжный, достоверный",
+    "gender": null,
+    "forms": {
+      "comparative": "verlässlicher",
+      "superlative": "am verlässlichsten"
+    },
+    "examples": [
+      { "de": "Wir brauchen verlässliche Daten für die Entscheidung.", "ru": "Нам нужны надёжные данные для принятия решения." }
+    ],
+    "notes": {
+      "usage": "Information, Service",
+      "collocations": ["verlässliche Quelle","verlässlicher Partner"],
+      "synonyms": ["zuverlässig"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "verpflichtend",
+    "headword": "verpflichtend",
+    "pos": "ADJ",
+    "preview": "обязательный",
+    "translation_ru": "обязательный",
+    "gender": null,
+    "forms": {
+      "comparative": "verpflichtender",
+      "superlative": "am verpflichtendsten"
+    },
+    "examples": [
+      { "de": "Die Schulung ist für neue Mitarbeitende verpflichtend.", "ru": "Обучение обязательно для новых сотрудников." }
+    ],
+    "notes": {
+      "usage": "Regeln, Teilnahme",
+      "collocations": ["verpflichtende Teilnahme","verpflichtende Schulung"],
+      "synonyms": [],
+      "antonyms": ["freiwillig"]
+    },
+    "topics": ["Arbeit","Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vollstaendig",
+    "headword": "vollständig",
+    "pos": "ADJ",
+    "preview": "полный",
+    "translation_ru": "полный, комплектный",
+    "gender": null,
+    "forms": {
+      "comparative": "vollständiger",
+      "superlative": "am vollständigsten"
+    },
+    "examples": [
+      { "de": "Bitte senden Sie vollständige Unterlagen inklusive Anlagen.", "ru": "Пожалуйста, отправьте полный пакет документов, включая приложения." }
+    ],
+    "notes": {
+      "usage": "Unterlagen, Lieferung",
+      "collocations": ["vollständige Dokumente","vollständige Lieferung"],
+      "synonyms": ["komplett"],
+      "antonyms": ["unvollständig"]
+    },
+    "topics": ["Formalitaeten","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vorlaeufig",
+    "headword": "vorläufig",
+    "pos": "ADJ",
+    "preview": "предварительный",
+    "translation_ru": "предварительный, временный",
+    "gender": null,
+    "forms": {
+      "comparative": "vorläufiger",
+      "superlative": "am vorläufigsten"
+    },
+    "examples": [
+      { "de": "Sie erhalten vorläufige Ergebnisse bis Ende der Woche.", "ru": "Вы получите предварительные результаты к концу недели." }
+    ],
+    "notes": {
+      "usage": "Bescheide, Ergebnisse",
+      "collocations": ["vorläufige Entscheidung","vorläufiger Bescheid"],
+      "synonyms": ["provisorisch"],
+      "antonyms": ["endgültig"]
+    },
+    "topics": ["Behoerden","Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vorteilhaft",
+    "headword": "vorteilhaft",
+    "pos": "ADJ",
+    "preview": "выгодный",
+    "translation_ru": "выгодный, полезный",
+    "gender": null,
+    "forms": {
+      "comparative": "vorteilhafter",
+      "superlative": "am vorteilhaftesten"
+    },
+    "examples": [
+      { "de": "Ein Kombitarif ist für Vielnutzer oft vorteilhaft.", "ru": "Комбинированный тариф часто выгоден для активных пользователей." }
+    ],
+    "notes": {
+      "usage": "Angebote, Entscheidungen",
+      "collocations": ["vorteilhafte Bedingungen","vorteilhaftes Angebot"],
+      "synonyms": ["günstig"],
+      "antonyms": ["nachteilig"]
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wirtschaftlich",
+    "headword": "wirtschaftlich",
+    "pos": "ADJ",
+    "preview": "экономичный",
+    "translation_ru": "экономичный, хозяйственный",
+    "gender": null,
+    "forms": {
+      "comparative": "wirtschaftlicher",
+      "superlative": "am wirtschaftlichsten"
+    },
+    "examples": [
+      { "de": "Die Lösung ist wirtschaftlich und technisch gut umsetzbar.", "ru": "Решение экономично и технически хорошо осуществимо." }
+    ],
+    "notes": {
+      "usage": "Kosten, Planung",
+      "collocations": ["wirtschaftliche Lösung","wirtschaftlicher Betrieb"],
+      "synonyms": ["kosteneffizient"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wirksam",
+    "headword": "wirksam",
+    "pos": "ADJ",
+    "preview": "эффективный",
+    "translation_ru": "эффективный, действенный",
+    "gender": null,
+    "forms": {
+      "comparative": "wirksamer",
+      "superlative": "am wirksamsten"
+    },
+    "examples": [
+      { "de": "Die Maßnahme war wirksam und reduzierte die Kosten deutlich.", "ru": "Мера была эффективной и заметно снизила расходы." }
+    ],
+    "notes": {
+      "usage": "Maßnahmen, Medikamente",
+      "collocations": ["wirksame Maßnahme","wirksames Mittel"],
+      "synonyms": ["effektiv"],
+      "antonyms": ["wirkungslos"]
+    },
+    "topics": ["Arbeit","Gesundheit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zustimmend",
+    "headword": "zustimmend",
+    "pos": "ADJ",
+    "preview": "одобряющий",
+    "translation_ru": "одобряющий, согласный",
+    "gender": null,
+    "forms": {
+      "comparative": "zustimmender",
+      "superlative": "am zustimmendsten"
+    },
+    "examples": [
+      { "de": "Die Teamleitung reagierte zustimmend auf den Vorschlag.", "ru": "Руководство команды одобрительно отреагировало на предложение." }
+    ],
+    "notes": {
+      "usage": "Reaktion, Gespräche",
+      "collocations": ["zustimmende Reaktion","zustimmender Blick"],
+      "synonyms": ["einverstanden"],
+      "antonyms": ["ablehnend"]
+    },
+    "topics": ["Kommunikation","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  }
+]

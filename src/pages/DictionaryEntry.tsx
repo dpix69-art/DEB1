@@ -237,10 +237,10 @@ export function DictionaryEntry() {
 
         {/* Нижняя навигация */}
         <div className="flex items-center justify-between mt-4">
-          <Link to="/dictionary" className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
+          {/* <Link to="/dictionary" className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"
             style={{ borderColor: '#E5E7EB', color: '#111' }}>
             ← Back to dictionary
-          </Link>
+          </Link> */}
           <div className="flex items-center gap-2">
             {prev && (
               <Link to={`/dictionary/${prev.id}`} className="px-3 py-1.5 rounded border text-sm hover:bg-gray-50"

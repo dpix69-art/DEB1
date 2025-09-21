@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "absagen",
+    "headword": "absagen",
+    "pos": "V",
+    "preview": "отменить",
+    "translation_ru": "отменять встречу, отказывать",
+    "gender": null,
+    "forms": {
+      "infinitive": "absagen",
+      "praeteritum_3sg": "er/sie/es sagte ab",
+      "partizip_ii": "abgesagt",
+      "perfekt_3sg": "er/sie/es hat abgesagt"
+    },
+    "examples": [
+      { "de": "Wegen Krankheit sagte sie den morgigen Vorstellungstermin per E-Mail kurzfristig ab.", "ru": "Из-за болезни она в короткий срок отменила завтрашнее собеседование по электронной почте." }
+    ],
+    "notes": {
+      "usage": "trennbar; Termine, Bestellungen",
+      "collocations": ["einen Termin absagen", "eine Teilnahme absagen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anfordern",
+    "headword": "anfordern",
+    "pos": "V",
+    "preview": "запросить",
+    "translation_ru": "запрашивать документы, сведения",
+    "gender": null,
+    "forms": {
+      "infinitive": "anfordern",
+      "praeteritum_3sg": "er/sie/es forderte an",
+      "partizip_ii": "angefordert",
+      "perfekt_3sg": "er/sie/es hat angefordert"
+    },
+    "examples": [
+      { "de": "Die Personalabteilung forderte gestern zusätzliche Nachweise für die Gehaltsabrechnung an.", "ru": "Отдел кадров вчера запросил дополнительные подтверждения для расчёта заработной платы." }
+    ],
+    "notes": {
+      "usage": "formell; Unterlagen, Angebote",
+      "collocations": ["Unterlagen anfordern", "Angebote anfordern"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung", "Behoerden"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "angeben",
+    "headword": "angeben",
+    "pos": "V",
+    "preview": "указать",
+    "translation_ru": "указывать данные, причины",
+    "gender": null,
+    "forms": {
+      "infinitive": "angeben",
+      "praeteritum_3sg": "er/sie/es gab an",
+      "partizip_ii": "angegeben",
+      "perfekt_3sg": "er/sie/es hat angegeben"
+    },
+    "examples": [
+      { "de": "Bitte geben Sie im Formular Ihre aktuelle Anschrift und Telefonnummer vollständig an.", "ru": "Пожалуйста, укажите в формуляре ваш текущий адрес и номер телефона полностью." }
+    ],
+    "notes": {
+      "usage": "Formulare, Bewerbung",
+      "collocations": ["Daten angeben", "Gründe angeben"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Formalitaeten", "Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ankreuzen",
+    "headword": "ankreuzen",
+    "pos": "V",
+    "preview": "отметить",
+    "translation_ru": "отмечать галочкой, крестиком",
+    "gender": null,
+    "forms": {
+      "infinitive": "ankreuzen",
+      "praeteritum_3sg": "er/sie/es kreuzte an",
+      "partizip_ii": "angekreuzt",
+      "perfekt_3sg": "er/sie/es hat angekreuzt"
+    },
+    "examples": [
+      { "de": "Kreuzen Sie im Antrag bitte die Option für monatliche Ratenzahlung deutlich an.", "ru": "Отметьте в заявлении, пожалуйста, вариант ежемесячной рассрочки ясно." }
+    ],
+    "notes": {
+      "usage": "trennbar; Formulare, Prüfungen",
+      "collocations": ["eine Option ankreuzen", "Antwort ankreuzen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden", "Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anmelden-sich",
+    "headword": "anmelden (sich)",
+    "pos": "V",
+    "preview": "зарегистрироваться",
+    "translation_ru": "регистрироваться, записываться",
+    "gender": null,
+    "forms": {
+      "infinitive": "sich anmelden",
+      "praeteritum_3sg": "er/sie/es meldete sich an",
+      "partizip_ii": "sich angemeldet",
+      "perfekt_3sg": "er/sie/es hat sich angemeldet"
+    },
+    "examples": [
+      { "de": "Er meldete sich fristgerecht online zum Integrationskurs im Herbstsemester an.", "ru": "Он вовремя зарегистрировался онлайн на интеграционный курс осеннего семестра." }
+    ],
+    "notes": {
+      "usage": "reflexiv, trennbar; Kurse, Meldepflicht",
+      "collocations": ["sich online anmelden", "sich beim Amt anmelden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "annehmen",
+    "headword": "annehmen",
+    "pos": "V",
+    "preview": "принять",
+    "translation_ru": "принимать предложение; предполагать",
+    "gender": null,
+    "forms": {
+      "infinitive": "annehmen",
+      "praeteritum_3sg": "er/sie/es nahm an",
+      "partizip_ii": "angenommen",
+      "perfekt_3sg": "er/sie/es hat angenommen"
+    },
+    "examples": [
+      { "de": "Die Werkstatt nahm den Auftrag sofort an und bestätigte den Liefertermin schriftlich.", "ru": "Мастерская сразу приняла заказ и письменно подтвердила срок поставки." }
+    ],
+    "notes": {
+      "usage": "Aufträge, Angebote",
+      "collocations": ["einen Auftrag annehmen", "eine Lieferung annehmen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anpassen",
+    "headword": "anpassen",
+    "pos": "V",
+    "preview": "адаптировать",
+    "translation_ru": "подгонять, корректировать",
+    "gender": null,
+    "forms": {
+      "infinitive": "anpassen",
+      "praeteritum_3sg": "er/sie/es passte an",
+      "partizip_ii": "angepasst",
+      "perfekt_3sg": "er/sie/es hat angepasst"
+    },
+    "examples": [
+      { "de": "Wir passen den Vertrag an die neuen rechtlichen Vorgaben zum Datenschutz an.", "ru": "Мы адаптируем договор к новым правовым требованиям по защите данных." }
+    ],
+    "notes": {
+      "usage": "trennbar; Verträge, Zeitpläne",
+      "collocations": ["den Vertrag anpassen", "den Plan anpassen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich", "Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "anrufen",
+    "headword": "anrufen",
+    "pos": "V",
+    "preview": "позвонить",
+    "translation_ru": "звонить по телефону",
+    "gender": null,
+    "forms": {
+      "infinitive": "anrufen",
+      "praeteritum_3sg": "er/sie/es rief an",
+      "partizip_ii": "angerufen",
+      "perfekt_3sg": "er/sie/es hat angerufen"
+    },
+    "examples": [
+      { "de": "Bitte rufen Sie morgen zwischen neun und elf die Servicehotline erneut an.", "ru": "Пожалуйста, позвоните завтра между девятью и одиннадцатью на сервисную горячую линию снова." }
+    ],
+    "notes": {
+      "usage": "trennbar; Servicekontakt",
+      "collocations": ["jemanden anrufen", "zurückrufen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ausfuellen",
+    "headword": "ausfüllen",
+    "pos": "V",
+    "preview": "заполнить",
+    "translation_ru": "заполнять форму, поля",
+    "gender": null,
+    "forms": {
+      "infinitive": "ausfüllen",
+      "praeteritum_3sg": "er/sie/es füllte aus",
+      "partizip_ii": "ausgefüllt",
+      "perfekt_3sg": "er/sie/es hat ausgefüllt"
+    },
+    "examples": [
+      { "de": "Füllen Sie alle Pflichtfelder im Online-Formular vollständig и gut lesbar aus.", "ru": "Заполните все обязательные поля в онлайн-форме полностью и разборчиво." }
+    ],
+    "notes": {
+      "usage": "trennbar; Formulare, Anträge",
+      "collocations": ["ein Formular ausfüllen", "Angaben ausfüllen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Formalitaeten", "Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ausfallen",
+    "headword": "ausfallen",
+    "pos": "V",
+    "preview": "отмениться",
+    "translation_ru": "не состояться, отменяться",
+    "gender": null,
+    "forms": {
+      "infinitive": "ausfallen",
+      "praeteritum_3sg": "er/sie/es fiel aus",
+      "partizip_ii": "ausgefallen",
+      "perfekt_3sg": "er/sie/es ist ausgefallen"
+    },
+    "examples": [
+      { "de": "Wegen technischer Störung ist der Unterricht heute leider komplett ausgefallen.", "ru": "Из-за технической неисправности занятия сегодня, к сожалению, полностью отменились." }
+    ],
+    "notes": {
+      "usage": "intransitiv; Termine, Verkehr",
+      "collocations": ["der Unterricht fällt aus", "die Sprechstunde fällt aus"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung", "Verkehr"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ausrichten",
+    "headword": "ausrichten",
+    "pos": "V",
+    "preview": "передать",
+    "translation_ru": "передавать сообщение; организовывать",
+    "gender": null,
+    "forms": {
+      "infinitive": "ausrichten",
+      "praeteritum_3sg": "er/sie/es richtete aus",
+      "partizip_ii": "ausgerichtet",
+      "perfekt_3sg": "er/sie/es hat ausgerichtet"
+    },
+    "examples": [
+      { "de": "Könnten Sie Frau König bitte eine kurze Nachricht von mir ausrichten?", "ru": "Не могли бы вы передать госпоже Кёниг короткое сообщение от меня?" }
+    ],
+    "notes": {
+      "usage": "Telefonnotiz; Organisation",
+      "collocations": ["eine Nachricht ausrichten", "eine Veranstaltung ausrichten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation", "Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+{
+"id": "beantragen",
+"headword": "beantragen",
+"pos": "V",
+"preview": "ходатайствовать",
+"translation_ru": "подавать заявление, ходатайствовать",
+"gender": null,
+"forms": {
+"infinitive": "beantragen",
+"praeteritum_3sg": "er/sie/es beantragte",
+"partizip_ii": "beantragt",
+"perfekt_3sg": "er/sie/es hat beantragt"
+},
+"examples": [
+{ "de": "Sie beantragte eine Verlängerung der Frist und begründete den Antrag ausführlich.", "ru": "Она подала заявление о продлении срока и подробно обосновала заявку." }
+],
+"notes": {
+"usage": "Behörden, Finanzierung",
+"collocations": ["eine Fristverlängerung beantragen", "Leistungen beantragen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Behoerden","Formalitaeten"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "beauftragen",
+"headword": "beauftragen",
+"pos": "V",
+"preview": "поручить",
+"translation_ru": "поручать, давать задание",
+"gender": null,
+"forms": {
+"infinitive": "beauftragen",
+"praeteritum_3sg": "er/sie/es beauftragte",
+"partizip_ii": "beauftragt",
+"perfekt_3sg": "er/sie/es hat beauftragt"
+},
+"examples": [
+{ "de": "Die Firma beauftragte eine Spedition, die Maschinen termingerecht zu liefern.", "ru": "Фирма поручила транспортной компании поставить оборудование в срок." }
+],
+"notes": {
+"usage": "Aufträge vergeben",
+"collocations": ["eine Firma beauftragen", "einen Dienstleister beauftragen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "beilegen",
+"headword": "beilegen",
+"pos": "V",
+"preview": "приложить",
+"translation_ru": "прилагать к письму, вложить",
+"gender": null,
+"forms": {
+"infinitive": "beilegen",
+"praeteritum_3sg": "er/sie/es legte bei",
+"partizip_ii": "beigelegt",
+"perfekt_3sg": "er/sie/es hat beigelegt"
+},
+"examples": [
+{ "de": "Dem Schreiben legte sie eine Kopie der Teilnahmebestätigung als Nachweis bei.", "ru": "К письму она приложила копию подтверждения участия в качестве доказательства." }
+],
+"notes": {
+"usage": "trennbar; Briefe, E-Mail",
+"collocations": ["Unterlagen beilegen", "Rechnung beilegen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Formalitaeten"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "sich-bewerben",
+"headword": "sich bewerben",
+"pos": "V",
+"preview": "податься",
+"translation_ru": "подавать заявление на работу, учебу",
+"gender": null,
+"forms": {
+"infinitive": "sich bewerben",
+"praeteritum_3sg": "er/sie/es bewarb sich",
+"partizip_ii": "sich beworben",
+"perfekt_3sg": "er/sie/es hat sich beworben"
+},
+"examples": [
+{ "de": "Er bewarb sich mit vollständigen Unterlagen fristgerecht auf die ausgeschriebene Stelle.", "ru": "Он подал заявление с полным пакетом документов на объявленную должность в срок." }
+],
+"notes": {
+"usage": "reflexiv; Stellen, Studienplätze",
+"collocations": ["sich um eine Stelle bewerben", "Bewerbungsunterlagen einreichen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Bewerbung","Arbeit"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "bestaetigen",
+"headword": "bestätigen",
+"pos": "V",
+"preview": "подтвердить",
+"translation_ru": "подтверждать получение, участие, Termin",
+"gender": null,
+"forms": {
+"infinitive": "bestätigen",
+"praeteritum_3sg": "er/sie/es bestätigte",
+"partizip_ii": "bestätigt",
+"perfekt_3sg": "er/sie/es hat bestätigt"
+},
+"examples": [
+{ "de": "Bitte bestätigen Sie den vorgeschlagenen Termin bis morgen schriftlich per E-Mail.", "ru": "Пожалуйста, подтвердите предложенное время встречи до завтра письменно по электронной почте." }
+],
+"notes": {
+"usage": "formell; Termine, Eingänge",
+"collocations": ["den Termin bestätigen", "den Erhalt bestätigen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Dienstleistungen"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "bestellen",
+"headword": "bestellen",
+"pos": "V",
+"preview": "заказать",
+"translation_ru": "заказывать товары или услуги",
+"gender": null,
+"forms": {
+"infinitive": "bestellen",
+"praeteritum_3sg": "er/sie/es bestellte",
+"partizip_ii": "bestellt",
+"perfekt_3sg": "er/sie/es hat bestellt"
+},
+"examples": [
+{ "de": "Wir bestellten die Ersatzteile gestern, die Lieferung erfolgt voraussichtlich nächste Woche.", "ru": "Мы заказали запасные части вчера, поставка ожидается на следующей неделе." }
+],
+"notes": {
+"usage": "Einkauf, Service",
+"collocations": ["online bestellen", "Ersatzteile bestellen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Einkaufen","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "betreuen",
+"headword": "betreuen",
+"pos": "V",
+"preview": "курировать",
+"translation_ru": "курировать, сопровождать, обслуживать",
+"gender": null,
+"forms": {
+"infinitive": "betreuen",
+"praeteritum_3sg": "er/sie/es betreute",
+"partizip_ii": "betreut",
+"perfekt_3sg": "er/sie/es hat betreut"
+},
+"examples": [
+{ "de": "Die Sachbearbeiterin betreut Ihr Anliegen und meldet sich bei Rückfragen zeitnah.", "ru": "Специалист ведёт ваше обращение и оперативно свяжется при вопросах." }
+],
+"notes": {
+"usage": "Kunden, Projekte, Pflege",
+"collocations": ["Kunden betreuen", "ein Projekt betreuen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Arbeit"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "bezahlen",
+"headword": "bezahlen",
+"pos": "V",
+"preview": "оплатить",
+"translation_ru": "оплачивать, платить",
+"gender": null,
+"forms": {
+"infinitive": "bezahlen",
+"praeteritum_3sg": "er/sie/es bezahlte",
+"partizip_ii": "bezahlt",
+"perfekt_3sg": "er/sie/es hat bezahlt"
+},
+"examples": [
+{ "de": "Bitte bezahlen Sie die Rechnung innerhalb von vierzehn Tagen ohne Abzug.", "ru": "Пожалуйста, оплатите счёт в течение четырнадцати дней без вычета." }
+],
+"notes": {
+"usage": "Rechnungen, Gebühren",
+"collocations": ["eine Rechnung bezahlen", "bar bezahlen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Einkaufen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "einreichen",
+"headword": "einreichen",
+"pos": "V",
+"preview": "подать",
+"translation_ru": "подавать документы, заявление",
+"gender": null,
+"forms": {
+"infinitive": "einreichen",
+"praeteritum_3sg": "er/sie/es reichte ein",
+"partizip_ii": "eingereicht",
+"perfekt_3sg": "er/sie/es hat eingereicht"
+},
+"examples": [
+{ "de": "Reichen Sie die fehlenden Unterlagen bitte bis Freitag vollständig und lesbar ein.", "ru": "Пожалуйста, подайте недостающие документы до пятницы полностью и разборчиво." }
+],
+"notes": {
+"usage": "trennbar; Behörden, Bewerbungen",
+"collocations": ["Unterlagen einreichen", "einen Antrag einreichen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Behoerden","Bewerbung"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "sich-einschreiben",
+"headword": "sich einschreiben",
+"pos": "V",
+"preview": "зачислиться",
+"translation_ru": "зачисляться, записываться в учебное заведение",
+"gender": null,
+"forms": {
+"infinitive": "sich einschreiben",
+"praeteritum_3sg": "er/sie/es schrieb sich ein",
+"partizip_ii": "sich eingeschrieben",
+"perfekt_3sg": "er/sie/es hat sich eingeschrieben"
+},
+"examples": [
+{ "de": "Sie schrieb sich fristgerecht zum Sommersemester im Studiengang Informatik ein.", "ru": "Она в срок зачислилась на летний семестр на направление информатики." }
+],
+"notes": {
+"usage": "reflexiv; Hochschule, Kurse",
+"collocations": ["sich an der Uni einschreiben", "sich in einen Kurs einschreiben"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Bildung","Formalitaeten"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "einstellen",
+"headword": "einstellen",
+"pos": "V",
+"preview": "нанять",
+"translation_ru": "принимать на работу; настраивать",
+"gender": null,
+"forms": {
+"infinitive": "einstellen",
+"praeteritum_3sg": "er/sie/es stellte ein",
+"partizip_ii": "eingestellt",
+"perfekt_3sg": "er/sie/es hat eingestellt"
+},
+"examples": [
+{ "de": "Das Unternehmen stellte zwei Techniker ein und passte die Schichtzeiten entsprechend an.", "ru": "Компания наняла двух техников и соответственно скорректировала время смен." }
+],
+"notes": {
+"usage": "trennbar; Personal, Geräte",
+"collocations": ["Mitarbeiter einstellen", "Geräte einstellen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "sich-entscheiden",
+"headword": "sich entscheiden",
+"pos": "V",
+"preview": "решиться",
+"translation_ru": "принимать решение, определяться",
+"gender": null,
+"forms": {
+"infinitive": "sich entscheiden",
+"praeteritum_3sg": "er/sie/es entschied sich",
+"partizip_ii": "sich entschieden",
+"perfekt_3sg": "er/sie/es hat sich entschieden"
+},
+"examples": [
+{ "de": "Nach dem Beratungsgespräch entschied sie sich für den berufsbegleitenden Kurs.", "ru": "После консультации она решилась на совмещённый с работой курс." }
+],
+"notes": {
+"usage": "reflexiv; Optionen, Bewerbungen",
+"collocations": ["sich für etwas entscheiden", "sich gegen etwas entscheiden"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Bildung","Arbeit"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "sich-entschuldigen",
+"headword": "sich entschuldigen",
+"pos": "V",
+"preview": "извиниться",
+"translation_ru": "извиняться за задержку, ошибку",
+"gender": null,
+"forms": {
+"infinitive": "sich entschuldigen",
+"praeteritum_3sg": "er/sie/es entschuldigte sich",
+"partizip_ii": "sich entschuldigt",
+"perfekt_3sg": "er/sie/es hat sich entschuldigt"
+},
+"examples": [
+{ "de": "Er entschuldigte sich schriftlich für die verspätete Antwort auf die Anfrage.", "ru": "Он письменно извинился за запоздалый ответ на запрос." }
+],
+"notes": {
+"usage": "reflexiv; formelle Kommunikation",
+"collocations": ["sich entschuldigen für", "um Entschuldigung bitten"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Dienstleistungen"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "erklaeren",
+"headword": "erklären",
+"pos": "V",
+"preview": "объяснить",
+"translation_ru": "объяснять, разъяснять",
+"gender": null,
+"forms": {
+"infinitive": "erklären",
+"praeteritum_3sg": "er/sie/es erklärte",
+"partizip_ii": "erklärt",
+"perfekt_3sg": "er/sie/es hat erklärt"
+},
+"examples": [
+{ "de": "Die Sachbearbeiterin erklärte den Ablauf der Antragstellung Schritt für Schritt verständlich.", "ru": "Сотрудница понятно объяснила порядок подачи заявления шаг за шагом." }
+],
+"notes": {
+"usage": "Service, Unterricht",
+"collocations": ["den Ablauf erklären", "die Gründe erklären"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Behoerden","Bildung"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "erlauben",
+"headword": "erlauben",
+"pos": "V",
+"preview": "разрешить",
+"translation_ru": "разрешать, позволять",
+"gender": null,
+"forms": {
+"infinitive": "erlauben",
+"praeteritum_3sg": "er/sie/es erlaubte",
+"partizip_ii": "erlaubt",
+"perfekt_3sg": "er/sie/es hat erlaubt"
+},
+"examples": [
+{ "de": "Der Vermieter erlaubte schriftlich die Installation einer kleinen Satellitenschüssel.", "ru": "Арендодатель письменно разрешил установку небольшой спутниковой тарелки." }
+],
+"notes": {
+"usage": "Genehmigung, Regeln",
+"collocations": ["jemandem etwas erlauben", "nicht erlaubt sein"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Wohnen","Rechtlich"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "erneuern",
+"headword": "erneuern",
+"pos": "V",
+"preview": "обновить",
+"translation_ru": "обновлять, продлевать документ",
+"gender": null,
+"forms": {
+"infinitive": "erneuern",
+"praeteritum_3sg": "er/sie/es erneuerte",
+"partizip_ii": "erneuert",
+"perfekt_3sg": "er/sie/es hat erneuert"
+},
+"examples": [
+{ "de": "Bitte erneuern Sie die Versicherung rechtzeitig, um den Schutz nicht zu verlieren.", "ru": "Пожалуйста, своевременно продлите страховку, чтобы не потерять защиту." }
+],
+"notes": {
+"usage": "Dokumente, Verträge",
+"collocations": ["eine Versicherung erneuern", "den Ausweis erneuern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Formalitaeten"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "ersetzen",
+"headword": "ersetzen",
+"pos": "V",
+"preview": "заменить",
+"translation_ru": "заменять повреждённое, утраченное",
+"gender": null,
+"forms": {
+"infinitive": "ersetzen",
+"praeteritum_3sg": "er/sie/es ersetzte",
+"partizip_ii": "ersetzt",
+"perfekt_3sg": "er/sie/es hat ersetzt"
+},
+"examples": [
+{ "de": "Die Werkstatt ersetzte das defekte Teil und prüfte anschließend die Sicherheit.", "ru": "Мастерская заменила неисправную деталь и затем проверила безопасность." }
+],
+"notes": {
+"usage": "Reparaturen, Produkte",
+"collocations": ["ein Teil ersetzen", "Kosten ersetzen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Einkaufen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "erweitern",
+"headword": "erweitern",
+"pos": "V",
+"preview": "расширить",
+"translation_ru": "расширять ассортимент, объём, знания",
+"gender": null,
+"forms": {
+"infinitive": "erweitern",
+"praeteritum_3sg": "er/sie/es erweiterte",
+"partizip_ii": "erweitert",
+"perfekt_3sg": "er/sie/es hat erweitert"
+},
+"examples": [
+{ "de": "Der Anbieter erweiterte das Angebot um einen günstigeren Tarif für Studierende.", "ru": "Провайдер расширил предложение более выгодным тарифом для студентов." }
+],
+"notes": {
+"usage": "Sortiment, Kapazitäten",
+"collocations": ["das Angebot erweitern", "Kenntnisse erweitern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Arbeit"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verlaengern",
+"headword": "verlängern",
+"pos": "V",
+"preview": "продлить",
+"translation_ru": "продлевать срок, договор",
+"gender": null,
+"forms": {
+"infinitive": "verlängern",
+"praeteritum_3sg": "er/sie/es verlängerte",
+"partizip_ii": "verlängert",
+"perfekt_3sg": "er/sie/es hat verlängert"
+},
+"examples": [
+{ "de": "Wir verlängerten den Mietvertrag um ein Jahr und aktualisierten die Konditionen.", "ru": "Мы продлили договор аренды на год и обновили условия." }
+],
+"notes": {
+"usage": "Fristen, Verträge",
+"collocations": ["einen Vertrag verlängern", "eine Frist verlängern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Wohnen","Formalitaeten"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verschieben",
+"headword": "verschieben",
+"pos": "V",
+"preview": "перенести",
+"translation_ru": "переносить встречу, срок",
+"gender": null,
+"forms": {
+"infinitive": "verschieben",
+"praeteritum_3sg": "er/sie/es verschob",
+"partizip_ii": "verschoben",
+"perfekt_3sg": "er/sie/es hat verschoben"
+},
+"examples": [
+{ "de": "Aus organisatorischen Gründen verschoben wir den Termin auf die nächste Woche.", "ru": "По организационным причинам мы перенесли встречу на следующую неделю." }
+],
+"notes": {
+"usage": "Termine, Lieferungen",
+"collocations": ["einen Termin verschieben", "die Abgabe verschieben"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Kommunikation"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "sich-verspaeten",
+"headword": "sich verspäten",
+"pos": "V",
+"preview": "опоздать",
+"translation_ru": "задерживаться, опаздывать",
+"gender": null,
+"forms": {
+"infinitive": "sich verspäten",
+"praeteritum_3sg": "er/sie/es verspätete sich",
+"partizip_ii": "sich verspätet",
+"perfekt_3sg": "er/sie/es hat sich verspätet"
+},
+"examples": [
+{ "de": "Der Zug verspätete sich wegen einer Signalstörung um mehr als zwanzig Minuten.", "ru": "Поезд задержался из-за неисправности сигнала более чем на двадцать минут." }
+],
+"notes": {
+"usage": "reflexiv; Verkehr, Termine",
+"collocations": ["sich erheblich verspäten", "eine Verspätung ankündigen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Verkehr","Reisen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verrechnen",
+"headword": "verrechnen",
+"pos": "V",
+"preview": "зачесть",
+"translation_ru": "засчитывать, производить взаимозачёт",
+"gender": null,
+"forms": {
+"infinitive": "verrechnen",
+"praeteritum_3sg": "er/sie/es verrechnete",
+"partizip_ii": "verrechnet",
+"perfekt_3sg": "er/sie/es hat verrechnet"
+},
+"examples": [
+{ "de": "Wir verrechnen den Gutschein mit der nächsten Rechnung automatisch und transparent.", "ru": "Мы автоматически и прозрачно зачтём купон в следующем счёте." }
+],
+"notes": {
+"usage": "Rechnungswesen",
+"collocations": ["Kosten verrechnen", "einen Betrag verrechnen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Einkaufen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "versenden",
+"headword": "versenden",
+"pos": "V",
+"preview": "отправить",
+"translation_ru": "отправлять почтой, рассылать",
+"gender": null,
+"forms": {
+"infinitive": "versenden",
+"praeteritum_3sg": "er/sie/es versendete",
+"partizip_ii": "versendet",
+"perfekt_3sg": "er/sie/es hat versendet"
+},
+"examples": [
+{ "de": "Die Rechnungen versendeten wir gestern elektronisch an alle angemeldeten Kundinnen.", "ru": "Счета мы вчера отправили электронно всем зарегистрированным клиенткам." }
+],
+"notes": {
+"usage": "Post, E-Mail, Logistik",
+"collocations": ["Pakete versenden", "Rechnungen versenden"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Internet"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "liefern",
+"headword": "liefern",
+"pos": "V",
+"preview": "поставить",
+"translation_ru": "поставлять, доставлять",
+"gender": null,
+"forms": {
+"infinitive": "liefern",
+"praeteritum_3sg": "er/sie/es lieferte",
+"partizip_ii": "geliefert",
+"perfekt_3sg": "er/sie/es hat geliefert"
+},
+"examples": [
+{ "de": "Der Händler lieferte die Ware pünktlich und montierte sie vor Ort fachgerecht.", "ru": "Продавец поставил товар вовремя и профессионально установил его на месте." }
+],
+"notes": {
+"usage": "Logistik, Handel",
+"collocations": ["pünktlich liefern", "frei Haus liefern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Einkaufen","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "kuendigen",
+"headword": "kündigen",
+"pos": "V",
+"preview": "расторгнуть",
+"translation_ru": "расторгать договор; увольнять, увольняться",
+"gender": null,
+"forms": {
+"infinitive": "kündigen",
+"praeteritum_3sg": "er/sie/es kündigte",
+"partizip_ii": "gekündigt",
+"perfekt_3sg": "er/sie/es hat gekündigt"
+},
+"examples": [
+{ "de": "Sie kündigte den Vertrag fristgerecht und bat um schriftliche Bestätigung.", "ru": "Она расторгла договор в срок и попросила письменное подтверждение." }
+],
+"notes": {
+"usage": "Verträge, Arbeitsverhältnis",
+"collocations": ["den Vertrag kündigen", "fristlos kündigen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Rechtlich","Arbeit"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "nachfragen",
+"headword": "nachfragen",
+"pos": "V",
+"preview": "уточнить",
+"translation_ru": "переспрашивать, уточнять информацию",
+"gender": null,
+"forms": {
+"infinitive": "nachfragen",
+"praeteritum_3sg": "er/sie/es fragte nach",
+"partizip_ii": "nachgefragt",
+"perfekt_3sg": "er/sie/es hat nachgefragt"
+},
+"examples": [
+{ "de": "Ich fragte telefonisch nach, ob die Unterlagen vollständig angekommen sind.", "ru": "Я уточнил по телефону, все ли документы дошли в полном объёме." }
+],
+"notes": {
+"usage": "trennbar; Service, Amt",
+"collocations": ["telefonisch nachfragen", "nochmals nachfragen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Behoerden"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "teilnehmen",
+"headword": "teilnehmen",
+"pos": "V",
+"preview": "участвовать",
+"translation_ru": "принимать участие",
+"gender": null,
+"forms": {
+"infinitive": "teilnehmen",
+"praeteritum_3sg": "er/sie/es nahm teil",
+"partizip_ii": "teilgenommen",
+"perfekt_3sg": "er/sie/es hat teilgenommen"
+},
+"examples": [
+{ "de": "Er nahm am Webinar teil und erhielt anschließend eine Teilnahmebestätigung.", "ru": "Он участвовал в вебинаре и затем получил подтверждение участия." }
+],
+"notes": {
+"usage": "Veranstaltungen, Kurse",
+"collocations": ["an einem Kurs teilnehmen", "aktiv teilnehmen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Bildung","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "umsteigen",
+"headword": "umsteigen",
+"pos": "V",
+"preview": "пересесть",
+"translation_ru": "делать пересадку",
+"gender": null,
+"forms": {
+"infinitive": "umsteigen",
+"praeteritum_3sg": "er/sie/es stieg um",
+"partizip_ii": "umgestiegen",
+"perfekt_3sg": "er/sie/es ist umgestiegen"
+},
+"examples": [
+{ "de": "Sie stieg in Mannheim um und erreichte den Anschlusszug trotz Verspätung rechtzeitig.", "ru": "Она пересела в Мангайме и успела на поезд с пересадкой несмотря на задержку." }
+],
+"notes": {
+"usage": "intransitiv; Bahn, Bus",
+"collocations": ["zweimal umsteigen", "in Richtung Zentrum umsteigen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Verkehr","Reisen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "unterschreiben",
+"headword": "unterschreiben",
+"pos": "V",
+"preview": "подписать",
+"translation_ru": "подписывать документ",
+"gender": null,
+"forms": {
+"infinitive": "unterschreiben",
+"praeteritum_3sg": "er/sie/es unterschrieb",
+"partizip_ii": "unterschrieben",
+"perfekt_3sg": "er/sie/es hat unterschrieben"
+},
+"examples": [
+{ "de": "Bitte unterschreiben Sie den Vertrag auf der letzten Seite gut lesbar.", "ru": "Пожалуйста, подпишите договор на последней странице разборчиво." }
+],
+"notes": {
+"usage": "Verträge, Formulare",
+"collocations": ["einen Vertrag unterschreiben", "persönlich unterschreiben"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Formalitaeten","Rechtlich"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "vereinbaren",
+"headword": "vereinbaren",
+"pos": "V",
+"preview": "согласовать",
+"translation_ru": "договориться, согласовать",
+"gender": null,
+"forms": {
+"infinitive": "vereinbaren",
+"praeteritum_3sg": "er/sie/es vereinbarte",
+"partizip_ii": "vereinbart",
+"perfekt_3sg": "er/sie/es hat vereinbart"
+},
+"examples": [
+{ "de": "Wir vereinbarten telefonisch einen neuen Termin für die persönliche Beratung.", "ru": "Мы по телефону согласовали новую дату личной консультации." }
+],
+"notes": {
+"usage": "Termine, Konditionen",
+"collocations": ["einen Termin vereinbaren", "Konditionen vereinbaren"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Kommunikation"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "sich-verabreden",
+"headword": "sich verabreden",
+"pos": "V",
+"preview": "договориться",
+"translation_ru": "договориться о встрече",
+"gender": null,
+"forms": {
+"infinitive": "sich verabreden",
+"praeteritum_3sg": "er/sie/es verabredete sich",
+"partizip_ii": "sich verabredet",
+"perfekt_3sg": "er/sie/es hat sich verabredet"
+},
+"examples": [
+{ "de": "Wir verabredeten uns für Donnerstagabend in der Nähe des Rathauses.", "ru": "Мы договорились на четверг вечером возле ратуши." }
+],
+"notes": {
+"usage": "reflexiv; Termine privat/beruflich",
+"collocations": ["sich zum Treffen verabreden", "sich kurzfristig verabreden"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Stadtleben"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verbessern",
+"headword": "verbessern",
+"pos": "V",
+"preview": "улучшить",
+"translation_ru": "улучшать качество, условия",
+"gender": null,
+"forms": {
+"infinitive": "verbessern",
+"praeteritum_3sg": "er/sie/es verbesserte",
+"partizip_ii": "verbessert",
+"perfekt_3sg": "er/sie/es hat verbessert"
+},
+"examples": [
+{ "de": "Das Team verbesserte die Abläufe und reduzierte dadurch deutlich die Bearbeitungszeiten.", "ru": "Команда улучшила процессы и тем самым заметно сократила время обработки." }
+],
+"notes": {
+"usage": "Prozesse, Qualität",
+"collocations": ["die Qualität verbessern", "Abläufe verbessern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "vergroessern",
+"headword": "vergrößern",
+"pos": "V",
+"preview": "увеличить",
+"translation_ru": "увеличивать, расширять",
+"gender": null,
+"forms": {
+"infinitive": "vergrößern",
+"praeteritum_3sg": "er/sie/es vergrößerte",
+"partizip_ii": "vergrößert",
+"perfekt_3sg": "er/sie/es hat vergrößert"
+},
+"examples": [
+{ "de": "Der Vermieter vergrößerte den Abstellraum, sodass mehr Platz verfügbar ist.", "ru": "Арендодатель увеличил кладовую, чтобы стало больше доступного места." }
+],
+"notes": {
+"usage": "Räume, Kapazitäten",
+"collocations": ["den Raum vergrößern", "die Kapazität vergrößern"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Wohnen","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verlangen",
+"headword": "verlangen",
+"pos": "V",
+"preview": "требовать",
+"translation_ru": "требовать, просить предъявить",
+"gender": null,
+"forms": {
+"infinitive": "verlangen",
+"praeteritum_3sg": "er/sie/es verlangte",
+"partizip_ii": "verlangt",
+"perfekt_3sg": "er/sie/es hat verlangt"
+},
+"examples": [
+{ "de": "Die Behörde verlangte eine beglaubigte Kopie der Bescheinigung zur Vorlage.", "ru": "Учреждение потребовало заверенную копию справки для предъявления." }
+],
+"notes": {
+"usage": "formell; Nachweise",
+"collocations": ["Unterlagen verlangen", "Ausweis verlangen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Behoerden","Rechtlich"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "vermeiden",
+"headword": "vermeiden",
+"pos": "V",
+"preview": "избегать",
+"translation_ru": "избегать ошибок, конфликтов",
+"gender": null,
+"forms": {
+"infinitive": "vermeiden",
+"praeteritum_3sg": "er/sie/es vermied",
+"partizip_ii": "vermieden",
+"perfekt_3sg": "er/sie/es hat vermieden"
+},
+"examples": [
+{ "de": "Durch klare Angaben vermeiden Sie Rückfragen und beschleunigen die Bearbeitung erheblich.", "ru": "Благодаря ясным данным вы избегаете переспросов и значительно ускоряете обработку." }
+],
+"notes": {
+"usage": "Qualität, Kommunikation",
+"collocations": ["Fehler vermeiden", "Missverständnisse vermeiden"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Kommunikation"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "verwenden",
+"headword": "verwenden",
+"pos": "V",
+"preview": "использовать",
+"translation_ru": "использовать, применять",
+"gender": null,
+"forms": {
+"infinitive": "verwenden",
+"praeteritum_3sg": "er/sie/es verwendete",
+"partizip_ii": "verwendet",
+"perfekt_3sg": "er/sie/es hat verwendet"
+},
+"examples": [
+{ "de": "Bitte verwenden Sie für die Überweisung unbedingt die korrekte Rechnungsnummer.", "ru": "Пожалуйста, используйте при переводе обязательно правильный номер счёта." }
+],
+"notes": {
+"usage": "Formulare, Zahlungen",
+"collocations": ["ein Formular verwenden", "Daten verwenden"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Formalitaeten"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "vorbereiten",
+"headword": "vorbereiten",
+"pos": "V",
+"preview": "подготовить",
+"translation_ru": "подготавливать документы, встречу",
+"gender": null,
+"forms": {
+"infinitive": "vorbereiten",
+"praeteritum_3sg": "er/sie/es bereitete vor",
+"partizip_ii": "vorbereitet",
+"perfekt_3sg": "er/sie/es hat vorbereitet"
+},
+"examples": [
+{ "de": "Sie bereitete die Unterlagen sorgfältig vor und prüfte alle Anlagen mehrmals.", "ru": "Она тщательно подготовила документы и несколько раз проверила все приложения." }
+],
+"notes": {
+"usage": "trennbar; Meetings, Prüfungen",
+"collocations": ["Unterlagen vorbereiten", "ein Gespräch vorbereiten"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Bewerbung","Bildung"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "vorschlagen",
+"headword": "vorschlagen",
+"pos": "V",
+"preview": "предложить",
+"translation_ru": "предлагать, вносить предложение",
+"gender": null,
+"forms": {
+"infinitive": "vorschlagen",
+"praeteritum_3sg": "er/sie/es schlug vor",
+"partizip_ii": "vorgeschlagen",
+"perfekt_3sg": "er/sie/es hat vorgeschlagen"
+},
+"examples": [
+{ "de": "Er schlug einen alternativen Termin vor und wartete auf eine kurze Rückmeldung.", "ru": "Он предложил альтернативное время и ждал короткого ответа." }
+],
+"notes": {
+"usage": "trennbar; Termine, Lösungen",
+"collocations": ["einen Termin vorschlagen", "eine Lösung vorschlagen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Kommunikation","Arbeit"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "widerrufen",
+"headword": "widerrufen",
+"pos": "V",
+"preview": "отозвать",
+"translation_ru": "отменять, отзывать согласие или Vertrag",
+"gender": null,
+"forms": {
+"infinitive": "widerrufen",
+"praeteritum_3sg": "er/sie/es widerrief",
+"partizip_ii": "widerrufen",
+"perfekt_3sg": "er/sie/es hat widerrufen"
+},
+"examples": [
+{ "de": "Sie widerrief die Online-Bestellung fristgerecht und erhielt eine Bestätigung.", "ru": "Она в срок отменила онлайн-заказ и получила подтверждение." }
+],
+"notes": {
+"usage": "Recht auf Widerruf",
+"collocations": ["den Vertrag widerrufen", "die Einwilligung widerrufen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Rechtlich","Einkaufen"],
+"register": "formell",
+"b1_verified": true
+},
+{
+"id": "wiederherstellen",
+"headword": "wiederherstellen",
+"pos": "V",
+"preview": "восстановить",
+"translation_ru": "восстанавливать данные, состояние",
+"gender": null,
+"forms": {
+"infinitive": "wiederherstellen",
+"praeteritum_3sg": "er/sie/es stellte wieder her",
+"partizip_ii": "wiederhergestellt",
+"perfekt_3sg": "er/sie/es hat wiederhergestellt"
+},
+"examples": [
+{ "de": "Die Techniker stellten das System nach dem Stromausfall schnell wieder her.", "ru": "Техники быстро восстановили систему после отключения электричества." }
+],
+"notes": {
+"usage": "trennbar; IT, Reparaturen",
+"collocations": ["Daten wiederherstellen", "den Betrieb wiederherstellen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Dienstleistungen","Medien"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "zurueckerstatten",
+"headword": "zurückerstatten",
+"pos": "V",
+"preview": "возвратить",
+"translation_ru": "возвращать деньги, компенсировать",
+"gender": null,
+"forms": {
+"infinitive": "zurückerstatten",
+"praeteritum_3sg": "er/sie/es erstattete zurück",
+"partizip_ii": "zurückerstattet",
+"perfekt_3sg": "er/sie/es hat zurückerstattet"
+},
+"examples": [
+{ "de": "Der Händler erstattete den Kaufpreis zurück, weil die Ware beschädigt ankam.", "ru": "Продавец вернул стоимость покупки, потому что товар пришёл повреждённым." }
+],
+"notes": {
+"usage": "trennbar; Rückzahlung",
+"collocations": ["Kosten zurückerstatten", "den Betrag zurückerstatten"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Einkaufen","Dienstleistungen"],
+"register": "neutral",
+"b1_verified": true
+},
+{
+"id": "zuordnen",
+"headword": "zuordnen",
+"pos": "V",
+"preview": "соотнести",
+"translation_ru": "сопоставлять, относить к категории",
+"gender": null,
+"forms": {
+"infinitive": "zuordnen",
+"praeteritum_3sg": "er/sie/es ordnete zu",
+"partizip_ii": "zugeordnet",
+"perfekt_3sg": "er/sie/es hat zugeordnet"
+},
+"examples": [
+{ "de": "Ordnen Sie die Belege bitte den jeweiligen Projekten eindeutig zu.", "ru": "Отнесите, пожалуйста, квитанции к соответствующим проектам однозначно." }
+],
+"notes": {
+"usage": "trennbar; Kategorien, Verwaltung",
+"collocations": ["Dokumente zuordnen", "Kostenstellen zuordnen"],
+"synonyms": [],
+"antonyms": []
+},
+"topics": ["Arbeit","Formalitaeten"],
+"register": "neutral",
+"b1_verified": true
+}
+]

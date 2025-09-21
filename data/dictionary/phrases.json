@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "anbei-erhalten-sie",
+    "headword": "Anbei erhalten Sie …",
+    "pos": "PHR",
+    "preview": "в приложении",
+    "translation_ru": "в приложении вы найдете …",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Anbei erhalten Sie die fehlenden Unterlagen für Ihren Antrag bei der Behörde.", "ru": "В приложении вы получаете недостающие документы для вашего заявления в учреждение." }
+    ],
+    "notes": {
+      "usage": "E-Mail, formelle Schreiben",
+      "collocations": ["Anbei erhalten Sie die Unterlagen","Anbei erhalten Sie das Formular"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "aus-datenschutzrechtlichen-gruenden",
+    "headword": "Aus datenschutzrechtlichen Gründen …",
+    "pos": "PHR",
+    "preview": "по причине защиты данных",
+    "translation_ru": "по причинам защиты данных …",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Aus datenschutzrechtlichen Gründen können wir telefonische Auskünfte nur nach Identitätsprüfung geben.", "ru": "По причинам защиты данных мы можем давать сведения по телефону только после проверки личности." }
+    ],
+    "notes": {
+      "usage": "Hinweis, E-Mail, Aushang",
+      "collocations": ["Aus datenschutzrechtlichen Gründen dürfen wir","Aus datenschutzrechtlichen Gründen senden wir"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "aus-organisatorischen-gruenden",
+    "headword": "Aus organisatorischen Gründen …",
+    "pos": "PHR",
+    "preview": "по организационным причинам",
+    "translation_ru": "по организационным причинам …",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Aus organisatorischen Gründen findet der Kurs nächste Woche ausschließlich online statt.", "ru": "По организационным причинам курс на следующей неделе проходит исключительно онлайн." }
+    ],
+    "notes": {
+      "usage": "Mitteilung, E-Mail",
+      "collocations": ["Aus organisatorischen Gründen verschieben wir","Aus organisatorischen Gründen entfällt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bei-weiteren-fragen-kontaktieren-sie-mich-bitte",
+    "headword": "Bei weiteren Fragen kontaktieren Sie mich bitte.",
+    "pos": "PHR",
+    "preview": "вопросы — пишите",
+    "translation_ru": "при дальнейших вопросах, пожалуйста, свяжитесь со мной",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bei weiteren Fragen kontaktieren Sie mich bitte telefonisch oder per E-Mail.", "ru": "При дополнительных вопросах свяжитесь со мной, пожалуйста, по телефону или по электронной почте." }
+    ],
+    "notes": {
+      "usage": "E-Mail-Abschluss",
+      "collocations": ["bei weiteren Fragen","kontaktieren Sie mich bitte"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bitte-bestaetigen-sie-den-erhalt",
+    "headword": "Bitte bestätigen Sie den Erhalt.",
+    "pos": "PHR",
+    "preview": "подтвердите получение",
+    "translation_ru": "пожалуйста, подтвердите получение",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte bestätigen Sie den Erhalt der Rechnung bis morgen kurz per E-Mail.", "ru": "Пожалуйста, кратко подтвердите получение счёта до завтра по электронной почте." }
+    ],
+    "notes": {
+      "usage": "E-Mail, Versand",
+      "collocations": ["Erhalt bestätigen","Bestätigung des Erhalts"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bitte-senden-sie-mir-die-rechnung-zu",
+    "headword": "Bitte senden Sie mir die Rechnung zu.",
+    "pos": "PHR",
+    "preview": "пришлите счёт",
+    "translation_ru": "пожалуйста, пришлите мне счёт",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte senden Sie mir die Rechnung zu, damit ich fristgerecht überweisen kann.", "ru": "Пожалуйста, пришлите мне счёт, чтобы я мог вовремя перевести деньги." }
+    ],
+    "notes": {
+      "usage": "Einkauf, Service",
+      "collocations": ["Rechnung zusenden","Rechnung per E-Mail"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bitte-teilen-sie-mir-den-preis-mit",
+    "headword": "Bitte teilen Sie mir den Preis mit.",
+    "pos": "PHR",
+    "preview": "сообщите цену",
+    "translation_ru": "пожалуйста, сообщите мне цену",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte teilen Sie mir den Preis und die voraussichtliche Lieferzeit mit.", "ru": "Пожалуйста, сообщите мне цену и предполагаемый срок поставки." }
+    ],
+    "notes": {
+      "usage": "Anfrage, Angebot",
+      "collocations": ["Preis mitteilen","Lieferzeit mitteilen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "der-zug-hat-leider-verspaetung",
+    "headword": "Der Zug hat leider Verspätung.",
+    "pos": "PHR",
+    "preview": "поезд опаздывает",
+    "translation_ru": "поезд, к сожалению, задерживается",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Der Zug hat leider Verspätung, daher verpasse ich den Anschluss in Leipzig.", "ru": "Поезд, к сожалению, опаздывает, поэтому я пропускаю пересадку в Лейпциге." }
+    ],
+    "notes": {
+      "usage": "Durchsage, Reise",
+      "collocations": ["hat Verspätung","Verspätung von Minuten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Reisen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "die-ware-ist-beschaedigt-angekommen",
+    "headword": "Die Ware ist beschädigt angekommen.",
+    "pos": "PHR",
+    "preview": "товар повреждён",
+    "translation_ru": "товар прибыл повреждённым",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Die Ware ist beschädigt angekommen, ich bitte um Austausch oder Rückerstattung.", "ru": "Товар прибыл повреждённым, прошу обмен или возврат средств." }
+    ],
+    "notes": {
+      "usage": "Reklamation, E-Mail",
+      "collocations": ["beschädigt angekommen","um Austausch bitten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "entschuldigen-sie-die-verspaetete-antwort",
+    "headword": "Entschuldigen Sie die verspätete Antwort.",
+    "pos": "PHR",
+    "preview": "извините за задержку",
+    "translation_ru": "извините за поздний ответ",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Entschuldigen Sie die verspätete Antwort, ich war geschäftlich unterwegs.", "ru": "Извините за поздний ответ, я был в рабочей поездке." }
+    ],
+    "notes": {
+      "usage": "E-Mail-Einstieg",
+      "collocations": ["verspätete Antwort","bitte entschuldigen Sie"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "fuer-rueckfragen-stehe-ich-ihnen-gerne-zur-verfuegung",
+    "headword": "Für Rückfragen stehe ich Ihnen gerne zur Verfügung.",
+    "pos": "PHR",
+    "preview": "готов ответить",
+    "translation_ru": "для дополнительных вопросов я охотно к вашим услугам",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Für Rückfragen stehe ich Ihnen gerne zur Verfügung und freue mich auf Ihre Nachricht.", "ru": "Для дополнительных вопросов я к вашим услугам и жду вашего сообщения." }
+    ],
+    "notes": {
+      "usage": "E-Mail-Abschluss",
+      "collocations": ["für Rückfragen","zur Verfügung stehen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-benoetige-eine-teilnahmebestaetigung",
+    "headword": "Ich benötige eine Teilnahmebestätigung.",
+    "pos": "PHR",
+    "preview": "нужен сертификат",
+    "translation_ru": "мне нужно подтверждение участия",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich benötige eine Teilnahmebestätigung für die Bewerbung an der Hochschule.", "ru": "Мне нужно подтверждение участия для подачи документов в вуз." }
+    ],
+    "notes": {
+      "usage": "Anfrage, Bildung",
+      "collocations": ["Teilnahmebestätigung ausstellen","Teilnahmebestätigung zusenden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bestaetige-den-vereinbarten-termin",
+    "headword": "Ich bestätige den vereinbarten Termin.",
+    "pos": "PHR",
+    "preview": "подтверждаю встречу",
+    "translation_ru": "подтверждаю согласованную встречу",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bestätige den vereinbarten Termin am Dienstag um zehn Uhr.", "ru": "Подтверждаю согласованную встречу во вторник в десять часов." }
+    ],
+    "notes": {
+      "usage": "Terminbestätigung",
+      "collocations": ["Termin bestätigen","vereinbarter Termin"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bin-mit-den-bedingungen-nicht-einverstanden",
+    "headword": "Ich bin mit den Bedingungen nicht einverstanden.",
+    "pos": "PHR",
+    "preview": "не согласен",
+    "translation_ru": "я не согласен с условиями",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bin mit den Bedingungen nicht einverstanden und bitte um Anpassung.", "ru": "Я не согласен с условиями и прошу об их корректировке." }
+    ],
+    "notes": {
+      "usage": "Vertrag, Angebot",
+      "collocations": ["mit Bedingungen einverstanden","um Anpassung bitten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-anerkennung-meiner-unterlagen",
+    "headword": "Ich bitte um Anerkennung meiner Unterlagen.",
+    "pos": "PHR",
+    "preview": "прошу признания",
+    "translation_ru": "прошу признать мои документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Anerkennung meiner Unterlagen für die berufliche Qualifikation.", "ru": "Прошу признать мои документы для профессиональной квалификации." }
+    ],
+    "notes": {
+      "usage": "Behoerde, Berufsanerkennung",
+      "collocations": ["Anerkennung der Unterlagen","Anerkennung beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Bildung"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-eine-kurze-rueckmeldung",
+    "headword": "Ich bitte um eine kurze Rückmeldung.",
+    "pos": "PHR",
+    "preview": "прошу ответ",
+    "translation_ru": "прошу короткий ответ",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um eine kurze Rückmeldung bis morgen Nachmittag.", "ru": "Прошу кратко ответить до завтрашнего дня после обеда." }
+    ],
+    "notes": {
+      "usage": "E-Mail, Nachfrage",
+      "collocations": ["kurze Rückmeldung","um Rückmeldung bitten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-eine-schriftliche-bestaetigung",
+    "headword": "Ich bitte um eine schriftliche Bestätigung.",
+    "pos": "PHR",
+    "preview": "письменное подтверждение",
+    "translation_ru": "прошу письменное подтверждение",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um eine schriftliche Bestätigung des Kündigungstermins.", "ru": "Прошу письменное подтверждение даты расторжения." }
+    ],
+    "notes": {
+      "usage": "Vertrag, E-Mail",
+      "collocations": ["schriftliche Bestätigung","Bestätigung senden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-entschuldigung-fuer-die-umstaende",
+    "headword": "Ich bitte um Entschuldigung für die Umstände.",
+    "pos": "PHR",
+    "preview": "прошу прощения",
+    "translation_ru": "прошу извинить за неудобства",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Entschuldigung für die Umstände und danke für Ihr Verständnis.", "ru": "Прошу прощения за неудобства и благодарю за понимание." }
+    ],
+    "notes": {
+      "usage": "Beschwerdeantwort, Service",
+      "collocations": ["um Entschuldigung bitten","für die Umstände"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-einsicht-in-die-akte",
+    "headword": "Ich bitte um Einsicht in die Akte.",
+    "pos": "PHR",
+    "preview": "прошу ознакомления",
+    "translation_ru": "прошу предоставить ознакомление с делом",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Einsicht in die Akte ab kommender Woche.", "ru": "Прошу предоставить ознакомление с делом начиная со следующей недели." }
+    ],
+    "notes": {
+      "usage": "Behoerde, Verwaltung",
+      "collocations": ["Einsicht in die Akte","Einsicht beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-ratenzahlung",
+    "headword": "Ich bitte um Ratenzahlung.",
+    "pos": "PHR",
+    "preview": "рассрочка",
+    "translation_ru": "прошу рассрочку платежа",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Ratenzahlung, da der Gesamtbetrag für mich zu hoch ist.", "ru": "Прошу рассрочку, так как общая сумма для меня слишком высока." }
+    ],
+    "notes": {
+      "usage": "Rechnung, Zahlung",
+      "collocations": ["Ratenzahlung beantragen","in Raten zahlen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-rueckerstattung",
+    "headword": "Ich bitte um Rückerstattung.",
+    "pos": "PHR",
+    "preview": "прошу возврат",
+    "translation_ru": "прошу возврат средств",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Rückerstattung des Ticketpreises wegen der ausgefallenen Fahrt.", "ru": "Прошу вернуть стоимость билета из-за отменённой поездки." }
+    ],
+    "notes": {
+      "usage": "Reklamation, Service",
+      "collocations": ["Rückerstattung beantragen","Rückerstattung erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-termin-in-der-sprechstunde",
+    "headword": "Ich bitte um Termin in der Sprechstunde.",
+    "pos": "PHR",
+    "preview": "прошу запись",
+    "translation_ru": "прошу назначить время приёма",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Termin in der Sprechstunde am kommenden Mittwoch.", "ru": "Прошу назначить время приёма на следующую среду." }
+    ],
+    "notes": {
+      "usage": "Praxis, Hochschule",
+      "collocations": ["Termin in der Sprechstunde","Termin vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit","Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-uebersetzung-der-dokumente",
+    "headword": "Ich bitte um Übersetzung der Dokumente.",
+    "pos": "PHR",
+    "preview": "прошу перевод",
+    "translation_ru": "прошу перевести документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Übersetzung der Dokumente ins Deutsche bis Ende des Monats.", "ru": "Прошу перевести документы на немецкий до конца месяца." }
+    ],
+    "notes": {
+      "usage": "Behoerde, Service",
+      "collocations": ["Übersetzung der Dokumente","beglaubigte Übersetzung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-verlaengerung-der-frist",
+    "headword": "Ich bitte um Verlängerung der Frist.",
+    "pos": "PHR",
+    "preview": "прошу продлить срок",
+    "translation_ru": "прошу продлить срок",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Verlängerung der Frist, da Unterlagen noch fehlen.", "ru": "Прошу продлить срок, так как ещё не хватает документов." }
+    ],
+    "notes": {
+      "usage": "Fristen, Amt",
+      "collocations": ["Verlängerung der Frist","Fristverlängerung beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Rechtlich"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-danke-ihnen-fuer-ihre-unterstuetzung",
+    "headword": "Ich danke Ihnen für Ihre Unterstützung,",
+    "pos": "PHR",
+    "preview": "спасибо за поддержку",
+    "translation_ru": "благодарю вас за поддержку,",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich danke Ihnen für Ihre Unterstützung, die Angelegenheit konnte dadurch schnell geklärt werden.", "ru": "Благодарю вас за поддержку, благодаря этому вопрос удалось быстро решить." }
+    ],
+    "notes": {
+      "usage": "E-Mail-Abschluss",
+      "collocations": ["für Ihre Unterstützung danken","herzlichen Dank für"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-habe-den-anschluss-verpasst",
+    "headword": "Ich habe den Anschluss verpasst.",
+    "pos": "PHR",
+    "preview": "я пропустил пересадку",
+    "translation_ru": "я пропустил пересадку",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich habe den Anschluss verpasst, weil der erste Zug verspätet war.", "ru": "Я пропустил пересадку, потому что первый поезд опоздал." }
+    ],
+    "notes": {
+      "usage": "Reise, Beschwerde",
+      "collocations": ["Anschluss verpassen","Anschlusszug erreichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Reisen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-habe-die-pruefung-bestanden",
+    "headword": "Ich habe die Prüfung bestanden",
+    "pos": "PHR",
+    "preview": "я сдал экзамен",
+    "translation_ru": "я сдал экзамен",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich habe die Prüfung bestanden und bekomme das Zertifikat nächste Woche.", "ru": "Я сдал экзамен и получу сертификат на следующей неделе." }
+    ],
+    "notes": {
+      "usage": "Bildung, Mitteilung",
+      "collocations": ["Prüfung bestehen","Zertifikat erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-habe-die-pruefung-leider-nicht-bestanden",
+    "headword": "Ich habe die Prüfung leider nicht bestanden.",
+    "pos": "PHR",
+    "preview": "я не сдал экзамен",
+    "translation_ru": "к сожалению, я не сдал экзамен",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich habe die Prüfung leider nicht bestanden und melde mich erneut an.", "ru": "К сожалению, я не сдал экзамен и запишусь снова." }
+    ],
+    "notes": {
+      "usage": "Bildung, Mitteilung",
+      "collocations": ["Prüfung nicht bestehen","erneut anmelden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-habe-die-unterlagen-beigefuegt",
+    "headword": "Ich habe die Unterlagen beigefügt.",
+    "pos": "PHR",
+    "preview": "документы приложены",
+    "translation_ru": "я приложил документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich habe die Unterlagen beigefügt und freue mich auf Ihre Rückmeldung.", "ru": "Я приложил документы и жду вашего ответа." }
+    ],
+    "notes": {
+      "usage": "E-Mail, Bewerbung",
+      "collocations": ["Unterlagen beigefügt","Anlagen beigefügt"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bewerbung","Behoerden"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-interessiere-mich-fuer-das-angebot",
+    "headword": "Ich interessiere mich für das Angebot.",
+    "pos": "PHR",
+    "preview": "интерес к предложению",
+    "translation_ru": "я интересуюсь предложением",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich interessiere mich für das Angebot und bitte um weitere Informationen.", "ru": "Меня интересует предложение, прошу дополнительную информацию." }
+    ],
+    "notes": {
+      "usage": "Anfrage, Einkauf",
+      "collocations": ["sich für das Angebot interessieren","weitere Informationen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-kuendige-den-vertrag-fristgerecht",
+    "headword": "Ich kündige den Vertrag fristgerecht.",
+    "pos": "PHR",
+    "preview": "расторгаю договор",
+    "translation_ru": "я расторгаю договор в установленный срок",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich kündige den Vertrag fristgerecht zum Monatsende schriftlich.", "ru": "Я расторгаю договор в установленный срок к концу месяца письменно." }
+    ],
+    "notes": {
+      "usage": "Kündigung, Vertrag",
+      "collocations": ["Vertrag fristgerecht kündigen","Kündigungsschreiben senden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Rechtlich","Wohnen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-moechte-den-termin-verschieben",
+    "headword": "Ich möchte den Termin verschieben.",
+    "pos": "PHR",
+    "preview": "перенести встречу",
+    "translation_ru": "я хотел бы перенести встречу",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich möchte den Termin verschieben, da ich morgen dienstlich unterwegs bin.", "ru": "Я хотел бы перенести встречу, так как завтра буду в командировке." }
+    ],
+    "notes": {
+      "usage": "Terminänderung",
+      "collocations": ["Termin verschieben","neuen Termin vorschlagen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-moechte-eine-reklamation-einreichen",
+    "headword": "Ich möchte eine Reklamation einreichen.",
+    "pos": "PHR",
+    "preview": "подать претензию",
+    "translation_ru": "я хочу подать рекламацию",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich möchte eine Reklamation einreichen, weil das Gerät nicht funktioniert.", "ru": "Я хочу подать претензию, потому что устройство не работает." }
+    ],
+    "notes": {
+      "usage": "Beschwerde, Service",
+      "collocations": ["Reklamation einreichen","defektes Gerät"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-moechte-mich-auf-die-stelle-bewerben",
+    "headword": "Ich möchte mich auf die Stelle bewerben.",
+    "pos": "PHR",
+    "preview": "подать заявку",
+    "translation_ru": "я хотел бы подать заявление на вакансию",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich möchte mich auf die Stelle bewerben und sende die Unterlagen morgen.", "ru": "Я хотел бы подать заявление на вакансию и отправлю документы завтра." }
+    ],
+    "notes": {
+      "usage": "Bewerbung",
+      "collocations": ["sich auf die Stelle bewerben","Unterlagen senden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-stimme-den-bedingungen-zu",
+    "headword": "Ich stimme den Bedingungen zu.",
+    "pos": "PHR",
+    "preview": "согласен с условиями",
+    "translation_ru": "я согласен с условиями",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich stimme den Bedingungen zu und bestätige die Bestellung.", "ru": "Я согласен с условиями и подтверждаю заказ." }
+    ],
+    "notes": {
+      "usage": "Zustimmung, Bestellung",
+      "collocations": ["den Bedingungen zustimmen","Bestellung bestätigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Rechtlich"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-werde-die-unterlagen-morgen-einreichen",
+    "headword": "Ich werde die Unterlagen morgen einreichen.",
+    "pos": "PHR",
+    "preview": "сдам завтра",
+    "translation_ru": "я подам документы завтра",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich werde die Unterlagen morgen einreichen und Sie danach informieren.", "ru": "Я подам документы завтра и затем вас проинформирую." }
+    ],
+    "notes": {
+      "usage": "Ankündigung, Behoerde",
+      "collocations": ["Unterlagen einreichen","morgen einreichen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Bildung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "im-anhang-finden-sie-die-unterlagen",
+    "headword": "Im Anhang finden Sie die Unterlagen.",
+    "pos": "PHR",
+    "preview": "в приложении документы",
+    "translation_ru": "в приложении вы найдёте документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Im Anhang finden Sie die Unterlagen sowie die aktuelle Bescheinigung.", "ru": "В приложении вы найдёте документы, а также актуальную справку." }
+    ],
+    "notes": {
+      "usage": "E-Mail-Anlage",
+      "collocations": ["Im Anhang finden Sie","Unterlagen im Anhang"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Behoerden"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ist-eine-ermaessigung-moeglich",
+    "headword": "Ist eine Ermäßigung möglich?",
+    "pos": "PHR",
+    "preview": "скидка возможна",
+    "translation_ru": "возможна ли скидка?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ist eine Ermäßigung möglich, wenn ich bar bezahle?", "ru": "Возможна ли скидка, если я заплачу наличными?" }
+    ],
+    "notes": {
+      "usage": "Preisnachfrage",
+      "collocations": ["Ermäßigung möglich","Rabatt erhalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ist-die-wohnung-noch-verfuegbar",
+    "headword": "Ist die Wohnung noch verfügbar?",
+    "pos": "PHR",
+    "preview": "квартира свободна",
+    "translation_ru": "квартира ещё доступна?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ist die Wohnung noch verfügbar, und wann kann ich sie besichtigen?", "ru": "Квартира ещё доступна и когда я могу её посмотреть?" }
+    ],
+    "notes": {
+      "usage": "Wohnungssuche",
+      "collocations": ["Wohnung verfügbar","Besichtigungstermin vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "koennten-sie-mir-bitte-mitteilen-ob",
+    "headword": "Könnten Sie mir bitte mitteilen, ob …?",
+    "pos": "PHR",
+    "preview": "сообщите, пожалуйста",
+    "translation_ru": "не могли бы вы сообщить, …?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Könnten Sie mir bitte mitteilen, ob der Kurs noch Plätze hat?", "ru": "Не могли бы вы сообщить, есть ли ещё места на курсе?" }
+    ],
+    "notes": {
+      "usage": "Höfliche Anfrage",
+      "collocations": ["bitte mitteilen, ob","mich informieren, ob"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Bildung","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "koennten-sie-mir-bitte-zusenden",
+    "headword": "Könnten Sie mir bitte … zusenden?",
+    "pos": "PHR",
+    "preview": "пришлите, пожалуйста",
+    "translation_ru": "не могли бы вы прислать …?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Könnten Sie mir bitte die aktuelle Rechnung als PDF zusenden?", "ru": "Не могли бы вы прислать мне актуальный счёт в формате PDF?" }
+    ],
+    "notes": {
+      "usage": "Höfliche Bitte",
+      "collocations": ["mir die Unterlagen zusenden","mir Informationen zusenden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Einkaufen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "koennten-sie-mir-eine-bescheinigung-ausstellen",
+    "headword": "Könnten Sie mir eine Bescheinigung ausstellen?",
+    "pos": "PHR",
+    "preview": "выдать справку",
+    "translation_ru": "не могли бы вы выдать мне справку?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Könnten Sie mir eine Bescheinigung ausstellen, damit ich das nachweisen kann?", "ru": "Не могли бы вы выдать мне справку, чтобы я мог это подтвердить?" }
+    ],
+    "notes": {
+      "usage": "Behörde, Arzt",
+      "collocations": ["Bescheinigung ausstellen","ärztliche Bescheinigung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Gesundheit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "mit-freundlichen-gruessen",
+    "headword": "Mit freundlichen Grüßen",
+    "pos": "PHR",
+    "preview": "с уважением",
+    "translation_ru": "с уважением",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Mit freundlichen Grüßen und vielen Dank für Ihre Unterstützung.", "ru": "С уважением и большое спасибо за вашу поддержку." }
+    ],
+    "notes": {
+      "usage": "Briefschluss",
+      "collocations": ["Mit freundlichen Grüßen","Freundliche Grüße"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "vielen-dank-fuer-ihre-rueckmeldung",
+    "headword": "Vielen Dank für Ihre Rückmeldung,",
+    "pos": "PHR",
+    "preview": "спасибо за ответ",
+    "translation_ru": "большое спасибо за ваш ответ,",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Vielen Dank für Ihre Rückmeldung, ich werde die Änderungen umsetzen.", "ru": "Большое спасибо за ваш ответ, я выполню изменения." }
+    ],
+    "notes": {
+      "usage": "Antwort-Einstieg",
+      "collocations": ["Danke für Ihre Rückmeldung","herzlichen Dank für"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Arbeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vielen-dank-im-voraus",
+    "headword": "Vielen Dank im Voraus,",
+    "pos": "PHR",
+    "preview": "заранее спасибо",
+    "translation_ru": "заранее спасибо,",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Vielen Dank im Voraus, ich freue mich auf Ihre Antwort.", "ru": "Заранее спасибо, буду рад вашему ответу." }
+    ],
+    "notes": {
+      "usage": "Höflicher Abschluss",
+      "collocations": ["Danke im Voraus","besten Dank im Voraus"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Kommunikation","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wie-hoch-sind-die-nebenkosten",
+    "headword": "Wie hoch sind die Nebenkosten?",
+    "pos": "PHR",
+    "preview": "коммунальные расходы",
+    "translation_ru": "какова сумма коммунальных расходов?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wie hoch sind die Nebenkosten und was ist darin enthalten?", "ru": "Какова сумма коммунальных расходов и что туда входит?" }
+    ],
+    "notes": {
+      "usage": "Wohnungssuche",
+      "collocations": ["hohe Nebenkosten","Nebenkosten enthalten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Wohnen","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "wo-finde-ich-den-aktuellen-fahrplan",
+    "headword": "Wo finde ich den aktuellen Fahrplan?",
+    "pos": "PHR",
+    "preview": "где расписание",
+    "translation_ru": "где я могу найти актуальное расписание?",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Wo finde ich den aktuellen Fahrplan für die Linie zwölf?", "ru": "Где я могу найти актуальное расписание для линии двенадцать?" }
+    ],
+    "notes": {
+      "usage": "Information, Reise",
+      "collocations": ["aktuellen Fahrplan finden","Fahrplan online"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Verkehr","Stadtleben"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-terminverschiebung",
+    "headword": "Ich möchte den Termin verschieben.",
+    "pos": "PHR",
+    "preview": "перенос встречи",
+    "translation_ru": "я хотел бы перенести встречу",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich möchte den Termin verschieben, weil ich einen Arztbesuch habe.", "ru": "Я хотел бы перенести встречу, потому что у меня визит к врачу." }
+    ],
+    "notes": {
+      "usage": "Terminmanagement",
+      "collocations": ["Termin verschieben","neuen Termin vereinbaren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Gesundheit","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "leider-muss-ich-den-termin-absagen",
+    "headword": "Leider muss ich den Termin absagen.",
+    "pos": "PHR",
+    "preview": "отменяю встречу",
+    "translation_ru": "к сожалению, мне нужно отменить встречу",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Leider muss ich den Termin absagen, da ein Notfall eingetreten ist.", "ru": "К сожалению, мне нужно отменить встречу, так как произошёл форс-мажор." }
+    ],
+    "notes": {
+      "usage": "Terminabsage",
+      "collocations": ["Termin absagen","Absage senden"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit","Gesundheit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-reiche-die-fehlenden-unterlagen-nach",
+    "headword": "Ich reiche die fehlenden Unterlagen nach.",
+    "pos": "PHR",
+    "preview": "дошлю документы",
+    "translation_ru": "я досылаю недостающие документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich reiche die fehlenden Unterlagen nach, sobald ich die Bescheinigung erhalte.", "ru": "Я досылаю недостающие документы, как только получу справку." }
+    ],
+    "notes": {
+      "usage": "Behoerde, Bewerbung",
+      "collocations": ["Unterlagen nachreichen","fehlende Unterlagen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Bewerbung"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-habe-eine-falsche-rechnung-erhalten",
+    "headword": "Ich habe eine falsche Rechnung erhalten.",
+    "pos": "PHR",
+    "preview": "получил неверный счёт",
+    "translation_ru": "я получил неверный счёт",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich habe eine falsche Rechnung erhalten und bitte um Korrektur.", "ru": "Я получил неверный счёт и прошу исправление." }
+    ],
+    "notes": {
+      "usage": "Beschwerde, Abrechnung",
+      "collocations": ["falsche Rechnung","um Korrektur bitten"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "bitte-bestaetigen-sie-den-erhalt-der-unterlagen",
+    "headword": "Bitte bestätigen Sie den Erhalt.",
+    "pos": "PHR",
+    "preview": "подтвердите получение",
+    "translation_ru": "пожалуйста, подтвердите получение",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte bestätigen Sie den Erhalt der Unterlagen bis morgen Vormittag.", "ru": "Пожалуйста, подтвердите получение документов до завтрашнего утра." }
+    ],
+    "notes": {
+      "usage": "E-Mail, Versand",
+      "collocations": ["Erhalt der Unterlagen","Erhalt bestätigen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Kommunikation"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "bitte-teilen-sie-mir-den-preis-mit-anfrage",
+    "headword": "Bitte teilen Sie mir den Preis mit.",
+    "pos": "PHR",
+    "preview": "сообщите цену",
+    "translation_ru": "пожалуйста, сообщите цену",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Bitte teilen Sie mir den Preis inklusive Versandkosten mit.", "ru": "Пожалуйста, сообщите цену с учётом стоимости доставки." }
+    ],
+    "notes": {
+      "usage": "Angebot, Kauf",
+      "collocations": ["Preis inklusive Versand","Preis anfragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Einkaufen","Dienstleistungen"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-rueckerstattung-anfrage",
+    "headword": "Ich bitte um Rückerstattung.",
+    "pos": "PHR",
+    "preview": "прошу возврат",
+    "translation_ru": "прошу возврат средств",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Rückerstattung, da die Leistung nicht erbracht wurde.", "ru": "Прошу возврат средств, так как услуга не была предоставлена." }
+    ],
+    "notes": {
+      "usage": "Reklamation",
+      "collocations": ["Rückerstattung des Betrags","Rückerstattung beantragen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Einkaufen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-anerkennung-unterlagen",
+    "headword": "Ich bitte um Anerkennung meiner Unterlagen.",
+    "pos": "PHR",
+    "preview": "признать документы",
+    "translation_ru": "прошу признать мои документы",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Anerkennung meiner Unterlagen für die Arbeitsplatzsuche.", "ru": "Прошу признать мои документы для поиска работы." }
+    ],
+    "notes": {
+      "usage": "Anerkennung, Amt",
+      "collocations": ["Unterlagen anerkennen","Anerkennungsstelle kontaktieren"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Behoerden","Arbeit"],
+    "register": "formell",
+    "b1_verified": true
+  },
+  {
+    "id": "ich-bitte-um-uebersetzung",
+    "headword": "Ich bitte um Übersetzung der Dokumente.",
+    "pos": "PHR",
+    "preview": "нужен перевод",
+    "translation_ru": "прошу перевод документов",
+    "gender": null,
+    "forms": null,
+    "examples": [
+      { "de": "Ich bitte um Übersetzung der Dokumente ins Englische bis nächste Woche.", "ru": "Прошу перевести документы на английский до следующей недели." }
+    ],
+    "notes": {
+      "usage": "Service, Amt",
+      "collocations": ["Dokumente übersetzen","beglaubigte Übersetzung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Dienstleistungen","Behoerden"],
+    "register": "formell",
+    "b1_verified": true
+  }
+]
