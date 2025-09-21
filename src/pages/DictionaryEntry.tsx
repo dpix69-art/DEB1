@@ -135,7 +135,7 @@ export function DictionaryEntry() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-6">
         {/* Верхняя навигация */}
-        <div className="flex items-center justify-between mb-6">
+        {/* <div className="flex items-center justify-between mb-6">
           <Link to="/dictionary" className="p-2 hover:bg-gray-100 rounded" style={{ color: '#111' }}>← Back</Link>
           <div className="flex items-center gap-2">
             {prev && (
@@ -151,7 +151,7 @@ export function DictionaryEntry() {
               </Link>
             )}
           </div>
-        </div>
+        </div> */}
 
         {/* Карточка записи */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
