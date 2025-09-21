@@ -54,7 +54,7 @@ const normalizeModule = (path: string, mod: any): LevelModule => {
   }
   const pathIdx = numberFromPath(path);
   const fallbackId = `level${Number.isFinite(pathIdx) ? pathIdx : ''}`;
-  const cards = Array.isArray(mod?.cards) ? mod.cards : [];
+  const cards = Array.isArray(mod?.cards) ? mod?.cards : [];
   return {
     id: (typeof mod?.id === 'string' && mod.id.length) ? mod.id : fallbackId,
     title: mod?.title,
@@ -87,21 +87,114 @@ export const getCard = (moduleId: string, cardId: string) => {
 };
 
 // ───────────────────────────────────────────────────────────
-// ДОП. РАЗДЕЛЫ (опционально): словарь и письма
+// СЛОВАРЬ: автосборка из нескольких файлов
 // ───────────────────────────────────────────────────────────
 
-const dictGlob = Object.assign(
-  {},
+const BUCKET_KEYS = ['nouns', 'verbs', 'adjectives', 'advs', 'adverbs', 'phrases'] as const;
+
+// Папка словаря: собираем из /data/dictionary/*.json (кроме manifest.json и файлов, начинающихся с "_")
+const dictFolderGlobs = [
+  import.meta.glob('../data/dictionary/*.json', { eager: true, import: 'default' }),
+  import.meta.glob('/src/data/dictionary/*.json', { eager: true, import: 'default' }),
+  import.meta.glob('./data/dictionary/*.json', { eager: true, import: 'default' }),
+  import.meta.glob('../../data/dictionary/*.json', { eager: true, import: 'default' }),
+] as Array<Record<string, any>>;
+const dictPartsGlob: Record<string, any> = Object.assign({}, ...dictFolderGlobs);
+
+// Совместимость: старый файл /data/dictionary.json
+const dictSingleGlobs = [
   import.meta.glob('../data/dictionary.json', { eager: true, import: 'default' }),
   import.meta.glob('/src/data/dictionary.json', { eager: true, import: 'default' }),
   import.meta.glob('./data/dictionary.json', { eager: true, import: 'default' }),
   import.meta.glob('../../data/dictionary.json', { eager: true, import: 'default' }),
-) as Record<string, any>;
-const rawDict = Object.values(dictGlob)[0];
-const dictionaryIndex: AnyRecord[] = Array.isArray(rawDict) ? rawDict : [];
+] as Array<Record<string, any>>;
+const dictSingleGlob: Record<string, any> = Object.assign({}, ...dictSingleGlobs);
+const dictSingle = Object.values(dictSingleGlob)[0];
+
+let dictionaryIndex: AnyRecord[] = [];
+
+// Сборка:
+//  - если есть папка /dictionary → берём все массивы, кроме manifest.json и _draft-файлов, и склеиваем
+//  - если нет → берём старый dictionary.json (если он массив)
+//  - если вместо массива пришёл "bundle-объект" { nouns:[], verbs:[], ... } → склеиваем поля
+(() => {
+  const entries = Object.entries(dictPartsGlob);
+  const hasFolder = entries.length > 0;
+
+  if (hasFolder) {
+    const parts = entries
+      .filter(([path]) => !/manifest\.json$/i.test(path) && !/(^|\/)_.*\.json$/i.test(path))
+      .map(([, mod]) => mod);
+
+    const flattened: AnyRecord[] = [];
+    for (const part of parts) {
+      if (Array.isArray(part)) {
+        flattened.push(...part);
+      } else if (part && typeof part === 'object') {
+        for (const key of BUCKET_KEYS) {
+          const bucket = (part as AnyRecord)[key];
+          if (Array.isArray(bucket)) flattened.push(...bucket);
+        }
+      }
+    }
+    dictionaryIndex = flattened;
+  } else if (Array.isArray(dictSingle)) {
+    dictionaryIndex = dictSingle;
+  } else if (dictSingle && typeof dictSingle === 'object') {
+    for (const k of BUCKET_KEYS) {
+      const bucket = (dictSingle as AnyRecord)[k];
+      if (Array.isArray(bucket)) dictionaryIndex.push(...bucket);
+    }
+  }
+
+  // Дедуп по id + фильтр битых записей
+  const seen = new Set<string>();
+  dictionaryIndex = dictionaryIndex
+    .filter(
+      (e) =>
+        e &&
+        typeof e === 'object' &&
+        typeof (e as AnyRecord).id === 'string' &&
+        (e as AnyRecord).id.trim() !== ''
+    )
+    .filter((e) => {
+      const id = (e as AnyRecord).id as string;
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
+
+  // Простая валидация схемы (только в DEV)
+  if ((import.meta as any)?.env?.DEV) {
+    const bad = dictionaryIndex.filter(
+      (e) =>
+        typeof (e as AnyRecord).id !== 'string' ||
+        typeof (e as AnyRecord).headword !== 'string' ||
+        typeof (e as AnyRecord).pos !== 'string'
+    );
+    if (bad.length) {
+      console.warn(
+        '[dictionary] invalid entries:',
+        bad.slice(0, 3),
+        bad.length > 3 ? `+${bad.length - 3} more` : ''
+      );
+    }
+  }
+})();
+
+// Карта для O(1) доступа по id + иммутабельность массива
+const dictById = new Map<string, AnyRecord>();
+for (const e of dictionaryIndex) {
+  dictById.set((e as AnyRecord).id as string, e);
+}
+Object.freeze(dictionaryIndex);
+
 export const getDictionaryIndex = () => dictionaryIndex;
-export const getDictionaryEntry = (id: string) =>
-  dictionaryIndex.find(e => e?.id === id) ?? null;
+export const getDictionaryEntry = (id: string) => dictById.get(id) ?? null;
+
+// ───────────────────────────────────────────────────────────
+// ДОП. РАЗДЕЛ: письма (emails)
+// ───────────────────────────────────────────────────────────
 
 const emailsGlob = Object.assign(
   {},
