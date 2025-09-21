@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
-import { ArrowLeft, Home } from 'lucide-react';
+import { ArrowLeft, Home, ArrowRight } from 'lucide-react';
 import { getCard } from '../lib/data';
 import { CaseTag } from '../components/CaseTag';
 import { ExampleList } from '../components/ExampleList';
@@ -23,7 +23,12 @@ export function Card() {
   }
   
   const { module, card } = result;
-  
+
+  // ── NEW: вычисляем следующую карточку в модуле
+  const currentIndex = module.cards.findIndex((c: any) => c.id === card.id);
+  const isLast = currentIndex === module.cards.length - 1;
+  const nextCard = !isLast ? module.cards[currentIndex + 1] : null;
+
   const renderExercise = (exercise: any, index: number) => {
     const key = `${exercise.type}-${index}`;
     
@@ -106,7 +111,7 @@ export function Card() {
           {/* Exercises */}
           <div className="space-y-6">
             <h2 className="text-2xl font-bold" style={{ color: '#111' }}>Exercises</h2>
-            {card.exercises.map((exercise, index) => (
+            {card.exercises.map((exercise: any, index: number) => (
               <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
                 {renderExercise(exercise, index)}
               </div>
@@ -118,7 +123,7 @@ export function Card() {
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <h3 className="text-lg font-semibold mb-4" style={{ color: '#111' }}>Vocabulary</h3>
               <div className="grid gap-2">
-                {card.vocab.map((item, index) => (
+                {card.vocab.map((item: any, index: number) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
                     <span style={{ color: '#111' }}>{item.de}</span>
                     <span style={{ color: '#666' }} className="italic">{item.ru}</span>
@@ -127,6 +132,37 @@ export function Card() {
               </div>
             </div>
           )}
+
+          {/* ── NEW: Нижняя навигация "Next" / "Back to level" + прогресс */}
+          <div className="pt-2 pb-8">
+            {!isLast && nextCard ? (
+              <div className="space-y-2">
+                <Link
+                  to={`/card/${moduleId}/${nextCard.id}`}
+                  className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-black text-white rounded-lg hover:bg-gray-900 transition-colors"
+                >
+                  <span className="font-semibold">Next</span>
+                  <span className="opacity-90">— {nextCard.expression}</span>
+                  <ArrowRight size={18} />
+                </Link>
+                <p className="text-center text-sm" style={{ color: '#666' }}>
+                  {currentIndex + 1} / {module.cards.length}
+                </p>
+              </div>
+            ) : (
+              <div className="space-y-2">
+                <Link
+                  to={`/level/${moduleId}`}
+                  className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-gray-900 text-white rounded-lg hover:bg-black transition-colors"
+                >
+                  Back to level
+                </Link>
+                <p className="text-center text-sm" style={{ color: '#666' }}>
+                  {module.cards.length} / {module.cards.length}
+                </p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
