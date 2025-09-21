@@ -52,7 +52,7 @@ const TitleByPos = (pos: string) => {
   }
 };
 
-export default function DictionaryCategory() {
+export function DictionaryCategory() {
   const { pos } = useParams<{ pos: string }>();
   if (!pos) return <Navigate to="/dictionary" replace />;
 
@@ -83,14 +83,14 @@ export default function DictionaryCategory() {
       <div className="container mx-auto px-4 py-6">
 
         <div className="flex items-center justify-between mb-6">
-          <Link to="/dictionary" className="p-2 hover:bg-gray-100 rounded text-gray-900">
+          <Link to="/dictionary" className="p-2 hover:bg-gray-100 rounded" style={{ color: '#111' }}>
             ← Back to dictionary
           </Link>
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
-          <div className="text-sm text-gray-600">
+          <h1 className="text-3xl font-bold" style={{ color: '#111' }}>{title}</h1>
+          <div className="text-sm" style={{ color: '#666' }}>
             {filtered.length} {filtered.length === 1 ? 'Eintrag' : 'Einträge'}
           </div>
         </div>
@@ -100,12 +100,13 @@ export default function DictionaryCategory() {
             value={q}
             onChange={e => setQ(e.target.value)}
             placeholder="Suche / Поиск… (DE/RU)"
-            className="w-full rounded-lg border px-4 py-2 bg-white text-gray-900 border-gray-200"
+            className="w-full rounded-lg border px-4 py-2"
+            style={{ borderColor: '#E5E7EB', background: '#FFF', color: '#111' }}
           />
         </div>
 
         {filtered.length === 0 ? (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-sm text-gray-600">
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-sm" style={{ color: '#666' }}>
             Ничего не найдено. Попробуй изменить запрос.
           </div>
         ) : (
@@ -120,19 +121,22 @@ export default function DictionaryCategory() {
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-2 mb-1">
-                        <div className="text-lg font-semibold truncate text-gray-900" style={{ maxWidth: '18rem' }}>
+                        <div className="text-lg font-semibold truncate" style={{ color: '#111', maxWidth: '18rem' }}>
                           {it.headword}
                         </div>
-                        <span className="inline-flex items-center rounded border px-1.5 py-0.5 text-xs border-gray-200 bg-gray-50 text-gray-700">
+                        <span className="inline-flex items-center rounded border px-1.5 py-0.5 text-xs"
+                          style={{ borderColor: '#E5E7EB', color: '#374151', background: '#F9FAFB' }}>
                           {POS_LABEL(it.pos)}
                         </span>
                         {it.register ? (
-                          <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs border-gray-200 bg-gray-100 text-gray-600">
+                          <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs"
+                            style={{ borderColor: '#E5E7EB', color: '#6B7280', background: '#F3F4F6' }}>
                             {it.register}
                           </span>
                         ) : null}
                         {it.b1_verified ? (
-                          <span className="inline-flex items-center rounded-full px-2 py-0.5 text-xs bg-emerald-50 text-emerald-700">
+                          <span className="inline-flex items-center rounded-full px-2 py-0.5 text-xs"
+                            style={{ background: '#ECFDF5', color: '#065F46' }}>
                             B1
                           </span>
                         ) : null}
@@ -140,16 +144,16 @@ export default function DictionaryCategory() {
 
                       <div className="text-sm">
                         {it.translation_ru ? (
-                          <span className="text-gray-900">{it.translation_ru}</span>
+                          <span style={{ color: '#111' }}>{it.translation_ru}</span>
                         ) : null}
                         {it.preview && it.preview !== it.translation_ru ? (
-                          <span className="text-gray-600"> — {it.preview}</span>
+                          <span style={{ color: '#6B7280' }}> — {it.preview}</span>
                         ) : null}
                       </div>
                     </div>
 
                     <div className="self-start">
-                      <span className="text-sm group-hover:underline text-gray-900">
+                      <span className="text-sm group-hover:underline" style={{ color: '#111' }}>
                         Открыть →
                       </span>
                     </div>

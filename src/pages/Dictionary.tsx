@@ -53,18 +53,16 @@ export default function Dictionary() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-3xl font-bold text-gray-900">Dictionary</h1>
-          <div className="text-sm text-gray-600">
+          <h1 className="text-3xl font-bold" style={{ color: '#111' }}>Dictionary</h1>
+          <div className="text-sm" style={{ color: '#666' }}>
             {items.length} {items.length === 1 ? 'Eintrag' : 'Einträge'}
           </div>
         </div>
 
         {buckets.length === 0 ? (
-          <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-sm text-gray-600">
-            Похоже, словарь пуст. Убедись, что файлы лежат в
-            <code className="mx-1 px-1 py-0.5 rounded bg-gray-100">/src/data/dictionary/*.json</code>
-            или в
-            <code className="ml-1 px-1 py-0.5 rounded bg-gray-100">/src/data/dictionary.json</code>.
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-sm" style={{ color: '#666' }}>
+            Похоже, словарь пуст. Убедись, что файлы лежат в <code className="px-1 py-0.5 rounded bg-gray-100">/src/data/dictionary/*.json</code>
+            или в <code className="px-1 py-0.5 rounded bg-gray-100">/src/data/dictionary.json</code>.
           </div>
         ) : (
           <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,29 +75,30 @@ export default function Dictionary() {
                 <div className="h-full bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md transition">
                   <div className="flex items-start justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="rounded-lg p-2 border border-gray-200 bg-gray-50">
-                        <BookOpen size={20} className="text-gray-700" />
+                      <div className="rounded-lg p-2 border" style={{ borderColor: '#E5E7EB', background: '#F9FAFB' }}>
+                        <BookOpen size={20} />
                       </div>
                       <div>
-                        <h2 className="text-xl font-semibold leading-tight text-gray-900">
+                        <h2 className="text-xl font-semibold leading-tight" style={{ color: '#111' }}>
                           {title}
                         </h2>
-                        <div className="text-sm text-gray-600">
+                        <div className="text-sm" style={{ color: '#6B7280' }}>
                           {count} {count === 1 ? 'Eintrag' : 'Einträge'}
                         </div>
                       </div>
                     </div>
-                    <span className="text-xs rounded-full px-2 py-0.5 border border-gray-200 bg-gray-50 text-gray-700">
+                    <span className="text-sm rounded-full px-2 py-0.5 border"
+                      style={{ borderColor: '#E5E7EB', color: '#374151', background: '#F9FAFB' }}>
                       {pos}
                     </span>
                   </div>
 
-                  <div className="mt-4 text-sm text-gray-600">
+                  <div className="mt-4 text-sm" style={{ color: '#6B7280' }}>
                     Открой, чтобы посмотреть список и поискать по заголовку или переводу.
                   </div>
 
                   <div className="mt-4 text-right">
-                    <span className="text-sm group-hover:underline text-gray-900">
+                    <span className="text-sm group-hover:underline" style={{ color: '#111' }}>
                       Открыть →
                     </span>
                   </div>
