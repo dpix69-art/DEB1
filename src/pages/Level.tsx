@@ -26,8 +26,8 @@ export function Level() {
               <ArrowLeft size={24} style={{ color: '#111' }} />
             </Link>
             <h1 className="text-2xl font-bold" style={{ color: '#111' }}>
-              {module.name}
-            </h1>
+  {module.title ?? module.id}
+</h1>
           </div>
           <Link to="/" className="p-2 hover:bg-gray-100 rounded">
             <Home size={24} style={{ color: '#666' }} />
