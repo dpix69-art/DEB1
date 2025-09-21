@@ -1,118 +1,394 @@
 [
   {
-    "id": "beteiligt",
-    "headword": "beteiligt",
-    "pos": "ADJ",
-    "preview": "участвующий",
-    "translation_ru": "участвующий; причастный",
-    "forms": {
-      "comparative": null,
-      "superlative": null
-    },
-    "examples": [
-      { "de": "Viele Mitarbeitende sind an dem Projekt beteiligt.", "ru": "Многие сотрудники вовлечены в проект." },
-      { "de": "Sie ist aktiv beteiligt und übernimmt Verantwortung.", "ru": "Она активно участвует и берёт ответственность." }
-    ],
-    "topics": ["Arbeit", "Team"]
-  },
-  {
-    "id": "bestaetigen",
-    "headword": "bestätigen",
+    "id": "sich-bewerben",
+    "headword": "sich bewerben",
     "pos": "V",
-    "preview": "подтверждать",
-    "translation_ru": "подтверждать",
+    "preview": "подавать заявку",
+    "translation_ru": "подавать заявку; устраиваться",
+    "gender": null,
     "forms": {
-      "infinitive": "bestätigen",
-      "praesens_ich": "ich bestätige",
-      "praeteritum_ich": "ich bestätigte",
-      "perfekt_ich": "ich habe bestätigt"
+      "infinitive": "sich bewerben",
+      "praeteritum_3sg": "er/sie bewarb sich",
+      "partizip_ii": "beworben",
+      "perfekt_3sg": "er/sie hat sich beworben"
     },
     "examples": [
-      { "de": "Können Sie den Termin bitte per E-Mail bestätigen?", "ru": "Вы можете, пожалуйста, подтвердить встречу по e-mail?" },
-      { "de": "Die Schule hat meine Anmeldung bestätigt.", "ru": "Школа подтвердила мою регистрацию." }
+      { "de": "Sie bewirbt sich um eine Stelle als Verkäuferin.", "ru": "Она подаёт заявку на вакансию продавца." },
+      { "de": "Er hat sich bei drei Firmen beworben.", "ru": "Он подал заявки в три компании." }
     ],
-    "topics": ["Kommunikation", "Formalitäten"]
+    "notes": {
+      "usage": "sich bewerben um + Akk (Stelle), bei + Dat (Firma)",
+      "collocations": ["Bewerbung schreiben", "sich online bewerben"],
+      "synonyms": ["eine Bewerbung einreichen"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
   },
   {
-    "id": "kompromiss",
-    "headword": "der Kompromiss",
+    "id": "bewerbung",
+    "headword": "die Bewerbung",
     "pos": "N",
-    "preview": "компромисс",
-    "translation_ru": "компромисс",
+    "preview": "заявка",
+    "translation_ru": "заявка на работу; резюме с документами",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Bewerbung",
+      "plural": "die Bewerbungen"
+    },
+    "examples": [
+      { "de": "Die Bewerbung soll bis Freitag eingehen.", "ru": "Заявка должна поступить до пятницы." },
+      { "de": "Er hat seine Bewerbung per E-Mail geschickt.", "ru": "Он отправил заявку по электронной почте." }
+    ],
+    "notes": {
+      "usage": "Bewerbungsunterlagen: Lebenslauf, Anschreiben, Zeugnisse",
+      "collocations": ["Bewerbung abschicken", "Bewerbung prüfen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung", "Formalitäten"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "stelle",
+    "headword": "die Stelle",
+    "pos": "N",
+    "preview": "место работы",
+    "translation_ru": "должность; рабочее место",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Stelle",
+      "plural": "die Stellen"
+    },
+    "examples": [
+      { "de": "Er sucht eine feste Stelle in Stuttgart.", "ru": "Он ищет постоянную работу в Штутгарте." },
+      { "de": "Die Stelle ist ab sofort verfügbar.", "ru": "Должность доступна немедленно." }
+    ],
+    "notes": {
+      "usage": "offene Stelle = вакансия",
+      "collocations": ["eine Stelle ausschreiben", "eine Stelle antreten"],
+      "synonyms": ["Arbeitsplatz"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "vorstellungsgespraech",
+    "headword": "das Vorstellungsgespräch",
+    "pos": "N",
+    "preview": "собеседование",
+    "translation_ru": "собеседование",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Vorstellungsgesprächs",
+      "plural": "die Vorstellungsgespräche"
+    },
+    "examples": [
+      { "de": "Mein Vorstellungsgespräch ist am Donnerstag um zehn.", "ru": "Моё собеседование в четверг в десять." },
+      { "de": "Sie bereitet Fragen für das Vorstellungsgespräch vor.", "ru": "Она готовит вопросы к собеседованию." }
+    ],
+    "notes": {
+      "usage": "typische Fragen: Stärken/Schwächen, Motivation, Erfahrung",
+      "collocations": ["ein Gespräch führen", "zum Gespräch einladen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "lebenslauf",
+    "headword": "der Lebenslauf",
+    "pos": "N",
+    "preview": "резюме",
+    "translation_ru": "резюме",
     "gender": "m",
     "forms": {
       "article": "der",
-      "genitiv": "des Kompromisses",
-      "plural": "die Kompromisse"
+      "genitiv": "des Lebenslaufs",
+      "plural": "die Lebensläufe"
     },
     "examples": [
-      { "de": "Ein guter Kompromiss ist für beide Seiten fair.", "ru": "Хороший компромисс справедлив для обеих сторон." },
-      { "de": "Nach langen Gesprächen fanden sie einen Kompromiss.", "ru": "После долгих переговоров они нашли компромисс." }
+      { "de": "Bitte senden Sie Ihren Lebenslauf als PDF.", "ru": "Пожалуйста, пришлите резюме в формате PDF." },
+      { "de": "Der Lebenslauf soll kurz und übersichtlich sein.", "ru": "Резюме должно быть кратким и наглядным." }
     ],
-    "topics": ["Diskussion", "Konflikt"]
+    "notes": {
+      "usage": "CV = Lebenslauf; mit Anschreiben und Zeugnissen",
+      "collocations": ["Lebenslauf aktualisieren", "Lebenslauf beilegen"],
+      "synonyms": ["CV"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung", "Dokumente"],
+    "register": "neutral",
+    "b1_verified": true
   },
   {
-    "id": "unnoetig",
-    "headword": "unnötig",
-    "pos": "ADJ",
-    "preview": "ненужный",
-    "translation_ru": "ненужный; излишний",
+    "id": "qualifikation",
+    "headword": "die Qualifikation",
+    "pos": "N",
+    "preview": "квалификация",
+    "translation_ru": "квалификация",
+    "gender": "f",
     "forms": {
-      "comparative": "unnötiger",
-      "superlative": "am unnötigsten"
+      "article": "die",
+      "genitiv": "der Qualifikation",
+      "plural": "die Qualifikationen"
     },
     "examples": [
-      { "de": "Mach dir keine unnötigen Sorgen.", "ru": "Не переживай лишний раз." },
-      { "de": "Die Ausgabe war völlig unnötig.", "ru": "Эти расходы были совершенно не нужны." }
+      { "de": "Welche Qualifikationen bringen Sie mit?", "ru": "Какими квалификациями вы обладаете?" },
+      { "de": "Die Stelle erfordert eine technische Qualifikation.", "ru": "Вакансия требует технической квалификации." }
     ],
-    "topics": ["Bewertung"]
+    "notes": {
+      "usage": "formale und praktische Qualifikationen",
+      "collocations": ["Qualifikationen nachweisen", "Qualifikationen anerkennen"],
+      "synonyms": ["Eignung"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Bewerbung", "Bildung"],
+    "register": "neutral",
+    "b1_verified": true
   },
   {
-    "id": "laut",
-    "headword": "laut",
-    "pos": "ADJ",
-    "preview": "громкий",
-    "translation_ru": "громкий",
+    "id": "unterlagen",
+    "headword": "die Unterlagen (Pl.)",
+    "pos": "N",
+    "preview": "документы",
+    "translation_ru": "документы; материалы",
+    "gender": "f",
     "forms": {
-      "comparative": "lauter",
-      "superlative": "am lautesten"
+      "article": "die",
+      "genitiv": "der Unterlagen",
+      "plural": "die Unterlagen"
     },
     "examples": [
-      { "de": "Die Musik ist zu laut.", "ru": "Музыка слишком громкая." },
-      { "de": "Bitte sprich nicht so laut.", "ru": "Пожалуйста, не говори так громко." }
+      { "de": "Bitte reichen Sie alle Unterlagen fristgerecht ein.", "ru": "Пожалуйста, сдайте все документы в срок." },
+      { "de": "Ihm fehlen noch zwei Unterlagen.", "ru": "Ему не хватает ещё двух документов." }
     ],
-    "topics": ["Alltag", "Beschreibung"]
+    "notes": {
+      "usage": "Bewerbungsunterlagen, Antragsunterlagen",
+      "collocations": ["Unterlagen einreichen", "Unterlagen nachreichen"],
+      "synonyms": ["Dokumente"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Formalitäten", "Behörden"],
+    "register": "neutral",
+    "b1_verified": true
   },
   {
-    "id": "hart",
-    "headword": "hart",
-    "pos": "ADJ",
-    "preview": "жёсткий",
-    "translation_ru": "жёсткий; твёрдый; суровый",
+    "id": "frist",
+    "headword": "die Frist",
+    "pos": "N",
+    "preview": "срок",
+    "translation_ru": "срок (дедлайн)",
+    "gender": "f",
     "forms": {
-      "comparative": "härter",
-      "superlative": "am härtesten"
+      "article": "die",
+      "genitiv": "der Frist",
+      "plural": "die Fristen"
     },
     "examples": [
-      { "de": "Das Brot ist schon hart.", "ru": "Хлеб уже черствый." },
-      { "de": "Er arbeitet hart für sein Ziel.", "ru": "Он усердно работает ради своей цели." }
+      { "de": "Die Frist endet am 31. Oktober.", "ru": "Срок заканчивается 31 октября." },
+      { "de": "Wir konnten die Frist nicht einhalten.", "ru": "Мы не смогли уложиться в срок." }
     ],
-    "topics": ["Beschreibung", "Arbeit"]
+    "notes": {
+      "usage": "Frist einhalten/verpassen/verlängern",
+      "collocations": ["bis zur Frist", "Fristverlängerung"],
+      "synonyms": ["Deadline"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Formalitäten", "Zeit"],
+    "register": "neutral",
+    "b1_verified": true
   },
   {
-    "id": "schriftlich",
-    "headword": "schriftlich",
-    "pos": "ADJ",
-    "preview": "письменно",
-    "translation_ru": "письменный; письменно",
+    "id": "absage",
+    "headword": "die Absage",
+    "pos": "N",
+    "preview": "отказ",
+    "translation_ru": "отказ; отрицательный ответ",
+    "gender": "f",
     "forms": {
-      "comparative": null,
-      "superlative": null
+      "article": "die",
+      "genitiv": "der Absage",
+      "plural": "die Absagen"
     },
     "examples": [
-      { "de": "Bitte geben Sie Ihre Beschwerde schriftlich ab.", "ru": "Пожалуйста, подайте жалобу письменно." },
-      { "de": "Die Zusage kam schriftlich per Post.", "ru": "Подтверждение пришло письменно по почте." }
+      { "de": "Leider haben wir eine Absage erhalten.", "ru": "К сожалению, мы получили отказ." },
+      { "de": "Nach dem Gespräch kam eine freundliche Absage.", "ru": "После беседы пришёл вежливый отказ." }
     ],
-    "topics": ["Formalitäten"]
+    "notes": {
+      "usage": "Absage zu/auf + Akk",
+      "collocations": ["eine Absage schicken", "eine Absage bekommen"],
+      "synonyms": [],
+      "antonyms": ["Zusage"]
+    },
+    "topics": ["Arbeit", "Bewerbung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "zusage",
+    "headword": "die Zusage",
+    "pos": "N",
+    "preview": "подтверждение",
+    "translation_ru": "согласие; положительный ответ",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Zusage",
+      "plural": "die Zusagen"
+    },
+    "examples": [
+      { "de": "Er hat gestern die Zusage bekommen.", "ru": "Он получил подтверждение вчера." },
+      { "de": "Wir warten noch auf die schriftliche Zusage.", "ru": "Мы ещё ждём письменного подтверждения." }
+    ],
+    "notes": {
+      "usage": "Zusage zu/für + Akk",
+      "collocations": ["eine Zusage erhalten", "Zusage schriftlich bestätigen"],
+      "synonyms": ["Bestätigung"],
+      "antonyms": ["Absage"]
+    },
+    "topics": ["Arbeit", "Bewerbung", "Kommunikation"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "arbeitsvertrag",
+    "headword": "der Arbeitsvertrag",
+    "pos": "N",
+    "preview": "трудовой договор",
+    "translation_ru": "трудовой договор",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Arbeitsvertrags",
+      "plural": "die Arbeitsverträge"
+    },
+    "examples": [
+      { "de": "Sie hat den Arbeitsvertrag unterschrieben.", "ru": "Она подписала трудовой договор." },
+      { "de": "Im Vertrag stehen Gehalt und Arbeitszeit.", "ru": "В договоре указаны зарплата и рабочее время." }
+    ],
+    "notes": {
+      "usage": "befristeter/unbefristeter Vertrag",
+      "collocations": ["Vertrag unterschreiben", "Vertrag prüfen"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Recht", "Formalitäten"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "probezeit",
+    "headword": "die Probezeit",
+    "pos": "N",
+    "preview": "испытательный срок",
+    "translation_ru": "испытательный срок",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Probezeit",
+      "plural": "die Probezeiten"
+    },
+    "examples": [
+      { "de": "Während der Probezeit ist die Kündigungsfrist kürzer.", "ru": "Во время испытательного срока срок увольнения короче." },
+      { "de": "Er hat die Probezeit erfolgreich bestanden.", "ru": "Он успешно прошёл испытательный срок." }
+    ],
+    "notes": {
+      "usage": "Probezeit bestehen/verlängern",
+      "collocations": ["in der Probezeit", "Probezeitregelung"],
+      "synonyms": [],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Recht"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "gehalt",
+    "headword": "das Gehalt",
+    "pos": "N",
+    "preview": "зарплата",
+    "translation_ru": "заработная плата (служащих)",
+    "gender": "n",
+    "forms": {
+      "article": "das",
+      "genitiv": "des Gehalts",
+      "plural": "die Gehälter"
+    },
+    "examples": [
+      { "de": "Sie verhandelt ihr Gehalt mit dem Chef.", "ru": "Она обсуждает зарплату с начальником." },
+      { "de": "Das Gehalt wird am Monatsende überwiesen.", "ru": "Зарплата перечисляется в конце месяца." }
+    ],
+    "notes": {
+      "usage": "Gehalt verhandeln/erhöhen",
+      "collocations": ["Bruttogehalt", "Nettogehalt"],
+      "synonyms": ["Lohn (für Arbeiter)"],
+      "antonyms": []
+    },
+    "topics": ["Arbeit", "Finanzen"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "teilzeit",
+    "headword": "die Teilzeit",
+    "pos": "N",
+    "preview": "неполная занятость",
+    "translation_ru": "работа на неполной ставке",
+    "gender": "f",
+    "forms": {
+      "article": "die",
+      "genitiv": "der Teilzeit",
+      "plural": "—"
+    },
+    "examples": [
+      { "de": "Sie arbeitet in Teilzeit, 25 Stunden pro Woche.", "ru": "Она работает неполный день — 25 часов в неделю." },
+      { "de": "Teilzeit ist mit dieser Stelle möglich.", "ru": "Неполная занятость возможна на этой должности." }
+    ],
+    "notes": {
+      "usage": "in Teilzeit / in Vollzeit arbeiten",
+      "collocations": ["Teilzeitstelle", "Teilzeitvertrag"],
+      "synonyms": [],
+      "antonyms": ["Vollzeit"]
+    },
+    "topics": ["Arbeit", "Arbeitszeit"],
+    "register": "neutral",
+    "b1_verified": true
+  },
+  {
+    "id": "kuendigen",
+    "headword": "kündigen",
+    "pos": "V",
+    "preview": "увольнять(ся)",
+    "translation_ru": "расторгать; увольнять; увольняться",
+    "gender": null,
+    "forms": {
+      "infinitive": "kündigen",
+      "praeteritum_3sg": "er/sie kündigte",
+      "partizip_ii": "gekündigt",
+      "perfekt_3sg": "er/sie hat gekündigt"
+    },
+    "examples": [
+      { "de": "Er hat seinen Vertrag zum Monatsende gekündigt.", "ru": "Он расторг договор к концу месяца." },
+      { "de": "Die Firma kündigte der Mitarbeiterin fristgerecht.", "ru": "Компания уволила сотрудницу с соблюдением срока." }
+    ],
+    "notes": {
+      "usage": "kündigen + Dat (jemandem) / kündigen + Akk (den Vertrag)",
+      "collocations": ["fristgerecht kündigen", "selbst kündigen"],
+      "synonyms": ["entlassen (jemanden)"],
+      "antonyms": ["einstellen"]
+    },
+    "topics": ["Arbeit", "Recht", "Formalitäten"],
+    "register": "neutral",
+    "b1_verified": true
   }
 ]
