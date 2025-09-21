@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "id": "beteiligt",
+    "headword": "beteiligt",
+    "pos": "ADJ",
+    "preview": "участвующий",
+    "translation_ru": "участвующий; причастный",
+    "forms": {
+      "comparative": null,
+      "superlative": null
+    },
+    "examples": [
+      { "de": "Viele Mitarbeitende sind an dem Projekt beteiligt.", "ru": "Многие сотрудники вовлечены в проект." },
+      { "de": "Sie ist aktiv beteiligt und übernimmt Verantwortung.", "ru": "Она активно участвует и берёт ответственность." }
+    ],
+    "topics": ["Arbeit", "Team"]
+  },
+  {
+    "id": "bestaetigen",
+    "headword": "bestätigen",
+    "pos": "V",
+    "preview": "подтверждать",
+    "translation_ru": "подтверждать",
+    "forms": {
+      "infinitive": "bestätigen",
+      "praesens_ich": "ich bestätige",
+      "praeteritum_ich": "ich bestätigte",
+      "perfekt_ich": "ich habe bestätigt"
+    },
+    "examples": [
+      { "de": "Können Sie den Termin bitte per E-Mail bestätigen?", "ru": "Вы можете, пожалуйста, подтвердить встречу по e-mail?" },
+      { "de": "Die Schule hat meine Anmeldung bestätigt.", "ru": "Школа подтвердила мою регистрацию." }
+    ],
+    "topics": ["Kommunikation", "Formalitäten"]
+  },
+  {
+    "id": "kompromiss",
+    "headword": "der Kompromiss",
+    "pos": "N",
+    "preview": "компромисс",
+    "translation_ru": "компромисс",
+    "gender": "m",
+    "forms": {
+      "article": "der",
+      "genitiv": "des Kompromisses",
+      "plural": "die Kompromisse"
+    },
+    "examples": [
+      { "de": "Ein guter Kompromiss ist für beide Seiten fair.", "ru": "Хороший компромисс справедлив для обеих сторон." },
+      { "de": "Nach langen Gesprächen fanden sie einen Kompromiss.", "ru": "После долгих переговоров они нашли компромисс." }
+    ],
+    "topics": ["Diskussion", "Konflikt"]
+  },
+  {
+    "id": "unnoetig",
+    "headword": "unnötig",
+    "pos": "ADJ",
+    "preview": "ненужный",
+    "translation_ru": "ненужный; излишний",
+    "forms": {
+      "comparative": "unnötiger",
+      "superlative": "am unnötigsten"
+    },
+    "examples": [
+      { "de": "Mach dir keine unnötigen Sorgen.", "ru": "Не переживай лишний раз." },
+      { "de": "Die Ausgabe war völlig unnötig.", "ru": "Эти расходы были совершенно не нужны." }
+    ],
+    "topics": ["Bewertung"]
+  },
+  {
+    "id": "laut",
+    "headword": "laut",
+    "pos": "ADJ",
+    "preview": "громкий",
+    "translation_ru": "громкий",
+    "forms": {
+      "comparative": "lauter",
+      "superlative": "am lautesten"
+    },
+    "examples": [
+      { "de": "Die Musik ist zu laut.", "ru": "Музыка слишком громкая." },
+      { "de": "Bitte sprich nicht so laut.", "ru": "Пожалуйста, не говори так громко." }
+    ],
+    "topics": ["Alltag", "Beschreibung"]
+  },
+  {
+    "id": "hart",
+    "headword": "hart",
+    "pos": "ADJ",
+    "preview": "жёсткий",
+    "translation_ru": "жёсткий; твёрдый; суровый",
+    "forms": {
+      "comparative": "härter",
+      "superlative": "am härtesten"
+    },
+    "examples": [
+      { "de": "Das Brot ist schon hart.", "ru": "Хлеб уже черствый." },
+      { "de": "Er arbeitet hart für sein Ziel.", "ru": "Он усердно работает ради своей цели." }
+    ],
+    "topics": ["Beschreibung", "Arbeit"]
+  },
+  {
+    "id": "schriftlich",
+    "headword": "schriftlich",
+    "pos": "ADJ",
+    "preview": "письменно",
+    "translation_ru": "письменный; письменно",
+    "forms": {
+      "comparative": null,
+      "superlative": null
+    },
+    "examples": [
+      { "de": "Bitte geben Sie Ihre Beschwerde schriftlich ab.", "ru": "Пожалуйста, подайте жалобу письменно." },
+      { "de": "Die Zusage kam schriftlich per Post.", "ru": "Подтверждение пришло письменно по почте." }
+    ],
+    "topics": ["Formalitäten"]
+  }
+]
