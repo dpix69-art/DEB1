@@ -1,4 +1,3 @@
-// src/pages/Dictionary.tsx
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getDictionaryIndex } from '../lib/data';
@@ -31,11 +30,8 @@ const latinize = (s: string) =>
     .replaceAll('ü', 'ue')
     .replaceAll('ß', 'ss');
 
-const byAlpha = (a: DictItem, b: DictItem) => {
-  const aa = latinize(a.headword);
-  const bb = latinize(b.headword);
-  return aa.localeCompare(bb);
-};
+const byAlpha = (a: DictItem, b: DictItem) =>
+  latinize(a.headword).localeCompare(latinize(b.headword));
 
 const POS_LABEL = (pos?: string) => {
   switch (pos) {
@@ -50,8 +46,7 @@ const POS_LABEL = (pos?: string) => {
 
 const GenderLabel = ({ gender }: { gender?: string | null }) => {
   if (!gender) return null;
-  const map: Record<string, string> = { m: 'm', f: 'f', n: 'n' };
-  const text = map[gender] || gender;
+  const text = gender;
   return (
     <span className="inline-flex items-center rounded border px-1.5 py-0.5 text-xs"
       style={{ borderColor: '#E5E7EB', color: '#374151', background: '#F9FAFB' }}>
@@ -150,7 +145,6 @@ export function Dictionary() {
           </div>
         </div>
 
-        {/* Поиск (можно убрать, если не нужен) */}
         <div className="mb-4">
           <input
             value={q}
@@ -169,8 +163,12 @@ export function Dictionary() {
           ) : (
             <div className="divide-y" style={{ borderColor: '#E5E7EB' }}>
               {filtered.map((it) => (
-                <div key={it.id} className="p-4 sm:p-5">
-                  {/* Заголовок: слово + POS + род (для N) + register */}
+                <Link
+                  key={it.id}
+                  to={`/dictionary/${it.id}`}
+                  className="block p-4 sm:p-5 hover:bg-gray-50 focus:bg-gray-50"
+                >
+                  {/* Заголовок */}
                   <div className="flex flex-wrap items-center gap-2 mb-1">
                     <div className="text-lg font-semibold" style={{ color: '#111' }}>
                       {it.headword}
@@ -189,7 +187,7 @@ export function Dictionary() {
                     ) : null}
                   </div>
 
-                  {/* Перевод + краткий превью */}
+                  {/* Перевод */}
                   <div className="text-sm mb-2">
                     {it.translation_ru ? (
                       <span style={{ color: '#111' }}>{it.translation_ru}</span>
@@ -199,41 +197,29 @@ export function Dictionary() {
                     ) : null}
                   </div>
 
-                  {/* Формы по POS */}
+                  {/* Формы */}
                   <FormsLine item={it} />
 
-                  {/* Usage (если есть) */}
-                  {it?.notes?.usage ? (
-                    <div className="mt-1 text-sm italic" style={{ color: '#6B7280' }}>
-                      {it.notes.usage}
+                  {/* usage / темы / коллокации */}
+                  {it?.notes?.usage || (it.topics && it.topics.length) || (it.notes?.collocations && it.notes.collocations.length) ? (
+                    <div className="mt-3 flex flex-wrap items-center">
+                      {it?.notes?.usage ? (
+                        <span className="text-sm italic mr-3" style={{ color: '#6B7280' }}>
+                          {it.notes.usage}
+                        </span>
+                      ) : null}
+                      {Array.isArray(it.topics) && it.topics.slice(0, 3).map(t => (
+                        <TopicBadge key={t} text={t} />
+                      ))}
+                      {Array.isArray(it?.notes?.collocations) && it.notes!.collocations!.length > 0 && (
+                        <span className="ml-1 text-xs" style={{ color: '#6B7280' }}>
+                          • {it.notes!.collocations!.slice(0, 2).join(', ')}
+                          {it.notes!.collocations!.length > 2 ? ' …' : ''}
+                        </span>
+                      )}
                     </div>
                   ) : null}
-
-                  {/* Примеры (первые 1–2 строки) */}
-                  {Array.isArray(it.examples) && it.examples.length > 0 && (
-                    <div className="mt-3 grid gap-2">
-                      {it.examples.slice(0, 2).map((ex, idx) => (
-                        <div key={idx} className="text-sm">
-                          <div style={{ color: '#111' }}>{ex.de}</div>
-                          <div className="italic" style={{ color: '#6B7280' }}>{ex.ru}</div>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {/* Теги тем / коллокации (коротко) */}
-                  <div className="mt-3 flex flex-wrap">
-                    {Array.isArray(it.topics) && it.topics.slice(0, 3).map(t => (
-                      <TopicBadge key={t} text={t} />
-                    ))}
-                    {Array.isArray(it?.notes?.collocations) && it.notes!.collocations!.length > 0 && (
-                      <span className="ml-1 text-xs" style={{ color: '#6B7280' }}>
-                        • {it.notes!.collocations!.slice(0, 2).join(', ')}
-                        {it.notes!.collocations!.length > 2 ? ' …' : ''}
-                      </span>
-                    )}
-                  </div>
-                </div>
+                </Link>
               ))}
             </div>
           )}
