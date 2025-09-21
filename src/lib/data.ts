@@ -9,6 +9,65 @@ export type LevelModule = {
 };
 
 // ───────────────────────────────────────────────────────────
+// СЛОВАРЬ: автосборка из нескольких файлов
+// ───────────────────────────────────────────────────────────
+
+// 1) Пытаемся собрать всё из src/data/dictionary/*.json (кроме manifest.json)
+const dictPartsGlob = import.meta.glob('../data/dictionary/*.json', {
+  eager: true,
+  import: 'default'
+}) as Record<string, any>;
+
+type AnyRecord = Record<string, any>;
+let dictionaryIndex: AnyRecord[] = [];
+
+// 2) Совместимость: если старый файл src/data/dictionary.json существует
+const dictSingleGlob = import.meta.glob('../data/dictionary.json', {
+  eager: true,
+  import: 'default'
+}) as Record<string, any>;
+const dictSingle = Object.values(dictSingleGlob)[0];
+
+// 3) Сборка:
+//  - если есть папка /dictionary/*.json → берём все массивы кроме manifest.json и склеиваем
+//  - если нет → берём старый dictionary.json (если он массив)
+//  - если вместо массива пришёл "bundle-объект" { nouns:[], verbs:[], ... } → склеиваем поля
+(() => {
+  const entries = Object.entries(dictPartsGlob);
+  const hasFolder = entries.length > 0;
+
+  if (hasFolder) {
+    const parts = entries
+      .filter(([path]) => !/manifest\.json$/i.test(path))
+      .map(([, mod]) => mod);
+
+    // каждый файл либо массив, либо bundle-объект (на всякий)
+    const flattened: AnyRecord[] = [];
+    for (const part of parts) {
+      if (Array.isArray(part)) {
+        flattened.push(...part);
+      } else if (part && typeof part === 'object') {
+        for (const key of ['nouns', 'verbs', 'adjectives', 'advs', 'phrases']) {
+          if (Array.isArray(part[key])) flattened.push(...part[key]);
+        }
+      }
+    }
+    dictionaryIndex = flattened;
+  } else if (Array.isArray(dictSingle)) {
+    dictionaryIndex = dictSingle;
+  } else if (dictSingle && typeof dictSingle === 'object') {
+    const bucketKeys = ['nouns', 'verbs', 'adjectives', 'advs', 'phrases'];
+    for (const k of bucketKeys) {
+      if (Array.isArray(dictSingle[k])) dictionaryIndex.push(...dictSingle[k]);
+    }
+  }
+})();
+
+export const getDictionaryIndex = () => dictionaryIndex;
+export const getDictionaryEntry = (id: string) =>
+  dictionaryIndex.find(e => e?.id === id) ?? null;
+
+// ───────────────────────────────────────────────────────────
 // УРОВНИ: автозагрузка всех /data/level*.json + сортировка 1..19
 // ───────────────────────────────────────────────────────────
 
