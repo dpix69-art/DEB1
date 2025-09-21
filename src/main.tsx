@@ -1,21 +1,26 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { Dictionary } from './pages/Dictionary';
-import { Emails } from './pages/Emails';
-import App from './App.tsx';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
 import './index.css';
 
+// Страницы
+import { Home } from './pages/Home';
+import { Level } from './pages/Level';
+import { Card } from './pages/Card';
+import { Dictionary } from './pages/Dictionary';
+import { Emails } from './pages/Emails';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/level/:moduleId" element={<Level />} />
+        <Route path="/card/:moduleId/:cardId" element={<Card />} />
+        <Route path="/dictionary" element={<Dictionary />} />
+        <Route path="/emails" element={<Emails />} />
+      </Routes>
+    </HashRouter>
+  </React.StrictMode>
 );
-
-<Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/level/:moduleId" element={<Level />} />
-  <Route path="/card/:moduleId/:cardId" element={<Card />} />
-  <Route path="/dictionary" element={<Dictionary />} />
-  <Route path="/emails" element={<Emails />} />
-</Routes>
