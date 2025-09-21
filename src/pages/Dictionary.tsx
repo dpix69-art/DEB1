@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getDictionaryIndex } from '../lib/data/dictionary';
+import { getDictionaryIndex } from '../lib/data';
 
 type DictItem = {
   id: string;

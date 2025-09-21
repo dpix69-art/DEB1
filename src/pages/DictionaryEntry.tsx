@@ -1,7 +1,7 @@
 // src/pages/DictionaryEntry.tsx
 import React, { useEffect, useMemo } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
-import { getDictionaryEntry, getDictionaryIndex } from '../lib/data/dictionary';
+import { getDictionaryEntry, getDictionaryIndex } from '../lib/data';
 
 type DictItem = {
   id: string;
