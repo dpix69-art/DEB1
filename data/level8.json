@@ -3,7 +3,7 @@
     "id": "gratulieren-zu",
     "expression": "gratulieren zu",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Fahrer", "f": "der Fahrerin", "n": "dem Fahrzeug" },
     "translation": "поздравлять с",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "gehoeren-zu",
     "expression": "gehören zu",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Kunden", "f": "der Kundin", "n": "dem Angebot" },
     "translation": "относиться к, принадлежать к",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "passen-zu",
     "expression": "passen zu",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Bruder", "f": "der Schwester", "n": "dem Gespräch" },
     "translation": "подходить к, соответствовать",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "fragen-nach",
     "expression": "fragen nach",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Chef", "f": "der Chefin", "n": "dem Büro" },
     "translation": "спрашивать о",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "sich-erkundigen-nach",
     "expression": "sich erkundigen nach",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Studenten", "f": "der Studentin", "n": "dem Studium" },
     "translation": "наводить справки о, узнавать о",
     "examples": {
       "present": [

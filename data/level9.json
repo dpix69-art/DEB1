@@ -3,7 +3,7 @@
     "id": "sich-verabschieden-von",
     "expression": "sich verabschieden von",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Jungen", "f": "der Mutter", "n": "dem Spiel" },
     "translation": "прощаться с",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "sich-erholen-von",
     "expression": "sich erholen von",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Polizisten", "f": "der Polizistin", "n": "dem Problem" },
     "translation": "отдыхать от, восстанавливаться после",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "traeumen-von",
     "expression": "träumen von",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Teilnehmer", "f": "der Teilnehmerin", "n": "dem Formular" },
     "translation": "мечтать о, видеть во сне",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "angst-haben-vor",
     "expression": "Angst haben vor",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Besucher", "f": "der Besucherin", "n": "dem Museum" },
     "translation": "бояться чего-либо",
     "examples": {
       "present": [

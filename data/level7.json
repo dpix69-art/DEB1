@@ -3,7 +3,7 @@
     "id": "sich-beschaeftigen-mit",
     "expression": "sich beschäftigen mit",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Kollegen", "f": "der Kollegin", "n": "dem Fenster" },
     "translation": "заниматься чем-либо",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "sich-treffen-mit",
     "expression": "sich treffen mit",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Gast", "f": "der Besucherin", "n": "dem Ticket" },
     "translation": "встречаться с",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "telefonieren-mit",
     "expression": "telefonieren mit",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Arzt", "f": "der Ärztin", "n": "dem Medikament" },
     "translation": "разговаривать по телефону с",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "vergleichen-mit",
     "expression": "vergleichen mit",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Schüler", "f": "der Schülerin", "n": "dem Heft" },
     "translation": "сравнивать с",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "einladen-zu",
     "expression": "einladen zu",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Verkäufer", "f": "der Verkäuferin", "n": "dem Produkt" },
     "translation": "приглашать на",
     "examples": {
       "present": [

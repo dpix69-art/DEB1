@@ -3,7 +3,7 @@
     "id": "teilnehmen-an",
     "expression": "teilnehmen an",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Hund", "f": "der Katze", "n": "dem Buch" },
     "translation": "участвовать в",
     "examples": {
       "present": [
@@ -66,7 +66,7 @@
     "id": "abhaengen-von",
     "expression": "abhängen von",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Lehrer", "f": "der Lehrerin", "n": "dem Kind" },
     "translation": "зависеть от",
     "examples": {
       "present": [
@@ -129,7 +129,7 @@
     "id": "arbeiten-an",
     "expression": "arbeiten an",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Sohn", "f": "der Tochter", "n": "dem Haus" },
     "translation": "работать над",
     "examples": {
       "present": [
@@ -192,7 +192,7 @@
     "id": "arbeiten-bei",
     "expression": "arbeiten bei",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Freund", "f": "der Freundin", "n": "dem Zimmer" },
     "translation": "работать в (у работодателя/в организации)",
     "examples": {
       "present": [
@@ -255,7 +255,7 @@
     "id": "arbeiten-mit",
     "expression": "arbeiten mit",
     "case": "Dat",
-    "articles": { "m": "dem Mann", "f": "der Frau", "n": "dem Auto" },
+    "articles": { "m": "dem Nachbarn", "f": "der Nachbarin", "n": "dem Fahrrad" },
     "translation": "работать с (инструментом/человеком)",
     "examples": {
       "present": [
