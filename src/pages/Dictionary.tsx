@@ -52,7 +52,7 @@ const POS_LABEL = (pos?: string) => {
 const byAlpha = (a: DictItem, b: DictItem) =>
   latinize(a.headword).localeCompare(latinize(b.headword));
 
-export function Dictionary() {
+export default function Dictionary() {
   const items = (getDictionaryIndex() || []) as DictItem[];
   const [q, setQ] = useState('');
 
