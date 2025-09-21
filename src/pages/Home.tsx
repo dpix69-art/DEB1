@@ -33,6 +33,29 @@ export function Home() {
           </p>
         </div>
 
+        <div className="max-w-5xl mx-auto mb-8">
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Link
+            to="/dictionary"
+            className="block p-6 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow"
+            >
+            <h2 className="text-xl font-semibold" style={{ color: '#111' }}>Dictionary</h2>
+            <p className="text-sm mt-1" style={{ color: '#666' }}>
+        Большой словарь B1: формы, примеры, поиск.
+            </p>
+          </Link>
+        <Link
+      to="/emails"
+      className="block p-6 bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow"
+    >
+      <h2 className="text-xl font-semibold" style={{ color: '#111' }}>Emails Lesen</h2>
+      <p className="text-sm mt-1" style={{ color: '#666' }}>
+        Письма и задания на чтение формата telc.
+      </p>
+    </Link>
+  </div>
+        </div>
+
         {/* Список уровней */}
         <div className="max-w-5xl mx-auto">
           {sorted.length === 0 ? (
